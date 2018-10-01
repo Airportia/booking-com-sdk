@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "ruid": "UmFuZG9tSVYkc2RlIyh9YQ34382vTGOlNhii1xVKWE+GRbWpmiRo6xCOpmh8mDehFypTTyqkvABSCf0p3z+Q7SRIHeutVlJz1Dl1ulIk6bc="
+  },
+  "result": [
+    {
+      "nr_hotels": 1,
+      "city_id": -3881514,
+      "country": "pk",
+      "translations": [
+        {
+          "name": "Kary",
+          "language": "en"
+        }
+      ],
+      "name": "Kary"
+    },
+    {
+      "name": "Goslitz",
+      "translations": [
+        {
+          "name": "Goslitz",
+          "language": "en"
+        }
+      ],
+      "city_id": -3877671,
+      "nr_hotels": 0,
+      "country": "at"
+    },
+    {
+      "name": "Malanjak",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Malanjak"
+        }
+      ],
+      "nr_hotels": 0,
+      "city_id": -3877013,
+      "country": "ir"
+    },
+    {
+      "nr_hotels": 1,
+      "city_id": -3875419,
+      "country": "ve",
+      "translations": [
+        {
+          "name": "Pedro Gonzalez",
+          "language": "en"
+        }
+      ],
+      "name": "Pedro Gonzalez"
+    },
+    {
+      "translations": [
+        {
+          "name": "Las Huertas",
+          "language": "en"
+        }
+      ],
+      "name": "Las Huertas",
+      "city_id": -3875389,
+      "nr_hotels": 0,
+      "country": "ve"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "La Loma"
+        }
+      ],
+      "name": "La Loma",
+      "city_id": -3875376,
+      "nr_hotels": 0,
+      "country": "ve"
+    },
+    {
+      "city_id": -3875374,
+      "nr_hotels": 0,
+      "country": "ve",
+      "name": "La Guardia",
+      "translations": [
+        {
+          "language": "en",
+          "name": "La Guardia"
+        }
+      ]
+    },
+    {
+      "country": "ve",
+      "nr_hotels": 1,
+      "city_id": -3875365,
+      "translations": [
+        {
+          "name": "La Asunción",
+          "language": "en"
+        }
+      ],
+      "name": "La Asunción"
+    },
+    {
+      "name": "El Hato",
+      "translations": [
+        {
+          "language": "en",
+          "name": "El Hato"
+        }
+      ],
+      "nr_hotels": 0,
+      "city_id": -3875330,
+      "country": "ve"
+    },
+    {
+      "country": "ve",
+      "city_id": -3875323,
+      "nr_hotels": 1,
+      "translations": [
+        {
+          "language": "en",
+          "name": "El Cardón"
+        }
+      ],
+      "name": "El Cardón"
+    }
+  ]
+}
