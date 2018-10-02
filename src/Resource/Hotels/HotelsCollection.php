@@ -5,7 +5,7 @@ namespace BookingSDK\Resource\Hotels;
 
 use BookingSDK\Resource\CollectionResource;
 
-class HotelsResource extends CollectionResource
+class HotelsCollection extends CollectionResource
 {
     /**
      * HotelsResource constructor.
@@ -16,8 +16,11 @@ class HotelsResource extends CollectionResource
     {
         parent::__construct($data);
         /** TODO */
-        var_dump($data);
-        die;
+    }
+
+    public function getResourceClass(): string
+    {
+        // TODO: Implement getResourceClass() method.
     }
 
 

@@ -1,15 +1,13 @@
 <?php
 
-namespace BookingSDK;
+namespace BookingSDK\Connection;
 
-use BookingSDK\Request\Hotels\GetHotelsRequest;
 use BookingSDK\Request\Posts\GetPostRequest;
 use BookingSDK\Request\Posts\GetPostsRequest;
 use BookingSDK\Request\RequestInterface;
 use BookingSDK\Request\Response;
-use BookingSDK\Resource\Hotels\HotelsResource;
-use BookingSDK\Resource\Posts\PostResource;
-use BookingSDK\Resource\Posts\PostsResource;
+use BookingSDK\Resource\Posts\PostsItem;
+use BookingSDK\Resource\Posts\PostsCollection;
 use GuzzleHttp;
 
 class Client
@@ -30,25 +28,13 @@ class Client
             'base_uri' => $baseUrl,
         ];
 
-        $this->guzzle = $client
-            ? new $client($config)
+        $this->guzzle = $client ? new $client($config)
             : new GuzzleHttp\Client($config);
     }
 
-    /**
-     * @param $id
-     *
-     * @return \BookingSDK\Resource\Posts\PostResource
-     * @throws \GuzzleHttp\Exception\GuzzleException
-     */
-    public function getPost($id): PostResource
-    {
-        return $this->send(new GetPostRequest($id))->getResource();
-    }
 
     /**
      * @param \BookingSDK\Request\RequestInterface $request
-     *
      * @return \BookingSDK\Request\Response
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
@@ -68,16 +54,23 @@ class Client
     }
 
     /**
-     * @return \BookingSDK\Resource\Posts\PostsResource
+     * @return \BookingSDK\Resource\Posts\PostsCollection
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function getPosts(): PostsResource
+    public function getPosts(): PostsCollection
     {
         return $this->send(new GetPostsRequest())->getResource();
     }
 
-    public function getHotels(): HotelsResource
+
+    /**
+     * @param $id
+     * @return \BookingSDK\Resource\Posts\PostsItem
+     * @throws \GuzzleHttp\Exception\GuzzleException
+     */
+    public function getPost($id): PostsItem
     {
-        return $this->send(new GetHotelsRequest())->getResource();
+        return $this->send(new GetPostRequest($id))->getResource();
     }
+
 }

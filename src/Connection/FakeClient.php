@@ -39,7 +39,6 @@ class FakeClient extends Client
      * @param string $method
      * @param string $uri
      * @param array  $options
-     *
      * @return Response
      */
     public function request($method, $uri = '', array $options = [])

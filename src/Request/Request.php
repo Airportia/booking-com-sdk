@@ -6,10 +6,13 @@ abstract class Request implements RequestInterface
 {
     /** @var string */
     protected $path;
+
     /** @var array */
     protected $params = [];
+
     /** @var array */
     protected $headers = [];
+
     /** @var string */
     protected $method;
 

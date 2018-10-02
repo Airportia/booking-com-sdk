@@ -4,7 +4,7 @@ namespace BookingSDK\Request\Hotels;
 
 
 use BookingSDK\Request\Request;
-use BookingSDK\Resource\Hotels\HotelsResource;
+use BookingSDK\Resource\Hotels\HotelsCollection;
 
 class GetHotelsRequest extends Request
 {
@@ -15,7 +15,7 @@ class GetHotelsRequest extends Request
 
     public function getResourceClass(): string
     {
-        return HotelsResource::class;
+        return HotelsCollection::class;
     }
 
 }

@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 
-use BookingSDK\Client;
+use BookingSDK\Connection\Client;
 use BookingSDK\Connection\FakeClient;
 
 FakeClient::setResponses([
@@ -21,21 +21,48 @@ FakeClient::setResponses([
                     ],
                 ],
             ],
+            [
+                'id'       => 2,
+                'title'    => '2!',
+                'comments' => [
+                    [
+                        'id'   => 1,
+                        'text' => 'Test Tes2t!',
+                    ],
+                    [
+                        'id'   => 2,
+                        'text' => 'Test 2 Test!!!!!!',
+                    ],
+                ],
+            ],
         ],
     ],
 ]);
 
-$client = new Client('https://jsonplaceholder.typicode.com', FakeClient::class);
-//$client = new Client('https://jsonplaceholder.typicode.com');
+//$client = new Client('https://jsonplaceholder.typicode.com', FakeClient::class);
+$client = new Client('https://jsonplaceholder.typicode.com');
 //$hotels = $client->getHotels();
 $posts = $client->getPosts();
-echo json_encode($posts, JSON_PRETTY_PRINT);
-//foreach ($posts as $post){
-//    print_r([
-//        'id'    => $post->getId(),
-//        'title' => $post->getTitle(),
-//    ]);
-//}
+
+//print_r($posts->jsonSerialize());
+foreach ($posts as $post){
+    $id = $post->getId();
+    $title = $post->getTitle();
+    $comments = $post->getComments();
+    print_r([
+        'id'    => $post->getId(),
+        'title' => $post->getTitle(),
+    ]);
+    foreach ($comments as $comment)
+    {
+        print_r([
+            'comments' => [
+                'id' => $comment->getId(),
+                'text' => $comment->getText(),
+            ]
+        ]);
+    }
+}
 //$post = $client->getPost(1);
 //print_r([
 //    'id'    => $post->getId(),

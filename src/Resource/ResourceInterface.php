@@ -3,7 +3,7 @@
 namespace BookingSDK\Resource;
 
 
-use BookingSDK\Client;
+use BookingSDK\Connection\Client;
 
 interface ResourceInterface extends Arrayable, \JsonSerializable
 {

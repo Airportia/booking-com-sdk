@@ -3,7 +3,7 @@
 namespace BookingSDK\Resource;
 
 
-use BookingSDK\Client;
+use BookingSDK\Connection\Client;
 
 abstract class CollectionResource implements ResourceCollectionInterface,
     \ArrayAccess, \IteratorAggregate
@@ -12,10 +12,13 @@ abstract class CollectionResource implements ResourceCollectionInterface,
     protected $position = 0;
 
     /** @var array */
-    protected $collection;
+    protected $collection = [];
 
     /** @var array */
     protected $rawData;
+
+    /** @var  Client */
+    protected $client;
 
     /**
      * CollectionResource constructor.
@@ -33,7 +36,6 @@ abstract class CollectionResource implements ResourceCollectionInterface,
 
     /**
      * @param Client $client
-     *
      * @return $this
      */
     public function setClient(Client $client)
@@ -66,7 +68,6 @@ abstract class CollectionResource implements ResourceCollectionInterface,
 
     /**
      * @param $offset
-     *
      * @return bool
      */
     public function offsetExists($offset)
@@ -84,7 +85,6 @@ abstract class CollectionResource implements ResourceCollectionInterface,
 
     /**
      * @param $offset
-     *
      * @return mixed|null
      */
     public function offsetGet($offset)

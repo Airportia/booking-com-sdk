@@ -3,9 +3,11 @@
 namespace BookingSDK\Resource\Posts;
 
 
+use BookingSDK\Resource\Posts\Comments\CommentsItem;
+use BookingSDK\Resource\Posts\Comments\CommentsCollection;
 use BookingSDK\Resource\Resource;
 
-class PostResource extends Resource
+class PostsItem extends Resource
 {
     /** @var int */
     protected $id;
@@ -13,7 +15,7 @@ class PostResource extends Resource
     /** @var string */
     protected $title;
 
-    /** @var array */
+    /** @var CommentsCollection */
     protected $comments;
 
     /**
@@ -23,8 +25,10 @@ class PostResource extends Resource
     {
         parent::__construct($data);
         $this->id       = (int)$data['id'];
-        $this->title    = (string)$data['title'];
-        $this->comments = (array)$data['comments'];
+        $this->title    = isset($data['title']) ? (string)$data['title']: '';
+        $this->comments = isset($data['comments'])
+            ? new CommentsCollection((array)$data['comments'])
+            : new CommentsCollection([]);
     }
 
     /**
@@ -33,8 +37,9 @@ class PostResource extends Resource
     public function toArray(): array
     {
         return [
-            'id'    => $this->getId(),
-            'title' => $this->getTitle(),
+            'id'       => $this->getId(),
+            'title'    => $this->getTitle(),
+            'comments' => $this->getCommentsArray(),
         ];
     }
 
@@ -55,13 +60,20 @@ class PostResource extends Resource
     }
 
     /**
-     * @return array
+     * @return CommentsCollection
      */
-    public function getComments(): array
+    public function getComments(): CommentsCollection
     {
         return $this->comments;
     }
 
+    /**
+     * @return array
+     */
+    public function getCommentsArray(): array
+    {
+        return $this->comments->toArray();
+    }
 
     /**
      * @return string

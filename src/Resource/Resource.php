@@ -2,7 +2,7 @@
 
 namespace BookingSDK\Resource;
 
-use BookingSDK\Client;
+use BookingSDK\Connection\Client;
 
 abstract class Resource implements ResourceInterface, ResourceItemInterface
 {

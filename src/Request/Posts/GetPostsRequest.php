@@ -4,7 +4,7 @@ namespace BookingSDK\Request\Posts;
 
 
 use BookingSDK\Request\Request;
-use BookingSDK\Resource\Posts\PostsResource;
+use BookingSDK\Resource\Posts\PostsCollection;
 
 class GetPostsRequest extends Request
 {
@@ -18,6 +18,6 @@ class GetPostsRequest extends Request
      */
     public function getResourceClass(): string
     {
-        return PostsResource::class;
+        return PostsCollection::class;
     }
 }
