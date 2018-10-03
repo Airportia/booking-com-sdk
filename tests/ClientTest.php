@@ -1,28 +1,27 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 02.10.18
- */
 
 namespace BookingCom\Tests;
 
 
 use BookingCom\Client;
 use BookingCom\ConnectionInterface;
-use BookingCom\Models\City;
-use BookingCom\Models\Region;
+use BookingCom\Models\City\City;
+use BookingCom\Models\Region\Region;
 use PHPUnit\Framework\TestCase;
 
 class ClientTest extends TestCase
 {
+    /**
+     * @return void
+     */
     public function testRegions(): void
     {
         $client = $this->createClient('getRegions', [
             [
-                'region_id' => 595,
+                'region_id'   => 595,
                 'region_type' => 'province',
-                'country' => 'ar',
-                'name' => 'Entre Rios',
+                'country'     => 'ar',
+                'name'        => 'Entre Rios',
             ],
         ]);
 
@@ -34,22 +33,25 @@ class ClientTest extends TestCase
         }
     }
 
+    /**
+     * @return void
+     */
     public function testCities(): void
     {
         $client = $this->createClient('getCities', [
             [
                 'nr_hotels' => 1,
-                'location' => [
-                    'latitude' => '11.116700172424316',
+                'location'  => [
+                    'latitude'  => '11.116700172424316',
                     'longitude' => '-63.91669845581055',
                 ],
-                'city_id' => -3875419,
-                'name' => 'Pedro Gonzalez',
-                'timezone' => [
+                'city_id'   => -3875419,
+                'name'      => 'Pedro Gonzalez',
+                'timezone'  => [
                     'offset' => 2,
-                    'name' => 'Europe/Amsterdam',
+                    'name'   => 'Europe/Amsterdam',
                 ],
-                'country' => 've',
+                'country'   => 've',
             ],
         ]);
 
@@ -68,8 +70,7 @@ class ClientTest extends TestCase
     private function createClient(string $method, $response): Client
     {
         $connection = $this->createMock(ConnectionInterface::class);
-        $connection->method($method)
-            ->willReturn($response);
+        $connection->method($method)->willReturn($response);
 
         /** @var ConnectionInterface $connection */
         return new Client($connection);

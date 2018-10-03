@@ -1,15 +1,11 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 02.10.18
- */
 
-namespace BookingCom\Tests\Models;
+namespace BookingCom\Tests\Models\City;
 
 
-use BookingCom\Models\City;
-use BookingCom\Models\Location;
-use BookingCom\Models\Timezone;
+use BookingCom\Models\City\City;
+use BookingCom\Models\City\Location;
+use BookingCom\Models\City\Timezone;
 use PHPUnit\Framework\TestCase;
 
 class CityTest extends TestCase
@@ -18,9 +14,9 @@ class CityTest extends TestCase
     {
         $city = City::fromArray([
             'nr_hotels' => 1,
-            'city_id' => -3875419,
-            'name' => 'Pedro Gonzalez',
-            'country' => 've',
+            'city_id'   => -3875419,
+            'name'      => 'Pedro Gonzalez',
+            'country'   => 've',
         ]);
 
         $this->assertEquals(1, $city->getNumberOfHotels());
@@ -33,11 +29,11 @@ class CityTest extends TestCase
     {
         $city = City::fromArray([
             'nr_hotels' => 1,
-            'city_id' => -3875419,
-            'name' => 'Pedro Gonzalez',
-            'country' => 've',
-            'location' => [
-                'latitude' => '11.116700172424316',
+            'city_id'   => -3875419,
+            'name'      => 'Pedro Gonzalez',
+            'country'   => 've',
+            'location'  => [
+                'latitude'  => '11.116700172424316',
                 'longitude' => '-63.91669845581055',
             ],
         ]);
@@ -49,12 +45,12 @@ class CityTest extends TestCase
     {
         $city = City::fromArray([
             'nr_hotels' => 1,
-            'city_id' => -3875419,
-            'name' => 'Pedro Gonzalez',
-            'country' => 've',
-            'timezone' => [
+            'city_id'   => -3875419,
+            'name'      => 'Pedro Gonzalez',
+            'country'   => 've',
+            'timezone'  => [
                 'offset' => 2,
-                'name' => 'Europe/Amsterdam',
+                'name'   => 'Europe/Amsterdam',
             ],
         ]);
 

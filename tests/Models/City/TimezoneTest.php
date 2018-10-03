@@ -1,13 +1,9 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 02.10.18
- */
 
-namespace BookingCom\Tests\Models;
+namespace BookingCom\Tests\Models\City;
 
 
-use BookingCom\Models\Timezone;
+use BookingCom\Models\City\Timezone;
 use PHPUnit\Framework\TestCase;
 
 class TimezoneTest extends TestCase
@@ -16,7 +12,7 @@ class TimezoneTest extends TestCase
     {
         $timezone = Timezone::fromArray([
             'offset' => 2,
-            'name' => 'Europe/Amsterdam',
+            'name'   => 'Europe/Amsterdam',
         ]);
 
         $this->assertEquals(2, $timezone->getOffset());

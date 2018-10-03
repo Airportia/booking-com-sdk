@@ -5,8 +5,8 @@
   },
   "autoload": {
     "psr-4": {
-      "BookingSDK\\": "src/",
-      "BookingCom\\": "src2"
+      "BookingSDK\\": "srcOld/",
+      "BookingCom\\": "src/"
     }
   },
   "require-dev": {

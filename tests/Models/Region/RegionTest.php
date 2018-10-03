@@ -1,13 +1,9 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 02.10.18
- */
 
-namespace BookingCom\Tests\Models;
+namespace BookingCom\Tests\Models\Region;
 
 
-use BookingCom\Models\Region;
+use BookingCom\Models\Region\Region;
 use PHPUnit\Framework\TestCase;
 
 class RegionTest extends TestCase
@@ -15,10 +11,10 @@ class RegionTest extends TestCase
     public function testFromArray(): void
     {
         $region = Region::fromArray([
-            'region_id' => 595,
+            'region_id'   => 595,
             'region_type' => 'province',
-            'country' => 'ar',
-            'name' => 'Entre Rios',
+            'country'     => 'ar',
+            'name'        => 'Entre Rios',
         ]);
 
         $this->assertEquals('Entre Rios', $region->getName());

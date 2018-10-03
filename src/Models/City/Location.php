@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 02.10.18
- */
 
-namespace BookingCom\Models;
+namespace BookingCom\Models\City;
 
 
 class Location
@@ -16,22 +12,38 @@ class Location
     /** @var string */
     private $longitude;
 
+    /**
+     * Location constructor.
+     *
+     * @param string $latitude
+     * @param string $longitude
+     */
     public function __construct(string $latitude, string $longitude)
     {
-        $this->latitude = $latitude;
+        $this->latitude  = $latitude;
         $this->longitude = $longitude;
     }
 
+    /**
+     * @param array $array
+     * @return Location
+     */
     public static function fromArray(array $array): Location
     {
         return new self($array['latitude'], $array['longitude']);
     }
 
+    /**
+     * @return string
+     */
     public function getLatitude(): string
     {
         return $this->latitude;
     }
 
+    /**
+     * @return string
+     */
     public function getLongitude(): string
     {
         return $this->longitude;

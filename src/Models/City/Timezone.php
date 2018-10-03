@@ -1,29 +1,32 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 02.10.18
- */
 
-namespace BookingCom\Models;
+namespace BookingCom\Models\City;
 
 
 class Timezone
 {
-
-
     /** @var int */
     private $offset;
 
     /** @var string */
     private $name;
 
+    /**
+     * Timezone constructor.
+     *
+     * @param int    $offset
+     * @param string $name
+     */
     public function __construct(int $offset, string $name)
     {
-
         $this->offset = $offset;
-        $this->name = $name;
+        $this->name   = $name;
     }
 
+    /**
+     * @param array $array
+     * @return Timezone
+     */
     public static function fromArray(array $array): Timezone
     {
         return new self($array['offset'], $array['name']);

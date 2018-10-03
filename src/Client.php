@@ -1,14 +1,10 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 02.10.18
- */
 
 namespace BookingCom;
 
 
-use BookingCom\Models\City;
-use BookingCom\Models\Region;
+use BookingCom\Models\City\City;
+use BookingCom\Models\Region\Region;
 
 class Client
 {
@@ -17,6 +13,11 @@ class Client
      */
     private $connection;
 
+    /**
+     * Client constructor.
+     *
+     * @param ConnectionInterface $connection
+     */
     public function __construct(ConnectionInterface $connection)
     {
         $this->connection = $connection;
