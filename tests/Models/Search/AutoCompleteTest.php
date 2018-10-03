@@ -38,7 +38,7 @@ class AutoCompleteTest extends TestCase
             $autoComplete->getLabel());
         $this->assertEquals('Australia', $autoComplete->getCountryName());
         $this->assertEquals('au', $autoComplete->getCountry());
-        $this->assertEquals('city', $autoComplete->getType());
+        $this->assertEquals(AutoComplete::TYPE_CITY, $autoComplete->getType());
         $this->assertEquals('Sydney', $autoComplete->getName());
     }
 
