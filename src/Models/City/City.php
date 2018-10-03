@@ -33,7 +33,12 @@ class City
      * @param Location|null $location
      * @param Timezone|null $timezone
      */
-    public function __construct(int $id, string $name, int $numberOfHotels, string $country, ?Location $location, ?Timezone $timezone)
+    public function __construct(int $id,
+        string $name,
+        int $numberOfHotels,
+        string $country,
+        ?Location $location,
+        ?Timezone $timezone)
     {
         $this->id             = $id;
         $this->name           = $name;
