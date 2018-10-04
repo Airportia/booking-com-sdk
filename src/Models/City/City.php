@@ -3,6 +3,8 @@
 namespace BookingCom\Models\City;
 
 
+use BookingCom\Models\Location\Location;
+
 class City
 {
     /** @var int */

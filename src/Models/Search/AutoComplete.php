@@ -3,6 +3,8 @@
 namespace BookingCom\Models\Search;
 
 
+use BookingCom\Models\Location\Location;
+
 class AutoComplete
 {
     public const TYPE_AIRPORT = 'airport';
@@ -39,9 +41,6 @@ class AutoComplete
     private $numberOfDestinations;
 
     /** @var  string */
-    private $latitude;
-
-    /** @var  string */
     private $language;
 
     /** @var  string */
@@ -55,9 +54,6 @@ class AutoComplete
 
     /** @var  integer */
     private $numberOfHotels;
-
-    /** @var  string */
-    private $longitude;
 
     /** @var  string */
     private $label;
@@ -74,6 +70,9 @@ class AutoComplete
     /** @var  string */
     private $name;
 
+    /** @var Location */
+    private $location;
+
 
     /**
      * AutoComplete constructor.
@@ -86,20 +85,19 @@ class AutoComplete
      * @param string             $cityName
      * @param Forecast|null      $forecast
      * @param int                $numberOfDestinations
-     * @param string             $latitude
      * @param string             $language
      * @param string             $timezone
      * @param array              $topDestinations
      * @param string             $cityUfi
      * @param int                $numberOfHotels
-     * @param string             $longitude
      * @param string             $label
      * @param string             $countryName
      * @param string             $country
      * @param string             $type
      * @param string             $name
      */
-    public function __construct(int $rightToLeft,
+    public function __construct(
+        int $rightToLeft,
         string $region,
         string $url,
         ? array $endorsements,
@@ -107,39 +105,37 @@ class AutoComplete
         string $cityName,
         ? Forecast $forecast,
         int $numberOfDestinations,
-        string $latitude,
+        Location $location,
         string $language,
         string $timezone,
         array $topDestinations,
         string $cityUfi,
         int $numberOfHotels,
-        string $longitude,
         string $label,
         string $countryName,
         string $country,
         string $type,
-        string $name)
-    {
-        $this->rightToLeft          = $rightToLeft;
-        $this->region               = $region;
-        $this->url                  = $url;
-        $this->endorsements         = $endorsements;
-        $this->id                   = $id;
-        $this->cityName             = $cityName;
-        $this->forecast             = $forecast;
+        string $name
+    ) {
+        $this->rightToLeft = $rightToLeft;
+        $this->region = $region;
+        $this->url = $url;
+        $this->endorsements = $endorsements;
+        $this->id = $id;
+        $this->cityName = $cityName;
+        $this->forecast = $forecast;
         $this->numberOfDestinations = $numberOfDestinations;
-        $this->latitude             = $latitude;
-        $this->language             = $language;
-        $this->timezone             = $timezone;
-        $this->topDestinations      = $topDestinations;
-        $this->cityUfi              = $cityUfi;
-        $this->numberOfHotels       = $numberOfHotels;
-        $this->longitude            = $longitude;
-        $this->label                = $label;
-        $this->countryName          = $countryName;
-        $this->country              = $country;
-        $this->type                 = $type;
-        $this->name                 = $name;
+        $this->language = $language;
+        $this->timezone = $timezone;
+        $this->topDestinations = $topDestinations;
+        $this->cityUfi = $cityUfi;
+        $this->numberOfHotels = $numberOfHotels;
+        $this->label = $label;
+        $this->countryName = $countryName;
+        $this->country = $country;
+        $this->type = $type;
+        $this->name = $name;
+        $this->location = $location;
     }
 
     public static function fromArray(array $array): AutoComplete
@@ -148,14 +144,16 @@ class AutoComplete
             ? array_map(function (array $endorsementArray) {
                 return Endorsement::fromArray($endorsementArray);
             }, $array['endorsements']) : null;
-        $forecast     = isset($array['forecast'])
+        $forecast = isset($array['forecast'])
             ? Forecast::fromArray($array['forecast']) : null;
+
+        $location = new Location($array['latitude'], $array['longitude']);
 
         return new self($array['right-to-left'], $array['region'],
             $array['url'], $endorsements, $array['id'], $array['city_name'],
-            $forecast, $array['nr_dest'], $array['latitude'],
+            $forecast, $array['nr_dest'], $location,
             $array['language'], $array['timezone'], $array['top_destinations'],
-            $array['city_ufi'], $array['nr_hotels'], $array['longitude'],
+            $array['city_ufi'], $array['nr_hotels'],
             $array['label'], $array['country_name'], $array['country'],
             $array['type'], $array['name']);
     }
@@ -187,7 +185,7 @@ class AutoComplete
     /**
      * @return Endorsement[]|null
      */
-    public function getEndorsements(): ? array
+    public function getEndorsements(): ?array
     {
         return $this->endorsements;
     }
@@ -211,7 +209,7 @@ class AutoComplete
     /**
      * @return Forecast|null
      */
-    public function getForecast(): ? Forecast
+    public function getForecast(): ?Forecast
     {
         return $this->forecast;
     }
@@ -222,14 +220,6 @@ class AutoComplete
     public function getNumberOfDestinations(): int
     {
         return $this->numberOfDestinations;
-    }
-
-    /**
-     * @return string
-     */
-    public function getLatitude(): string
-    {
-        return $this->latitude;
     }
 
     /**
@@ -275,14 +265,6 @@ class AutoComplete
     /**
      * @return string
      */
-    public function getLongitude(): string
-    {
-        return $this->longitude;
-    }
-
-    /**
-     * @return string
-     */
     public function getLabel(): string
     {
         return $this->label;
@@ -318,6 +300,14 @@ class AutoComplete
     public function getName(): string
     {
         return $this->name;
+    }
+
+    /**
+     * @return Location
+     */
+    public function getLocation(): Location
+    {
+        return $this->location;
     }
 
 

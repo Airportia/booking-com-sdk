@@ -1,6 +1,6 @@
 <?php
 
-namespace BookingCom\Models\City;
+namespace BookingCom\Models\Location;
 
 
 class Location

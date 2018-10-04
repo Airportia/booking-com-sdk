@@ -1,9 +1,9 @@
 <?php
 
-namespace BookingCom\Tests\Models\City;
+namespace BookingCom\Tests\Models\Location;
 
 
-use BookingCom\Models\City\Location;
+use BookingCom\Models\Location\Location;
 use PHPUnit\Framework\TestCase;
 
 class LocationTest extends TestCase
