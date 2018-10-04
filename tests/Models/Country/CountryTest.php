@@ -1,5 +1,7 @@
 <?php
 
+namespace BookingCom\Tests\Models\Country;
+
 use BookingCom\Models\Country\Country;
 use PHPUnit\Framework\TestCase;
 

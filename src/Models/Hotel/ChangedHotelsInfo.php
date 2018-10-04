@@ -1,9 +1,11 @@
 <?php
 
-namespace BookingCom\Models\ChangedHotelsInfo;
+namespace BookingCom\Models\Hotel;
 
 
-class ChangedHotelsInfo
+use BookingCom\BookingObject;
+
+class ChangedHotelsInfo extends BookingObject
 {
     /** @var  array */
     private $closedHotels;
@@ -30,9 +32,7 @@ class ChangedHotelsInfo
      */
     public static function fromArray(array $array): ChangedHotelsInfo
     {
-        $changedHotels = array_map(function (array $changedHotelsArray) {
-            return ChangedHotel::fromArray($changedHotelsArray);
-        }, $array['changed_hotels']);
+        $changedHotels = self::getObjectsArray($array, ChangedHotel::class, 'changed_hotels');
 
         return new self($array['closed_hotels'], $changedHotels);
     }

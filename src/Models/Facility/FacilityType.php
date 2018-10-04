@@ -1,11 +1,11 @@
 <?php
 
-namespace BookingCom\Models\Chain;
+namespace BookingCom\Models\Facility;
 
 
 use BookingCom\BookingObject;
 
-class ChainType extends BookingObject
+class FacilityType extends BookingObject
 {
     /** @var  integer */
     private $id;
@@ -14,7 +14,7 @@ class ChainType extends BookingObject
     private $name;
 
     /**
-     * ChainType constructor.
+     * Facility constructor.
      *
      * @param int    $id
      * @param string $name
@@ -28,11 +28,11 @@ class ChainType extends BookingObject
 
     /**
      * @param array $array
-     * @return ChainType
+     * @return FacilityType
      */
-    public static function fromArray(array $array): ChainType
+    public static function fromArray(array $array): FacilityType
     {
-        return new self($array['chain_id'], $array['name']);
+        return new self($array['facility_type_id'], $array['name']);
     }
 
     /**
@@ -50,6 +50,4 @@ class ChainType extends BookingObject
     {
         return $this->name;
     }
-
-
 }

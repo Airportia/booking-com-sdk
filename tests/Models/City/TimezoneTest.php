@@ -2,7 +2,6 @@
 
 namespace BookingCom\Tests\Models\City;
 
-
 use BookingCom\Models\City\Timezone;
 use PHPUnit\Framework\TestCase;
 

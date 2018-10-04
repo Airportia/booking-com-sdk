@@ -3,9 +3,10 @@
 namespace BookingCom\Models\Search;
 
 
+use BookingCom\BookingObject;
 use BookingCom\Models\Location\Location;
 
-class AutoComplete
+class AutoComplete extends BookingObject
 {
     public const TYPE_AIRPORT = 'airport';
     public const TYPE_CITY = 'city';
@@ -77,27 +78,27 @@ class AutoComplete
     /**
      * AutoComplete constructor.
      *
-     * @param int                $rightToLeft
-     * @param string             $region
-     * @param string             $url
-     * @param Endorsement[]|null $endorsements
-     * @param string             $id
-     * @param string             $cityName
-     * @param Forecast|null      $forecast
-     * @param int                $numberOfDestinations
-     * @param string             $language
-     * @param string             $timezone
-     * @param array              $topDestinations
-     * @param string             $cityUfi
-     * @param int                $numberOfHotels
-     * @param string             $label
-     * @param string             $countryName
-     * @param string             $country
-     * @param string             $type
-     * @param string             $name
+     * @param int           $rightToLeft
+     * @param string        $region
+     * @param string        $url
+     * @param array|null    $endorsements
+     * @param string        $id
+     * @param string        $cityName
+     * @param Forecast|null $forecast
+     * @param int           $numberOfDestinations
+     * @param Location      $location
+     * @param string        $language
+     * @param string        $timezone
+     * @param array         $topDestinations
+     * @param string        $cityUfi
+     * @param int           $numberOfHotels
+     * @param string        $label
+     * @param string        $countryName
+     * @param string        $country
+     * @param string        $type
+     * @param string        $name
      */
-    public function __construct(
-        int $rightToLeft,
+    public function __construct(int $rightToLeft,
         string $region,
         string $url,
         ? array $endorsements,
@@ -115,47 +116,45 @@ class AutoComplete
         string $countryName,
         string $country,
         string $type,
-        string $name
-    ) {
-        $this->rightToLeft = $rightToLeft;
-        $this->region = $region;
-        $this->url = $url;
-        $this->endorsements = $endorsements;
-        $this->id = $id;
-        $this->cityName = $cityName;
-        $this->forecast = $forecast;
+        string $name)
+    {
+        $this->rightToLeft          = $rightToLeft;
+        $this->region               = $region;
+        $this->url                  = $url;
+        $this->endorsements         = $endorsements;
+        $this->id                   = $id;
+        $this->cityName             = $cityName;
+        $this->forecast             = $forecast;
         $this->numberOfDestinations = $numberOfDestinations;
-        $this->language = $language;
-        $this->timezone = $timezone;
-        $this->topDestinations = $topDestinations;
-        $this->cityUfi = $cityUfi;
-        $this->numberOfHotels = $numberOfHotels;
-        $this->label = $label;
-        $this->countryName = $countryName;
-        $this->country = $country;
-        $this->type = $type;
-        $this->name = $name;
-        $this->location = $location;
+        $this->language             = $language;
+        $this->timezone             = $timezone;
+        $this->topDestinations      = $topDestinations;
+        $this->cityUfi              = $cityUfi;
+        $this->numberOfHotels       = $numberOfHotels;
+        $this->label                = $label;
+        $this->countryName          = $countryName;
+        $this->country              = $country;
+        $this->type                 = $type;
+        $this->name                 = $name;
+        $this->location             = $location;
     }
 
     public static function fromArray(array $array): AutoComplete
     {
-        $endorsements = isset($array['endorsements'])
-            ? array_map(function (array $endorsementArray) {
-                return Endorsement::fromArray($endorsementArray);
-            }, $array['endorsements']) : null;
         $forecast = isset($array['forecast'])
             ? Forecast::fromArray($array['forecast']) : null;
+
+        $endorsements = self::getObjectsArray($array, Endorsement::class,
+            'endorsements');
 
         $location = new Location($array['latitude'], $array['longitude']);
 
         return new self($array['right-to-left'], $array['region'],
             $array['url'], $endorsements, $array['id'], $array['city_name'],
-            $forecast, $array['nr_dest'], $location,
-            $array['language'], $array['timezone'], $array['top_destinations'],
-            $array['city_ufi'], $array['nr_hotels'],
-            $array['label'], $array['country_name'], $array['country'],
-            $array['type'], $array['name']);
+            $forecast, $array['nr_dest'], $location, $array['language'],
+            $array['timezone'], $array['top_destinations'], $array['city_ufi'],
+            $array['nr_hotels'], $array['label'], $array['country_name'],
+            $array['country'], $array['type'], $array['name']);
     }
 
     /**
@@ -309,6 +308,4 @@ class AutoComplete
     {
         return $this->location;
     }
-
-
 }

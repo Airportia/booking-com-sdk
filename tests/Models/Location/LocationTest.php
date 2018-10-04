@@ -2,7 +2,6 @@
 
 namespace BookingCom\Tests\Models\Location;
 
-
 use BookingCom\Models\Location\Location;
 use PHPUnit\Framework\TestCase;
 

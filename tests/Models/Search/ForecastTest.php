@@ -13,7 +13,7 @@ class ForecastTest extends TestCase
     public function testFromArray(): void
     {
         $forecast = Forecast::fromArray([
-            'icon' => 'sun',
+            'icon'       => 'sun',
             'max_temp_f' => 63,
             'min_temp_c' => 9,
             'min_temp_f' => 48,

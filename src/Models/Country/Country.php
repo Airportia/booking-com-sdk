@@ -3,7 +3,9 @@
 namespace BookingCom\Models\Country;
 
 
-class Country
+use BookingCom\BookingObject;
+
+class Country extends BookingObject
 {
     /** @var  string */
     private $name;

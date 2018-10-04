@@ -1,7 +1,9 @@
 <?php
 
-use BookingCom\Models\ChangedHotelsInfo\ChangedHotelsInfo;
-use BookingCom\Models\ChangedHotelsInfo\ChangedHotel;
+namespace BookingCom\Tests\Models\Hotel;
+
+use BookingCom\Models\Hotel\ChangedHotel;
+use BookingCom\Models\Hotel\ChangedHotelsInfo;
 use PHPUnit\Framework\TestCase;
 
 class ChangedHotelsInfoTest extends TestCase

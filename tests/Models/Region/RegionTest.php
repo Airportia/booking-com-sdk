@@ -2,7 +2,6 @@
 
 namespace BookingCom\Tests\Models\Region;
 
-
 use BookingCom\Models\Region\Region;
 use PHPUnit\Framework\TestCase;
 

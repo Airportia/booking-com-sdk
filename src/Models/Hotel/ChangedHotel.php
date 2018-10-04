@@ -1,9 +1,11 @@
 <?php
 
-namespace BookingCom\Models\ChangedHotelsInfo;
+namespace BookingCom\Models\Hotel;
 
 
-class ChangedHotel
+use BookingCom\BookingObject;
+
+class ChangedHotel extends BookingObject
 {
     public const ROOM_PHOTOS_CHANGED = 'room_photos';
     public const ROOM_DESCRIPTION_CHANGED = 'room_description';

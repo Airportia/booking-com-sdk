@@ -3,7 +3,9 @@
 namespace BookingCom\Models\Location;
 
 
-class Location
+use BookingCom\BookingObject;
+
+class Location extends BookingObject
 {
 
     /** @var string */

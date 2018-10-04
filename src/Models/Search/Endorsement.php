@@ -3,7 +3,9 @@
 namespace BookingCom\Models\Search;
 
 
-class Endorsement
+use BookingCom\BookingObject;
+
+class Endorsement extends BookingObject
 {
     /** @var  string */
     private $name;

@@ -67,7 +67,8 @@ class ClientTest extends TestCase
      * @param $response
      * @return Client
      */
-    private function createClient(string $method, $response): Client
+    private function createClient(string $method,
+        $response): Client
     {
         $connection = $this->createMock(ConnectionInterface::class);
         $connection->method($method)->willReturn($response);

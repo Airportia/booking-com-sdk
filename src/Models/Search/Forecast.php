@@ -3,7 +3,9 @@
 namespace BookingCom\Models\Search;
 
 
-class Forecast
+use BookingCom\BookingObject;
+
+class Forecast extends BookingObject
 {
     public const UNIT_CELSIUS = 'celsius';
     public const UNIT_FAHRENHEIT = 'fahrenheit';
@@ -23,21 +25,24 @@ class Forecast
     /** @var  integer */
     private $maxTempCelsius;
 
-    public function __construct(
-        string $icon,
+    public function __construct(string $icon,
         int $maxTempFahrenheit,
         int $minTempCelsius,
         int $minTempFahrenheit,
-        int $maxTempCelsius
-    ) {
-        $this->icon = $icon;
+        int $maxTempCelsius)
+    {
+        $this->icon              = $icon;
         $this->maxTempFahrenheit = $maxTempFahrenheit;
-        $this->minTempCelsius = $minTempCelsius;
+        $this->minTempCelsius    = $minTempCelsius;
         $this->minTempFahrenheit = $minTempFahrenheit;
-        $this->maxTempCelsius = $maxTempCelsius;
+        $this->maxTempCelsius    = $maxTempCelsius;
     }
 
-    public static function fromArray(array $array)
+    /**
+     * @param array $array
+     * @return Forecast
+     */
+    public static function fromArray(array $array) : Forecast
     {
         return new self($array['icon'], $array['max_temp_f'],
             $array['min_temp_c'], $array['min_temp_f'], $array['max_temp_c']);
@@ -53,12 +58,14 @@ class Forecast
 
     public function getMax(string $unit = self::UNIT_CELSIUS): int
     {
-        return $unit === self::UNIT_CELSIUS ? $this->maxTempCelsius : $this->maxTempFahrenheit;
+        return $unit === self::UNIT_CELSIUS ? $this->maxTempCelsius
+            : $this->maxTempFahrenheit;
     }
 
     public function getMin(string $unit = self::UNIT_CELSIUS): int
     {
-        return $unit === self::UNIT_CELSIUS ? $this->minTempCelsius : $this->minTempFahrenheit;
+        return $unit === self::UNIT_CELSIUS ? $this->minTempCelsius
+            : $this->minTempFahrenheit;
     }
 
 }

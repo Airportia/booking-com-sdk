@@ -3,7 +3,9 @@
 namespace BookingCom\Models\Region;
 
 
-class Region
+use BookingCom\BookingObject;
+
+class Region extends BookingObject
 {
     public const TYPE_ISLAND = 'island';
     public const TYPE_PROVINCE = 'province';

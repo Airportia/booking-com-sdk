@@ -1,5 +1,7 @@
 <?php
 
+namespace BookingCom\Tests\Models\Chain;
+
 use BookingCom\Models\Chain\ChainType;
 use PHPUnit\Framework\TestCase;
 
