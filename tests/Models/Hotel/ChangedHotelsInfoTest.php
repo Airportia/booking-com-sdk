@@ -19,7 +19,7 @@ class ChangedHotelsInfoTest extends TestCase
                 [
                     'hotel_id' => 1000,
                     'changes'  => ['hotel_description'],
-                ]
+                ],
             ],
         ]);
 

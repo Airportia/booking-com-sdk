@@ -27,10 +27,7 @@ class HotelFacilityType extends BookingObject
      * @param int    $facilityTypeId
      * @param string $name
      */
-    public function __construct(int $id,
-        string $type,
-        int $facilityTypeId,
-        string $name)
+    public function __construct(int $id, string $type, int $facilityTypeId, string $name)
     {
         $this->id             = $id;
         $this->type           = $type;
@@ -44,8 +41,7 @@ class HotelFacilityType extends BookingObject
      */
     public static function fromArray(array $array): HotelFacilityType
     {
-        return new self($array['hotel_facility_type_id'], $array['type'],
-            $array['facility_type_id'], $array['name']);
+        return new self($array['hotel_facility_type_id'], $array['type'], $array['facility_type_id'], $array['name']);
     }
 
     /**

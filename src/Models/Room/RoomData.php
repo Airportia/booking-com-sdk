@@ -35,12 +35,7 @@ class RoomData extends BookingObject
      * @param string              $name
      * @param null|string         $roomDescription
      */
-    public function __construct(? array $roomFacilities,
-        ? array $roomPhotos,
-        int $id,
-        ? RoomInfo $roomInfo,
-        string $name,
-        ? string $roomDescription)
+    public function __construct(? array $roomFacilities, ? array $roomPhotos, int $id, ? RoomInfo $roomInfo, string $name, ? string $roomDescription)
     {
         $this->roomFacilities  = $roomFacilities;
         $this->roomPhotos      = $roomPhotos;
@@ -52,17 +47,15 @@ class RoomData extends BookingObject
 
     public static function fromArray(array $array): RoomData
     {
-        $roomFacilities = self::getObjectsArray($array, RoomFacility::class, 'room_facilities');
+        $roomFacilities = self::makeChildrenFromArray($array, RoomFacility::class, 'room_facilities', self::CHILDREN_ARRAY);
 
-        $roomPhotos = self::getObjectsArray($array, RoomPhoto::class, 'room_photos');
+        $roomPhotos = self::makeChildrenFromArray($array, RoomPhoto::class, 'room_photos', self::CHILDREN_ARRAY);
 
-        $roomInfo = isset($array['room_info'])
-            ? RoomInfo::fromArray($array['room_info']) : null;
+        $roomInfo = self::makeChildrenFromArray($array, RoomInfo::class, 'room_info', self::SINGLE_CHILD);
 
         $roomDescription = $array['room_description'] ?? null;
 
-        return new self($roomFacilities, $roomPhotos, $array['room_id'],
-            $roomInfo, $array['room_name'], $roomDescription);
+        return new self($roomFacilities, $roomPhotos, $array['room_id'], $roomInfo, $array['room_name'], $roomDescription);
 
     }
 

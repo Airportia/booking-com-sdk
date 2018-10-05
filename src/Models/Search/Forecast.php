@@ -25,11 +25,7 @@ class Forecast extends BookingObject
     /** @var  integer */
     private $maxTempCelsius;
 
-    public function __construct(string $icon,
-        int $maxTempFahrenheit,
-        int $minTempCelsius,
-        int $minTempFahrenheit,
-        int $maxTempCelsius)
+    public function __construct(string $icon, int $maxTempFahrenheit, int $minTempCelsius, int $minTempFahrenheit, int $maxTempCelsius)
     {
         $this->icon              = $icon;
         $this->maxTempFahrenheit = $maxTempFahrenheit;
@@ -42,10 +38,9 @@ class Forecast extends BookingObject
      * @param array $array
      * @return Forecast
      */
-    public static function fromArray(array $array) : Forecast
+    public static function fromArray(array $array): Forecast
     {
-        return new self($array['icon'], $array['max_temp_f'],
-            $array['min_temp_c'], $array['min_temp_f'], $array['max_temp_c']);
+        return new self($array['icon'], $array['max_temp_f'], $array['min_temp_c'], $array['min_temp_f'], $array['max_temp_c']);
     }
 
     /**
@@ -58,14 +53,12 @@ class Forecast extends BookingObject
 
     public function getMax(string $unit = self::UNIT_CELSIUS): int
     {
-        return $unit === self::UNIT_CELSIUS ? $this->maxTempCelsius
-            : $this->maxTempFahrenheit;
+        return $unit === self::UNIT_CELSIUS ? $this->maxTempCelsius : $this->maxTempFahrenheit;
     }
 
     public function getMin(string $unit = self::UNIT_CELSIUS): int
     {
-        return $unit === self::UNIT_CELSIUS ? $this->minTempCelsius
-            : $this->minTempFahrenheit;
+        return $unit === self::UNIT_CELSIUS ? $this->minTempCelsius : $this->minTempFahrenheit;
     }
 
 }

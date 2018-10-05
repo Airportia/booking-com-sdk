@@ -3,7 +3,6 @@
 namespace BookingSDK\Resource\Posts;
 
 
-use BookingSDK\Resource\Posts\Comments\CommentsItem;
 use BookingSDK\Resource\Posts\Comments\CommentsCollection;
 use BookingSDK\Resource\Resource;
 
@@ -25,10 +24,8 @@ class PostsItem extends Resource
     {
         parent::__construct($data);
         $this->id       = (int)$data['id'];
-        $this->title    = isset($data['title']) ? (string)$data['title']: '';
-        $this->comments = isset($data['comments'])
-            ? new CommentsCollection((array)$data['comments'])
-            : new CommentsCollection([]);
+        $this->title    = isset($data['title']) ? (string)$data['title'] : '';
+        $this->comments = isset($data['comments']) ? new CommentsCollection((array)$data['comments']) : new CommentsCollection([]);
     }
 
     /**
@@ -60,19 +57,19 @@ class PostsItem extends Resource
     }
 
     /**
-     * @return CommentsCollection
-     */
-    public function getComments(): CommentsCollection
-    {
-        return $this->comments;
-    }
-
-    /**
      * @return array
      */
     public function getCommentsArray(): array
     {
         return $this->comments->toArray();
+    }
+
+    /**
+     * @return CommentsCollection
+     */
+    public function getComments(): CommentsCollection
+    {
+        return $this->comments;
     }
 
     /**

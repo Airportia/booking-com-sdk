@@ -10,7 +10,6 @@ namespace BookingSDK\Resource\Cities;
 
 
 use BookingSDK\Resource\CollectionResource;
-use BookingSDK\Resource\Resource;
 
 class CitiesCollection extends CollectionResource
 {

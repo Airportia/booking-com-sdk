@@ -16,7 +16,6 @@ interface ResourceInterface extends Arrayable, \JsonSerializable
 
     /**
      * @param Client $client
-     *
      * @return ResourceInterface
      */
     public function setClient(Client $client);

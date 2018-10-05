@@ -22,7 +22,6 @@ abstract class Resource implements ResourceInterface, ResourceItemInterface
 
     /**
      * @param Client $client
-     *
      * @return $this
      */
     public function setClient(Client $client)

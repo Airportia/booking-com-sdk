@@ -14,7 +14,7 @@ class PaymentTypeTest extends TestCase
     {
         $paymentType = PaymentType::fromArray([
             'payment_id' => 1,
-            'bookable'   => 'false',
+            'bookable'   => false,
             'name'       => 'American Express',
         ]);
 

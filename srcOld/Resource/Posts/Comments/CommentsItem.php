@@ -35,17 +35,9 @@ class CommentsItem extends Resource
     public function toArray(): array
     {
         return [
-            'id'    => $this->getId(),
+            'id'   => $this->getId(),
             'text' => $this->getText(),
         ];
-    }
-
-    /**
-     * @return int
-     */
-    public function getIdentifier()
-    {
-        return $this->id;
     }
 
     /**
@@ -62,6 +54,14 @@ class CommentsItem extends Resource
     public function getText(): string
     {
         return $this->text;
+    }
+
+    /**
+     * @return int
+     */
+    public function getIdentifier()
+    {
+        return $this->id;
     }
 
 

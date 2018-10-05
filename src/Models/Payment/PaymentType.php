@@ -23,9 +23,7 @@ class PaymentType extends BookingObject
      * @param bool   $bookable
      * @param string $name
      */
-    public function __construct(int $id,
-        bool $bookable,
-        string $name)
+    public function __construct(int $id, bool $bookable, string $name)
     {
         $this->id       = $id;
         $this->bookable = $bookable;
@@ -38,9 +36,7 @@ class PaymentType extends BookingObject
      */
     public static function fromArray(array $array): PaymentType
     {
-        $boolean = filter_var($array['bookable'], FILTER_VALIDATE_BOOLEAN);
-
-        return new self($array['payment_id'], $boolean, $array['name']);
+        return new self($array['payment_id'], $array['bookable'], $array['name']);
     }
 
     /**

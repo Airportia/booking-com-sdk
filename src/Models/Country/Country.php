@@ -16,9 +16,7 @@ class Country extends BookingObject
     /** @var  string */
     private $area;
 
-    public function __construct(string $name,
-        string $country,
-        string $area)
+    public function __construct(string $name, string $country, string $area)
     {
         $this->name    = $name;
         $this->country = $country;

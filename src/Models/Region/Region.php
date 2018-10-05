@@ -46,8 +46,7 @@ class Region extends BookingObject
      */
     public static function fromArray(array $array): Region
     {
-        return new self($array['region_id'], $array['name'],
-            $array['region_type'], $array['country']);
+        return new self($array['region_id'], $array['name'], $array['region_type'], $array['country']);
     }
 
     /**

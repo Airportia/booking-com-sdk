@@ -6,8 +6,8 @@ use BookingSDK\Request\Posts\GetPostRequest;
 use BookingSDK\Request\Posts\GetPostsRequest;
 use BookingSDK\Request\RequestInterface;
 use BookingSDK\Request\Response;
-use BookingSDK\Resource\Posts\PostsItem;
 use BookingSDK\Resource\Posts\PostsCollection;
+use BookingSDK\Resource\Posts\PostsItem;
 use GuzzleHttp;
 
 class Client
@@ -28,10 +28,17 @@ class Client
             'base_uri' => $baseUrl,
         ];
 
-        $this->guzzle = $client ? new $client($config)
-            : new GuzzleHttp\Client($config);
+        $this->guzzle = $client ? new $client($config) : new GuzzleHttp\Client($config);
     }
 
+    /**
+     * @return \BookingSDK\Resource\Posts\PostsCollection
+     * @throws \GuzzleHttp\Exception\GuzzleException
+     */
+    public function getPosts(): PostsCollection
+    {
+        return $this->send(new GetPostsRequest())->getResource();
+    }
 
     /**
      * @param \BookingSDK\Request\RequestInterface $request
@@ -52,16 +59,6 @@ class Client
 
         return new Response($this, $response, $resourceClass);
     }
-
-    /**
-     * @return \BookingSDK\Resource\Posts\PostsCollection
-     * @throws \GuzzleHttp\Exception\GuzzleException
-     */
-    public function getPosts(): PostsCollection
-    {
-        return $this->send(new GetPostsRequest())->getResource();
-    }
-
 
     /**
      * @param $id

@@ -5,8 +5,7 @@ namespace BookingSDK\Resource;
 
 use BookingSDK\Connection\Client;
 
-abstract class CollectionResource implements ResourceCollectionInterface,
-    \ArrayAccess, \IteratorAggregate
+abstract class CollectionResource implements ResourceCollectionInterface, \ArrayAccess, \IteratorAggregate
 {
     /** @var int */
     protected $position = 0;
@@ -89,8 +88,7 @@ abstract class CollectionResource implements ResourceCollectionInterface,
      */
     public function offsetGet($offset)
     {
-        return isset($this->collection[$offset]) ? $this->collection[$offset]
-            : null;
+        return isset($this->collection[$offset]) ? $this->collection[$offset] : null;
     }
 
     /**

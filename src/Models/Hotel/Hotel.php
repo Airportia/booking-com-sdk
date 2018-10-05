@@ -24,9 +24,7 @@ class Hotel extends BookingObject
      * @param HotelData|null  $hotelData
      * @param RoomData[]|null $roomData
      */
-    public function __construct(int $id,
-        ? HotelData $hotelData,
-        ? array $roomData)
+    public function __construct(int $id, ? HotelData $hotelData, ? array $roomData)
     {
         $this->id        = $id;
         $this->hotelData = $hotelData;
@@ -35,10 +33,9 @@ class Hotel extends BookingObject
 
     public static function fromArray(array $array): Hotel
     {
-        $hotelData = isset($array['hotel_data'])
-            ? HotelData::fromArray($array['hotel_data']) : null;
+        $hotelData = self::makeChildrenFromArray($array, HotelData::class, 'hotel_data', self::SINGLE_CHILD);
 
-        $roomData = self::getObjectsArray($array, RoomData::class, 'room_data');
+        $roomData = self::makeChildrenFromArray($array, RoomData::class, 'room_data', self::CHILDREN_ARRAY);
 
         return new self($array['hotel_id'], $hotelData, $roomData);
     }

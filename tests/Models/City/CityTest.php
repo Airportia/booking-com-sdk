@@ -19,6 +19,24 @@ class CityTest extends TestCase
         $this->assertEquals('ve', $city->getCountry());
     }
 
+    /**
+     * @param array $additionalArray
+     * @return City
+     */
+    public function createCityDefaultArray(array $additionalArray = []): City
+    {
+        $basicArray = [
+            'nr_hotels' => 1,
+            'city_id'   => -3875419,
+            'name'      => 'Pedro Gonzalez',
+            'country'   => 've',
+        ];
+
+        $array = array_merge($basicArray, $additionalArray);
+
+        return City::fromArray($array);
+    }
+
     public function testLocation(): void
     {
         $city = $this->createCityDefaultArray([
@@ -41,24 +59,6 @@ class CityTest extends TestCase
         ]);
 
         $this->assertInstanceOf(Timezone::class, $city->getTimezone());
-    }
-
-    /**
-     * @param array $additionalArray
-     * @return City
-     */
-    public function createCityDefaultArray(array $additionalArray = []): City
-    {
-        $basicArray = [
-            'nr_hotels' => 1,
-            'city_id'   => -3875419,
-            'name'      => 'Pedro Gonzalez',
-            'country'   => 've',
-        ];
-
-        $array = array_merge($basicArray, $additionalArray);
-
-        return City::fromArray($array);
     }
 
 

@@ -31,8 +31,7 @@ class Response
             throw new \Exception($response->getBody()->getContents());
         }
 
-        $this->resource = new $resource(json_decode($this->response->getBody()
-            ->getContents(), true));
+        $this->resource = new $resource(json_decode($this->response->getBody()->getContents(), true));
 
         $this->resource->setClient($client);
     }

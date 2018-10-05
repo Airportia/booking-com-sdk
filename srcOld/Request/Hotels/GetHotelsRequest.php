@@ -10,6 +10,7 @@ class GetHotelsRequest extends Request
 {
     /** @var string */
     protected $path = '/hotels';
+
     /** @var string */
     protected $method = 'GET';
 

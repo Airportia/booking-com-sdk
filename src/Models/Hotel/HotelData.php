@@ -4,7 +4,10 @@ namespace BookingCom\Models\Hotel;
 
 
 use BookingCom\BookingObject;
+use BookingCom\Models\Hotel\HotelInternalObjects\CheckinCheckoutTimes;
+use BookingCom\Models\Hotel\HotelInternalObjects\KeyCollectionDetails;
 use BookingCom\Models\Location\Location;
+use BookingCom\Models\Payment\PaymentDetail;
 
 class HotelData extends BookingObject
 {
@@ -50,6 +53,9 @@ class HotelData extends BookingObject
     /** @var  string|null */
     private $licenseNumber;
 
+    /** @var  string|null */
+    private $hotelImportantInformation;
+
     /** @var  HotelFacility[]|null */
     private $hotelFacilities;
 
@@ -57,7 +63,7 @@ class HotelData extends BookingObject
     private $exactClass;
 
     /** @var  boolean|null */
-    private $isClosed;
+    private $closed;
 
     /** @var  boolean|null */
     private $creditCardRequired;
@@ -136,9 +142,10 @@ class HotelData extends BookingObject
      * @param null|string               $url
      * @param int|null                  $class
      * @param null|string               $licenseNumber
+     * @param null|string               $hotelImportantInformation
      * @param HotelFacility[]|null      $hotelFacilities
      * @param float|null                $exactClass
-     * @param bool|null                 $isClosed
+     * @param bool|null                 $closed
      * @param bool|null                 $creditCardRequired
      * @param null|string               $hotelDescription
      * @param array|null                $chainIds
@@ -160,43 +167,12 @@ class HotelData extends BookingObject
      * @param array|null                $themeIds
      * @param int|null                  $ranking
      */
-    public function __construct(? array $paymentDetails,
-        ? CheckinCheckoutTimes $checkinCheckoutTimes,
-        ? bool $classIsEstimated,
-        ? array $hotelPolicies,
-        ? array $hotelPhotos,
-        ? array $spokenLanguages,
-        ? string $zip,
-        ? KeyCollectionDetails $keyCollectionInfo,
-        ? int $districtId,
-        ? string $deepLinkUrl,
-        ? int $maxRoomsInReservation,
-        ? string $url,
-        ? int $class,
-        ? string $licenseNumber,
-        ? array $hotelFacilities,
-        ? float $exactClass,
-        ? bool $isClosed,
-        ? bool $creditCardRequired,
-        ? string $hotelDescription,
-        ? array $chainIds,
-        ? int $numberOfReviews,
-        ? bool $bookDomesticWithoutCCDetails,
-        ? string $currency,
-        ? string $city,
-        ? string $country,
-        ? string $hotelierWelcomeMessage,
-        ? bool $preferred,
-        ? int $maxPersonsInReservation,
-        ? int $cityId,
-        ? int $hotelTypeId,
-        ? int $numberOfRooms,
-        ? string $address,
-        ? Location $location,
-        ? string $defaultLanguage,
-        ? float $reviewScore,
-        ? array $themeIds,
-        ? int $ranking)
+    public function __construct(? array $paymentDetails, ? CheckinCheckoutTimes $checkinCheckoutTimes, ? bool $classIsEstimated, ? array $hotelPolicies, ? array $hotelPhotos,
+        ? array $spokenLanguages, ? string $zip, ? KeyCollectionDetails $keyCollectionInfo, ? int $districtId, ? string $deepLinkUrl, ? int $maxRoomsInReservation, ? string $url,
+        ? int $class, ? string $licenseNumber, ? string $hotelImportantInformation, ? array $hotelFacilities, ? float $exactClass, ? bool $closed, ? bool $creditCardRequired,
+        ? string $hotelDescription, ? array $chainIds, ? int $numberOfReviews, ? bool $bookDomesticWithoutCCDetails, ? string $currency, ? string $city, ? string $country,
+        ? string $hotelierWelcomeMessage, ? bool $preferred, ? int $maxPersonsInReservation, ? int $cityId, ? int $hotelTypeId, ? int $numberOfRooms, ? string $address,
+        ? Location $location, ? string $defaultLanguage, ? float $reviewScore, ? array $themeIds, ? int $ranking)
     {
         $this->paymentDetails               = $paymentDetails;
         $this->checkinCheckoutTimes         = $checkinCheckoutTimes;
@@ -212,9 +188,10 @@ class HotelData extends BookingObject
         $this->url                          = $url;
         $this->class                        = $class;
         $this->licenseNumber                = $licenseNumber;
+        $this->hotelImportantInformation    = $hotelImportantInformation;
         $this->hotelFacilities              = $hotelFacilities;
         $this->exactClass                   = $exactClass;
-        $this->isClosed                     = $isClosed;
+        $this->closed                       = $closed;
         $this->creditCardRequired           = $creditCardRequired;
         $this->hotelDescription             = $hotelDescription;
         $this->chainIds                     = $chainIds;
@@ -239,7 +216,49 @@ class HotelData extends BookingObject
 
     public static function fromArray(array $array): HotelData
     {
-        /** TODO */
+        $paymentDetails               = self::makeChildrenFromArray($array, PaymentDetail::class, 'payment_details', self::CHILDREN_ARRAY);
+        $checkinCheckoutTimes         = self::makeChildrenFromArray($array, CheckinCheckoutTimes::class, 'checkin_checkout_times', self::SINGLE_CHILD);
+        $classIsEstimated             = $array['class_is_estimated'] ?? null;
+        $hotelPolicies                = self::makeChildrenFromArray($array, HotelPolicy::class, 'hotel_policies', self::CHILDREN_ARRAY);
+        $hotelPhotos                  = self::makeChildrenFromArray($array, HotelPhoto::class, 'hotel_photo', self::SINGLE_CHILD);
+        $spokenLanguages              = $array['spoken_languages'] ?? null;
+        $zip                          = $array['zip'] ?? null;
+        $keyCollectionInfo            = self::makeChildrenFromArray($array, KeyCollectionDetails::class, 'key_collection_info', self::SINGLE_CHILD);
+        $districtId                   = $array['district_id'] ?? null;
+        $deepLinkUrl                  = $array['deep_link_url'] ?? null;
+        $maxRoomsInReservation        = $array['max_rooms_in_reservation'] ?? null;
+        $url                          = $array['url'] ?? null;
+        $class                        = $array['class'] ?? null;
+        $licenseNumber                = $array['license_number'] ?? null;
+        $hotelImportantInformation    = $array['hotel_important_information'] ?? null;
+        $hotelFacilities              = self::makeChildrenFromArray($array, HotelFacility::class, 'hotel_facilities', self::CHILDREN_ARRAY);
+        $exactClass                   = $array['exactClass'] ?? null;
+        $closed                       = $array['closed'] ?? null;
+        $creditCardRequired           = $array['credit_card_required'] ?? null;
+        $hotelDescription             = $array['hotel_description'] ?? null;
+        $chainIds                     = $array['chain_id'] ?? null;
+        $numberOfReviews              = $array['number_of_reviews'] ?? null;
+        $bookDomesticWithoutCCDetails = $array['book_domestic_without_cc_details'] ?? null;
+        $currency                     = $array['currency'] ?? null;
+        $city                         = $array['city'] ?? null;
+        $country                      = $array['country'] ?? null;
+        $hotelierWelcomeMessage       = $array['hotelierWelcomeMessage'] ?? null;
+        $preferred                    = $array['preferred'] ?? null;
+        $maxPersonsInReservation      = $array['max_rooms_in_reservation'] ?? null;
+        $cityId                       = $array['city_id'] ?? null;
+        $hotelTypeId                  = $array['hotel_type_id'] ?? null;
+        $numberOfRooms                = $array['number_of_rooms'] ?? null;
+        $address                      = $array['address'] ?? null;
+        $location                     = $array['location'] ?? null;
+        $defaultLanguage              = $array['default_language'] ?? null;
+        $reviewScore                  = $array['review_score'] ?? null;
+        $themeIds                     = $array['themeIds'] ?? null;
+        $ranking                      = $array['ranking'] ?? null;
+
+        return new self($paymentDetails, $checkinCheckoutTimes, $classIsEstimated, $hotelPolicies, $hotelPhotos, $spokenLanguages, $zip, $keyCollectionInfo, $districtId,
+            $deepLinkUrl, $maxRoomsInReservation, $url, $class, $licenseNumber, $hotelImportantInformation, $hotelFacilities, $exactClass, $closed, $creditCardRequired,
+            $hotelDescription, $chainIds, $numberOfReviews, $bookDomesticWithoutCCDetails, $currency, $city, $country, $hotelierWelcomeMessage, $preferred,
+            $maxPersonsInReservation, $cityId, $hotelTypeId, $numberOfRooms, $address, $location, $defaultLanguage, $reviewScore, $themeIds, $ranking);
     }
 
     /**
@@ -355,9 +374,17 @@ class HotelData extends BookingObject
     }
 
     /**
-     * @return HotelFacility|null
+     * @return null|string
      */
-    public function getHotelFacilities(): ? HotelFacility
+    public function getHotelImportantInformation(): ? string
+    {
+        return $this->hotelImportantInformation;
+    }
+
+    /**
+     * @return HotelFacility[]|null
+     */
+    public function getHotelFacilities(): ? array
     {
         return $this->hotelFacilities;
     }
@@ -375,7 +402,7 @@ class HotelData extends BookingObject
      */
     public function isClosed(): ? bool
     {
-        return $this->isClosed;
+        return $this->closed;
     }
 
     /**

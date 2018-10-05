@@ -18,15 +18,12 @@ class AutoCompleteTest extends TestCase
 
         $this->assertEquals('0', $autoComplete->getRightToLeft());
         $this->assertEquals('New South Wales', $autoComplete->getRegion());
-        $this->assertEquals('https://www.booking.com/searchresults.en-gb.html?dest_id=-1603135&dest_type=city&aid=000000',
-            $autoComplete->getUrl());
+        $this->assertEquals('https://www.booking.com/searchresults.en-gb.html?dest_id=-1603135&dest_type=city&aid=000000', $autoComplete->getUrl());
         $this->assertEquals('-1603135', $autoComplete->getId());
         $this->assertEquals('Sydney', $autoComplete->getCityName());
         $this->assertEquals(601, $autoComplete->getNumberOfDestinations());
-        $this->assertEquals('-33.8704566955566',
-            $autoComplete->getLocation()->getLatitude());
-        $this->assertEquals('151.209014892578',
-            $autoComplete->getLocation()->getLongitude());
+        $this->assertEquals('-33.8704566955566', $autoComplete->getLocation()->getLatitude());
+        $this->assertEquals('151.209014892578', $autoComplete->getLocation()->getLongitude());
         $this->assertEquals('en', $autoComplete->getLanguage());
         $this->assertEquals('Australia/Sydney', $autoComplete->getTimezone());
         $this->assertEquals([
@@ -36,49 +33,11 @@ class AutoCompleteTest extends TestCase
         ], $autoComplete->getTopDestinations());
         $this->assertEquals('-2140479', $autoComplete->getCityUfi());
         $this->assertEquals(1104, $autoComplete->getNumberOfHotels());
-        $this->assertEquals('Sydney, New South Wales, Australia, Oceania',
-            $autoComplete->getLabel());
+        $this->assertEquals('Sydney, New South Wales, Australia, Oceania', $autoComplete->getLabel());
         $this->assertEquals('Australia', $autoComplete->getCountryName());
         $this->assertEquals('au', $autoComplete->getCountry());
         $this->assertEquals(AutoComplete::TYPE_CITY, $autoComplete->getType());
         $this->assertEquals('Sydney', $autoComplete->getName());
-    }
-
-    /**
-     * @return void
-     */
-    public function testEndorsements(): void
-    {
-        $autoComplete = $this->createAutoCompleteDefaultArray([
-            'endorsements' => [
-                [
-                    'name'  => 'Sightseeing',
-                    'count' => '30565',
-                    'id'    => '200',
-                ],
-            ],
-        ]);
-
-        $this->assertContainsOnlyInstancesOf(Endorsement::class,
-            $autoComplete->getEndorsements());
-    }
-
-    /**
-     * @return void
-     */
-    public function testForecast(): void
-    {
-        $autoComplete = $this->createAutoCompleteDefaultArray([
-            'forecast' => [
-                'icon'       => 'sun',
-                'max_temp_f' => 63,
-                'min_temp_c' => 9,
-                'min_temp_f' => 48,
-                'max_temp_c' => 17,
-            ],
-        ]);
-
-        $this->assertInstanceOf(Forecast::class, $autoComplete->getForecast());
     }
 
     /**
@@ -115,5 +74,41 @@ class AutoCompleteTest extends TestCase
         $array = array_merge($basicArray, $additionalArray);
 
         return AutoComplete::fromArray($array);
+    }
+
+    /**
+     * @return void
+     */
+    public function testEndorsements(): void
+    {
+        $autoComplete = $this->createAutoCompleteDefaultArray([
+            'endorsements' => [
+                [
+                    'name'  => 'Sightseeing',
+                    'count' => '30565',
+                    'id'    => '200',
+                ],
+            ],
+        ]);
+
+        $this->assertContainsOnlyInstancesOf(Endorsement::class, $autoComplete->getEndorsements());
+    }
+
+    /**
+     * @return void
+     */
+    public function testForecast(): void
+    {
+        $autoComplete = $this->createAutoCompleteDefaultArray([
+            'forecast' => [
+                'icon'       => 'sun',
+                'max_temp_f' => 63,
+                'min_temp_c' => 9,
+                'min_temp_f' => 48,
+                'max_temp_c' => 17,
+            ],
+        ]);
+
+        $this->assertInstanceOf(Forecast::class, $autoComplete->getForecast());
     }
 }

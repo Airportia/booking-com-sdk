@@ -36,12 +36,7 @@ class District extends BookingObject
      * @param int           $id
      * @param int           $numberOfHotels
      */
-    public function __construct(string $name,
-        string $country,
-        ? Location $location,
-        int $cityId,
-        int $id,
-        int $numberOfHotels)
+    public function __construct(string $name, string $country, ? Location $location, int $cityId, int $id, int $numberOfHotels)
     {
         $this->name           = $name;
         $this->country        = $country;
@@ -57,11 +52,9 @@ class District extends BookingObject
      */
     public static function fromArray(array $array): District
     {
-        $location = isset($array['location'])
-            ? Location::fromArray($array['location']) : null;
+        $location = self::makeChildrenFromArray($array, Location::class, 'location', self::SINGLE_CHILD);
 
-        return new self($array['name'], $array['country'], $location,
-            $array['city_id'], $array['district_id'], $array['nr_hotels']);
+        return new self($array['name'], $array['country'], $location, $array['city_id'], $array['district_id'], $array['nr_hotels']);
     }
 
     /**

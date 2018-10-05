@@ -10,6 +10,7 @@ class GetPostRequest extends Request
 {
     /** @var string */
     protected $path = '/posts/{postId}';
+
     /** @var string */
     protected $method = 'GET';
 

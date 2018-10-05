@@ -1,9 +1,6 @@
 <?php
 require 'vendor/autoload.php';
 
-use BookingSDK\Connection\Client;
-use BookingSDK\Connection\FakeClient;
-
 //FakeClient::setResponses([
 //    '/posts' => [
 //        'GET' => [
@@ -77,4 +74,5 @@ $forecast = \BookingCom\Models\Search\Forecast::fromArray([
     'max_temp_c' => 17,
 ]);
 
-var_dump($forecast->getIcon()); die;
+var_dump($forecast->getIcon());
+die;

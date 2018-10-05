@@ -22,22 +22,6 @@ class DistrictTest extends TestCase
         $this->assertEquals(37, $district->getNumberOfHotels());
     }
 
-
-    /**
-     * @return void
-     */
-    public function testLocation(): void
-    {
-        $district = $this->createDistrictDefaultArray([
-            'location' => [
-                'latitude'  => '11.116700172424316',
-                'longitude' => '-63.91669845581055',
-            ],
-        ]);
-
-        $this->assertInstanceOf(Location::class, $district->getLocation());
-    }
-
     /**
      * @param array $additionalArray
      * @return District
@@ -55,5 +39,20 @@ class DistrictTest extends TestCase
         $array = array_merge($basicArray, $additionalArray);
 
         return District::fromArray($array);
+    }
+
+    /**
+     * @return void
+     */
+    public function testLocation(): void
+    {
+        $district = $this->createDistrictDefaultArray([
+            'location' => [
+                'latitude'  => '11.116700172424316',
+                'longitude' => '-63.91669845581055',
+            ],
+        ]);
+
+        $this->assertInstanceOf(Location::class, $district->getLocation());
     }
 }

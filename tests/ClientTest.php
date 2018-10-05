@@ -34,6 +34,20 @@ class ClientTest extends TestCase
     }
 
     /**
+     * @param $method
+     * @param $response
+     * @return Client
+     */
+    private function createClient(string $method, $response): Client
+    {
+        $connection = $this->createMock(ConnectionInterface::class);
+        $connection->method($method)->willReturn($response);
+
+        /** @var ConnectionInterface $connection */
+        return new Client($connection);
+    }
+
+    /**
      * @return void
      */
     public function testCities(): void
@@ -60,21 +74,6 @@ class ClientTest extends TestCase
         foreach ($cities as $city) {
             $this->assertInstanceOf(City::class, $city);
         }
-    }
-
-    /**
-     * @param $method
-     * @param $response
-     * @return Client
-     */
-    private function createClient(string $method,
-        $response): Client
-    {
-        $connection = $this->createMock(ConnectionInterface::class);
-        $connection->method($method)->willReturn($response);
-
-        /** @var ConnectionInterface $connection */
-        return new Client($connection);
     }
 
 }

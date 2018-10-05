@@ -36,12 +36,7 @@ class City extends BookingObject
      * @param Location|null $location
      * @param Timezone|null $timezone
      */
-    public function __construct(int $id,
-        string $name,
-        int $numberOfHotels,
-        string $country,
-        ?Location $location,
-        ?Timezone $timezone)
+    public function __construct(int $id, string $name, int $numberOfHotels, string $country, ?Location $location, ?Timezone $timezone)
     {
         $this->id             = $id;
         $this->name           = $name;
@@ -57,13 +52,10 @@ class City extends BookingObject
      */
     public static function fromArray(array $array): City
     {
-        $location = isset($array['location'])
-            ? Location::fromArray($array['location']) : null;
-        $timezone = isset($array['timezone'])
-            ? Timezone::fromArray($array['timezone']) : null;
+        $location = self::makeChildrenFromArray($array, Location::class, 'location', self::SINGLE_CHILD);
+        $timezone = self::makeChildrenFromArray($array, Timezone::class, 'timezone', self::SINGLE_CHILD);
 
-        return new self($array['city_id'], $array['name'], $array['nr_hotels'],
-            $array['country'], $location, $timezone);
+        return new self($array['city_id'], $array['name'], $array['nr_hotels'], $array['country'], $location, $timezone);
     }
 
     /**

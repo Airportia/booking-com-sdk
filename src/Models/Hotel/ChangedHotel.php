@@ -24,8 +24,7 @@ class ChangedHotel extends BookingObject
     /** @var  array */
     private $changes;
 
-    public function __construct(int $id,
-        array $changes)
+    public function __construct(int $id, array $changes)
     {
         $this->id      = $id;
         $this->changes = $changes;

@@ -23,9 +23,7 @@ class Endorsement extends BookingObject
      * @param int    $count
      * @param int    $id
      */
-    public function __construct(string $name,
-        int $count,
-        int $id)
+    public function __construct(string $name, int $count, int $id)
     {
         $this->name  = $name;
         $this->count = $count;
