@@ -5,9 +5,6 @@ namespace BookingCom;
 
 abstract class BookingObject
 {
-    protected const SINGLE_CHILD = 'single';
-    protected const CHILDREN_ARRAY = 'array';
-
     /**
      * @param array $array
      * @return mixed
@@ -18,19 +15,22 @@ abstract class BookingObject
      * @param array  $array
      * @param        $className
      * @param string $key
-     * @param string $returnObject
      * @return mixed
      */
-    protected static function makeChildrenFromArray(array $array, $className, string $key, string $returnObject)
+    protected static function makeChildrenFromArray(array $array, $className, string $key)
     {
-        if ($returnObject === self::CHILDREN_ARRAY) {
-            $result = isset($array[$key]) ? array_map(function (array $internalArray) use ($className) {
+        if (isset($array[$key])) {
+            return array_map(function (array $internalArray) use ($className) {
+                /** @var BookingObject $className */
                 return $className::fromArray($internalArray);
-            }, $array[$key]) : null;
-        } else {
-            $result = isset($array[$key]) ? $className::fromArray($array[$key]) : null;
+            }, $array[$key]);
         }
+        return [];
+    }
 
-        return $result;
+    protected static function makeChildFromArray(array $array, string $className, string $key)
+    {
+        /** @var BookingObject $className */
+        return isset($array[$key]) ? $className::fromArray($array[$key]) : null;
     }
 }

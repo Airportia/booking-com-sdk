@@ -4,7 +4,7 @@ namespace BookingCom\Models\Search;
 
 
 use BookingCom\BookingObject;
-use BookingCom\Models\Location\Location;
+use BookingCom\Models\Location;
 
 class AutoComplete extends BookingObject
 {
@@ -71,7 +71,7 @@ class AutoComplete extends BookingObject
     /** @var  string */
     private $name;
 
-    /** @var Location */
+    /** @var \BookingCom\Models\Location */
     private $location;
 
 
@@ -125,9 +125,9 @@ class AutoComplete extends BookingObject
 
     public static function fromArray(array $array): AutoComplete
     {
-        $forecast = self::makeChildrenFromArray($array, Forecast::class, 'forecast', self::SINGLE_CHILD);
+        $forecast = self::makeChildFromArray($array, Forecast::class, 'forecast');
 
-        $endorsements = self::makeChildrenFromArray($array, Endorsement::class, 'endorsements', self::CHILDREN_ARRAY);
+        $endorsements = self::makeChildrenFromArray($array, Endorsement::class, 'endorsements');
 
         $location = new Location($array['latitude'], $array['longitude']);
 
@@ -281,7 +281,7 @@ class AutoComplete extends BookingObject
     }
 
     /**
-     * @return Location
+     * @return \BookingCom\Models\Location
      */
     public function getLocation(): Location
     {

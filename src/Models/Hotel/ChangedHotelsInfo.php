@@ -31,7 +31,7 @@ class ChangedHotelsInfo extends BookingObject
      */
     public static function fromArray(array $array): ChangedHotelsInfo
     {
-        $changedHotels = self::makeChildrenFromArray($array, ChangedHotel::class, 'changed_hotels', self::CHILDREN_ARRAY);
+        $changedHotels = self::makeChildrenFromArray($array, ChangedHotel::class, 'changed_hotels');
 
         return new self($array['closed_hotels'], $changedHotels);
     }

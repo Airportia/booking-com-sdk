@@ -2,6 +2,7 @@
 
 namespace BookingCom\Tests\Models\Room;
 
+use BookingCom\Models\Room\RoomFacility;
 use PHPUnit\Framework\TestCase;
 
 class RoomFacilityTest extends TestCase
@@ -16,7 +17,7 @@ class RoomFacilityTest extends TestCase
             'name'                  => 'Tea/Coffee Maker',
         ]);
 
-        $this->assertEquals(1, $roomFacility->getRoomFacilityTypeId());
+        $this->assertEquals(1, $roomFacility->getTypeId());
         $this->assertEquals('Tea/Coffee Maker', $roomFacility->getName());
     }
 }

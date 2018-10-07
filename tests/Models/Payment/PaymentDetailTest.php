@@ -2,6 +2,7 @@
 
 namespace BookingCom\Tests\Models\Payment;
 
+use BookingCom\Models\Payment\PaymentDetail;
 use PHPUnit\Framework\TestCase;
 
 class PaymentDetailTest extends TestCase
@@ -13,7 +14,7 @@ class PaymentDetailTest extends TestCase
     {
         $paymentDetail = PaymentDetail::fromArray([
             'bookable'     => true,
-            'payment_id'   => '3',
+            'payment_id'   => 3,
             'payable'      => true,
             'cvc_required' => false,
         ]);

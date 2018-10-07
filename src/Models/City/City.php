@@ -4,7 +4,7 @@ namespace BookingCom\Models\City;
 
 
 use BookingCom\BookingObject;
-use BookingCom\Models\Location\Location;
+use BookingCom\Models\Location;
 
 class City extends BookingObject
 {
@@ -29,12 +29,12 @@ class City extends BookingObject
     /**
      * City constructor.
      *
-     * @param int           $id
-     * @param string        $name
-     * @param int           $numberOfHotels
-     * @param string        $country
-     * @param Location|null $location
-     * @param Timezone|null $timezone
+     * @param int                              $id
+     * @param string                           $name
+     * @param int                              $numberOfHotels
+     * @param string                           $country
+     * @param \BookingCom\Models\Location|null $location
+     * @param Timezone|null                    $timezone
      */
     public function __construct(int $id, string $name, int $numberOfHotels, string $country, ?Location $location, ?Timezone $timezone)
     {
@@ -52,8 +52,8 @@ class City extends BookingObject
      */
     public static function fromArray(array $array): City
     {
-        $location = self::makeChildrenFromArray($array, Location::class, 'location', self::SINGLE_CHILD);
-        $timezone = self::makeChildrenFromArray($array, Timezone::class, 'timezone', self::SINGLE_CHILD);
+        $location = self::makeChildFromArray($array, Location::class, 'location');
+        $timezone = self::makeChildFromArray($array, Timezone::class, 'timezone');
 
         return new self($array['city_id'], $array['name'], $array['nr_hotels'], $array['country'], $location, $timezone);
     }

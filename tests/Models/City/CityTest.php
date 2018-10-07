@@ -4,7 +4,7 @@ namespace BookingCom\Tests\Models\City;
 
 use BookingCom\Models\City\City;
 use BookingCom\Models\City\Timezone;
-use BookingCom\Models\Location\Location;
+use BookingCom\Models\Location;
 use PHPUnit\Framework\TestCase;
 
 class CityTest extends TestCase

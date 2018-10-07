@@ -4,7 +4,7 @@ namespace BookingCom\Models\District;
 
 
 use BookingCom\BookingObject;
-use BookingCom\Models\Location\Location;
+use BookingCom\Models\Location;
 
 class District extends BookingObject
 {
@@ -29,20 +29,26 @@ class District extends BookingObject
     /**
      * District constructor.
      *
-     * @param string        $name
-     * @param string        $country
-     * @param Location|null $location
-     * @param int           $cityId
-     * @param int           $id
-     * @param int           $numberOfHotels
+     * @param string                           $name
+     * @param string                           $country
+     * @param \BookingCom\Models\Location|null $location
+     * @param int                              $cityId
+     * @param int                              $id
+     * @param int                              $numberOfHotels
      */
-    public function __construct(string $name, string $country, ? Location $location, int $cityId, int $id, int $numberOfHotels)
-    {
-        $this->name           = $name;
-        $this->country        = $country;
-        $this->location       = $location;
-        $this->cityId         = $cityId;
-        $this->id             = $id;
+    public function __construct(
+        string $name,
+        string $country,
+        ?Location $location,
+        int $cityId,
+        int $id,
+        int $numberOfHotels
+    ) {
+        $this->name = $name;
+        $this->country = $country;
+        $this->location = $location;
+        $this->cityId = $cityId;
+        $this->id = $id;
         $this->numberOfHotels = $numberOfHotels;
     }
 
@@ -52,9 +58,10 @@ class District extends BookingObject
      */
     public static function fromArray(array $array): District
     {
-        $location = self::makeChildrenFromArray($array, Location::class, 'location', self::SINGLE_CHILD);
+        $location = self::makeChildFromArray($array, Location::class, 'location');
 
-        return new self($array['name'], $array['country'], $location, $array['city_id'], $array['district_id'], $array['nr_hotels']);
+        return new self($array['name'], $array['country'], $location, $array['city_id'], $array['district_id'],
+            $array['nr_hotels']);
     }
 
     /**
@@ -74,9 +81,9 @@ class District extends BookingObject
     }
 
     /**
-     * @return Location|null
+     * @return \BookingCom\Models\Location|null
      */
-    public function getLocation(): ? Location
+    public function getLocation(): ?Location
     {
         return $this->location;
     }

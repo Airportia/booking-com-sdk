@@ -3,7 +3,7 @@
 namespace BookingCom\Tests\Models\District;
 
 use BookingCom\Models\District\District;
-use BookingCom\Models\Location\Location;
+use BookingCom\Models\Location;
 use PHPUnit\Framework\TestCase;
 
 class DistrictTest extends TestCase

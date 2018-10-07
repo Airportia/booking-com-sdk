@@ -2,6 +2,8 @@
 
 namespace BookingCom\Tests\Models\Room;
 
+use BookingCom\Models\Room\BedConfiguration;
+use BookingCom\Models\Room\RoomInfo;
 use PHPUnit\Framework\TestCase;
 
 class RoomInfoTest extends TestCase
@@ -14,17 +16,18 @@ class RoomInfoTest extends TestCase
         $roomInfo = $this->createRoomInfoDefaultArray();
 
         $this->assertEquals(true, $roomInfo->isBookable());
-        $this->assertEquals(259, $roomInfo->getMaxPrice()());
-        $this->assertEquals('Double', $roomInfo->getRoomtype());
-        $this->assertEquals(2, $roomInfo->getMaxPersons());
+        $this->assertEquals(259, $roomInfo->getMaxPrice());
         $this->assertEquals('Bed in Dormitory', $roomInfo->getRoomType());
-        $this->assertContainsOnlyInstancesOf(BedConfiguration::class, $roomInfo->getBedConfigurations());
+        $this->assertEquals(2, $roomInfo->getMaxPersons());
         $this->assertEquals(9, $roomInfo->getRoomTypeId());
         $this->assertEquals(1000, $roomInfo->getRanking());
         $this->assertEquals(1, $roomInfo->getBathroomCount());
-        $this->assertInstanceOf(RoomSize::class, $roomInfo->getRoomSize());
+        $this->assertEquals(25, $roomInfo->getSize());
         $this->assertEquals(0, $roomInfo->getBedroomCount());
         $this->assertEquals(179, $roomInfo->getMinPrice());
+        $this->assertNotEmpty($roomInfo->getBedConfigurations());
+        $this->assertContainsOnlyInstancesOf(BedConfiguration::class, $roomInfo->getBedConfigurations());
+
     }
 
     /**
@@ -34,32 +37,31 @@ class RoomInfoTest extends TestCase
     public function createRoomInfoDefaultArray(array $additionalArray = []): RoomInfo
     {
         $basicArray = [
-            'bookable'           => true,
-            'max_price'          => 259,
-            'roomtype'           => 'Double',
-            'max_persons'        => 2,
-            'room_type'          => 'Bed in Dormitory',
+            'bookable' => true,
+            'max_price' => 259,
+            'max_persons' => 2,
+            'room_type' => 'Bed in Dormitory',
             'bed_configurations' => [
                 [
                     'bed_types' => [
                         [
-                            'count'                => 1,
-                            'configuration_id'     => '1',
-                            'description'          => '131-150 cm wide',
+                            'count' => 1,
+                            'configuration_id' => '1',
+                            'description' => '131-150 cm wide',
                             'description_imperial' => '52-59 inches wide',
-                            'name'                 => 'Double bed(s)',
+                            'name' => 'Double bed(s)',
                         ],
                     ],
                 ],
             ],
-            'room_type_id'       => 9,
-            'ranking'            => 1000,
-            'bathroom_count'     => 1,
-            'room_size'          => [
+            'room_type_id' => 9,
+            'ranking' => 1000,
+            'bathroom_count' => 1,
+            'room_size' => [
                 'metre_square' => 25,
             ],
-            'bedroom_count'      => 0,
-            'min_price'          => 179,
+            'bedroom_count' => 0,
+            'min_price' => 179,
         ];
 
         $array = array_merge($basicArray, $additionalArray);
@@ -75,12 +77,13 @@ class RoomInfoTest extends TestCase
         $roomInfo = $this->createRoomInfoDefaultArray([
             'bedrooms' => [
                 [
-                    'name'        => 'Bedroom 1',
+                    'name' => 'Bedroom 1',
                     'description' => '1 large double bed',
                 ],
             ],
         ]);
 
-        $this->assertContainsOnlyInstancesOf(Bedroom::class, $roomInfo->getBedrooms());
+        $this->assertNotEmpty($roomInfo->getBedrooms());
+        $this->assertContainsOnlyInstancesOf(\BookingCom\Models\Room\Bedroom::class, $roomInfo->getBedrooms());
     }
 }
