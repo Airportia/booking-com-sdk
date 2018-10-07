@@ -9,16 +9,16 @@ use BookingCom\Models\Region\Region;
 class Client
 {
     /**
-     * @var ConnectionInterface
+     * @var Connection
      */
     private $connection;
 
     /**
      * Client constructor.
      *
-     * @param ConnectionInterface $connection
+     * @param Connection $connection
      */
-    public function __construct(ConnectionInterface $connection)
+    public function __construct(Connection $connection)
     {
         $this->connection = $connection;
     }
@@ -30,7 +30,7 @@ class Client
     {
         return array_map(function (array $regionArray) {
             return Region::fromArray($regionArray);
-        }, $this->connection->getRegions());
+        }, $this->connection->execute('/regions'));
     }
 
     /**
@@ -40,6 +40,6 @@ class Client
     {
         return array_map(function (array $regionArray) {
             return City::fromArray($regionArray);
-        }, $this->connection->getCities());
+        }, $this->connection->execute('/cities'));
     }
 }

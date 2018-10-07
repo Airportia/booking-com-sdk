@@ -38,9 +38,11 @@ class ConnectionTest extends TestCase
         $request = $container[0]['request'];
         $this->assertEquals('GET', $request->getMethod());
         $this->assertEquals('endpoint', $request->getUri()->getPath());
+        var_dump(urldecode($request->getUri()->getQuery()));
+        $this->assertEquals('test=test', $request->getUri()->getQuery());
     }
 
-    public function testPlainError(): void
+    public function testTextError(): void
     {
         $connection = $this->createConnection([new Response(404)], $container);
         $this->expectException(\BookingCom\ConnectionException::class);
