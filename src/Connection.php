@@ -6,7 +6,6 @@
 
 namespace BookingCom;
 
-
 class Connection
 {
     /**

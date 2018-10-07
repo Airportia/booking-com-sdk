@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\District;
 
-
 use BookingCom\BookingObject;
 use BookingCom\Models\Location;
 
@@ -60,8 +59,14 @@ class District extends BookingObject
     {
         $location = self::makeChildFromArray($array, Location::class, 'location');
 
-        return new self($array['name'], $array['country'], $location, $array['city_id'], $array['district_id'],
-            $array['nr_hotels']);
+        return new self(
+            $array['name'],
+            $array['country'],
+            $location,
+            $array['city_id'],
+            $array['district_id'],
+            $array['nr_hotels']
+        );
     }
 
     /**

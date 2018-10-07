@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models;
 
-
 use BookingCom\BookingObject;
 
 class Location extends BookingObject

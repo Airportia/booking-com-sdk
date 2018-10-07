@@ -6,7 +6,6 @@
 
 namespace BookingCom\Models\Hotel;
 
-
 class Times
 {
     /**
@@ -82,6 +81,4 @@ class Times
     {
         return $this->checkOutTo;
     }
-
-
 }

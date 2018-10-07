@@ -2,7 +2,6 @@
 
 namespace BookingCom;
 
-
 abstract class BookingObject
 {
     /**

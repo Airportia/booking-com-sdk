@@ -6,7 +6,6 @@
 
 namespace BookingCom\Models\Hotel;
 
-
 use BookingCom\BookingObject;
 
 class Description extends BookingObject
@@ -42,8 +41,12 @@ class Description extends BookingObject
 
     public static function fromArray(array $array): self
     {
-        return new self($array['hotelier_welcome_message'], $array['hotel_important_information'],
-            $array['hotel_description'], $array['license_number']);
+        return new self(
+            $array['hotelier_welcome_message'],
+            $array['hotel_important_information'],
+            $array['hotel_description'],
+            $array['license_number']
+        );
     }
 
     /**
@@ -77,6 +80,4 @@ class Description extends BookingObject
     {
         return $this->licenseNumber;
     }
-
-
 }

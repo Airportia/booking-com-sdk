@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Region;
 
-
 use BookingCom\BookingObject;
 
 class Region extends BookingObject

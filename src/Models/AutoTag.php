@@ -6,7 +6,6 @@
 
 namespace BookingCom\Models;
 
-
 use BookingCom\BookingObject;
 
 class AutoTag extends BookingObject
@@ -44,5 +43,4 @@ class AutoTag extends BookingObject
     {
         return $this->name;
     }
-
 }

@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Hotel;
 
-
 use BookingCom\BookingObject;
 
 class HotelThemeType extends BookingObject

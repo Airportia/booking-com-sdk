@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Hotel;
 
-
 use BookingCom\BookingObject;
 
 class Policy extends BookingObject
@@ -26,7 +25,6 @@ class Policy extends BookingObject
      */
     public function __construct(string $name, string $content, string $type)
     {
-
         $this->name = $name;
         $this->content = $content;
         $this->type = $type;
@@ -60,6 +58,4 @@ class Policy extends BookingObject
     {
         return $this->type;
     }
-
-
 }

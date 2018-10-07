@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Room;
 
-
 use BookingCom\BookingObject;
 
 class RoomType extends BookingObject

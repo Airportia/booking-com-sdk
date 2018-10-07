@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Search;
 
-
 use BookingCom\BookingObject;
 use BookingCom\Models\Location;
 
@@ -98,10 +97,27 @@ class AutoComplete extends BookingObject
      * @param string        $type
      * @param string        $name
      */
-    public function __construct(int $rightToLeft, string $region, string $url, ? array $endorsements, string $id, string $cityName, ? Forecast $forecast, int $numberOfDestinations,
-        Location $location, string $language, string $timezone, array $topDestinations, string $cityUfi, int $numberOfHotels, string $label, string $countryName, string $country,
-        string $type, string $name)
-    {
+    public function __construct(
+        int $rightToLeft,
+        string $region,
+        string $url,
+        ? array $endorsements,
+        string $id,
+        string $cityName,
+        ? Forecast $forecast,
+        int $numberOfDestinations,
+        Location $location,
+        string $language,
+        string $timezone,
+        array $topDestinations,
+        string $cityUfi,
+        int $numberOfHotels,
+        string $label,
+        string $countryName,
+        string $country,
+        string $type,
+        string $name
+    ) {
         $this->rightToLeft          = $rightToLeft;
         $this->region               = $region;
         $this->url                  = $url;
@@ -131,9 +147,27 @@ class AutoComplete extends BookingObject
 
         $location = new Location($array['latitude'], $array['longitude']);
 
-        return new self($array['right-to-left'], $array['region'], $array['url'], $endorsements, $array['id'], $array['city_name'], $forecast, $array['nr_dest'], $location,
-            $array['language'], $array['timezone'], $array['top_destinations'], $array['city_ufi'], $array['nr_hotels'], $array['label'], $array['country_name'], $array['country'],
-            $array['type'], $array['name']);
+        return new self(
+            $array['right-to-left'],
+            $array['region'],
+            $array['url'],
+            $endorsements,
+            $array['id'],
+            $array['city_name'],
+            $forecast,
+            $array['nr_dest'],
+            $location,
+            $array['language'],
+            $array['timezone'],
+            $array['top_destinations'],
+            $array['city_ufi'],
+            $array['nr_hotels'],
+            $array['label'],
+            $array['country_name'],
+            $array['country'],
+            $array['type'],
+            $array['name']
+        );
     }
 
     /**

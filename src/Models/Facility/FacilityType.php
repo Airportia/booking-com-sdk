@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Facility;
 
-
 use BookingCom\BookingObject;
 
 class FacilityType extends BookingObject

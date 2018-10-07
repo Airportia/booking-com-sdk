@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Payment;
 
-
 use BookingCom\BookingObject;
 
 class PaymentDetail extends BookingObject
@@ -81,6 +80,4 @@ class PaymentDetail extends BookingObject
     {
         return $this->isCvcRequired;
     }
-
-
 }

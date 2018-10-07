@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Country;
 
-
 use BookingCom\BookingObject;
 
 class Country extends BookingObject

@@ -6,7 +6,6 @@
 
 namespace BookingCom\Models\Hotel;
 
-
 use BookingCom\BookingObject;
 use BookingCom\Models\Location;
 
@@ -193,16 +192,37 @@ class Info extends BookingObject
 
     public static function fromArray(array $array)
     {
-        return new self($array['currency'], $array['city_id'], $array['class'], $array['url'], $array['zip'],
+        return new self(
+            $array['currency'],
+            $array['city_id'],
+            $array['class'],
+            $array['url'],
+            $array['zip'],
             self::makeChildFromArray($array, Times::class, 'checkin_checkout_times'),
-            $array['creditcard_required'], $array['number_of_rooms'],
+            $array['creditcard_required'],
+            $array['number_of_rooms'],
             self::makeChildFromArray($array, Location::class, 'location'),
-            $array['number_of_reviews'], $array['deep_link_url'], $array['exact_class'],
-            $array['hotel_type_id'], $array['book_domestic_without_cc_details'], $array['is_closed'],
-            $array['default_language'], $array['preferred'], $array['max_rooms_in_reservation'],
-            $array['class_is_estimated'], $array['spoken_languages'], $array['theme_ids'], $array['review_score'],
-            $array['max_persons_in_reservation'], $array['name'], $array['country'], $array['city'], $array['ranking'],
-            $array['district_id'], $array['address']);
+            $array['number_of_reviews'],
+            $array['deep_link_url'],
+            $array['exact_class'],
+            $array['hotel_type_id'],
+            $array['book_domestic_without_cc_details'],
+            $array['is_closed'],
+            $array['default_language'],
+            $array['preferred'],
+            $array['max_rooms_in_reservation'],
+            $array['class_is_estimated'],
+            $array['spoken_languages'],
+            $array['theme_ids'],
+            $array['review_score'],
+            $array['max_persons_in_reservation'],
+            $array['name'],
+            $array['country'],
+            $array['city'],
+            $array['ranking'],
+            $array['district_id'],
+            $array['address']
+        );
     }
 
     /**

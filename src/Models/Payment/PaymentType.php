@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Payment;
 
-
 use BookingCom\BookingObject;
 
 class PaymentType extends BookingObject
@@ -62,5 +61,4 @@ class PaymentType extends BookingObject
     {
         return $this->name;
     }
-
 }

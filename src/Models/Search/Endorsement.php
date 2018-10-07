@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Search;
 
-
 use BookingCom\BookingObject;
 
 class Endorsement extends BookingObject

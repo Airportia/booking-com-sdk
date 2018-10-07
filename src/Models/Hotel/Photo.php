@@ -2,13 +2,11 @@
 
 namespace BookingCom\Models\Hotel;
 
-
 use BookingCom\BookingObject;
 use BookingCom\Models\AutoTag;
 
 class Photo extends BookingObject
 {
-
     public const SIZE_ORIGINAL = 'original';
     public const SIZE_MAX_300 = 'max_300';
     public const SIZE_SQUARE_60 = 'square_60';

@@ -6,8 +6,6 @@
 
 namespace BookingCom;
 
-
 class ConnectionException extends \RuntimeException
 {
-
 }

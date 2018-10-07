@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Room;
 
-
 use BookingCom\BookingObject;
 
 class RoomFacilityType extends BookingObject
@@ -75,5 +74,4 @@ class RoomFacilityType extends BookingObject
     {
         return $this->type;
     }
-
 }

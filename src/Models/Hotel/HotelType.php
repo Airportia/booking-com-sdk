@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Hotel;
 
-
 use BookingCom\BookingObject;
 
 class HotelType extends BookingObject
@@ -45,5 +44,4 @@ class HotelType extends BookingObject
     {
         return $this->id;
     }
-
 }

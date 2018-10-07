@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\City;
 
-
 use BookingCom\BookingObject;
 
 class Timezone extends BookingObject
@@ -49,6 +48,4 @@ class Timezone extends BookingObject
     {
         return $this->name;
     }
-
-
 }

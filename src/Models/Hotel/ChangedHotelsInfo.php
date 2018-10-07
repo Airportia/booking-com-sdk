@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Hotel;
 
-
 use BookingCom\BookingObject;
 
 class ChangedHotelsInfo extends BookingObject
@@ -51,5 +50,4 @@ class ChangedHotelsInfo extends BookingObject
     {
         return $this->changedHotels;
     }
-
 }

@@ -2,7 +2,6 @@
 
 namespace BookingCom;
 
-
 use BookingCom\Models\City\City;
 use BookingCom\Models\Region\Region;
 

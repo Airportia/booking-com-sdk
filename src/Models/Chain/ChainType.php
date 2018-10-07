@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Chain;
 
-
 use BookingCom\BookingObject;
 
 class ChainType extends BookingObject
@@ -49,6 +48,4 @@ class ChainType extends BookingObject
     {
         return $this->name;
     }
-
-
 }

@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Room;
 
-
 use BookingCom\BookingObject;
 
 class BedType extends BookingObject
@@ -47,8 +46,13 @@ class BedType extends BookingObject
 
     public static function fromArray(array $array): BedType
     {
-        return new self($array['name'], $array['count'], $array['description_imperial'], $array['configuration_id'],
-            $array['description']);
+        return new self(
+            $array['name'],
+            $array['count'],
+            $array['description_imperial'],
+            $array['configuration_id'],
+            $array['description']
+        );
     }
 
     /**
@@ -90,5 +94,4 @@ class BedType extends BookingObject
     {
         return $this->description;
     }
-
 }

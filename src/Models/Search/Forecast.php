@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Search;
 
-
 use BookingCom\BookingObject;
 
 class Forecast extends BookingObject
@@ -60,5 +59,4 @@ class Forecast extends BookingObject
     {
         return $unit === self::UNIT_CELSIUS ? $this->minTempCelsius : $this->minTempFahrenheit;
     }
-
 }

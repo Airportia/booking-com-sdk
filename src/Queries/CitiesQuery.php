@@ -6,12 +6,10 @@
 
 namespace BookingCom\Queries;
 
-
 use Webmozart\Assert\Assert;
 
 class CitiesQuery
 {
-
     private $idIn;
 
     private $countryIn;

@@ -2,7 +2,6 @@
 
 namespace BookingCom\Models\Hotel;
 
-
 use BookingCom\BookingObject;
 use BookingCom\Models\Payment\PaymentDetail;
 use BookingCom\Models\Room\Room;
@@ -87,8 +86,16 @@ class Hotel extends BookingObject
         $paymentDetails = self::makeChildrenFromArray($hotelData, PaymentDetail::class, 'payment_details');
         $policies = self::makeChildrenFromArray($hotelData, Policy::class, 'hotel_policies');
         $facilities = self::makeChildrenFromArray($hotelData, Facility::class, 'hotel_facilities');
-        return new self($array['hotel_id'], $info, $description, $photos, $rooms, $paymentDetails, $policies,
-            $facilities);
+        return new self(
+            $array['hotel_id'],
+            $info,
+            $description,
+            $photos,
+            $rooms,
+            $paymentDetails,
+            $policies,
+            $facilities
+        );
     }
 
     /**
