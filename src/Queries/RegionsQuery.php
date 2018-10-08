@@ -1,15 +1,14 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 08.10.18
- */
 
 namespace BookingCom\Queries;
 
+
 use BookingCom\QueryObject;
 
-class CitiesQuery extends QueryObject
+class RegionsQuery extends QueryObject
 {
+    public const REGION_TYPES = ['island', 'province', 'free_region', 'other'];
+
     /** @var  array */
     protected $idIn;
 
@@ -17,7 +16,7 @@ class CitiesQuery extends QueryObject
     protected $countryIn;
 
     /** @var  array */
-    protected $extras = [];
+    protected $typeIn;
 
     /**
      * @return array
@@ -26,13 +25,13 @@ class CitiesQuery extends QueryObject
     {
         $result = [];
         if ($this->idIn) {
-            $result['city_ids'] = implode(',', $this->idIn);
+            $result['region_ids'] = implode(',', $this->idIn);
         }
         if ($this->countryIn) {
             $result['countries'] = implode(',', $this->countryIn);
         }
-        if ($this->extras) {
-            $result['extras'] = implode(',', $this->extras);
+        if ($this->typeIn) {
+            $result['region_types'] = implode(',', $this->typeIn);
         }
 
         return $result;
@@ -40,7 +39,7 @@ class CitiesQuery extends QueryObject
 
     /**
      * @param array $values
-     * @return CitiesQuery
+     * @return RegionsQuery
      */
     public function whereIdIn(array $values): self
     {
@@ -51,7 +50,7 @@ class CitiesQuery extends QueryObject
 
     /**
      * @param array $values
-     * @return CitiesQuery
+     * @return RegionsQuery
      */
     public function whereCountryIn(array $values): self
     {
@@ -61,21 +60,12 @@ class CitiesQuery extends QueryObject
     }
 
     /**
-     * @return CitiesQuery
+     * @param array $values
+     * @return RegionsQuery
      */
-    public function withLocation(): self
+    public function whereTypeIn(array $values): self
     {
-        $this->addToExtras('location', $this);
-
-        return $this;
-    }
-
-    /**
-     * @return CitiesQuery
-     */
-    public function withTimezone(): self
-    {
-        $this->addToExtras('timezone', $this);
+        $this->where('typeIn', $values);
 
         return $this;
     }
@@ -91,6 +81,10 @@ class CitiesQuery extends QueryObject
             ],
             'countryIn' => [
                 'type' => self::ASSERT_COUNTRY,
+            ],
+            'typeIn'    => [
+                'type'    => self::ASSERT_ONE_OF,
+                'allowed' => self::REGION_TYPES,
             ],
         ];
     }

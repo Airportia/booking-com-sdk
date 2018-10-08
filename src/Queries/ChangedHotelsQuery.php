@@ -1,23 +1,20 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 08.10.18
- */
 
 namespace BookingCom\Queries;
 
+
 use BookingCom\QueryObject;
 
-class CitiesQuery extends QueryObject
+class ChangedHotelsQuery extends QueryObject
 {
     /** @var  array */
-    protected $idIn;
+    protected $cityIn;
 
     /** @var  array */
     protected $countryIn;
 
     /** @var  array */
-    protected $extras = [];
+    protected $regionIn;
 
     /**
      * @return array
@@ -25,14 +22,14 @@ class CitiesQuery extends QueryObject
     public function toArray(): array
     {
         $result = [];
-        if ($this->idIn) {
-            $result['city_ids'] = implode(',', $this->idIn);
+        if ($this->cityIn) {
+            $result['city_ids'] = implode(',', $this->cityIn);
         }
-        if ($this->countryIn) {
+        if ($this->cityIn) {
             $result['countries'] = implode(',', $this->countryIn);
         }
-        if ($this->extras) {
-            $result['extras'] = implode(',', $this->extras);
+        if ($this->cityIn) {
+            $result['region_ids'] = implode(',', $this->regionIn);
         }
 
         return $result;
@@ -40,18 +37,18 @@ class CitiesQuery extends QueryObject
 
     /**
      * @param array $values
-     * @return CitiesQuery
+     * @return ChangedHotelsQuery
      */
-    public function whereIdIn(array $values): self
+    public function whereCityIn(array $values): self
     {
-        $this->where('idIn', $values);
+        $this->where('cityIn', $values);
 
         return $this;
     }
 
     /**
      * @param array $values
-     * @return CitiesQuery
+     * @return ChangedHotelsQuery
      */
     public function whereCountryIn(array $values): self
     {
@@ -61,21 +58,12 @@ class CitiesQuery extends QueryObject
     }
 
     /**
-     * @return CitiesQuery
+     * @param array $values
+     * @return ChangedHotelsQuery
      */
-    public function withLocation(): self
+    public function whereRegionIn(array $values): self
     {
-        $this->addToExtras('location', $this);
-
-        return $this;
-    }
-
-    /**
-     * @return CitiesQuery
-     */
-    public function withTimezone(): self
-    {
-        $this->addToExtras('timezone', $this);
+        $this->where('regionIn', $values);
 
         return $this;
     }
@@ -86,11 +74,14 @@ class CitiesQuery extends QueryObject
     public function getAsserts(): array
     {
         return [
-            'idIn'      => [
+            'cityIn'    => [
                 'type' => self::ASSERT_ID,
             ],
             'countryIn' => [
                 'type' => self::ASSERT_COUNTRY,
+            ],
+            'regionIn'  => [
+                'type' => self::ASSERT_ID,
             ],
         ];
     }

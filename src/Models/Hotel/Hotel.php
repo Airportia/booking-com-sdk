@@ -35,10 +35,12 @@ class Hotel extends BookingObject
      * @var Description|null
      */
     private $description;
+
     /**
      * @var array
      */
     private $policies;
+
     /**
      * @var array
      */
@@ -66,36 +68,28 @@ class Hotel extends BookingObject
         array $policies,
         array $facilities
     ) {
-        $this->id = $id;
-        $this->info = $info;
-        $this->photos = $photos;
-        $this->rooms = $rooms;
+        $this->id             = $id;
+        $this->info           = $info;
+        $this->photos         = $photos;
+        $this->rooms          = $rooms;
         $this->paymentDetails = $paymentDetails;
-        $this->description = $description;
-        $this->policies = $policies;
-        $this->facilities = $facilities;
+        $this->description    = $description;
+        $this->policies       = $policies;
+        $this->facilities     = $facilities;
     }
 
     public static function fromArray(array $array): Hotel
     {
-        $hotelData = $array['hotel_data'] ?? [];
-        $info = isset($hotelData['name']) ? Info::fromArray($hotelData) : null;
-        $description = isset($hotelData['hotelier_welcome_message']) ? Description::fromArray($hotelData) : null;
-        $rooms = self::makeChildrenFromArray($array, Room::class, 'room_data');
-        $photos = self::makeChildrenFromArray($hotelData, Photo::class, 'hotel_photos');
+        $hotelData      = $array['hotel_data'] ?? [];
+        $info           = isset($hotelData['name']) ? Info::fromArray($hotelData) : null;
+        $description    = isset($hotelData['hotelier_welcome_message']) ? Description::fromArray($hotelData) : null;
+        $rooms          = self::makeChildrenFromArray($array, Room::class, 'room_data');
+        $photos         = self::makeChildrenFromArray($hotelData, Photo::class, 'hotel_photos');
         $paymentDetails = self::makeChildrenFromArray($hotelData, PaymentDetail::class, 'payment_details');
-        $policies = self::makeChildrenFromArray($hotelData, Policy::class, 'hotel_policies');
-        $facilities = self::makeChildrenFromArray($hotelData, Facility::class, 'hotel_facilities');
-        return new self(
-            $array['hotel_id'],
-            $info,
-            $description,
-            $photos,
-            $rooms,
-            $paymentDetails,
-            $policies,
-            $facilities
-        );
+        $policies       = self::makeChildrenFromArray($hotelData, Policy::class, 'hotel_policies');
+        $facilities     = self::makeChildrenFromArray($hotelData, Facility::class, 'hotel_facilities');
+
+        return new self($array['hotel_id'], $info, $description, $photos, $rooms, $paymentDetails, $policies, $facilities);
     }
 
     /**

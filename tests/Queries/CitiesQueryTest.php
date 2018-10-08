@@ -1,8 +1,4 @@
 <?php
-/**
- * Created by Andrew Ivchenkov <and.ivchenkov@gmail.com>
- * Date: 07.10.18
- */
 
 namespace BookingCom\Tests\Queries;
 
