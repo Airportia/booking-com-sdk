@@ -3,6 +3,11 @@
 namespace BookingCom\Queries;
 
 
+use BookingCom\Queries\Operations\Where;
+use BookingCom\Queries\Operations\With;
+use BookingCom\Queries\Validators\CountryValidator;
+use BookingCom\Queries\Validators\IntegerValidator;
+use BookingCom\Queries\Validators\OneOfValidator;
 use BookingCom\QueryObject;
 
 /**
@@ -10,80 +15,47 @@ use BookingCom\QueryObject;
  * @method $this whereTypeIn(array $values)
  * @method $this whereCityIn(array $values)
  * @method $this whereCountryIn(array $values)
+ * @method $this withLocation()
  */
 class DistrictsQuery extends QueryObject
 {
     public const DISTRICT_TYPES = ['free', 'official'];
 
-    /** @var  array */
-    protected $cityIn;
-
-    /** @var  array */
-    protected $countryIn;
-
-    /** @var  array */
-    protected $idIn;
-
-    /** @var  array */
-    protected $typeIn;
-
-    /** @var  array */
-    protected $extras = [];
-
     /**
      * @return array
      */
-    public function toArray(): array
+    protected function rules(): array
     {
-        $result = [];
-        if ($this->cityIn) {
-            $result['city_ids'] = implode(',', $this->cityIn);
-        }
-        if ($this->countryIn) {
-            $result['countries'] = implode(',', $this->countryIn);
-        }
-        if ($this->idIn) {
-            $result['district_ids'] = implode(',', $this->idIn);
-        }
-        if ($this->typeIn) {
-            $result['district_types'] = implode(',', $this->typeIn);
-        }
-        if ($this->extras) {
-            $result['extras'] = implode(',', $this->extras);
-        }
-
-        return $result;
-    }
-
-    /**
-     * @return DistrictsQuery
-     */
-    public function withLocation(): self
-    {
-        $this->addToExtras('location', $this);
-
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    protected function getAsserts(): array
-    {
-        return  [
-            'idIn' => [
-                'type' => self::ASSERT_ID,
+        return [
+            'district_ids'   => [
+                'operation'      => [Where::class],
+                'validator'      => [IntegerValidator::class],
+                'property_name' => 'idIn',
+                'result_type'    => self::RESULT_IMPLODE,
             ],
-            'cityIn' => [
-                'type' => self::ASSERT_ID,
+            'city_ids'       => [
+                'operation'      => [Where::class],
+                'validator'      => [IntegerValidator::class],
+                'property_name' => 'cityIn',
+                'result_type'    => self::RESULT_IMPLODE,
             ],
-            'countryIn' => [
-                'type' => self::ASSERT_COUNTRY,
+            'countries'      => [
+                'operation'      => [Where::class],
+                'validator'      => [CountryValidator::class],
+                'property_name' => 'countryIn',
+                'result_type'    => self::RESULT_IMPLODE,
             ],
-            'typeIn' => [
-                'type' => self::ASSERT_ONE_OF,
-                'allowed' => self::DISTRICT_TYPES,
+            'district_types' => [
+                'operation'      => [Where::class],
+                'validator'      => [OneOfValidator::class, ['values' => self::DISTRICT_TYPES]],
+                'property_name' => 'typeIn',
+                'result_type'    => self::RESULT_IMPLODE,
             ],
+//            'extras'         => [
+//                'operation'      => [With::class],
+//                'property_names' => ['location'],
+//                'result_type'    => self::RESULT_IMPLODE,
+//            ],
         ];
     }
 

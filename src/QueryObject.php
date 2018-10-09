@@ -2,7 +2,7 @@
 
 namespace BookingCom;
 
-use Webmozart\Assert\Assert;
+use BookingCom\Queries\Rule;
 
 abstract class QueryObject
 {
@@ -10,96 +10,93 @@ abstract class QueryObject
     public const ASSERT_ONE_OF = 'one_of';
     public const ASSERT_COUNTRY = 'all_length';
 
-    /** @var array  */
-    private $asserts;
+    public const RESULT_IMPLODE = 'implode';
+
+    /** @var  array */
+    private $rules;
 
     /**
      * @return array
      */
-    abstract protected function getAsserts():array;
+    abstract protected function rules(): array;
 
     /**
      * @return array
      */
-    abstract public function toArray(): array;
-
-    /**
-     * QueryObject constructor.
-     */
-    public function __construct()
+    public function toArray(): array
     {
-        $this->asserts = $this->getAsserts();
+        $result = [];
+
+        foreach ($this->getRules() as $rule) {
+            $result[$rule->getField()] = $rule->getValues();
+        }
+
+        return $result;
     }
 
     /**
      * @param $method
      * @param $arguments
-     * @return mixed
+     * @return QueryObject
      */
-    public function __call($method, $arguments){
-        if(strpos($method, 'where') === 0){
-            $propertyName = substr($method, 5);
-            $propertyName = lcfirst($propertyName);
-            if(property_exists($this, $propertyName)){
-                array_unshift($arguments, $propertyName);
-                return \call_user_func_array([$this, 'where'], $arguments);
+    public function __call(
+        $method,
+        $arguments
+    ): self
+    {
+        $rules = $this->getRules();
+
+        foreach ($rules as $rule) {
+            if ($rule->matchMethod($method, $this->getMethods())) {
+                $rule->callMethod($arguments[0]);
             }
         }
 
-        trigger_error('Call to undefined method '.__CLASS__.'::'.$method.'()', E_USER_ERROR);
+        return $this;
+
     }
 
     /**
-     * @param       $field
-     * @param       $values
-     * @return $this
+     * @return array
      */
-    protected function where(
-        $field,
-        $values
-    ): self
+    protected function getMethods(): array
     {
-        $this->assertValue($field, $values);
-        $this->{$field} = $values;
+        $methods = [];
+        foreach ($this->rules() as $rule) {
+            $methods[] = $rule['property_name'];
+        }
 
-        return $this;
+        return $methods;
+    }
+
+    /**
+     * @return Rule[]|null
+     */
+    private function getRules(): ? array
+    {
+        if ($this->rules === null) {
+            $this->rules = [];
+            foreach ($this->rules() as $field => $ruleArray) {
+                $operation = new $ruleArray['operation'][0]($ruleArray['operation'][1] ?? null);
+                if (isset($ruleArray['validator'])) {
+                    $validator = new $ruleArray['validator'][0]($ruleArray['validator'][1]['values'] ?? null);
+                } else {
+                    $validator = null;
+                }
+                $this->rules[] = new Rule($field, $operation, $validator, $ruleArray['result_type'], $ruleArray['property_name']);
+            }
+        }
+
+        return $this->rules;
     }
 
     /**
      * @param string $value
-     * @param        $queryObject
      */
-    protected function addToExtras(
-        string $value,
-        &$queryObject
-    ): void
+    protected function addToExtras(string $value): void
     {
-        if ( ! \in_array($value, $queryObject->extras, true)) {
-            $queryObject->extras[] = $value;
-        }
-    }
-
-    /**
-     * @param $field
-     * @param $values
-     * @internal param array $assertArr
-     */
-    private function assertValue($field, $values): void
-    {
-        switch ($this->asserts[$field]['type']) {
-            case ($this->asserts[$field]['type'] === self::ASSERT_ID):
-                Assert::allInteger($values);
-                break;
-
-            case ($this->asserts[$field]['type'] === self::ASSERT_ONE_OF):
-                foreach ($values as $item) {
-                    Assert::oneOf($item, $this->asserts[$field]['allowed']);
-                }
-                break;
-
-            case ($this->asserts[$field]['type'] === self::ASSERT_COUNTRY):
-                Assert::allLength($values, 2);
-                break;
+        if ( ! \in_array($value, $this->extras, true)) {
+            $this->extras[] = $value;
         }
     }
 }
