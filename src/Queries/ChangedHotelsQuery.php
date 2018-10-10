@@ -3,85 +3,49 @@
 namespace BookingCom\Queries;
 
 
+use BookingCom\Queries\Operations\Where;
+use BookingCom\Queries\Validators\CountryValidator;
+use BookingCom\Queries\Validators\IntegerValidator;
+use BookingCom\Queries\Validators\StringValidator;
 use BookingCom\QueryObject;
 
+/**
+ * @method $this whereCityIn(array $values)
+ * @method $this whereCountryIn(array $values)
+ * @method $this whereRegionIn(array $values)
+ * @method $this whereLastChangeIn(array $values)
+ */
 class ChangedHotelsQuery extends QueryObject
 {
-    /** @var  array */
-    protected $cityIn;
-
-    /** @var  array */
-    protected $countryIn;
-
-    /** @var  array */
-    protected $regionIn;
-
     /**
      * @return array
      */
-    public function toArray(): array
-    {
-        $result = [];
-        if ($this->cityIn) {
-            $result['city_ids'] = implode(',', $this->cityIn);
-        }
-        if ($this->cityIn) {
-            $result['countries'] = implode(',', $this->countryIn);
-        }
-        if ($this->cityIn) {
-            $result['region_ids'] = implode(',', $this->regionIn);
-        }
-
-        return $result;
-    }
-
-    /**
-     * @param array $values
-     * @return ChangedHotelsQuery
-     */
-    public function whereCityIn(array $values): self
-    {
-        $this->where('cityIn', $values);
-
-        return $this;
-    }
-
-    /**
-     * @param array $values
-     * @return ChangedHotelsQuery
-     */
-    public function whereCountryIn(array $values): self
-    {
-        $this->where('countryIn', $values);
-
-        return $this;
-    }
-
-    /**
-     * @param array $values
-     * @return ChangedHotelsQuery
-     */
-    public function whereRegionIn(array $values): self
-    {
-        $this->where('regionIn', $values);
-
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getAsserts(): array
+    protected function rules(): array
     {
         return [
-            'cityIn'    => [
-                'type' => self::ASSERT_ID,
+            'city_ids'    => [
+                'operation'    => Where::class,
+                'validator'    => [IntegerValidator::class],
+                'method_names' => ['whereCityIn'],
+                'result_type'  => self::RESULT_IMPLODE,
             ],
-            'countryIn' => [
-                'type' => self::ASSERT_COUNTRY,
+            'countries'   => [
+                'operation'    => Where::class,
+                'validator'    => [CountryValidator::class],
+                'method_names' => ['whereCountryIn'],
+                'result_type'  => self::RESULT_IMPLODE,
             ],
-            'regionIn'  => [
-                'type' => self::ASSERT_ID,
+            'region_ids'  => [
+                'operation'    => Where::class,
+                'validator'    => [IntegerValidator::class],
+                'method_names' => ['whereRegionIn'],
+                'result_type'  => self::RESULT_IMPLODE,
+            ],
+            'last_change' => [
+                'operation'    => Where::class,
+                'validator'    => [StringValidator::class],
+                'method_names' => ['whereLastChangeIn'],
+                'result_type'  => self::RESULT_STRING,
             ],
         ];
     }

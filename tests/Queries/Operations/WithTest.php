@@ -4,7 +4,6 @@ namespace BookingCom\Tests\Queries\Operations;
 
 
 use BookingCom\Queries\Operations\With;
-use BookingCom\QueryObject;
 use PHPUnit\Framework\TestCase;
 
 class WithTest extends TestCase
@@ -15,9 +14,11 @@ class WithTest extends TestCase
     public function testOperation(): void
     {
         $operation = new With();
-        $values    = $operation->getValues('location', QueryObject::RESULT_IMPLODE);
+        $operation->setMethod('withLocation');
 
-        $this->assertEquals('location', $operation->getProperty('whereCityIn', ['cityIn', 'typeIn', 'countryIn']));
-        $this->assertEquals('1,3,5', $values);
+
+        $this->assertEquals('withLocation', $operation->getMethod());
+        $this->assertEquals('location', $operation->getValue());
+        $this->assertEquals(true, $operation->matchMethod(['withLocation', 'withTimezone']));
     }
 }

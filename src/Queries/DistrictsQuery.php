@@ -53,7 +53,7 @@ class DistrictsQuery extends QueryObject
             ],
             'extras'         => [
                 'operation'      => With::class,
-                'method_names' => ['withLocation', 'withTimezone'],
+                'method_names' => ['withLocation'],
                 'result_type'    => self::RESULT_IMPLODE,
             ],
         ];

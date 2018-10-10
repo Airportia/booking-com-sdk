@@ -6,15 +6,15 @@ require 'vendor/autoload.php';
 //        'GET' => [
 //            [
 //                'id'       => 1,
-//                'title'    => 'Test!',
+//                'title'    => 'FacilityTypesQueryTest!',
 //                'comments' => [
 //                    [
 //                        'id'   => 1,
-//                        'text' => 'Test Test!',
+//                        'text' => 'FacilityTypesQueryTest FacilityTypesQueryTest!',
 //                    ],
 //                    [
 //                        'id'   => 2,
-//                        'text' => 'Test Test Test!!!!!!',
+//                        'text' => 'FacilityTypesQueryTest FacilityTypesQueryTest FacilityTypesQueryTest!!!!!!',
 //                    ],
 //                ],
 //            ],
@@ -24,11 +24,11 @@ require 'vendor/autoload.php';
 //                'comments' => [
 //                    [
 //                        'id'   => 1,
-//                        'text' => 'Test Tes2t!',
+//                        'text' => 'FacilityTypesQueryTest Tes2t!',
 //                    ],
 //                    [
 //                        'id'   => 2,
-//                        'text' => 'Test 2 Test!!!!!!',
+//                        'text' => 'FacilityTypesQueryTest 2 FacilityTypesQueryTest!!!!!!',
 //                    ],
 //                ],
 //            ],

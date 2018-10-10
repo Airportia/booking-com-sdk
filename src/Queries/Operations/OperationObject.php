@@ -45,6 +45,10 @@ abstract class OperationObject
             case ($resultType === QueryObject::RESULT_IMPLODE):
                 $result = implode(',', $values);
                 break;
+
+            case ($resultType === QueryObject::RESULT_STRING):
+                $result = $values[0];
+                break;
         }
 
         return $result;

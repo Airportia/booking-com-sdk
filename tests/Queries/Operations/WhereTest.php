@@ -3,7 +3,6 @@
 namespace BookingCom\Tests\Queries\Operations;
 
 use BookingCom\Queries\Operations\Where;
-use BookingCom\QueryObject;
 use PHPUnit\Framework\TestCase;
 
 class WhereTest extends TestCase
@@ -14,9 +13,10 @@ class WhereTest extends TestCase
     public function testOperation(): void
     {
         $operation = new Where();
-        $values    = $operation->getValues([1, 3, 5], QueryObject::RESULT_IMPLODE);
+        $operation->setMethod('whereTestIn');
 
-        $this->assertEquals('cityIn', $operation->getProperty('whereCityIn', ['cityIn', 'typeIn', 'countryIn']));
-        $this->assertEquals('1,3,5', $values);
+
+        $this->assertEquals('whereTestIn', $operation->getMethod());
+        $this->assertEquals(true, $operation->matchMethod(['whereTestIn', 'whereIdIn']));
     }
 }

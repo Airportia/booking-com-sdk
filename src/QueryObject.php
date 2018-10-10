@@ -11,6 +11,7 @@ abstract class QueryObject
     public const ASSERT_COUNTRY = 'all_length';
 
     public const RESULT_IMPLODE = 'implode';
+    public const RESULT_STRING = 'string';
 
     /** @var  array */
     private $rules;

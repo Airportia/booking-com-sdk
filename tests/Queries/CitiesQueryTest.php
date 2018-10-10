@@ -3,13 +3,14 @@
 namespace BookingCom\Tests\Queries;
 
 
+use BookingCom\Queries\CitiesQuery;
 use PHPUnit\Framework\TestCase;
 
 class CitiesQueryTest extends TestCase
 {
     public function testQuery(): void
     {
-        $query = new \BookingCom\Queries\CitiesQuery();
+        $query = new CitiesQuery();
         $this->assertEquals([], $query->toArray());
 
         $query->whereIdIn([1, 2, 3])

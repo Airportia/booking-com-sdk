@@ -3,38 +3,26 @@
 namespace BookingCom\Queries;
 
 
+use BookingCom\Queries\Operations\Where;
+use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\QueryObject;
 
+/**
+ * @method $this whereCountryIn(array $values)
+ */
 class CountriesQuery extends QueryObject
 {
-    /** @var  array */
-    protected $countryIn;
-
     /**
      * @return array
      */
-    public function toArray(): array
-    {
-        $result = [];
-        if ($this->countryIn) {
-            $result['countries'] = implode(',', $this->countryIn);
-        }
-
-        return $result;
-    }
-
-    public function whereCountryIn(array $values): self
-    {
-        $this->where('countryIn', $values);
-
-        return $this;
-    }
-
-    public function getAsserts(): array
+    protected function rules(): array
     {
         return [
-            'countryIn' => [
-                'type' => self::ASSERT_COUNTRY,
+            'countries' => [
+                'operation'    => Where::class,
+                'validator'    => [CountryValidator::class],
+                'method_names' => ['whereCountryIn'],
+                'result_type'  => self::RESULT_IMPLODE,
             ],
         ];
     }

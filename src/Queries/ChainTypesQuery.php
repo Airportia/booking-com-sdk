@@ -3,47 +3,27 @@
 namespace BookingCom\Queries;
 
 
+use BookingCom\Queries\Operations\Where;
+use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\QueryObject;
 
+/**
+ * @method $this whereIdIn(array $values)
+ */
 class ChainTypesQuery extends QueryObject
 {
-
-    /** @var  array */
-    protected $idIn;
-
     /**
      * @return array
      */
-    public function toArray(): array
-    {
-        $result = [];
-        if ($this->idIn) {
-            $result['chain_ids'] = implode(',', $this->idIn);
-        }
-
-        return $result;
-    }
-
-    /**
-     * @param array $values
-     * @return ChainTypesQuery
-     */
-    public function whereIdIn(array $values): self
-    {
-        $this->where('idIn', $values);
-
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getAsserts():array
+    protected function rules(): array
     {
         return [
-            'idIn' => [
-                'type' => self::ASSERT_ID,
-            ]
+            'chain_ids'   => [
+                'operation'      => Where::class,
+                'validator'      => [IntegerValidator::class],
+                'method_names' => ['whereIdIn'],
+                'result_type'    => self::RESULT_IMPLODE,
+            ],
         ];
     }
 }

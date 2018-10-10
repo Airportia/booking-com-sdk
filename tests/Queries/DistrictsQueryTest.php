@@ -20,15 +20,14 @@ class DistrictsQueryTest extends TestCase
             ->whereCountryIn(['us', 'ru'])
             ->whereIdIn([1, 3, 5])
             ->whereTypeIn(['free'])
-            ->withLocation()
-            ->withTimezone();
+            ->withLocation();
 
         $this->assertEquals([
             'city_ids'       => '1,3,5',
             'countries'      => 'us,ru',
             'district_ids'   => '1,3,5',
             'district_types' => 'free',
-            'extras'         => 'location,timezone',
+            'extras'         => 'location',
         ], $query->toArray());
     }
 }

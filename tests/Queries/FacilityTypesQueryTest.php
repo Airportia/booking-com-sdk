@@ -5,7 +5,7 @@ namespace BookingCom\Tests\Queries;
 use BookingCom\Queries\FacilityTypesQuery;
 use PHPUnit\Framework\TestCase;
 
-class Test extends TestCase
+class FacilityTypesQueryTest extends TestCase
 {
     /**
      * @return void
