@@ -7,31 +7,16 @@ class Where extends OperationObject
 {
 
     /**
-     * @param string $method
-     * @param array  $allowedProperties
+     * @param array $allowedMethods
      * @return bool
      */
-    public function getProperty(string $method, array $allowedProperties): string
+    public function matchMethod(array $allowedMethods): bool
     {
-        $propertyName   = substr($method, 5);
-        $propertyName   = lcfirst($propertyName);
-
-        if ( ! strpos($method, 'where') === 0 || ! \in_array($propertyName, $allowedProperties, true)) {
-            trigger_error('Call to undefined method '.__CLASS__.'::'.$method.'()', E_USER_ERROR);
+        if ( ! strpos($this->getMethod(), 'where') === 0 || !\in_array($this->getMethod(), $allowedMethods, true)) {
+            trigger_error('Call to undefined method '.__CLASS__.'::'.$this->getMethod().'()', E_USER_ERROR);
         }
 
-        return $propertyName;
+        return true;
     }
-
-    /**
-     * @param        $values
-     * @param string $resultType
-     * @return mixed
-     */
-    public function getValues($values, string $resultType)
-    {
-        return $this->getResult($values, $resultType);
-    }
-
 
 }

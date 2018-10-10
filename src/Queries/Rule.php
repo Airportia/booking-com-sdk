@@ -23,22 +23,22 @@ class Rule
     /** @var  string */
     private $resultType;
 
-    /** @var  string */
-    private $propertyName;
+    /** @var  array */
+    private $methodNames;
 
     public function __construct(
         string $field,
         $operation,
         ? ValidatorObject $validator,
         string $resultType,
-        string $propertyName
+        array $methodNames
     )
     {
-        $this->field        = $field;
-        $this->operation    = $operation;
-        $this->validator    = $validator;
-        $this->resultType   = $resultType;
-        $this->propertyName = $propertyName;
+        $this->field       = $field;
+        $this->operation   = $operation;
+        $this->validator   = $validator;
+        $this->resultType  = $resultType;
+        $this->methodNames = $methodNames;
     }
 
     /**
@@ -51,31 +51,35 @@ class Rule
         array $allowedMethods
     ): bool
     {
-        $result       = false;
-        $operation    = $this->getOperation();
-        $propertyName = $operation->getProperty($method, $allowedMethods);
-        if ($propertyName === $this->getPropertyName()) {
-            $result = true;
+        $operation = $this->getOperation();
+        $operation->setMethod($method);
+
+        if (\in_array($method, $allowedMethods, true) && !\in_array($method, $this->getMethodNames(), true)) {
+            return false;
         }
 
-        return $result;
+        $operation->matchMethod($allowedMethods);
+
+        return true;
     }
 
 
     /**
-     * @param array $values
+     * @param array|null $values
      */
-    public function callMethod(array $values): void
+    public function callMethod(? array $values): void
     {
-        $validator  = $this->getValidator();
-        $operation  = $this->getOperation();
-        $resultType = $this->getResultType();
+        $validator = $this->getValidator();
+        $operation = $this->getOperation();
 
         if ($validator !== null) {
             $validator->assertValues($values);
         }
-        $result       = $operation->getValues($values, $resultType);
-        $this->values = $result;
+        if ($values === null) {
+            $this->values[] = $operation->getValue();
+        } else {
+            $this->values = $values;
+        }
     }
 
     /**
@@ -95,9 +99,9 @@ class Rule
     }
 
     /**
-     * @return ValidatorObject
+     * @return ValidatorObject|null
      */
-    public function getValidator(): ValidatorObject
+    public function getValidator():? ValidatorObject
     {
         return $this->validator;
     }
@@ -119,10 +123,10 @@ class Rule
     }
 
     /**
-     * @return string
+     * @return array
      */
-    public function getPropertyName(): string 
+    public function getMethodNames(): array
     {
-        return $this->propertyName;
+        return $this->methodNames;
     }
 }

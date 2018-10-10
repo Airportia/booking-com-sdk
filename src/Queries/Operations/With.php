@@ -5,44 +5,29 @@ namespace BookingCom\Queries\Operations;
 
 class With extends OperationObject
 {
-//    /** @var  string */
-//    private $propertyName;
-//
-//    /**
-//     * @param string $method
-//     * @param array  $allowedProperties
-//     * @return string
-//     */
-//    public function getProperty(string $method, array $allowedProperties): string
-//    {
-//        $propertyName = substr($method, 4);
-//        $propertyName = lcfirst($propertyName);
-//
-//        if ( ! strpos($method, 'with') === 0 || ! \in_array($propertyName, $allowedProperties, true)) {
-//            trigger_error('Call to undefined method '.__CLASS__.'::'.$method.'()', E_USER_ERROR);
-//        }
-//
-//        $this->propertyName = $propertyName;
-//
-//        return $propertyName;
-//    }
-//
-//    /**
-//     * @param string $resultType
-//     * @return mixed
-//     */
-//    public function getValues(string $resultType)
-//    {
-//        $value = $this->getPropertyName();
-//
-//        return $this->getResult($value, $resultType);
-//    }
-//
-//    /**
-//     * @return string
-//     */
-//    public function getPropertyName(): string
-//    {
-//        return $this->propertyName;
-//    }
+
+    /**
+     * @param array $allowedMethods
+     * @return bool
+     */
+    public function matchMethod(array $allowedMethods): bool
+    {
+        if ( ! strpos($this->getMethod(), 'with') === 0 || !\in_array($this->getMethod(), $allowedMethods, true)) {
+            trigger_error('Call to undefined method '.__CLASS__.'::'.$this->getMethod().'()', E_USER_ERROR);
+        }
+
+        return true;
+    }
+
+
+    /**
+     * @return mixed
+     */
+    public function getValue()
+    {
+        $array  = preg_split('#([A-Z][^A-Z]*)#', $this->getMethod(), null, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
+        $sliced = \array_slice($array, 1);
+
+        return lcfirst($sliced[0]);
+    }
 }

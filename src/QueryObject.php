@@ -28,7 +28,11 @@ abstract class QueryObject
         $result = [];
 
         foreach ($this->getRules() as $rule) {
-            $result[$rule->getField()] = $rule->getValues();
+            if ($rule->getValues() !== null)
+            {
+                $operation = $rule->getOperation();
+                $result[$rule->getField()] = $operation->getResultValues($rule->getValues(), $rule->getResultType());
+            }
         }
 
         return $result;
@@ -48,7 +52,7 @@ abstract class QueryObject
 
         foreach ($rules as $rule) {
             if ($rule->matchMethod($method, $this->getMethods())) {
-                $rule->callMethod($arguments[0]);
+                $rule->callMethod($arguments[0] ?? null);
             }
         }
 
@@ -63,7 +67,9 @@ abstract class QueryObject
     {
         $methods = [];
         foreach ($this->rules() as $rule) {
-            $methods[] = $rule['property_name'];
+            foreach ($rule['method_names'] as $item) {
+                $methods[] = $item;
+            }
         }
 
         return $methods;
@@ -77,26 +83,16 @@ abstract class QueryObject
         if ($this->rules === null) {
             $this->rules = [];
             foreach ($this->rules() as $field => $ruleArray) {
-                $operation = new $ruleArray['operation'][0]($ruleArray['operation'][1] ?? null);
+                $operation = new $ruleArray['operation']();
                 if (isset($ruleArray['validator'])) {
                     $validator = new $ruleArray['validator'][0]($ruleArray['validator'][1]['values'] ?? null);
                 } else {
                     $validator = null;
                 }
-                $this->rules[] = new Rule($field, $operation, $validator, $ruleArray['result_type'], $ruleArray['property_name']);
+                $this->rules[] = new Rule($field, $operation, $validator, $ruleArray['result_type'], $ruleArray['method_names']);
             }
         }
 
         return $this->rules;
-    }
-
-    /**
-     * @param string $value
-     */
-    protected function addToExtras(string $value): void
-    {
-        if ( ! \in_array($value, $this->extras, true)) {
-            $this->extras[] = $value;
-        }
     }
 }

@@ -10,20 +10,33 @@ abstract class OperationObject
     /** @var  string */
     protected $resultType;
 
+    /** @var  string */
+    protected $propertyName;
+
+    /** @var  string */
+    protected $method;
+
+//    /**
+//     * @param string $method
+//     * @return string
+//     */
+//    abstract public function getProperty(string $method): string;
 
     /**
-     * @param string $method
-     * @param array  $allowedProperties
-     * @return string
+     * @param array $allowedMethods
+     * @return bool
      */
-    abstract public function getProperty(string $method, array $allowedProperties): string;
+    abstract public function matchMethod(array $allowedMethods): bool;
 
     /**
      * @param        $values
      * @param string $resultType
      * @return mixed
      */
-    abstract public function getValues($values, string $resultType);
+    public function getResultValues($values, string $resultType)
+    {
+        return $this->getResult($values, $resultType);
+    }
 
     protected function getResult($values, string $resultType): string
     {
@@ -35,5 +48,30 @@ abstract class OperationObject
         }
 
         return $result;
+    }
+
+
+    /**
+     * @param string $method
+     */
+    public function setMethod(string $method): void
+    {
+        $this->method = $method;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPropertyName(): string
+    {
+        return $this->propertyName;
+    }
+
+    /**
+     * @return string
+     */
+    public function getMethod(): string
+    {
+        return $this->method;
     }
 }

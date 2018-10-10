@@ -28,34 +28,34 @@ class DistrictsQuery extends QueryObject
     {
         return [
             'district_ids'   => [
-                'operation'      => [Where::class],
+                'operation'      => Where::class,
                 'validator'      => [IntegerValidator::class],
-                'property_name' => 'idIn',
+                'method_names' => ['whereIdIn'],
                 'result_type'    => self::RESULT_IMPLODE,
             ],
             'city_ids'       => [
-                'operation'      => [Where::class],
+                'operation'      => Where::class,
                 'validator'      => [IntegerValidator::class],
-                'property_name' => 'cityIn',
+                'method_names' => ['whereCityIn'],
                 'result_type'    => self::RESULT_IMPLODE,
             ],
             'countries'      => [
-                'operation'      => [Where::class],
+                'operation'      => Where::class,
                 'validator'      => [CountryValidator::class],
-                'property_name' => 'countryIn',
+                'method_names' => ['whereCountryIn'],
                 'result_type'    => self::RESULT_IMPLODE,
             ],
             'district_types' => [
-                'operation'      => [Where::class],
+                'operation'      => Where::class,
                 'validator'      => [OneOfValidator::class, ['values' => self::DISTRICT_TYPES]],
-                'property_name' => 'typeIn',
+                'method_names' => ['whereTypeIn'],
                 'result_type'    => self::RESULT_IMPLODE,
             ],
-//            'extras'         => [
-//                'operation'      => [With::class],
-//                'property_names' => ['location'],
-//                'result_type'    => self::RESULT_IMPLODE,
-//            ],
+            'extras'         => [
+                'operation'      => With::class,
+                'method_names' => ['withLocation', 'withTimezone'],
+                'result_type'    => self::RESULT_IMPLODE,
+            ],
         ];
     }
 
