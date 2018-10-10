@@ -12,7 +12,7 @@ class With extends OperationObject
      */
     public function matchMethod(array $allowedMethods): bool
     {
-        if ( ! strpos($this->getMethod(), 'with') === 0 || !\in_array($this->getMethod(), $allowedMethods, true)) {
+        if ( ! strpos($this->getMethod(), 'with') === 0 || ! \in_array($this->getMethod(), $allowedMethods, true)) {
             trigger_error('Call to undefined method '.__CLASS__.'::'.$this->getMethod().'()', E_USER_ERROR);
         }
 

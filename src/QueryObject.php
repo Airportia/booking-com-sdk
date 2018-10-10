@@ -29,9 +29,8 @@ abstract class QueryObject
         $result = [];
 
         foreach ($this->getRules() as $rule) {
-            if ($rule->getValues() !== null)
-            {
-                $operation = $rule->getOperation();
+            if ($rule->getValues() !== null) {
+                $operation                 = $rule->getOperation();
                 $result[$rule->getField()] = $operation->getResultValues($rule->getValues(), $rule->getResultType());
             }
         }

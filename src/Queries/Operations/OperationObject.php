@@ -11,16 +11,7 @@ abstract class OperationObject
     protected $resultType;
 
     /** @var  string */
-    protected $propertyName;
-
-    /** @var  string */
     protected $method;
-
-//    /**
-//     * @param string $method
-//     * @return string
-//     */
-//    abstract public function getProperty(string $method): string;
 
     /**
      * @param array $allowedMethods
@@ -38,6 +29,11 @@ abstract class OperationObject
         return $this->getResult($values, $resultType);
     }
 
+    /**
+     * @param        $values
+     * @param string $resultType
+     * @return string
+     */
     protected function getResult($values, string $resultType): string
     {
         $result = '';
@@ -61,14 +57,6 @@ abstract class OperationObject
     public function setMethod(string $method): void
     {
         $this->method = $method;
-    }
-
-    /**
-     * @return string
-     */
-    public function getPropertyName(): string
-    {
-        return $this->propertyName;
     }
 
     /**
