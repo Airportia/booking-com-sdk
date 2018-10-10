@@ -27,7 +27,17 @@ class With extends OperationObject
     {
         $array  = preg_split('#([A-Z][^A-Z]*)#', $this->getMethod(), null, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
         $sliced = \array_slice($array, 1);
+        $k      = 0;
+        $result = '';
 
-        return lcfirst($sliced[0]);
+        foreach ($sliced as $item) {
+            $result .= lcfirst($item);
+            if (isset($sliced[$k + 1])) {
+                $result .= '_';
+            }
+            $k++;
+        }
+
+        return $result;
     }
 }

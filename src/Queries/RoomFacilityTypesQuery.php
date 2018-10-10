@@ -7,15 +7,16 @@ use BookingCom\Queries\Operations\Where;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\Queries\Validators\OneOfValidator;
 use BookingCom\QueryObject;
+use phpDocumentor\Reflection\Types\Integer;
 
 /**
  * @method $this whereIdIn(array $values)
  * @method $this whereFacilityIn(array $values)
  * @method $this whereTypeIn(array $values)
  */
-class HotelFacilityTypesQuery extends QueryObject
+class RoomFacilityTypesQuery extends QueryObject
 {
-    public const HOTEL_FACILITY_TYPES_RESULT_TYPES = ['string', 'boolean', 'integer'];
+    public const ROOM_FACILITY_TYPES_RESULT_TYPES = ['string', 'boolean', 'integer'];
 
     /**
      * @return array
@@ -29,18 +30,18 @@ class HotelFacilityTypesQuery extends QueryObject
                 'method_names' => ['whereFacilityIn'],
                 'result_type'  => self::RESULT_IMPLODE,
             ],
-            'hotel_facility_type_ids' => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
+            'room_facility_type_ids' => [
+                'operation' => Where::class,
+                'validator' => [IntegerValidator::class],
                 'method_names' => ['whereIdIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'result_type' => self::RESULT_IMPLODE,
             ],
-            'types'                   => [
-                'operation'    => Where::class,
-                'validator'    => [OneOfValidator::class, ['values' => self::HOTEL_FACILITY_TYPES_RESULT_TYPES]],
+            'types' => [
+                'operation' => Where::class,
+                'validator' => [OneOfValidator::class, ['values' => self::ROOM_FACILITY_TYPES_RESULT_TYPES]],
                 'method_names' => ['whereTypeIn'],
-                'result_type'  => self::RESULT_IMPLODE,
-            ],
+                'result_type' => self::RESULT_IMPLODE,
+            ]
         ];
     }
 }
