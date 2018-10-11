@@ -3,12 +3,15 @@
 namespace BookingCom\Queries;
 
 
-use BookingCom\Queries\Operations\Where;
+use BookingCom\Queries\Conditions\SetCondition;
+use BookingCom\Queries\Conditions\WhereInCondition;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\QueryObject;
 
 /**
- * @method $this whereIdIn(array $values)
+ * @method $this whereChainIdsIn(array $values)
+ * @method $this setOffset(int $value)
+ * @method $this setRows(int $value)
  */
 class ChainTypesQuery extends QueryObject
 {
@@ -18,11 +21,17 @@ class ChainTypesQuery extends QueryObject
     protected function rules(): array
     {
         return [
-            'chain_ids'   => [
-                'operation'      => Where::class,
-                'validator'      => [IntegerValidator::class],
-                'method_names' => ['whereIdIn'],
-                'result_type'    => self::RESULT_IMPLODE,
+            'chain_ids' => [
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
+            ],
+            'offset'    => [
+                'operation' => [SetCondition::class],
+                'validator' => [IntegerValidator::class],
+            ],
+            'rows'    => [
+                'operation' => [SetCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
         ];
     }

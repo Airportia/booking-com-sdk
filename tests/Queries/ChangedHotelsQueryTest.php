@@ -12,14 +12,15 @@ class ChangedHotelsQueryTest extends TestCase
      */
     public function testQuery(): void
     {
-        $query = new ChangedHotelsQuery();
+        $query = new ChangedHotelsQuery('2018-10-10 00:00:00');
 
-        $this->assertEquals([], $query->toArray());
+        $this->assertEquals([
+            'last_change' => '2018-10-10 00:00:00',
+        ], $query->toArray());
 
-        $query->whereCityIn([1, 3, 5])
-            ->whereCountryIn(['us', 'ru'])
-            ->whereRegionIn([1, 5, 10])
-            ->whereLastChangeIn(['2018-10-10 00:00:00']);
+        $query->whereCityIdsIn([1, 3, 5])
+            ->whereCountriesIn(['us', 'ru'])
+            ->whereRegionIdsIn([1, 5, 10]);
 
         $this->assertEquals([
             'city_ids'    => '1,3,5',

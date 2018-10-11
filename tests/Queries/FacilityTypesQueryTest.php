@@ -16,7 +16,7 @@ class FacilityTypesQueryTest extends TestCase
 
         $this->assertEquals([], $query->toArray());
 
-        $query->whereIdIn([1, 3, 5]);
+        $query->whereFacilityTypeIdsIn([1, 3, 5]);
 
         $this->assertEquals([
             'facility_type_ids' => '1,3,5',

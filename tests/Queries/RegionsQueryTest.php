@@ -16,14 +16,18 @@ class RegionsQueryTest extends TestCase
 
         $this->assertEquals([], $query->toArray());
 
-        $query->whereIdIn([1, 2, 3, 4])
-            ->whereCountryIn(['us', 'ru', 'uk'])
-            ->whereTypeIn(['island', 'province']);
+        $query->whereRegionIdsIn([1, 2, 3, 4])
+            ->whereCountriesIn(['us', 'ru', 'uk'])
+            ->whereRegionTypesIn(['island', 'province'])
+            ->setRows(5)
+            ->setOffset(5);
 
         $this->assertEquals([
             'region_ids'   => '1,2,3,4',
             'countries'    => 'us,ru,uk',
             'region_types' => 'island,province',
+            'offset'         => 5,
+            'rows'           => 5,
         ], $query->toArray());
     }
 }

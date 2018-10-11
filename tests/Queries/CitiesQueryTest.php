@@ -13,14 +13,18 @@ class CitiesQueryTest extends TestCase
         $query = new CitiesQuery();
         $this->assertEquals([], $query->toArray());
 
-        $query->whereIdIn([1, 2, 3])
-            ->whereCountryIn(['us', 'ru'])
+        $query->whereCityIdsIn([1, 2, 3])
+            ->whereCountriesIn(['us', 'ru'])
+            ->setOffset(5)
+            ->setRows(25)
             ->withLocation()
             ->withTimezone();
 
         $this->assertEquals([
             'city_ids' => '1,2,3',
             'countries' => 'us,ru',
+            'offset' => 5,
+            'rows' => 25,
             'extras' => 'location,timezone',
         ], $query->toArray());
     }

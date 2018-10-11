@@ -16,10 +16,14 @@ class CountriesQueryTest extends TestCase
 
         $this->assertEquals([], $query->toArray());
 
-        $query->whereCountryIn(['us', 'ru']);
+        $query->whereCountriesIn(['us', 'ru'])
+            ->setRows(5)
+            ->setOffset(5);
 
         $this->assertEquals([
             'countries' => 'us,ru',
+            'offset'    => 5,
+            'rows'      => 5,
         ], $query->toArray());
     }
 }

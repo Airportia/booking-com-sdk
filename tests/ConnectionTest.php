@@ -38,7 +38,7 @@ class ConnectionTest extends TestCase
         $request = $container[0]['request'];
         $this->assertEquals('GET', $request->getMethod());
         $this->assertEquals('endpoint', $request->getUri()->getPath());
-        var_dump(urldecode($request->getUri()->getQuery()));
+//        var_dump(urldecode($request->getUri()->getQuery()));
         $this->assertEquals('test=test', $request->getUri()->getQuery());
     }
 

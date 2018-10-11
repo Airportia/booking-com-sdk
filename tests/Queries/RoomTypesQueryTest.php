@@ -16,7 +16,7 @@ class RoomTypesQueryTest extends TestCase
 
         $this->assertEquals([], $query->toArray());
 
-        $query->whereIdIn([1, 3, 5]);
+        $query->whereRoomTypeIdsIn([1, 3, 5]);
 
         $this->assertEquals([
             'room_type_ids' => '1,3,5',

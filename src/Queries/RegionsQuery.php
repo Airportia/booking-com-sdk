@@ -3,16 +3,19 @@
 namespace BookingCom\Queries;
 
 
-use BookingCom\Queries\Operations\Where;
+use BookingCom\Queries\Conditions\SetCondition;
+use BookingCom\Queries\Conditions\WhereInCondition;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\Queries\Validators\OneOfValidator;
 use BookingCom\QueryObject;
 
 /**
- * @method $this whereIdIn(array $values)
- * @method $this whereCountryIn(array $values)
- * @method $this whereTypeIn(array $values)
+ * @method $this whereRegionIdsIn(array $values)
+ * @method $this whereCountriesIn(array $values)
+ * @method $this whereRegionTypesIn(array $values)
+ * @method $this setOffset(int $value)
+ * @method $this setRows(int $value)
  */
 class RegionsQuery extends QueryObject
 {
@@ -25,22 +28,24 @@ class RegionsQuery extends QueryObject
     {
         return [
             'region_ids'   => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereIdIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'countries'    => [
-                'operation'    => Where::class,
-                'validator'    => [CountryValidator::class],
-                'method_names' => ['whereCountryIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [CountryValidator::class],
             ],
             'region_types' => [
-                'operation'    => Where::class,
-                'validator'    => [OneOfValidator::class, ['values' => self::REGION_TYPES]],
-                'method_names' => ['whereTypeIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [OneOfValidator::class, ['values' => self::REGION_TYPES]],
+            ],
+            'offset'       => [
+                'operation' => [SetCondition::class],
+                'validator' => [IntegerValidator::class],
+            ],
+            'rows'         => [
+                'operation' => [SetCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
         ];
     }

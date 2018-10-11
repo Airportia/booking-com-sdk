@@ -16,7 +16,7 @@ class PaymentTypesTest extends TestCase
 
         $this->assertEquals([], $query->toArray());
 
-        $query->whereIdIn([1, 3, 5]);
+        $query->wherePaymentIdsIn([1, 3, 5]);
 
         $this->assertEquals([
             'payment_ids' => '1,3,5',

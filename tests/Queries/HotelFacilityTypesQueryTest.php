@@ -16,9 +16,9 @@ class HotelFacilityTypesQueryTest extends TestCase
 
         $this->assertEquals([], $query->toArray());
 
-        $query->whereIdIn([1, 3, 5])
-            ->whereFacilityIn([1, 4, 5])
-            ->whereTypeIn(['string', 'integer']);
+        $query->whereFacilityTypeIdsIn([1, 4, 5])
+            ->whereHotelFacilityTypeIdsIn([1, 3, 5])
+            ->whereTypesIn(['string', 'integer']);
 
         $this->assertEquals([
             'facility_type_ids'       => '1,4,5',

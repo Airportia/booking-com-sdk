@@ -16,10 +16,12 @@ class ChainTypesQueryTest extends TestCase
 
         $this->assertEquals([], $query->toArray());
 
-        $query->whereIdIn([1, 3, 5]);
+        $query->whereChainIdsIn([1, 3, 5])->setOffset(4)->setRows(20);
 
         $this->assertEquals([
             'chain_ids' => '1,3,5',
+            'offset'    => 4,
+            'rows'      => 20,
         ], $query->toArray());
     }
 }

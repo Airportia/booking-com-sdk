@@ -13,13 +13,13 @@ class DistrictsQueryTest extends TestCase
     public function testQuery(): void
     {
         $query = new DistrictsQuery();
-
         $this->assertEquals([], $query->toArray());
-
-        $query->whereCityIn([1, 3, 5])
-            ->whereCountryIn(['us', 'ru'])
-            ->whereIdIn([1, 3, 5])
-            ->whereTypeIn(['free'])
+        $query->whereCityIdsIn([1, 3, 5])
+            ->whereCountriesIn(['us', 'ru'])
+            ->whereDistrictIdsIn([1, 3, 5])
+            ->whereDistrictTypesIn(['free'])
+            ->setRows(5)
+            ->setOffset(5)
             ->withLocation();
 
         $this->assertEquals([
@@ -27,6 +27,8 @@ class DistrictsQueryTest extends TestCase
             'countries'      => 'us,ru',
             'district_ids'   => '1,3,5',
             'district_types' => 'free',
+            'offset'         => 5,
+            'rows'           => 5,
             'extras'         => 'location',
         ], $query->toArray());
     }

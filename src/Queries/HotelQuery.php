@@ -3,20 +3,23 @@
 namespace BookingCom\Queries;
 
 
-use BookingCom\Queries\Operations\Where;
-use BookingCom\Queries\Operations\With;
+use BookingCom\Queries\Conditions\SetCondition;
+use BookingCom\Queries\Conditions\WhereInCondition;
+use BookingCom\Queries\Conditions\WithCondition;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\QueryObject;
 
 /**
- * @method $this whereIdIn(array $values)
- * @method $this whereChainIn(array $values)
- * @method $this whereCityIn(array $values)
- * @method $this whereCountryIn(array $values)
- * @method $this whereDistrictIn(array $values)
- * @method $this whereRegionIn(array $values)
- * @method $this whereHotelFacilityTypeIn(array $values)
+ * @method $this whereHotelIdsIn(array $values)
+ * @method $this whereChainIdsIn(array $values)
+ * @method $this whereCityIdsIn(array $values)
+ * @method $this whereCountryIdsIn(array $values)
+ * @method $this whereDistrictIdsIn(array $values)
+ * @method $this whereRegionIdsIn(array $values)
+ * @method $this whereHotelFacilityTypeIdsIn(array $values)
+ * @method $this setOffset(int $value)
+ * @method $this setRows(int $value)
  * @method $this withHotelPolicies()
  * @method $this withRoomInfo()
  * @method $this withKeyCollectionInfo()
@@ -38,63 +41,60 @@ class HotelQuery extends QueryObject
     {
         return [
             'chain_ids'               => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereChainIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'city_ids'                => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereCityIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'country_ids'             => [
-                'operation'    => Where::class,
-                'validator'    => [CountryValidator::class],
-                'method_names' => ['whereCountryIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [CountryValidator::class],
             ],
             'district_ids'            => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereDistrictIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'hotel_facility_type_ids' => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereHotelFacilityTypeIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'hotel_ids'               => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereIdIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'region_ids'              => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereRegionIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
+            ],
+            'offset'                  => [
+                'operation' => [SetCondition::class],
+                'validator' => [IntegerValidator::class],
+            ],
+            'rows'                    => [
+                'operation' => [SetCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'extras'                  => [
-                'operation'    => With::class,
-                'method_names' => [
-                    'withHotelPolicies',
-                    'withKeyCollectionInfo',
-                    'withRoomDescription',
-                    'withHotelPhotos',
-                    'withRoomPhotos',
-                    'withHotelInfo',
-                    'withHotelDescription',
-                    'withPaymentDetails',
-                    'withRoomFacilities',
-                    'withHotelFacilities',
-                    'withRoomInfo',
+                'operation' => [
+                    WithCondition::class,
+                    [
+                        'values' => [
+                            'hotel_policies',
+                            'key_collection_info',
+                            'room_description',
+                            'hotel_photos',
+                            'room_photos',
+                            'hotel_info',
+                            'hotel_description',
+                            'room_info',
+                            'payment_details',
+                            'room_facilities',
+                            'hotel_facilities',
+                        ],
+                    ],
                 ],
-                'result_type'  => self::RESULT_IMPLODE,
             ],
         ];
     }

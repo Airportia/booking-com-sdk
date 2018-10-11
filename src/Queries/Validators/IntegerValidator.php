@@ -12,7 +12,11 @@ class IntegerValidator extends ValidatorObject
      */
     public function assertValues($values): void
     {
-        Assert::allInteger($values);
+        if (\is_array($values)) {
+            Assert::allInteger($values);
+        } else {
+            Assert::integer($values);
+        }
     }
 
 }

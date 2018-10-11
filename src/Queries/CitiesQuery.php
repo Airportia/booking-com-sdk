@@ -2,15 +2,18 @@
 
 namespace BookingCom\Queries;
 
-use BookingCom\Queries\Operations\Where;
-use BookingCom\Queries\Operations\With;
+use BookingCom\Queries\Conditions\SetCondition;
+use BookingCom\Queries\Conditions\WhereInCondition;
+use BookingCom\Queries\Conditions\WithCondition;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\QueryObject;
 
 /**
- * @method $this whereIdIn(array $values)
- * @method $this whereCountryIn(array $values)
+ * @method $this whereCityIdsIn(array $values)
+ * @method $this whereCountriesIn(array $values)
+ * @method $this setOffset(int $value)
+ * @method $this setRows(int $value)
  * @method $this withLocation()
  * @method $this withTimezone()
  */
@@ -23,21 +26,23 @@ class CitiesQuery extends QueryObject
     {
         return [
             'city_ids'  => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereIdIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'countries' => [
-                'operation'    => Where::class,
-                'validator'    => [CountryValidator::class],
-                'method_names' => ['whereCountryIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [CountryValidator::class],
+            ],
+            'offset' => [
+                'operation' => [SetCondition::class],
+                'validator' => [IntegerValidator::class],
+            ],
+            'rows'   => [
+                'operation' => [SetCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'extras'    => [
-                'operation'    => With::class,
-                'method_names' => ['withLocation', 'withTimezone'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WithCondition::class, ['values' => ['location', 'timezone']]],
             ],
         ];
     }

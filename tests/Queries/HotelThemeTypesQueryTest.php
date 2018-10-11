@@ -2,8 +2,8 @@
 
 namespace BookingCom\Tests\Queries;
 
-use PHPUnit\Framework\TestCase;
 use BookingCom\Queries\HotelThemeTypesQuery;
+use PHPUnit\Framework\TestCase;
 
 class HotelThemeTypesQueryTest extends TestCase
 {
@@ -16,10 +16,14 @@ class HotelThemeTypesQueryTest extends TestCase
 
         $this->assertEquals([], $query->toArray());
 
-        $query->whereIdIn([1, 3, 5]);
+        $query->whereThemeIdsIn([1, 3, 5])
+            ->setRows(5)
+            ->setOffset(5);
 
         $this->assertEquals([
             'theme_ids' => '1,3,5',
+            'offset'    => 5,
+            'rows'      => 5,
         ], $query->toArray());
     }
 }

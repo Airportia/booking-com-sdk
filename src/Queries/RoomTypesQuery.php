@@ -2,12 +2,12 @@
 
 namespace BookingCom\Queries;
 
-use BookingCom\Queries\Operations\Where;
+use BookingCom\Queries\Conditions\WhereInCondition;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\QueryObject;
 
 /**
- * @method $this whereIdIn(array $values)
+ * @method $this whereRoomTypeIdsIn(array $values)
  */
 class RoomTypesQuery extends QueryObject
 {
@@ -18,10 +18,8 @@ class RoomTypesQuery extends QueryObject
     {
         return [
             'room_type_ids' => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereIdIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
         ];
     }

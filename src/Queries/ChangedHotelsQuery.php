@@ -3,6 +3,7 @@
 namespace BookingCom\Queries;
 
 
+use BookingCom\Queries\Conditions\WhereInCondition;
 use BookingCom\Queries\Operations\Where;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
@@ -10,13 +11,24 @@ use BookingCom\Queries\Validators\StringValidator;
 use BookingCom\QueryObject;
 
 /**
- * @method $this whereCityIn(array $values)
- * @method $this whereCountryIn(array $values)
- * @method $this whereRegionIn(array $values)
+ * @method $this whereCityIdsIn(array $values)
+ * @method $this whereCountriesIn(array $values)
+ * @method $this whereRegionIdsIn(array $values)
  * @method $this whereLastChangeIn(array $values)
  */
 class ChangedHotelsQuery extends QueryObject
 {
+
+    /**
+     * ChangedHotelsQuery constructor.
+     *
+     * @param string $requiredParam
+     */
+    public function __construct(string $requiredParam)
+    {
+        $this->whereLastChangeIn([$requiredParam]);
+    }
+
     /**
      * @return array
      */
@@ -24,28 +36,20 @@ class ChangedHotelsQuery extends QueryObject
     {
         return [
             'city_ids'    => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereCityIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'countries'   => [
-                'operation'    => Where::class,
-                'validator'    => [CountryValidator::class],
-                'method_names' => ['whereCountryIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [CountryValidator::class],
             ],
             'region_ids'  => [
-                'operation'    => Where::class,
-                'validator'    => [IntegerValidator::class],
-                'method_names' => ['whereRegionIn'],
-                'result_type'  => self::RESULT_IMPLODE,
+                'operation' => [WhereInCondition::class],
+                'validator' => [IntegerValidator::class],
             ],
             'last_change' => [
-                'operation'    => Where::class,
-                'validator'    => [StringValidator::class],
-                'method_names' => ['whereLastChangeIn'],
-                'result_type'  => self::RESULT_STRING,
+                'operation' => [WhereInCondition::class],
+                'validator' => [StringValidator::class],
             ],
         ];
     }
