@@ -42,7 +42,7 @@ class Connection
             $options = $this->getOptions($params);
             $response = $this->getClient()->get($uri, $options);
             $this->checkResponse($response);
-            return \GuzzleHttp\json_decode($response->getBody()->getContents(), true);
+            return $this->parseResponse($response->getBody()->getContents());
         } catch (\GuzzleHttp\Exception\TransferException $e) {
             throw new ConnectionException($e->getMessage());
         }
@@ -75,5 +75,15 @@ class Connection
             $code = $body['errors']['code'] ?? $response->getStatusCode();
             throw new ConnectionException($message, $code);
         }
+    }
+
+    private function parseResponse(string $json)
+    {
+        $array = \GuzzleHttp\json_decode($json, true);
+        if (!isset($array['result'])) {
+            throw new ConnectionException('Bad response format');
+        }
+
+        return $array['result'];
     }
 }

@@ -7,6 +7,7 @@
 namespace BookingCom\Tests;
 
 
+use BookingCom\ConnectionException;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
@@ -19,7 +20,7 @@ class ConnectionTest extends TestCase
 {
     public function testAuth(): void
     {
-        $connection = $this->createConnection([new Response(200, [], '[]')], $container);
+        $connection = $this->createConnection([new Response(200, [], '{"result":[{"hotel_id":10004}]}')], $container);
         $connection->execute('endpoint');
 
         /** @var Request $request */
@@ -30,7 +31,10 @@ class ConnectionTest extends TestCase
 
     public function testExecute(): void
     {
-        $connection = $this->createConnection([new Response(200, [], '[]')], $container);
+        $connection = $this->createConnection([
+            new Response(200, [],
+                '{"result":[{"hotel_id":10004}]}'),
+        ], $container);
 
         $connection->execute('endpoint', ['test' => 'test']);
 
@@ -38,8 +42,19 @@ class ConnectionTest extends TestCase
         $request = $container[0]['request'];
         $this->assertEquals('GET', $request->getMethod());
         $this->assertEquals('endpoint', $request->getUri()->getPath());
-//        var_dump(urldecode($request->getUri()->getQuery()));
         $this->assertEquals('test=test', $request->getUri()->getQuery());
+    }
+
+    public function testBadResponseFormat(): void
+    {
+        $connection = $this->createConnection([
+            new Response(200, [],
+                '{"meta":{"ruid":"UmFuZG9tSVYkc2RlIyh9YfTdkabS+Lcwtoq6CbJJI87BErJ+73uR6n0+BB/2j20MnHkUwBWmA2aVAKWaG1ZFCBr3QfkFdXpoyYTSfW1DsDk="},"aaa":[{"hotel_id":10004}]}'),
+        ], $container);
+
+        $this->expectException(ConnectionException::class);
+        $this->expectExceptionMessage('Bad response format');
+        $connection->execute('endpoint');
     }
 
     public function testTextError(): void
@@ -67,12 +82,12 @@ class ConnectionTest extends TestCase
         $connection->execute('endpoint');
     }
 
-    public function testResponse(): void
+    public function testSuccessResponse(): void
     {
         $connection = $this->createConnection([
-            new Response(200, [], json_encode(['someData'])),
+            new Response(200, [], '{"result":[{"hotel_id":10004}]}'),
         ], $container);
-        $this->assertEquals(['someData'], $connection->execute('endpoint'));
+        $this->assertEquals([['hotel_id' => 10004]], $connection->execute('endpoint'));
     }
 
     /**
