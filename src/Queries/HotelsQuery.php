@@ -32,7 +32,7 @@ use BookingCom\QueryObject;
  * @method $this withRoomFacilities()
  * @method $this withHotelFacilities()
  */
-class HotelQuery extends QueryObject
+class HotelsQuery extends QueryObject
 {
     /**
      * @return array

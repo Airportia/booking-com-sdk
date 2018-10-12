@@ -5,7 +5,7 @@ namespace BookingCom\Tests\Queries;
 use BookingCom\Queries\PaymentTypesQuery;
 use PHPUnit\Framework\TestCase;
 
-class PaymentTypesTest extends TestCase
+class PaymentTypesQueryTest extends TestCase
 {
     /**
      * @return void

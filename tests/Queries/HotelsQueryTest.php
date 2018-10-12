@@ -2,17 +2,17 @@
 
 namespace BookingCom\Tests\Queries;
 
-use BookingCom\Queries\HotelQuery;
+use BookingCom\Queries\HotelsQuery;
 use PHPUnit\Framework\TestCase;
 
-class HotelTest extends TestCase
+class HotelsQueryTest extends TestCase
 {
     /**
      * @return void
      */
     public function testQuery(): void
     {
-        $query = new HotelQuery();
+        $query = new HotelsQuery();
 
         $this->assertEquals([], $query->toArray());
 
