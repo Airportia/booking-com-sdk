@@ -7,7 +7,7 @@ use BookingCom\Models\City\City;
 use BookingCom\Models\Country\Country;
 use BookingCom\Models\District\District;
 use BookingCom\Models\Facility\FacilityType;
-use BookingCom\Models\Hotel\ChangedHotel;
+use BookingCom\Models\Hotel\ChangedHotelsInfo;
 use BookingCom\Models\Hotel\Hotel;
 use BookingCom\Models\Hotel\HotelFacilityType;
 use BookingCom\Models\Hotel\HotelThemeType;
@@ -81,11 +81,11 @@ class Client
 
     /**
      * @param Queries\ChangedHotelsQuery $query
-     * @return ChangedHotel[]
+     * @return ChangedHotelsInfo
      */
-    public function getChangedHotels(Queries\ChangedHotelsQuery $query): array
+    public function getChangedHotelsInfo(Queries\ChangedHotelsQuery $query): ChangedHotelsInfo
     {
-        return $this->runQuery('/changedHotels', ChangedHotel::class, $query);
+        return ChangedHotelsInfo::fromArray($this->connection->execute('/changedHotels', $query->toArray()));
     }
 
     /**
