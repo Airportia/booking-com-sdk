@@ -47,6 +47,11 @@ class Client
         $this->connection = $connection;
     }
 
+    public static function create($config): self
+    {
+        return new self(new Connection($config));
+    }
+
     /**
      * @param RegionsQuery $query
      * @return Region[]
@@ -72,23 +77,6 @@ class Client
     public function getChainTypes(ChainTypesQuery $query = null): array
     {
         return $this->runQuery('/chainTypes', ChainType::class, $query);
-    }
-
-    /**
-     * @param QueryObject $query
-     * @return array
-     */
-    private function getQueryParams(QueryObject $query = null): array
-    {
-        return $query === null ? [] : $query->toArray();
-    }
-
-    private function runQuery(string $uri, string $targetClass, QueryObject $query = null): array
-    {
-        $params = $this->getQueryParams($query);
-        return array_map(function (array $modelArray) use ($targetClass) {
-            return \call_user_func([$targetClass, 'fromArray'], $modelArray);
-        }, $this->connection->execute($uri, $params));
     }
 
     /**
@@ -188,5 +176,22 @@ class Client
     public function getRoomTypes(RoomTypesQuery $query): array
     {
         return $this->runQuery('/roomTypes', RoomType::class, $query);
+    }
+
+    /**
+     * @param QueryObject $query
+     * @return array
+     */
+    private function getQueryParams(QueryObject $query = null): array
+    {
+        return $query === null ? [] : $query->toArray();
+    }
+
+    private function runQuery(string $uri, string $targetClass, QueryObject $query = null): array
+    {
+        $params = $this->getQueryParams($query);
+        return array_map(function (array $modelArray) use ($targetClass) {
+            return \call_user_func([$targetClass, 'fromArray'], $modelArray);
+        }, $this->connection->execute($uri, $params));
     }
 }
