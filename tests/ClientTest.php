@@ -76,10 +76,12 @@ class ClientTest extends TestCase
 
     public function testChangedHotels(): void
     {
-        $client = $this->createClient('/changedHotels', ['last_change' => 'aaa'],
+        $date = new \DateTime();
+
+        $client = $this->createClient('/changedHotels', ['last_change' => $date->format('Y-m-d H:i:s')],
             '{"hotel_id":1000,"changes":["hotel_description"]}');
 
-        $models = $client->getChangedHotels(new ChangedHotelsQuery('aaa'));
+        $models = $client->getChangedHotels(new ChangedHotelsQuery($date));
 
         $this->assertNotEmpty($models);
         $this->assertContainsOnlyInstancesOf(ChangedHotel::class, $models);
