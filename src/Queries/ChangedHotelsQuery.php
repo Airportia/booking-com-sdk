@@ -4,29 +4,30 @@ namespace BookingCom\Queries;
 
 
 use BookingCom\Queries\Conditions\WhereInCondition;
-use BookingCom\Queries\Operations\Where;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
-use BookingCom\Queries\Validators\StringValidator;
 use BookingCom\QueryObject;
 
 /**
  * @method $this whereCityIdsIn(array $values)
  * @method $this whereCountriesIn(array $values)
  * @method $this whereRegionIdsIn(array $values)
- * @method $this whereLastChangeIn(array $values)
  */
 class ChangedHotelsQuery extends QueryObject
 {
+    /**
+     * @var \DateTime
+     */
+    private $lastChange;
 
     /**
      * ChangedHotelsQuery constructor.
      *
-     * @param string $requiredParam
+     * @param \DateTime $lastChange
      */
-    public function __construct(string $requiredParam)
+    public function __construct(\DateTime $lastChange)
     {
-        $this->whereLastChangeIn([$requiredParam]);
+        $this->setLastChange($lastChange);
     }
 
     /**
@@ -35,22 +36,31 @@ class ChangedHotelsQuery extends QueryObject
     protected function rules(): array
     {
         return [
-            'city_ids'    => [
+            'city_ids' => [
                 'operation' => [WhereInCondition::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'countries'   => [
+            'countries' => [
                 'operation' => [WhereInCondition::class],
                 'validator' => [CountryValidator::class],
             ],
-            'region_ids'  => [
+            'region_ids' => [
                 'operation' => [WhereInCondition::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'last_change' => [
-                'operation' => [WhereInCondition::class],
-                'validator' => [StringValidator::class],
-            ],
         ];
     }
+
+    public function setLastChange(\DateTime $lastChange): self
+    {
+        $this->lastChange = $lastChange;
+        return $this;
+    }
+
+    public function toArray(): array
+    {
+        return array_merge(['last_change' => $this->lastChange->format('Y-m-d H:i:s')], parent::toArray());
+    }
+
+
 }
