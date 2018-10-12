@@ -1,0 +1,9007 @@
+{
+  "result": [
+    {
+      "chain_id": 1018,
+      "name": "Campanile"
+    },
+    {
+      "name": "Kyriad Hotel",
+      "chain_id": 1019
+    },
+    {
+      "name": "Premiere Classe",
+      "chain_id": 1020
+    },
+    {
+      "name": "Kyriad Prestige Hotel",
+      "chain_id": 1021
+    },
+    {
+      "name": "Amrath Hotels",
+      "chain_id": 1026
+    },
+    {
+      "name": "Best Western",
+      "chain_id": 1029
+    },
+    {
+      "chain_id": 1030,
+      "name": "Fletcher Hotels"
+    },
+    {
+      "chain_id": 1031,
+      "name": "Bastion Hotels"
+    },
+    {
+      "name": "Hampshire Hotels",
+      "chain_id": 1032
+    },
+    {
+      "name": "Hampshire Inns",
+      "chain_id": 1038
+    },
+    {
+      "chain_id": 1039,
+      "name": "Hampshire Classic Hotels"
+    },
+    {
+      "name": "Park Plaza Hotels & Resorts",
+      "chain_id": 1040
+    },
+    {
+      "name": "art'otel",
+      "chain_id": 1041
+    },
+    {
+      "name": "Van der Valk Hotels",
+      "chain_id": 1042
+    },
+    {
+      "chain_id": 1043,
+      "name": "NH Hotels"
+    },
+    {
+      "name": "WestCord Hotels",
+      "chain_id": 1044
+    },
+    {
+      "chain_id": 1045,
+      "name": "Ramada"
+    },
+    {
+      "name": "Days Inn",
+      "chain_id": 1046
+    },
+    {
+      "chain_id": 1047,
+      "name": "Travelodge by Wyndham"
+    },
+    {
+      "name": "Wyndham Hotels & Resorts",
+      "chain_id": 1048
+    },
+    {
+      "name": "Sofitel",
+      "chain_id": 1049
+    },
+    {
+      "name": "Novotel",
+      "chain_id": 1050
+    },
+    {
+      "name": "Mercure",
+      "chain_id": 1051
+    },
+    {
+      "chain_id": 1052,
+      "name": "Novotel Suites"
+    },
+    {
+      "name": "ibis",
+      "chain_id": 1053
+    },
+    {
+      "chain_id": 1055,
+      "name": "ZT Hotels"
+    },
+    {
+      "name": "Sheraton",
+      "chain_id": 1056
+    },
+    {
+      "chain_id": 1057,
+      "name": "Four Points by Sheraton"
+    },
+    {
+      "chain_id": 1058,
+      "name": "St. Regis"
+    },
+    {
+      "chain_id": 1059,
+      "name": "The Luxury Collection by Starwood"
+    },
+    {
+      "name": "Le Meridien Hotels & Resorts",
+      "chain_id": 1060
+    },
+    {
+      "chain_id": 1062,
+      "name": "Westin"
+    },
+    {
+      "name": "Zleep Hotels",
+      "chain_id": 1066
+    },
+    {
+      "chain_id": 1068,
+      "name": "Zenit Hoteles"
+    },
+    {
+      "name": "InterContinental Hotels & Resorts",
+      "chain_id": 1070
+    },
+    {
+      "chain_id": 1071,
+      "name": "Crowne Plaza Hotels & Resorts"
+    },
+    {
+      "chain_id": 1072,
+      "name": "Holiday Inn Hotels & Resorts"
+    },
+    {
+      "chain_id": 1073,
+      "name": "Even Hotels & Resorts"
+    },
+    {
+      "name": "Candlewood Suites",
+      "chain_id": 1074
+    },
+    {
+      "name": "Staybridge Suites",
+      "chain_id": 1075
+    },
+    {
+      "chain_id": 1077,
+      "name": "nhow"
+    },
+    {
+      "name": "Hilton Hotels & Resorts",
+      "chain_id": 1078
+    },
+    {
+      "chain_id": 1079,
+      "name": "Worldhotels"
+    },
+    {
+      "name": "Marriott Hotels & Resorts",
+      "chain_id": 1080
+    },
+    {
+      "name": " Ever Hotels",
+      "chain_id": 1081
+    },
+    {
+      "chain_id": 1082,
+      "name": "Meliá Hotels & Resorts"
+    },
+    {
+      "name": "ME by Meliá",
+      "chain_id": 1083
+    },
+    {
+      "chain_id": 1084,
+      "name": "TRYP Hoteles"
+    },
+    {
+      "chain_id": 1085,
+      "name": "Sol Hotels"
+    },
+    {
+      "chain_id": 1086,
+      "name": "A&O Hotels & Hostels"
+    },
+    {
+      "chain_id": 1087,
+      "name": "Paradisus Resorts"
+    },
+    {
+      "name": "Sol House",
+      "chain_id": 1088
+    },
+    {
+      "chain_id": 1090,
+      "name": "Eurostars Hotels"
+    },
+    {
+      "chain_id": 1091,
+      "name": "Winters Hotel Company"
+    },
+    {
+      "chain_id": 1092,
+      "name": "Renaissance Hotels & Resorts"
+    },
+    {
+      "chain_id": 1093,
+      "name": "Courtyard by Marriott"
+    },
+    {
+      "name": "The Ritz-Carlton Company, L.L.C",
+      "chain_id": 1094
+    },
+    {
+      "chain_id": 1095,
+      "name": "Whitehouse Hotels"
+    },
+    {
+      "name": "welcome hotels & restaurants",
+      "chain_id": 1096
+    },
+    {
+      "chain_id": 1097,
+      "name": "JW Marriott Hotels & Resorts"
+    },
+    {
+      "chain_id": 1098,
+      "name": "Residence Inn"
+    },
+    {
+      "name": "Welcome Break",
+      "chain_id": 1099
+    },
+    {
+      "name": "A.s Hotels",
+      "chain_id": 1100
+    },
+    {
+      "chain_id": 1101,
+      "name": "Weitzer Hotels"
+    },
+    {
+      "chain_id": 1103,
+      "name": "Warwick Hotels and Resorts"
+    },
+    {
+      "name": "Abba Hoteles",
+      "chain_id": 1104
+    },
+    {
+      "name": "Academia Hotels",
+      "chain_id": 1106
+    },
+    {
+      "name": "VP Hotels",
+      "chain_id": 1107
+    },
+    {
+      "name": "Acampora Hotels",
+      "chain_id": 1108
+    },
+    {
+      "name": "Acevi Hotels",
+      "chain_id": 1109
+    },
+    {
+      "chain_id": 1110,
+      "name": "ACHAT Hotels"
+    },
+    {
+      "chain_id": 1111,
+      "name": "Adrian Hoteles"
+    },
+    {
+      "name": "Viva Hotels & resorts",
+      "chain_id": 1112
+    },
+    {
+      "name": "VIP Hotels",
+      "chain_id": 1113
+    },
+    {
+      "chain_id": 1114,
+      "name": "Vincci Hoteles"
+    },
+    {
+      "name": "Advena Hotels",
+      "chain_id": 1115
+    },
+    {
+      "name": "Aeon Plaza Hotels",
+      "chain_id": 1116
+    },
+    {
+      "name": "Vime Hoteles",
+      "chain_id": 1118
+    },
+    {
+      "chain_id": 1120,
+      "name": "Comfort Inn"
+    },
+    {
+      "name": "Comfort Suites",
+      "chain_id": 1121
+    },
+    {
+      "chain_id": 1122,
+      "name": "Quality Inn"
+    },
+    {
+      "name": "Sleep Inn",
+      "chain_id": 1123
+    },
+    {
+      "chain_id": 1124,
+      "name": "Clarion"
+    },
+    {
+      "name": "Cambria Hotels",
+      "chain_id": 1125
+    },
+    {
+      "name": "Main Stay Suites",
+      "chain_id": 1127
+    },
+    {
+      "name": "Econo Lodge",
+      "chain_id": 1128
+    },
+    {
+      "name": "Rodeway Inn",
+      "chain_id": 1129
+    },
+    {
+      "chain_id": 1130,
+      "name": "AGH Hoteles"
+    },
+    {
+      "name": "AHotels",
+      "chain_id": 1132
+    },
+    {
+      "chain_id": 1134,
+      "name": "Airotel Group"
+    },
+    {
+      "name": "Village Hotels & Leisure Clubs",
+      "chain_id": 1135
+    },
+    {
+      "chain_id": 1136,
+      "name": "Akena Hotel"
+    },
+    {
+      "chain_id": 1137,
+      "name": "Akena City"
+    },
+    {
+      "chain_id": 1138,
+      "name": "Akena Relais"
+    },
+    {
+      "name": "AKZENT Hotels",
+      "chain_id": 1139
+    },
+    {
+      "chain_id": 1140,
+      "name": "Habtoor Hotels"
+    },
+    {
+      "name": "Alliance Alberghi",
+      "chain_id": 1142
+    },
+    {
+      "chain_id": 1144,
+      "name": "Amic Hotels"
+    },
+    {
+      "name": "AMT Hotels",
+      "chain_id": 1148
+    },
+    {
+      "chain_id": 1154,
+      "name": "Apex Hotels"
+    },
+    {
+      "chain_id": 1155,
+      "name": "Apogia Hotel Group"
+    },
+    {
+      "chain_id": 1156,
+      "name": "Appart'City"
+    },
+    {
+      "name": "Apple Core Hotels",
+      "chain_id": 1157
+    },
+    {
+      "name": "Aqua Hotel",
+      "chain_id": 1159
+    },
+    {
+      "chain_id": 1162,
+      "name": "Arcotel Hotels & Resorts"
+    },
+    {
+      "name": "Aris Hotels",
+      "chain_id": 1163
+    },
+    {
+      "chain_id": 1165,
+      "name": "Arp-Hansen Hotel Group"
+    },
+    {
+      "name": "Astotel",
+      "chain_id": 1166
+    },
+    {
+      "name": "Atahotels",
+      "chain_id": 1167
+    },
+    {
+      "chain_id": 1168,
+      "name": "Atrium Hotels"
+    },
+    {
+      "name": "Austria Hotels International",
+      "chain_id": 1170
+    },
+    {
+      "chain_id": 1171,
+      "name": "Austria Trend Hotels"
+    },
+    {
+      "chain_id": 1172,
+      "name": "Austrotel Hotels"
+    },
+    {
+      "chain_id": 1175,
+      "name": "B&B Hotels"
+    },
+    {
+      "chain_id": 1177,
+      "name": "Baglioni Hotels"
+    },
+    {
+      "name": "Balladins",
+      "chain_id": 1182
+    },
+    {
+      "chain_id": 1183,
+      "name": "Barata Hotel Group"
+    },
+    {
+      "chain_id": 1184,
+      "name": "Barceló Hotels & Resorts"
+    },
+    {
+      "chain_id": 1189,
+      "name": "Bilderberg"
+    },
+    {
+      "chain_id": 1190,
+      "name": "Village and Life"
+    },
+    {
+      "name": "Vila Gale",
+      "chain_id": 1191
+    },
+    {
+      "chain_id": 1192,
+      "name": "Vienna House"
+    },
+    {
+      "name": "Victoria Garden",
+      "chain_id": 1193
+    },
+    {
+      "chain_id": 1196,
+      "name": "Vavlitis Hotels"
+    },
+    {
+      "chain_id": 1197,
+      "name": "Valentin Hotels"
+    },
+    {
+      "name": "Valamar",
+      "chain_id": 1198
+    },
+    {
+      "name": "Vacation Care",
+      "chain_id": 1199
+    },
+    {
+      "chain_id": 1200,
+      "name": "Upstalsboom"
+    },
+    {
+      "chain_id": 1201,
+      "name": "Macdonald Hotels & Resorts"
+    },
+    {
+      "name": "F&G Hotels",
+      "chain_id": 1202
+    },
+    {
+      "name": "Falkensteiner Hotels & Residences",
+      "chain_id": 1204
+    },
+    {
+      "name": "Macia Hotels",
+      "chain_id": 1205
+    },
+    {
+      "name": "Maistra d.d.",
+      "chain_id": 1206
+    },
+    {
+      "name": "Gruppo UNA",
+      "chain_id": 1209
+    },
+    {
+      "chain_id": 1210,
+      "name": "Mamaison Hotels & Residences"
+    },
+    {
+      "chain_id": 1212,
+      "name": "Manniello Hotels"
+    },
+    {
+      "name": "Manotel",
+      "chain_id": 1215
+    },
+    {
+      "name": "Palladium Hotel Group",
+      "chain_id": 1218
+    },
+    {
+      "chain_id": 1219,
+      "name": "First Hotels"
+    },
+    {
+      "name": "Flair Hotels",
+      "chain_id": 1220
+    },
+    {
+      "name": "Fosshotel",
+      "chain_id": 1224
+    },
+    {
+      "name": "H-Hotels.com",
+      "chain_id": 1226
+    },
+    {
+      "chain_id": 1231,
+      "name": "Maritim"
+    },
+    {
+      "name": "Martins",
+      "chain_id": 1233
+    },
+    {
+      "chain_id": 1237,
+      "name": "Medium Hoteles"
+    },
+    {
+      "name": "Medplaya",
+      "chain_id": 1238
+    },
+    {
+      "chain_id": 1239,
+      "name": "Menzies Hotels"
+    },
+    {
+      "name": "Mercer Accomodation Group",
+      "chain_id": 1240
+    },
+    {
+      "name": "Meritus",
+      "chain_id": 1242
+    },
+    {
+      "name": "Hoteli Metropol ",
+      "chain_id": 1246
+    },
+    {
+      "name": "Good Night Inns",
+      "chain_id": 1247
+    },
+    {
+      "chain_id": 1248,
+      "name": "Millennium Hotels"
+    },
+    {
+      "name": "Copthorne Hotels",
+      "chain_id": 1249
+    },
+    {
+      "chain_id": 1250,
+      "name": "MiniHotels"
+    },
+    {
+      "name": "Mister Bed",
+      "chain_id": 1252
+    },
+    {
+      "chain_id": 1253,
+      "name": "Mister Bed City"
+    },
+    {
+      "chain_id": 1254,
+      "name": "Mister Bed Residence"
+    },
+    {
+      "chain_id": 1256,
+      "name": "Fuerte Hoteles"
+    },
+    {
+      "name": "Mövenpick Hotels & Resorts",
+      "chain_id": 1257
+    },
+    {
+      "chain_id": 1258,
+      "name": "Mokinba  Hotels"
+    },
+    {
+      "name": "Fuller's",
+      "chain_id": 1259
+    },
+    {
+      "chain_id": 1260,
+      "name": "Garden Hoteles"
+    },
+    {
+      "name": "Monrif Hotels",
+      "chain_id": 1262
+    },
+    {
+      "chain_id": 1264,
+      "name": "Travel Charme Hotels & Resorts"
+    },
+    {
+      "chain_id": 1266,
+      "name": "Gema Hoteles"
+    },
+    {
+      "chain_id": 1267,
+      "name": "GH Hoteles"
+    },
+    {
+      "name": "GHOTEL hotel & living",
+      "chain_id": 1268
+    },
+    {
+      "name": "GHT Hotels",
+      "chain_id": 1269
+    },
+    {
+      "chain_id": 1270,
+      "name": "Giglio Hotels"
+    },
+    {
+      "name": "Oasis Hotels & Resorts",
+      "chain_id": 1272
+    },
+    {
+      "chain_id": 1274,
+      "name": "Golden Leaf Hotels & Residences"
+    },
+    {
+      "name": "Grand UK Hotels",
+      "chain_id": 1275
+    },
+    {
+      "name": "Montenegro Stars",
+      "chain_id": 1276
+    },
+    {
+      "chain_id": 1277,
+      "name": "Morada Hotels & Resorts"
+    },
+    {
+      "name": "Moran Hotels",
+      "chain_id": 1278
+    },
+    {
+      "chain_id": 1280,
+      "name": "Morgans Hotel Group"
+    },
+    {
+      "chain_id": 1281,
+      "name": "Morvan Hotels"
+    },
+    {
+      "chain_id": 1282,
+      "name": "Motel One"
+    },
+    {
+      "chain_id": 1283,
+      "name": "Mur Hoteles"
+    },
+    {
+      "name": "Compagnie des hotels",
+      "chain_id": 1284
+    },
+    {
+      "chain_id": 1288,
+      "name": "Newhotel"
+    },
+    {
+      "chain_id": 1290,
+      "name": "Noble House Hotels"
+    },
+    {
+      "chain_id": 1291,
+      "name": "Norlandia Hotels"
+    },
+    {
+      "chain_id": 1295,
+      "name": "Grange hotels"
+    },
+    {
+      "name": "Grecotel",
+      "chain_id": 1297
+    },
+    {
+      "chain_id": 1299,
+      "name": "Greene King's Pubs & Hotels"
+    },
+    {
+      "name": "GreenLine Hotels",
+      "chain_id": 1300
+    },
+    {
+      "chain_id": 1302,
+      "name": "Gromada Hotels"
+    },
+    {
+      "chain_id": 1304,
+      "name": "Grupo Abades"
+    },
+    {
+      "name": "Grupo Bali",
+      "chain_id": 1306
+    },
+    {
+      "name": "Belhotel Hotels & Resorts",
+      "chain_id": 1307
+    },
+    {
+      "chain_id": 1308,
+      "name": "Bensaude Hotels"
+    },
+    {
+      "chain_id": 1310,
+      "name": "Grupo Gargallo"
+    },
+    {
+      "name": "Group Best Hotel",
+      "chain_id": 1311
+    },
+    {
+      "name": "OCA Hotels",
+      "chain_id": 1313
+    },
+    {
+      "name": "Playasol Ibiza Hotels",
+      "chain_id": 1316
+    },
+    {
+      "name": "Ocean Group Hotels & Resorts",
+      "chain_id": 1318
+    },
+    {
+      "name": "Oceania",
+      "chain_id": 1319
+    },
+    {
+      "chain_id": 1321,
+      "name": "Old English Inns"
+    },
+    {
+      "chain_id": 1324,
+      "name": "Omni Hotels"
+    },
+    {
+      "name": "Port Hotels",
+      "chain_id": 1325
+    },
+    {
+      "name": "Orco Group",
+      "chain_id": 1327
+    },
+    {
+      "chain_id": 1328,
+      "name": "Belmond Hotels"
+    },
+    {
+      "name": "Othon",
+      "chain_id": 1329
+    },
+    {
+      "name": "Panorama Hotels",
+      "chain_id": 1332
+    },
+    {
+      "name": "Grupotel",
+      "chain_id": 1338
+    },
+    {
+      "chain_id": 1342,
+      "name": "The Dedica Anthology"
+    },
+    {
+      "name": "B4 Hotels",
+      "chain_id": 1343
+    },
+    {
+      "chain_id": 1344,
+      "name": "Peel Hotels"
+    },
+    {
+      "name": "Adriatic Luxury Hotels",
+      "chain_id": 1345
+    },
+    {
+      "chain_id": 1346,
+      "name": "Personality Hotels"
+    },
+    {
+      "name": "Guitart Hotels",
+      "chain_id": 1347
+    },
+    {
+      "name": "Pestana Hotels & Resorts",
+      "chain_id": 1348
+    },
+    {
+      "name": "Guldsmeden Hotels",
+      "chain_id": 1349
+    },
+    {
+      "name": "H10 Hotels",
+      "chain_id": 1351
+    },
+    {
+      "chain_id": 1353,
+      "name": "Pierre & Vacances"
+    },
+    {
+      "name": "BQ Hoteles",
+      "chain_id": 1354
+    },
+    {
+      "chain_id": 1355,
+      "name": "Piñero Hoteles"
+    },
+    {
+      "name": "Brend Hotels",
+      "chain_id": 1356
+    },
+    {
+      "chain_id": 1357,
+      "name": "Senator Hotels & Resort"
+    },
+    {
+      "chain_id": 1358,
+      "name": "Polish Prestige Hotels & Resorts"
+    },
+    {
+      "chain_id": 1359,
+      "name": "Port Aventura"
+    },
+    {
+      "name": "Portfolio Hotels",
+      "chain_id": 1361
+    },
+    {
+      "chain_id": 1364,
+      "name": "Britannia Hotels"
+    },
+    {
+      "name": "Brøchner Hotels",
+      "chain_id": 1365
+    },
+    {
+      "chain_id": 1372,
+      "name": "Premier Apartments"
+    },
+    {
+      "name": "Ayre Hoteles",
+      "chain_id": 1374
+    },
+    {
+      "chain_id": 1376,
+      "name": "Hand Picked Hotels"
+    },
+    {
+      "chain_id": 1377,
+      "name": "Hastings Hotels"
+    },
+    {
+      "chain_id": 1380,
+      "name": "HCC hotels"
+    },
+    {
+      "name": "Helios Hotels",
+      "chain_id": 1381
+    },
+    {
+      "name": "TOP Hotels",
+      "chain_id": 1386
+    },
+    {
+      "chain_id": 1387,
+      "name": "HG Hoteles"
+    },
+    {
+      "name": "TIP TOP Hotels",
+      "chain_id": 1389
+    },
+    {
+      "chain_id": 1390,
+      "name": "Timhotel"
+    },
+    {
+      "name": "Petit Palace Hoteles",
+      "chain_id": 1391
+    },
+    {
+      "name": "HLG Hoteles",
+      "chain_id": 1393
+    },
+    {
+      "chain_id": 1394,
+      "name": "HM Hotels"
+    },
+    {
+      "name": "HMC Hotels",
+      "chain_id": 1395
+    },
+    {
+      "chain_id": 1396,
+      "name": "Premier Inn"
+    },
+    {
+      "chain_id": 1398,
+      "name": "Prestige"
+    },
+    {
+      "chain_id": 1399,
+      "name": "Pretur Hoteles"
+    },
+    {
+      "chain_id": 1400,
+      "name": "Prima Hotels"
+    },
+    {
+      "name": "Principal Hotel Company",
+      "chain_id": 1403
+    },
+    {
+      "chain_id": 1404,
+      "name": "Prinsotel"
+    },
+    {
+      "chain_id": 1405,
+      "name": "Private Selection Hotels"
+    },
+    {
+      "chain_id": 1407,
+      "name": "Profil Hotels"
+    },
+    {
+      "chain_id": 1408,
+      "name": "Protur Hotels"
+    },
+    {
+      "name": "Q Hotels",
+      "chain_id": 1409
+    },
+    {
+      "chain_id": 1412,
+      "name": "Quality Lodgings"
+    },
+    {
+      "name": "Qubus Hotel",
+      "chain_id": 1413
+    },
+    {
+      "chain_id": 1414,
+      "name": "Queens Gruppe"
+    },
+    {
+      "chain_id": 1416,
+      "name": "Thon Hotels"
+    },
+    {
+      "name": "Thistle",
+      "chain_id": 1422
+    },
+    {
+      "name": "Rafaelhoteles",
+      "chain_id": 1428
+    },
+    {
+      "chain_id": 1430,
+      "name": "Hospes"
+    },
+    {
+      "chain_id": 1431,
+      "name": "Hotansa"
+    },
+    {
+      "name": "The Myconian Collection",
+      "chain_id": 1433
+    },
+    {
+      "name": "Recommended Hotels",
+      "chain_id": 1434
+    },
+    {
+      "name": "Red Carnation Hotels",
+      "chain_id": 1436
+    },
+    {
+      "name": "Regetel",
+      "chain_id": 1439
+    },
+    {
+      "name": "Relais & Châteaux",
+      "chain_id": 1440
+    },
+    {
+      "chain_id": 1441,
+      "name": "THB Hotels"
+    },
+    {
+      "chain_id": 1442,
+      "name": "Terme Krka"
+    },
+    {
+      "name": "Relax Hotels",
+      "chain_id": 1445
+    },
+    {
+      "name": "Residentie Hotels",
+      "chain_id": 1450
+    },
+    {
+      "chain_id": 1456,
+      "name": "RH Hoteles"
+    },
+    {
+      "name": "Riberpuig Hotels",
+      "chain_id": 1457
+    },
+    {
+      "name": "Rica Hotels",
+      "chain_id": 1458
+    },
+    {
+      "name": "Ringhotels",
+      "chain_id": 1459
+    },
+    {
+      "chain_id": 1461,
+      "name": "Roc Hotels"
+    },
+    {
+      "name": "Rocco Forte Hotels",
+      "chain_id": 1462
+    },
+    {
+      "chain_id": 1463,
+      "name": "Hoteis Real"
+    },
+    {
+      "name": "Hotel Edda",
+      "chain_id": 1465
+    },
+    {
+      "chain_id": 1466,
+      "name": "Romantik"
+    },
+    {
+      "name": "Room Mate",
+      "chain_id": 1467
+    },
+    {
+      "name": "Rosamar Hotels",
+      "chain_id": 1468
+    },
+    {
+      "name": "Rotana Hotels & Resorts",
+      "chain_id": 1470
+    },
+    {
+      "name": "Roussill'hôtel",
+      "chain_id": 1471
+    },
+    {
+      "chain_id": 1472,
+      "name": "Hoteles & Resort EXPO"
+    },
+    {
+      "name": "Symbol Hoteles",
+      "chain_id": 1473
+    },
+    {
+      "chain_id": 1474,
+      "name": "Swiss Quality Hotels"
+    },
+    {
+      "name": "Swiss Charme Hotels",
+      "chain_id": 1475
+    },
+    {
+      "chain_id": 1476,
+      "name": "Swallow Hotels"
+    },
+    {
+      "chain_id": 1477,
+      "name": "Supranational"
+    },
+    {
+      "chain_id": 1478,
+      "name": "Sunotel"
+    },
+    {
+      "name": "Sunlight Hoteles",
+      "chain_id": 1479
+    },
+    {
+      "chain_id": 1480,
+      "name": "Sunflower Hotels"
+    },
+    {
+      "name": "Suncani Hvar Hotels",
+      "chain_id": 1481
+    },
+    {
+      "chain_id": 1482,
+      "name": "Sun Confort"
+    },
+    {
+      "name": "Hoteles Andaluces con Encanto",
+      "chain_id": 1483
+    },
+    {
+      "chain_id": 1484,
+      "name": "Summit Hotels & Resorts"
+    },
+    {
+      "chain_id": 1487,
+      "name": "Catalonia Hotels & Resorts"
+    },
+    {
+      "chain_id": 1488,
+      "name": "Strathmore Hotels"
+    },
+    {
+      "name": "Steigenberger Hotels & Resorts",
+      "chain_id": 1490
+    },
+    {
+      "name": "IntercityHotels",
+      "chain_id": 1491
+    },
+    {
+      "chain_id": 1492,
+      "name": "Hoteles Center"
+    },
+    {
+      "name": "Stayokay",
+      "chain_id": 1493
+    },
+    {
+      "chain_id": 1494,
+      "name": "Starhotels"
+    },
+    {
+      "name": "Star Inn Hotels",
+      "chain_id": 1495
+    },
+    {
+      "name": "Magic Costa Blanca",
+      "chain_id": 1496
+    },
+    {
+      "chain_id": 1497,
+      "name": "Sotour Austria"
+    },
+    {
+      "name": "Hoteles Globales",
+      "chain_id": 1500
+    },
+    {
+      "chain_id": 1501,
+      "name": "Sorell Hotels"
+    },
+    {
+      "chain_id": 1503,
+      "name": "Sorat Hotels"
+    },
+    {
+      "chain_id": 1507,
+      "name": "Solvasa Hoteles"
+    },
+    {
+      "chain_id": 1508,
+      "name": "Solaris Beach Resort"
+    },
+    {
+      "name": "Small Luxury Hotels of the World",
+      "chain_id": 1510
+    },
+    {
+      "chain_id": 1511,
+      "name": "Sleepwell Hotels"
+    },
+    {
+      "chain_id": 1512,
+      "name": "Sirenis Hotels"
+    },
+    {
+      "chain_id": 1513,
+      "name": "Sina Hotels"
+    },
+    {
+      "chain_id": 1515,
+      "name": "Signature Hotel Group"
+    },
+    {
+      "name": "Shepherd Neame",
+      "chain_id": 1516
+    },
+    {
+      "chain_id": 1517,
+      "name": "Shangri-La Hotels & Resorts"
+    },
+    {
+      "name": "Set Hotels",
+      "chain_id": 1518
+    },
+    {
+      "chain_id": 1519,
+      "name": "Serrano Hotels"
+    },
+    {
+      "chain_id": 1520,
+      "name": "Sercotel Hoteles"
+    },
+    {
+      "name": "Schick Hotels",
+      "chain_id": 1524
+    },
+    {
+      "name": "Sbokos Hotel Group",
+      "chain_id": 1525
+    },
+    {
+      "chain_id": 1526,
+      "name": "SB Hotels"
+    },
+    {
+      "chain_id": 1527,
+      "name": "Savoy"
+    },
+    {
+      "name": "Sandton Hotels",
+      "chain_id": 1528
+    },
+    {
+      "name": "SANA Hotels",
+      "chain_id": 1529
+    },
+    {
+      "name": "San Marco Hotels",
+      "chain_id": 1530
+    },
+    {
+      "name": "Port Blue",
+      "chain_id": 1531
+    },
+    {
+      "name": "Safeer Hotels",
+      "chain_id": 1532
+    },
+    {
+      "chain_id": 1533,
+      "name": "IBB Hotels"
+    },
+    {
+      "chain_id": 1534,
+      "name": "Iberotel Hotels & Resorts"
+    },
+    {
+      "name": "Icelandair Hotels",
+      "chain_id": 1535
+    },
+    {
+      "name": "Lopesan Hotels & Resorts",
+      "chain_id": 1536
+    },
+    {
+      "chain_id": 1537,
+      "name": "Ilirija Hotels"
+    },
+    {
+      "name": "Imperial",
+      "chain_id": 1538
+    },
+    {
+      "name": "Inntel",
+      "chain_id": 1540
+    },
+    {
+      "name": "Insotel",
+      "chain_id": 1541
+    },
+    {
+      "chain_id": 1543,
+      "name": "Hoteles, Casas y Palacios de Espana"
+    },
+    {
+      "name": "Intertur",
+      "chain_id": 1545
+    },
+    {
+      "chain_id": 1550,
+      "name": "ITI Hotels"
+    },
+    {
+      "name": "Jadranka Hoteli",
+      "chain_id": 1552
+    },
+    {
+      "chain_id": 1553,
+      "name": "Jahreszeiten Hotels"
+    },
+    {
+      "name": "CABINN AS",
+      "chain_id": 1555
+    },
+    {
+      "name": "Cairn Hotels",
+      "chain_id": 1556
+    },
+    {
+      "name": "Jin Jiang Hotels",
+      "chain_id": 1558
+    },
+    {
+      "name": "JJW Hotels & Resorts",
+      "chain_id": 1560
+    },
+    {
+      "chain_id": 1562,
+      "name": "JM Hoteles"
+    },
+    {
+      "name": "Faranda Hotels",
+      "chain_id": 1564
+    },
+    {
+      "chain_id": 1565,
+      "name": "Center Hotels"
+    },
+    {
+      "name": "Centerhotels",
+      "chain_id": 1567
+    },
+    {
+      "chain_id": 1569,
+      "name": "Chandris Hotels"
+    },
+    {
+      "chain_id": 1570,
+      "name": "Hoteles Invisa"
+    },
+    {
+      "chain_id": 1572,
+      "name": "Hoteles Monte"
+    },
+    {
+      "name": "Hoteles Porcel",
+      "chain_id": 1573
+    },
+    {
+      "chain_id": 1574,
+      "name": "Hoteles Quo"
+    },
+    {
+      "name": "Hoteles Saint Michel",
+      "chain_id": 1575
+    },
+    {
+      "chain_id": 1577,
+      "name": "Hoteles Servi Group"
+    },
+    {
+      "name": "Hoteles Silken",
+      "chain_id": 1578
+    },
+    {
+      "chain_id": 1579,
+      "name": "Hoteles Var"
+    },
+    {
+      "chain_id": 1580,
+      "name": "RelaxInnz"
+    },
+    {
+      "chain_id": 1581,
+      "name": "Charme e Relax"
+    },
+    {
+      "name": "les Collectionneurs",
+      "chain_id": 1582
+    },
+    {
+      "name": "Chateaux et Demeures de Tradition",
+      "chain_id": 1583
+    },
+    {
+      "chain_id": 1585,
+      "name": "Citadines"
+    },
+    {
+      "name": "Hoteli Baska",
+      "chain_id": 1587
+    },
+    {
+      "chain_id": 1589,
+      "name": "Hoteli Maestral"
+    },
+    {
+      "name": "Citotel",
+      "chain_id": 1590
+    },
+    {
+      "name": "City Partner",
+      "chain_id": 1593
+    },
+    {
+      "chain_id": 1594,
+      "name": "Hotels Nuñez y Navarro"
+    },
+    {
+      "name": "Ciutat Hotels",
+      "chain_id": 1597
+    },
+    {
+      "chain_id": 1598,
+      "name": "Serhs Hotels "
+    },
+    {
+      "chain_id": 1599,
+      "name": "Civis Hoteles"
+    },
+    {
+      "chain_id": 1601,
+      "name": "Hotenco Hotels"
+    },
+    {
+      "chain_id": 1602,
+      "name": "Classic British Hotels"
+    },
+    {
+      "name": "Classic Hotels",
+      "chain_id": 1604
+    },
+    {
+      "chain_id": 1605,
+      "name": "Classic Lodges"
+    },
+    {
+      "chain_id": 1607,
+      "name": "Hunguest Hotels"
+    },
+    {
+      "chain_id": 1608,
+      "name": "Club Quarters"
+    },
+    {
+      "chain_id": 1610,
+      "name": "Colonna Hotels"
+    },
+    {
+      "name": "Concerto Hotels",
+      "chain_id": 1613
+    },
+    {
+      "chain_id": 1614,
+      "name": "Husa Hoteles"
+    },
+    {
+      "name": "H·Top Hotels Group",
+      "chain_id": 1616
+    },
+    {
+      "chain_id": 1617,
+      "name": "Ilunion Hotels"
+    },
+    {
+      "chain_id": 1619,
+      "name": "Coral Hotels"
+    },
+    {
+      "name": "Coral International Hotels , Resorts & Spas",
+      "chain_id": 1620
+    },
+    {
+      "name": "Corsendonk Group Hotels",
+      "chain_id": 1623
+    },
+    {
+      "chain_id": 1624,
+      "name": "Corus Hotels"
+    },
+    {
+      "chain_id": 1625,
+      "name": "Costa brava Verd Hotels"
+    },
+    {
+      "name": "Evenia Hotels",
+      "chain_id": 1626
+    },
+    {
+      "name": "K+K Hotels",
+      "chain_id": 1627
+    },
+    {
+      "name": "Keahotels",
+      "chain_id": 1628
+    },
+    {
+      "name": "Kempinski",
+      "chain_id": 1629
+    },
+    {
+      "name": "Countryside Hotels",
+      "chain_id": 1632
+    },
+    {
+      "chain_id": 1633,
+      "name": "Crerar Hotels"
+    },
+    {
+      "chain_id": 1636,
+      "name": "Danubius Hotels"
+    },
+    {
+      "name": "Dema",
+      "chain_id": 1638
+    },
+    {
+      "name": "Derag Livinghotel",
+      "chain_id": 1639
+    },
+    {
+      "chain_id": 1640,
+      "name": "Barcelona Apartment"
+    },
+    {
+      "name": "Design Hotels",
+      "chain_id": 1641
+    },
+    {
+      "name": "Divani Collection",
+      "chain_id": 1642
+    },
+    {
+      "name": "Dom Pedro",
+      "chain_id": 1644
+    },
+    {
+      "chain_id": 1646,
+      "name": "Domina Hotels & Resorts"
+    },
+    {
+      "name": "Kris Hoteles",
+      "chain_id": 1649
+    },
+    {
+      "chain_id": 1650,
+      "name": "Domotel"
+    },
+    {
+      "name": "Domus Hotels",
+      "chain_id": 1651
+    },
+    {
+      "chain_id": 1653,
+      "name": "Landidyll"
+    },
+    {
+      "name": "Lavender Hotels",
+      "chain_id": 1654
+    },
+    {
+      "name": "Dorisol Hotels",
+      "chain_id": 1656
+    },
+    {
+      "name": "Legacy Hotels",
+      "chain_id": 1657
+    },
+    {
+      "name": "Leonardi Hotels",
+      "chain_id": 1658
+    },
+    {
+      "chain_id": 1659,
+      "name": "Machefert Hotels Collection"
+    },
+    {
+      "name": "Dunas Hotels & Resorts",
+      "chain_id": 1660
+    },
+    {
+      "chain_id": 1662,
+      "name": "Liburnia Riviera Hoteli"
+    },
+    {
+      "name": "Lifeclass Hotels & Resorts",
+      "chain_id": 1663
+    },
+    {
+      "chain_id": 1664,
+      "name": "Lindner Hotels & Resorts"
+    },
+    {
+      "chain_id": 1673,
+      "name": "Barriere"
+    },
+    {
+      "chain_id": 1677,
+      "name": "Dusit Hotels & Resorts"
+    },
+    {
+      "name": "Logis de Belgique",
+      "chain_id": 1678
+    },
+    {
+      "chain_id": 1679,
+      "name": "Logis International"
+    },
+    {
+      "name": "Logis du Grand Duché de Luxembourg",
+      "chain_id": 1680
+    },
+    {
+      "chain_id": 1682,
+      "name": "Ecohoteles"
+    },
+    {
+      "name": "Electra Hotels & Resorts",
+      "chain_id": 1684
+    },
+    {
+      "chain_id": 1688,
+      "name": "Epoque Hotels"
+    },
+    {
+      "chain_id": 1690,
+      "name": "Euro Hostels"
+    },
+    {
+      "chain_id": 1695,
+      "name": "Exclusive Hotels"
+    },
+    {
+      "name": "Hyatt",
+      "chain_id": 1696
+    },
+    {
+      "name": "Arenaturist",
+      "chain_id": 1701
+    },
+    {
+      "chain_id": 1703,
+      "name": "City Hotels Hispania"
+    },
+    {
+      "name": "Hoteles MA",
+      "chain_id": 1704
+    },
+    {
+      "chain_id": 1705,
+      "name": "London Premier"
+    },
+    {
+      "name": "Seetel Hotels",
+      "chain_id": 1706
+    },
+    {
+      "name": "TRH Hoteles",
+      "chain_id": 1707
+    },
+    {
+      "chain_id": 1708,
+      "name": "Happyculture"
+    },
+    {
+      "name": "NH Collection",
+      "chain_id": 1711
+    },
+    {
+      "chain_id": 1712,
+      "name": "HTP Korcula"
+    },
+    {
+      "chain_id": 1714,
+      "name": "Marina D'or"
+    },
+    {
+      "chain_id": 1715,
+      "name": "Scandic"
+    },
+    {
+      "chain_id": 1716,
+      "name": "Abode Hotels"
+    },
+    {
+      "name": "Leo Group",
+      "chain_id": 1717
+    },
+    {
+      "chain_id": 1719,
+      "name": "Nordic Hotels (Germany)"
+    },
+    {
+      "chain_id": 1728,
+      "name": "Mar Hotels"
+    },
+    {
+      "chain_id": 1729,
+      "name": "Monarque Hoteles"
+    },
+    {
+      "chain_id": 1730,
+      "name": "NP Plitvicka Jezera"
+    },
+    {
+      "name": "African Sky Hotels, Spas and Resorts",
+      "chain_id": 1731
+    },
+    {
+      "chain_id": 1736,
+      "name": "Hoteles Plaza Andorra"
+    },
+    {
+      "name": "Dorint Hotels",
+      "chain_id": 1737
+    },
+    {
+      "chain_id": 1738,
+      "name": "Howard Johnson"
+    },
+    {
+      "chain_id": 1748,
+      "name": "Loews Hotels"
+    },
+    {
+      "name": "Super 8",
+      "chain_id": 1750
+    },
+    {
+      "name": "Vagabond Inn",
+      "chain_id": 1755
+    },
+    {
+      "chain_id": 1756,
+      "name": "Ctwo Hotels"
+    },
+    {
+      "chain_id": 1757,
+      "name": "Greystone Hospitality"
+    },
+    {
+      "name": "Jumeirah",
+      "chain_id": 1763
+    },
+    {
+      "name": "Somerset",
+      "chain_id": 1764
+    },
+    {
+      "name": "Best Hotels",
+      "chain_id": 1765
+    },
+    {
+      "name": "Premium Hotels",
+      "chain_id": 1767
+    },
+    {
+      "name": "Somriu Hotels",
+      "chain_id": 1768
+    },
+    {
+      "chain_id": 1769,
+      "name": "RB Properties Inc."
+    },
+    {
+      "chain_id": 1771,
+      "name": "Jurys Inns"
+    },
+    {
+      "name": "The Leading Hotels of the World",
+      "chain_id": 1772
+    },
+    {
+      "name": "Aquila Hotels",
+      "chain_id": 1774
+    },
+    {
+      "chain_id": 1775,
+      "name": "Resort Quest"
+    },
+    {
+      "name": "Sokos Hotels",
+      "chain_id": 1776
+    },
+    {
+      "name": "W Hotels",
+      "chain_id": 1777
+    },
+    {
+      "name": "Oostwegel Collection",
+      "chain_id": 1779
+    },
+    {
+      "chain_id": 1782,
+      "name": "Floris Hotels"
+    },
+    {
+      "name": "Wingate by Wyndham",
+      "chain_id": 1783
+    },
+    {
+      "chain_id": 1784,
+      "name": "Knights Inn"
+    },
+    {
+      "name": "Angala Hotels",
+      "chain_id": 1785
+    },
+    {
+      "chain_id": 1786,
+      "name": "CP Hotels"
+    },
+    {
+      "name": "La Quinta Inn and Suites",
+      "chain_id": 1787
+    },
+    {
+      "name": "Your Hotel",
+      "chain_id": 1788
+    },
+    {
+      "name": "Richardson Hotels",
+      "chain_id": 1789
+    },
+    {
+      "name": "St Austell Brewery",
+      "chain_id": 1790
+    },
+    {
+      "chain_id": 1791,
+      "name": "MS Hoteles"
+    },
+    {
+      "name": "Marconfort Hotels & Apartments",
+      "chain_id": 1792
+    },
+    {
+      "chain_id": 1795,
+      "name": "arcona Management GmbH"
+    },
+    {
+      "name": "Hoteles Mediterráneo",
+      "chain_id": 1796
+    },
+    {
+      "chain_id": 1797,
+      "name": "Sol y Mar"
+    },
+    {
+      "chain_id": 1800,
+      "name": "Terme SPA Rogaška d.d."
+    },
+    {
+      "chain_id": 1801,
+      "name": "Jadran Hoteli d.d."
+    },
+    {
+      "name": "Sava Hotels & Resorts",
+      "chain_id": 1802
+    },
+    {
+      "chain_id": 1803,
+      "name": "Terme Maribor"
+    },
+    {
+      "name": "EIX Hotels",
+      "chain_id": 1804
+    },
+    {
+      "chain_id": 1805,
+      "name": "Zanhotel Group"
+    },
+    {
+      "name": "Nestor Hotels",
+      "chain_id": 1815
+    },
+    {
+      "chain_id": 1816,
+      "name": "English Lakes"
+    },
+    {
+      "chain_id": 1817,
+      "name": "BE-Housing"
+    },
+    {
+      "chain_id": 1818,
+      "name": "The Three Cities Group"
+    },
+    {
+      "name": "Apollo Hotels & Resorts",
+      "chain_id": 1819
+    },
+    {
+      "name": "Althoff Hotel Collection",
+      "chain_id": 1821
+    },
+    {
+      "chain_id": 1822,
+      "name": "Amber Hotels"
+    },
+    {
+      "name": "Cotswold Inns & Hotels Ltd",
+      "chain_id": 1823
+    },
+    {
+      "chain_id": 1825,
+      "name": "Elite Hotels of Sweden"
+    },
+    {
+      "name": "Balboa Hoteles",
+      "chain_id": 1827
+    },
+    {
+      "name": "Delfin Hotels",
+      "chain_id": 1830
+    },
+    {
+      "chain_id": 1835,
+      "name": "Concorde"
+    },
+    {
+      "name": "Ibiza Feeling",
+      "chain_id": 1837
+    },
+    {
+      "chain_id": 1838,
+      "name": "Grupo Hoteles Ronda"
+    },
+    {
+      "chain_id": 1839,
+      "name": "Red Roof Inn"
+    },
+    {
+      "chain_id": 1840,
+      "name": "Geovita Resorts"
+    },
+    {
+      "chain_id": 1841,
+      "name": "Seymour Hotels"
+    },
+    {
+      "name": "Dolan Hotels",
+      "chain_id": 1842
+    },
+    {
+      "chain_id": 1844,
+      "name": "Leonardo Hotels"
+    },
+    {
+      "chain_id": 1845,
+      "name": "Helnan International Hotels"
+    },
+    {
+      "chain_id": 1848,
+      "name": "Sonesta Collection Hotels"
+    },
+    {
+      "chain_id": 1850,
+      "name": "Meininger Hotels"
+    },
+    {
+      "name": "Hampton by Hilton",
+      "chain_id": 1851
+    },
+    {
+      "chain_id": 1852,
+      "name": "Manoli Hotels"
+    },
+    {
+      "name": "Guadalpin Hoteles",
+      "chain_id": 1853
+    },
+    {
+      "chain_id": 1854,
+      "name": "Pullman Hotels and Resorts"
+    },
+    {
+      "chain_id": 1855,
+      "name": "Top City & CountryLine Hotels"
+    },
+    {
+      "name": "Comwell Hotels",
+      "chain_id": 1856
+    },
+    {
+      "name": "The Three Corners Hotels & resorts",
+      "chain_id": 1858
+    },
+    {
+      "chain_id": 1859,
+      "name": "Harbor"
+    },
+    {
+      "chain_id": 1863,
+      "name": "Sonnenhotels Deutschland GmbH & Co. KG"
+    },
+    {
+      "name": "Hoteles Elba",
+      "chain_id": 1864
+    },
+    {
+      "name": "Shell Vacations Hospitality",
+      "chain_id": 1867
+    },
+    {
+      "name": "Mac Hotels",
+      "chain_id": 1868
+    },
+    {
+      "name": "Grupo Poseidón",
+      "chain_id": 1869
+    },
+    {
+      "name": "Domina Hotel Group",
+      "chain_id": 1870
+    },
+    {
+      "chain_id": 1873,
+      "name": "Corinthia Hotels"
+    },
+    {
+      "chain_id": 1875,
+      "name": "Far East Hospitality"
+    },
+    {
+      "name": "Sterling Hotels",
+      "chain_id": 1876
+    },
+    {
+      "name": "Luna Hoteis",
+      "chain_id": 1879
+    },
+    {
+      "chain_id": 1883,
+      "name": "Travelodge"
+    },
+    {
+      "name": "Fasthotel",
+      "chain_id": 1884
+    },
+    {
+      "name": "Marco Polo Hotels",
+      "chain_id": 1885
+    },
+    {
+      "name": "Beatriz Hoteles",
+      "chain_id": 1886
+    },
+    {
+      "chain_id": 1887,
+      "name": "Oceana Hotels & Leisure"
+    },
+    {
+      "name": "Conrad Hotels & Resorts",
+      "chain_id": 1888
+    },
+    {
+      "chain_id": 1889,
+      "name": "all seasons (Accor)"
+    },
+    {
+      "name": "Peermont Hotels Casinos Resorts",
+      "chain_id": 1891
+    },
+    {
+      "chain_id": 1892,
+      "name": "GC Hotels"
+    },
+    {
+      "name": "Different Hotels",
+      "chain_id": 1896
+    },
+    {
+      "name": "Grand Bleu Vacances",
+      "chain_id": 1898
+    },
+    {
+      "name": "Furama Hotels International Management",
+      "chain_id": 1899
+    },
+    {
+      "name": "Reverón Hoteles",
+      "chain_id": 1906
+    },
+    {
+      "chain_id": 1907,
+      "name": "DC Hoteles"
+    },
+    {
+      "name": "S.A.Brain & Co. Ltd",
+      "chain_id": 1913
+    },
+    {
+      "chain_id": 1914,
+      "name": "Divan Hotels"
+    },
+    {
+      "name": "The Marmara Collection",
+      "chain_id": 1915
+    },
+    {
+      "chain_id": 1916,
+      "name": "Ascott The Residence"
+    },
+    {
+      "chain_id": 1918,
+      "name": "Sallés Hotels"
+    },
+    {
+      "chain_id": 1921,
+      "name": "Günnewig Hotels"
+    },
+    {
+      "name": "Iberostar Hotels & Resorts",
+      "chain_id": 1922
+    },
+    {
+      "chain_id": 1923,
+      "name": "Hotel 81"
+    },
+    {
+      "name": "Eden Hotels",
+      "chain_id": 1924
+    },
+    {
+      "chain_id": 1925,
+      "name": "Regardz"
+    },
+    {
+      "name": "VCH Hotels",
+      "chain_id": 1926
+    },
+    {
+      "chain_id": 1928,
+      "name": "Sunstar Hotels"
+    },
+    {
+      "chain_id": 1929,
+      "name": "Sani Resort"
+    },
+    {
+      "chain_id": 1932,
+      "name": "Caesars Entertainment"
+    },
+    {
+      "name": "RCA Hotels",
+      "chain_id": 1934
+    },
+    {
+      "name": "FPI Hotels",
+      "chain_id": 1935
+    },
+    {
+      "chain_id": 1936,
+      "name": "MGallery by Sofitel"
+    },
+    {
+      "name": "Torse Hoteles",
+      "chain_id": 1939
+    },
+    {
+      "chain_id": 1942,
+      "name": "Aston Hotels"
+    },
+    {
+      "name": "Kingsgate Hotels",
+      "chain_id": 1944
+    },
+    {
+      "name": "Parc Hotels",
+      "chain_id": 1945
+    },
+    {
+      "chain_id": 1946,
+      "name": "Majestic Hotel Group"
+    },
+    {
+      "name": "Royal Premier Hoteles",
+      "chain_id": 1949
+    },
+    {
+      "chain_id": 1951,
+      "name": "Land-gut-Hotels"
+    },
+    {
+      "chain_id": 1958,
+      "name": "Planetaria Hotels"
+    },
+    {
+      "chain_id": 1960,
+      "name": "Americas Best Inn"
+    },
+    {
+      "chain_id": 1962,
+      "name": "Chincherini Holiday"
+    },
+    {
+      "name": "Hôtels de Charme et de Caractère",
+      "chain_id": 1963
+    },
+    {
+      "chain_id": 1966,
+      "name": "Fragrance Hotel"
+    },
+    {
+      "chain_id": 1967,
+      "name": "Residhotel"
+    },
+    {
+      "chain_id": 1969,
+      "name": "Arvena"
+    },
+    {
+      "chain_id": 1970,
+      "name": "Premier Hotels & Resorts"
+    },
+    {
+      "name": "Hôtels-Chalets de Tradition",
+      "chain_id": 1975
+    },
+    {
+      "chain_id": 1976,
+      "name": "Hoteles Ferrer"
+    },
+    {
+      "name": "pentahotels",
+      "chain_id": 1977
+    },
+    {
+      "chain_id": 1978,
+      "name": "Mellow Mood Hotels"
+    },
+    {
+      "chain_id": 1981,
+      "name": "Orea Hotels"
+    },
+    {
+      "name": "Homewood Suites by Hilton",
+      "chain_id": 1982
+    },
+    {
+      "name": "Embassy Suites Hotels",
+      "chain_id": 1983
+    },
+    {
+      "chain_id": 1984,
+      "name": "Doubletree by Hilton"
+    },
+    {
+      "chain_id": 1986,
+      "name": "MH Apartments"
+    },
+    {
+      "name": "Pan Pacific Hotels & Resorts",
+      "chain_id": 1987
+    },
+    {
+      "name": "Geisel Privathotels",
+      "chain_id": 1988
+    },
+    {
+      "name": "Grand Hotel International",
+      "chain_id": 1989
+    },
+    {
+      "name": "Victor's Residenz Hotels",
+      "chain_id": 1990
+    },
+    {
+      "name": "Legacy Hotels & Resorts International",
+      "chain_id": 1992
+    },
+    {
+      "chain_id": 1993,
+      "name": "Baymont Inn & Suites"
+    },
+    {
+      "chain_id": 1994,
+      "name": "Europe Hotels"
+    },
+    {
+      "name": "Rendezvous Hotels",
+      "chain_id": 1995
+    },
+    {
+      "name": "Heritage Hotels",
+      "chain_id": 1996
+    },
+    {
+      "chain_id": 2003,
+      "name": "JS Hotels"
+    },
+    {
+      "name": "Grupo Real Turismo",
+      "chain_id": 2004
+    },
+    {
+      "name": "Hoteles Grupo Sevilla",
+      "chain_id": 2005
+    },
+    {
+      "name": "Swiss Inn Hotels",
+      "chain_id": 2006
+    },
+    {
+      "chain_id": 2007,
+      "name": "Vanity Hotels by Viva"
+    },
+    {
+      "name": "AMW Hotele",
+      "chain_id": 2008
+    },
+    {
+      "chain_id": 2012,
+      "name": "Mandarin Oriental"
+    },
+    {
+      "name": "Finlandia Hotels",
+      "chain_id": 2013
+    },
+    {
+      "chain_id": 2017,
+      "name": "Station Casino"
+    },
+    {
+      "name": "Aqua Resorts",
+      "chain_id": 2018
+    },
+    {
+      "name": "Langham Hotels International",
+      "chain_id": 2019
+    },
+    {
+      "name": "Taj Hotels, Palaces, Resorts, safari",
+      "chain_id": 2020
+    },
+    {
+      "name": "Les Balcons",
+      "chain_id": 2026
+    },
+    {
+      "chain_id": 2027,
+      "name": "Nirwana Gardens"
+    },
+    {
+      "name": "Kronengruppen",
+      "chain_id": 2029
+    },
+    {
+      "chain_id": 2030,
+      "name": "Centara Hotels and Resorts"
+    },
+    {
+      "name": "Sol Express Hotéis",
+      "chain_id": 2033
+    },
+    {
+      "chain_id": 2034,
+      "name": "Rede Plaza de Hotéis"
+    },
+    {
+      "chain_id": 2035,
+      "name": "Travel Inn Hotéis"
+    },
+    {
+      "chain_id": 2036,
+      "name": "Riema"
+    },
+    {
+      "name": "Estanplaza Hotels",
+      "chain_id": 2037
+    },
+    {
+      "chain_id": 2038,
+      "name": "Nacional Inn"
+    },
+    {
+      "name": "Shelton Inn",
+      "chain_id": 2039
+    },
+    {
+      "chain_id": 2041,
+      "name": " Hotele Diament"
+    },
+    {
+      "name": "Hoposa",
+      "chain_id": 2042
+    },
+    {
+      "chain_id": 2043,
+      "name": "Center Parcs"
+    },
+    {
+      "chain_id": 2044,
+      "name": "Mark Hotels"
+    },
+    {
+      "chain_id": 2045,
+      "name": "Hanting Inns & Hotels"
+    },
+    {
+      "name": "Lemon Tree Hotels",
+      "chain_id": 2046
+    },
+    {
+      "name": "Sarovar Hotels",
+      "chain_id": 2058
+    },
+    {
+      "chain_id": 2064,
+      "name": "AR Hoteles"
+    },
+    {
+      "name": "Grand Chancellor Hotels",
+      "chain_id": 2066
+    },
+    {
+      "chain_id": 2068,
+      "name": "Compass Hospitality"
+    },
+    {
+      "name": "Berjaya Hotels & Resorts",
+      "chain_id": 2073
+    },
+    {
+      "name": "Aloft",
+      "chain_id": 2089
+    },
+    {
+      "chain_id": 2094,
+      "name": "Palace Resorts"
+    },
+    {
+      "name": "Diamond Resorts",
+      "chain_id": 2095
+    },
+    {
+      "chain_id": 2100,
+      "name": "Masters Inn"
+    },
+    {
+      "chain_id": 2101,
+      "name": "Oberoi Hotels & Resorts"
+    },
+    {
+      "chain_id": 2107,
+      "name": "Santa Grand Group"
+    },
+    {
+      "chain_id": 2108,
+      "name": "The Claremont Group"
+    },
+    {
+      "name": "Hawthorn Suites",
+      "chain_id": 2110
+    },
+    {
+      "chain_id": 2111,
+      "name": "Microtel Inns & Suites"
+    },
+    {
+      "chain_id": 2113,
+      "name": "Innside by Melia"
+    },
+    {
+      "chain_id": 2115,
+      "name": "Clarks Group of Hotels"
+    },
+    {
+      "chain_id": 2117,
+      "name": "Hilton Garden Inn"
+    },
+    {
+      "name": "Aranzazu Hotels",
+      "chain_id": 2119
+    },
+    {
+      "chain_id": 2120,
+      "name": "Continental Hotels"
+    },
+    {
+      "name": "Swiss-Belhotel International",
+      "chain_id": 2121
+    },
+    {
+      "chain_id": 2133,
+      "name": "Royal Orchid Hotels"
+    },
+    {
+      "chain_id": 2134,
+      "name": "GHM Luxury Hotels"
+    },
+    {
+      "name": "YIT Hoteles",
+      "chain_id": 2135
+    },
+    {
+      "name": "Westgate Resorts",
+      "chain_id": 2137
+    },
+    {
+      "chain_id": 2138,
+      "name": "Blu Hotels"
+    },
+    {
+      "chain_id": 2141,
+      "name": "Quinta Real"
+    },
+    {
+      "name": "Posadas de Espana",
+      "chain_id": 2143
+    },
+    {
+      "name": "Extended Stay America",
+      "chain_id": 2145
+    },
+    {
+      "name": "Lapland Hotels",
+      "chain_id": 2149
+    },
+    {
+      "name": "Gaia Hotels",
+      "chain_id": 2152
+    },
+    {
+      "name": "Holiday Club Spa Hotels",
+      "chain_id": 2153
+    },
+    {
+      "chain_id": 2154,
+      "name": "Waldorf Astoria Hotels & Resorts"
+    },
+    {
+      "chain_id": 2155,
+      "name": "Aquasol Hotels"
+    },
+    {
+      "name": "Guvon Hotels",
+      "chain_id": 2156
+    },
+    {
+      "name": "Leptos Calypso Hotels",
+      "chain_id": 2157
+    },
+    {
+      "chain_id": 2159,
+      "name": "StayAt Hotel Apartments"
+    },
+    {
+      "name": "Windsor Hotels",
+      "chain_id": 2160
+    },
+    {
+      "name": "Grecian Hotels",
+      "chain_id": 2162
+    },
+    {
+      "name": "Golden Hotels",
+      "chain_id": 2163
+    },
+    {
+      "chain_id": 2167,
+      "name": "Red Carpet Inn & Suites"
+    },
+    {
+      "name": "Medina",
+      "chain_id": 2172
+    },
+    {
+      "chain_id": 2173,
+      "name": "Adina"
+    },
+    {
+      "name": "Vibe Hotels",
+      "chain_id": 2174
+    },
+    {
+      "chain_id": 2175,
+      "name": "Travelodge Hotels"
+    },
+    {
+      "name": "Landmark Group Of Hotels",
+      "chain_id": 2177
+    },
+    {
+      "name": "Alexandre Hotels",
+      "chain_id": 2178
+    },
+    {
+      "name": "Seaside Hotels",
+      "chain_id": 2180
+    },
+    {
+      "name": "SH Hotels",
+      "chain_id": 2181
+    },
+    {
+      "chain_id": 2182,
+      "name": "Marlin Apartments"
+    },
+    {
+      "name": "Rent an Irish Cottage",
+      "chain_id": 2185
+    },
+    {
+      "chain_id": 2186,
+      "name": "Punthill Apartment Hotels"
+    },
+    {
+      "name": "SpringHill Suites",
+      "chain_id": 2187
+    },
+    {
+      "chain_id": 2188,
+      "name": "Fairfield Inn"
+    },
+    {
+      "chain_id": 2189,
+      "name": "Rydges Hotels & Resorts"
+    },
+    {
+      "chain_id": 2191,
+      "name": "Turim Hotels Group"
+    },
+    {
+      "name": "Hipotels",
+      "chain_id": 2192
+    },
+    {
+      "chain_id": 2193,
+      "name": "Quest Apartment Hotels"
+    },
+    {
+      "name": "Grupo Intur",
+      "chain_id": 2194
+    },
+    {
+      "chain_id": 2196,
+      "name": "AR Hotels & Resorts"
+    },
+    {
+      "name": "Apartments Swiss Star",
+      "chain_id": 2197
+    },
+    {
+      "chain_id": 2198,
+      "name": "Azimut"
+    },
+    {
+      "chain_id": 2201,
+      "name": "Atlas Hotels"
+    },
+    {
+      "chain_id": 2203,
+      "name": "Prima Hotels Israel"
+    },
+    {
+      "name": "Rimonim Hotels",
+      "chain_id": 2204
+    },
+    {
+      "name": "Caesar Hotels",
+      "chain_id": 2205
+    },
+    {
+      "chain_id": 2207,
+      "name": "Hotel Indigo"
+    },
+    {
+      "name": "Fiesta Americana Hotels and Resorts",
+      "chain_id": 2213
+    },
+    {
+      "chain_id": 2214,
+      "name": "Fiesta Inn Hotels"
+    },
+    {
+      "name": "Hoteles Mision",
+      "chain_id": 2215
+    },
+    {
+      "name": "Base",
+      "chain_id": 2216
+    },
+    {
+      "chain_id": 2218,
+      "name": "Stamford Hotels & Resorts"
+    },
+    {
+      "name": "Bristol Hotéis and Resorts",
+      "chain_id": 2219
+    },
+    {
+      "chain_id": 2220,
+      "name": "Promenade"
+    },
+    {
+      "chain_id": 2222,
+      "name": "Next Story Group"
+    },
+    {
+      "chain_id": 2226,
+      "name": "Focus Hotel Group"
+    },
+    {
+      "chain_id": 2227,
+      "name": "Thanos Hotels"
+    },
+    {
+      "name": "Natura IMB Hotels",
+      "chain_id": 2229
+    },
+    {
+      "chain_id": 2230,
+      "name": "Accent Inns"
+    },
+    {
+      "chain_id": 2233,
+      "name": "Aspen Parks"
+    },
+    {
+      "chain_id": 2235,
+      "name": "Cumulus"
+    },
+    {
+      "chain_id": 2236,
+      "name": "Tsogo Sun-Hotels"
+    },
+    {
+      "name": "Bayview International Hotels and Resorts",
+      "chain_id": 2238
+    },
+    {
+      "chain_id": 2239,
+      "name": "Isrotel Hotels & Resorts"
+    },
+    {
+      "name": "Kibbutz Hotels & Resorts",
+      "chain_id": 2240
+    },
+    {
+      "chain_id": 2241,
+      "name": "Grupo Posadas"
+    },
+    {
+      "chain_id": 2245,
+      "name": "Hoteles H2"
+    },
+    {
+      "name": "Rimini Residence",
+      "chain_id": 2246
+    },
+    {
+      "name": "Oasis Fuerteventura",
+      "chain_id": 2247
+    },
+    {
+      "chain_id": 2248,
+      "name": "Swiss-Garden"
+    },
+    {
+      "chain_id": 2250,
+      "name": "CHH Hoteles"
+    },
+    {
+      "name": "HD Hoteles",
+      "chain_id": 2251
+    },
+    {
+      "name": "Valenciaflats",
+      "chain_id": 2252
+    },
+    {
+      "name": "Park Royal Hotels & Resorts",
+      "chain_id": 2254
+    },
+    {
+      "name": "Anima Hotels",
+      "chain_id": 2258
+    },
+    {
+      "name": "Rivoli Hotels",
+      "chain_id": 2259
+    },
+    {
+      "chain_id": 2260,
+      "name": "Maybourne Hotel Group"
+    },
+    {
+      "chain_id": 2262,
+      "name": "Majestic Hotels"
+    },
+    {
+      "name": "Standard Hotels",
+      "chain_id": 2264
+    },
+    {
+      "name": "Alua Hotels & Resorts",
+      "chain_id": 2268
+    },
+    {
+      "chain_id": 2269,
+      "name": "Izan Hoteles"
+    },
+    {
+      "name": "San Juan Hoteis",
+      "chain_id": 2270
+    },
+    {
+      "name": "Rede Atlântico",
+      "chain_id": 2271
+    },
+    {
+      "name": "Transamerica Hospitality Group",
+      "chain_id": 2272
+    },
+    {
+      "chain_id": 2274,
+      "name": "Lordos Hotels Holdings"
+    },
+    {
+      "name": "AS Hotels",
+      "chain_id": 2275
+    },
+    {
+      "chain_id": 2276,
+      "name": "Euro Familien Hotels"
+    },
+    {
+      "name": "Element by Westin",
+      "chain_id": 2278
+    },
+    {
+      "chain_id": 2279,
+      "name": "Princess Hotels & Resorts"
+    },
+    {
+      "name": "Bull Hotels",
+      "chain_id": 2280
+    },
+    {
+      "name": "Jin Jiang Inns",
+      "chain_id": 2289
+    },
+    {
+      "name": "AzuLine Hotels",
+      "chain_id": 2291
+    },
+    {
+      "name": "EcoWorldHotel",
+      "chain_id": 2292
+    },
+    {
+      "chain_id": 2295,
+      "name": "Grupo Diestra Hotels & Resorts"
+    },
+    {
+      "name": "Hualuxe Hotels & Resorts",
+      "chain_id": 2298
+    },
+    {
+      "chain_id": 2301,
+      "name": "Holiday Inn Express"
+    },
+    {
+      "name": "Real Resorts",
+      "chain_id": 2303
+    },
+    {
+      "chain_id": 2307,
+      "name": "Original Resorts"
+    },
+    {
+      "chain_id": 2308,
+      "name": "Hoteles Del Angel"
+    },
+    {
+      "chain_id": 2310,
+      "name": "Plava Laguna"
+    },
+    {
+      "name": "Traders Hotels",
+      "chain_id": 2312
+    },
+    {
+      "chain_id": 2319,
+      "name": "Waldorf Apartments"
+    },
+    {
+      "name": "Amedia Hotels",
+      "chain_id": 2320
+    },
+    {
+      "chain_id": 2322,
+      "name": "Mantra Hotels"
+    },
+    {
+      "name": "Loan Group Hotels",
+      "chain_id": 2324
+    },
+    {
+      "chain_id": 2326,
+      "name": "C Hotels Israel"
+    },
+    {
+      "chain_id": 2327,
+      "name": "Ola Hotels"
+    },
+    {
+      "chain_id": 2328,
+      "name": "Avainhotellit"
+    },
+    {
+      "name": "Danat Hotels & Resorts",
+      "chain_id": 2329
+    },
+    {
+      "name": "Scenic Hotels",
+      "chain_id": 2331
+    },
+    {
+      "chain_id": 2332,
+      "name": "Heartland"
+    },
+    {
+      "name": "Ventura Inn & Suites",
+      "chain_id": 2334
+    },
+    {
+      "chain_id": 2336,
+      "name": "Alvarez Arguelles Hoteles"
+    },
+    {
+      "name": "Empire Hotel Group",
+      "chain_id": 2337
+    },
+    {
+      "name": "Victoria Group Hotels & Resorts",
+      "chain_id": 2339
+    },
+    {
+      "chain_id": 2344,
+      "name": "Karisma Hotels"
+    },
+    {
+      "name": "CGH",
+      "chain_id": 2345
+    },
+    {
+      "chain_id": 2347,
+      "name": "Dedeman Hotels"
+    },
+    {
+      "chain_id": 2348,
+      "name": "Albena"
+    },
+    {
+      "chain_id": 2349,
+      "name": "Gran Isla Hotels"
+    },
+    {
+      "chain_id": 2350,
+      "name": "Al Diar Hotels"
+    },
+    {
+      "name": "Aurora Resorts",
+      "chain_id": 2352
+    },
+    {
+      "chain_id": 2353,
+      "name": "mD Hotel Kooperation"
+    },
+    {
+      "chain_id": 2354,
+      "name": "Abitalia Hotels & Resorts"
+    },
+    {
+      "chain_id": 2355,
+      "name": "BG Hotels"
+    },
+    {
+      "chain_id": 2357,
+      "name": "SBH"
+    },
+    {
+      "name": "Robinson Club",
+      "chain_id": 2365
+    },
+    {
+      "chain_id": 2368,
+      "name": "Sandman Hotel Group"
+    },
+    {
+      "name": "Regal Hotels International Limited",
+      "chain_id": 2370
+    },
+    {
+      "chain_id": 2371,
+      "name": "Derby Hotels"
+    },
+    {
+      "chain_id": 2372,
+      "name": "Grupo Regina Hoteles"
+    },
+    {
+      "name": "Village Center",
+      "chain_id": 2375
+    },
+    {
+      "name": "Hotels Onix",
+      "chain_id": 2376
+    },
+    {
+      "chain_id": 2377,
+      "name": "Familotel"
+    },
+    {
+      "chain_id": 2378,
+      "name": "Ascend Collection"
+    },
+    {
+      "name": "The Address Hotels and Resorts",
+      "chain_id": 2382
+    },
+    {
+      "name": "Meriton Suites",
+      "chain_id": 2384
+    },
+    {
+      "name": "Belver Hotels",
+      "chain_id": 2386
+    },
+    {
+      "name": "Sunshine Hotels & Resorts",
+      "chain_id": 2388
+    },
+    {
+      "name": "Six Senses Resorts & Spas",
+      "chain_id": 2391
+    },
+    {
+      "chain_id": 2392,
+      "name": "Altis Hotels"
+    },
+    {
+      "chain_id": 2395,
+      "name": "Bluesun Hotels & Resorts"
+    },
+    {
+      "name": "MGM Resorts International",
+      "chain_id": 2397
+    },
+    {
+      "name": "National 9 Inn",
+      "chain_id": 2398
+    },
+    {
+      "chain_id": 2399,
+      "name": "Dan Hotels & Resort"
+    },
+    {
+      "name": "Petit Hotel",
+      "chain_id": 2400
+    },
+    {
+      "name": "Four Seasons Hotels and Resorts",
+      "chain_id": 2402
+    },
+    {
+      "name": "Ishin Hotels Group",
+      "chain_id": 2403
+    },
+    {
+      "chain_id": 2408,
+      "name": "hotelF1"
+    },
+    {
+      "name": "Bluegreen Resorts",
+      "chain_id": 2409
+    },
+    {
+      "chain_id": 2410,
+      "name": "Executive Hotels"
+    },
+    {
+      "name": "The Lodge Group",
+      "chain_id": 2413
+    },
+    {
+      "chain_id": 2419,
+      "name": "Marque Hotels"
+    },
+    {
+      "name": "Hallmark Hospitality Group",
+      "chain_id": 2422
+    },
+    {
+      "name": "Olissippo Hotels",
+      "chain_id": 2427
+    },
+    {
+      "name": "Stadt-gut-Hotels",
+      "chain_id": 2428
+    },
+    {
+      "name": "Schloss-gut-Hotels",
+      "chain_id": 2429
+    },
+    {
+      "chain_id": 2430,
+      "name": "Wein-gut-Hotels"
+    },
+    {
+      "name": "Grupo brisas",
+      "chain_id": 2434
+    },
+    {
+      "chain_id": 2437,
+      "name": "YHA"
+    },
+    {
+      "name": "Jaz Collection",
+      "chain_id": 2442
+    },
+    {
+      "chain_id": 2444,
+      "name": "Great National Hotels"
+    },
+    {
+      "chain_id": 2445,
+      "name": "Lagrange "
+    },
+    {
+      "chain_id": 2446,
+      "name": "Hallmark Hotels"
+    },
+    {
+      "name": "Danhostel",
+      "chain_id": 2450
+    },
+    {
+      "chain_id": 2451,
+      "name": "Dailyflats Apartments"
+    },
+    {
+      "name": "Hilton Grand Vacations",
+      "chain_id": 2452
+    },
+    {
+      "chain_id": 2455,
+      "name": "Imperial d.d. Rab"
+    },
+    {
+      "name": "Inturotel Hotels & Resorts",
+      "chain_id": 2456
+    },
+    {
+      "chain_id": 2457,
+      "name": "ALTAMAR HOTELES"
+    },
+    {
+      "chain_id": 2460,
+      "name": "Castle Resorts & Hotels"
+    },
+    {
+      "chain_id": 2461,
+      "name": "Postillion"
+    },
+    {
+      "name": "Princess Hotel Collection",
+      "chain_id": 2462
+    },
+    {
+      "name": "Aston International Hotels, Resorts & Residences",
+      "chain_id": 2467
+    },
+    {
+      "chain_id": 2472,
+      "name": "Deutsches Jugendherbergswerk (DJH)"
+    },
+    {
+      "name": "Danske Slotshoteller",
+      "chain_id": 2475
+    },
+    {
+      "chain_id": 2476,
+      "name": "A Space In The City"
+    },
+    {
+      "name": "Historical Hotels",
+      "chain_id": 2477
+    },
+    {
+      "name": "Blue Globe hotels",
+      "chain_id": 2478
+    },
+    {
+      "chain_id": 2480,
+      "name": "Casa Andina"
+    },
+    {
+      "name": "Small Danish Hotels",
+      "chain_id": 2482
+    },
+    {
+      "chain_id": 2487,
+      "name": "Distinction Hotels"
+    },
+    {
+      "chain_id": 2488,
+      "name": "FOCUS"
+    },
+    {
+      "chain_id": 2489,
+      "name": "Caldaria Hoteles y Balnearios"
+    },
+    {
+      "chain_id": 2490,
+      "name": "Wild Bush Luxury"
+    },
+    {
+      "name": "Banyan Tree Hotels & Resorts",
+      "chain_id": 2494
+    },
+    {
+      "chain_id": 2496,
+      "name": "ASURE"
+    },
+    {
+      "chain_id": 2498,
+      "name": "Red de Villas Turísticas de Andalucia"
+    },
+    {
+      "chain_id": 2499,
+      "name": "Donimirski Boutique Hotels"
+    },
+    {
+      "chain_id": 2504,
+      "name": "River Hotels"
+    },
+    {
+      "name": "Mystays Hotel Management Co., LTD",
+      "chain_id": 2507
+    },
+    {
+      "chain_id": 2508,
+      "name": "Larkspur Hotels & Restaurants"
+    },
+    {
+      "name": "Sunshine Vacation Clubs",
+      "chain_id": 2514
+    },
+    {
+      "chain_id": 2517,
+      "name": "Palia Hotels"
+    },
+    {
+      "chain_id": 2518,
+      "name": "Wing International"
+    },
+    {
+      "name": "Blue Sea Hotels & Resorts",
+      "chain_id": 2519
+    },
+    {
+      "name": "Rede Mirador",
+      "chain_id": 2522
+    },
+    {
+      "chain_id": 2523,
+      "name": " Bourbon Hotéis e Resorts"
+    },
+    {
+      "chain_id": 2524,
+      "name": "Atlantica Hotels International"
+    },
+    {
+      "name": "Blue Tree Hotels",
+      "chain_id": 2525
+    },
+    {
+      "name": "Rixos Hotels",
+      "chain_id": 2526
+    },
+    {
+      "name": "O'Callaghan Hotels",
+      "chain_id": 2528
+    },
+    {
+      "name": "Parkroyal Hotels & Resorts",
+      "chain_id": 2531
+    },
+    {
+      "name": "Swiss Premium Hotels",
+      "chain_id": 2532
+    },
+    {
+      "chain_id": 2533,
+      "name": "Meister BÄR HOTEL"
+    },
+    {
+      "chain_id": 2534,
+      "name": "Augustus Hotels"
+    },
+    {
+      "name": "Sara Grup Hotels",
+      "chain_id": 2535
+    },
+    {
+      "name": "Nuevhogar",
+      "chain_id": 2536
+    },
+    {
+      "chain_id": 2537,
+      "name": "Tokyu Stay Hotels"
+    },
+    {
+      "name": "Hankyu Hanshin Daiichi Hotels",
+      "chain_id": 2538
+    },
+    {
+      "name": "Sydney Lodges",
+      "chain_id": 2540
+    },
+    {
+      "name": "Autograph Collection",
+      "chain_id": 2542
+    },
+    {
+      "chain_id": 2543,
+      "name": "Deville"
+    },
+    {
+      "name": "GJP",
+      "chain_id": 2544
+    },
+    {
+      "chain_id": 2546,
+      "name": "AM Resorts"
+    },
+    {
+      "name": "relexa hotels",
+      "chain_id": 2548
+    },
+    {
+      "chain_id": 2552,
+      "name": "Bristol"
+    },
+    {
+      "name": "Nobile Hoteis",
+      "chain_id": 2553
+    },
+    {
+      "name": "4R Hotels",
+      "chain_id": 2554
+    },
+    {
+      "name": "Aitken Spence Hotels",
+      "chain_id": 2556
+    },
+    {
+      "name": "Heritance Hotels",
+      "chain_id": 2557
+    },
+    {
+      "chain_id": 2558,
+      "name": "Diego de Almagro Hoteles"
+    },
+    {
+      "name": "Ramblas Hoteles",
+      "chain_id": 2560
+    },
+    {
+      "chain_id": 2562,
+      "name": "Bella Vista Motels"
+    },
+    {
+      "name": "Delaware North Parks & Resorts",
+      "chain_id": 2563
+    },
+    {
+      "chain_id": 2566,
+      "name": "Universal Resorts Maldives"
+    },
+    {
+      "chain_id": 2567,
+      "name": "Villa Hotels Maldives"
+    },
+    {
+      "chain_id": 2568,
+      "name": "Grupo Pez Azul"
+    },
+    {
+      "name": "Universal Orlando Resort",
+      "chain_id": 2570
+    },
+    {
+      "chain_id": 2571,
+      "name": " Voyages Indigenous Tourism Australia"
+    },
+    {
+      "name": "Svenska Turistföreningen",
+      "chain_id": 2572
+    },
+    {
+      "chain_id": 2573,
+      "name": "Sveriges Vandrarhem i Förening"
+    },
+    {
+      "name": "Plaza Inn Hoteis",
+      "chain_id": 2574
+    },
+    {
+      "chain_id": 2575,
+      "name": "Sweden Hotels"
+    },
+    {
+      "chain_id": 2579,
+      "name": "Travelers"
+    },
+    {
+      "chain_id": 2580,
+      "name": "Mitsui Garden"
+    },
+    {
+      "name": "Hellsten Hotel Group",
+      "chain_id": 2581
+    },
+    {
+      "name": "Inatel",
+      "chain_id": 2582
+    },
+    {
+      "chain_id": 2583,
+      "name": "Hoteis Arco"
+    },
+    {
+      "name": "Porto Bay Hotels & Resorts",
+      "chain_id": 2584
+    },
+    {
+      "chain_id": 2585,
+      "name": "Lakehills Hotels"
+    },
+    {
+      "name": "TermaEuropa",
+      "chain_id": 2586
+    },
+    {
+      "name": "Holiday Club",
+      "chain_id": 2587
+    },
+    {
+      "chain_id": 2588,
+      "name": "Atlantis Resorts"
+    },
+    {
+      "name": "One&Only Resorts",
+      "chain_id": 2589
+    },
+    {
+      "chain_id": 2590,
+      "name": "Oaks group"
+    },
+    {
+      "chain_id": 2591,
+      "name": "LiveMax"
+    },
+    {
+      "chain_id": 2592,
+      "name": "JR West"
+    },
+    {
+      "chain_id": 2594,
+      "name": "Pinnacle Hotels, Resorts & Spa (Thailand)"
+    },
+    {
+      "name": " Melbourne Short Stay Apartments",
+      "chain_id": 2595
+    },
+    {
+      "chain_id": 2597,
+      "name": "Hôtels Gouverneur"
+    },
+    {
+      "chain_id": 2601,
+      "name": "Golden Chain Motels"
+    },
+    {
+      "chain_id": 2602,
+      "name": "Be Live Hotels"
+    },
+    {
+      "chain_id": 2603,
+      "name": "Maeva"
+    },
+    {
+      "name": "Hotels Latitudes",
+      "chain_id": 2604
+    },
+    {
+      "chain_id": 2605,
+      "name": "Pierre & Vacances Premium"
+    },
+    {
+      "name": "Hospitality Inns",
+      "chain_id": 2607
+    },
+    {
+      "chain_id": 2612,
+      "name": "Grup Arbo"
+    },
+    {
+      "chain_id": 2615,
+      "name": "Verser Hoteles"
+    },
+    {
+      "name": "Tourhotel",
+      "chain_id": 2616
+    },
+    {
+      "name": "Sandos Hotels & Resorts",
+      "chain_id": 2618
+    },
+    {
+      "chain_id": 2620,
+      "name": "Granvista Hotels & Resorts"
+    },
+    {
+      "chain_id": 2621,
+      "name": "Resort Trust"
+    },
+    {
+      "name": "Heiwadai Hotel Group",
+      "chain_id": 2622
+    },
+    {
+      "name": "Intercity Hoteis",
+      "chain_id": 2624
+    },
+    {
+      "name": "Peppers Hotels",
+      "chain_id": 2627
+    },
+    {
+      "name": "BreakFree Hotels",
+      "chain_id": 2628
+    },
+    {
+      "name": "The Suites Hotel",
+      "chain_id": 2629
+    },
+    {
+      "chain_id": 2630,
+      "name": "Solans"
+    },
+    {
+      "chain_id": 2631,
+      "name": "Sun&Snow"
+    },
+    {
+      "name": "Forenom",
+      "chain_id": 2633
+    },
+    {
+      "name": "Pickalbatros",
+      "chain_id": 2636
+    },
+    {
+      "chain_id": 2637,
+      "name": "SunRise"
+    },
+    {
+      "name": "Historic Hotels of Sweden",
+      "chain_id": 2638
+    },
+    {
+      "name": "COLUMBIA Hotels & Resorts",
+      "chain_id": 2639
+    },
+    {
+      "name": "Blue Bay Resorts",
+      "chain_id": 2640
+    },
+    {
+      "chain_id": 2641,
+      "name": "Goelia"
+    },
+    {
+      "name": "G Hotels",
+      "chain_id": 2642
+    },
+    {
+      "chain_id": 2643,
+      "name": "Athens Hotels Group"
+    },
+    {
+      "name": "Trentino Charme",
+      "chain_id": 2644
+    },
+    {
+      "chain_id": 2645,
+      "name": "Federal Group"
+    },
+    {
+      "name": "BHG",
+      "chain_id": 2646
+    },
+    {
+      "name": "Louis Hotels",
+      "chain_id": 2647
+    },
+    {
+      "name": "Jinjiang Inns",
+      "chain_id": 2648
+    },
+    {
+      "name": "Kotimaailma",
+      "chain_id": 2649
+    },
+    {
+      "chain_id": 2651,
+      "name": "The Park Hotels"
+    },
+    {
+      "name": "HARRIS Hotels & Resorts",
+      "chain_id": 2652
+    },
+    {
+      "chain_id": 2653,
+      "name": "Nikko Hotels International"
+    },
+    {
+      "name": "Hoteles San Agustin",
+      "chain_id": 2659
+    },
+    {
+      "chain_id": 2660,
+      "name": "Duetorrihotels"
+    },
+    {
+      "chain_id": 2661,
+      "name": "Slavhotels"
+    },
+    {
+      "chain_id": 2663,
+      "name": "Roomzzz"
+    },
+    {
+      "name": "Nordic Choice Hotels",
+      "chain_id": 2664
+    },
+    {
+      "chain_id": 2665,
+      "name": "Hoteli Bernardin"
+    },
+    {
+      "name": "Ameron Hotels",
+      "chain_id": 2666
+    },
+    {
+      "chain_id": 2667,
+      "name": "CityLife"
+    },
+    {
+      "name": "Heritage Boutique Collection",
+      "chain_id": 2668
+    },
+    {
+      "chain_id": 2669,
+      "name": "RQ"
+    },
+    {
+      "chain_id": 2676,
+      "name": "Allia Hotels"
+    },
+    {
+      "chain_id": 2677,
+      "name": "Swan"
+    },
+    {
+      "name": "Conscious Hotels",
+      "chain_id": 2679
+    },
+    {
+      "name": "Laris Hotels",
+      "chain_id": 2681
+    },
+    {
+      "chain_id": 2691,
+      "name": "Gais Hotels Group"
+    },
+    {
+      "name": "AAA Hotels & Resorts",
+      "chain_id": 2692
+    },
+    {
+      "chain_id": 2693,
+      "name": "Palafox Hoteles"
+    },
+    {
+      "name": "Amerian",
+      "chain_id": 2695
+    },
+    {
+      "name": "Jetwing Hotels Limited",
+      "chain_id": 2698
+    },
+    {
+      "chain_id": 2699,
+      "name": "Good Nite Inn"
+    },
+    {
+      "name": "Hotel Monterey Group",
+      "chain_id": 2703
+    },
+    {
+      "chain_id": 2706,
+      "name": "Albir Confort"
+    },
+    {
+      "chain_id": 2709,
+      "name": "Sudima Hotels"
+    },
+    {
+      "chain_id": 2712,
+      "name": "Safir Hotels"
+    },
+    {
+      "chain_id": 2713,
+      "name": "GHL"
+    },
+    {
+      "name": "Suburban",
+      "chain_id": 2714
+    },
+    {
+      "chain_id": 2718,
+      "name": "Groupe Germain"
+    },
+    {
+      "chain_id": 2721,
+      "name": "Nordic Hotels (Scandinavia)"
+    },
+    {
+      "chain_id": 2722,
+      "name": "Hotelaria Brasil"
+    },
+    {
+      "chain_id": 2724,
+      "name": "Unita Turism Holding"
+    },
+    {
+      "name": "Swiss Deluxe Hotels",
+      "chain_id": 2730
+    },
+    {
+      "chain_id": 2731,
+      "name": "Ginger"
+    },
+    {
+      "name": "Raulff-Hotels",
+      "chain_id": 2732
+    },
+    {
+      "chain_id": 2733,
+      "name": "Akkeron Hotels"
+    },
+    {
+      "chain_id": 2734,
+      "name": "Resorts World Genting"
+    },
+    {
+      "name": "HK Taverns",
+      "chain_id": 2736
+    },
+    {
+      "name": "Rent4days",
+      "chain_id": 2737
+    },
+    {
+      "chain_id": 2740,
+      "name": "MJB Hotels"
+    },
+    {
+      "chain_id": 2741,
+      "name": "Eizasa Hoteles"
+    },
+    {
+      "name": "Viajes Orange",
+      "chain_id": 2745
+    },
+    {
+      "name": "Leisure Hotels",
+      "chain_id": 2747
+    },
+    {
+      "name": "Anemon Hotels",
+      "chain_id": 2749
+    },
+    {
+      "name": "Interhome",
+      "chain_id": 2752
+    },
+    {
+      "name": "Louis Group Hotels",
+      "chain_id": 2753
+    },
+    {
+      "chain_id": 2758,
+      "name": "BLUE BAY GROUP OF HOTELS"
+    },
+    {
+      "chain_id": 2759,
+      "name": "Boudl Hotels & Hotel Suites"
+    },
+    {
+      "name": "Santika Indonesia Hotels & Resorts",
+      "chain_id": 2760
+    },
+    {
+      "name": "Dann Hotels",
+      "chain_id": 2763
+    },
+    {
+      "chain_id": 2766,
+      "name": "Hesperia Resorts"
+    },
+    {
+      "name": "P-Hotels",
+      "chain_id": 2769
+    },
+    {
+      "name": "25hours Hotels",
+      "chain_id": 2773
+    },
+    {
+      "name": "Ora Hotels",
+      "chain_id": 2774
+    },
+    {
+      "chain_id": 2777,
+      "name": "Danske Hoteller"
+    },
+    {
+      "name": "New Century Hotels",
+      "chain_id": 2778
+    },
+    {
+      "chain_id": 2779,
+      "name": "Jinling Hotels"
+    },
+    {
+      "name": "Constantinou Bros Hotels LTD",
+      "chain_id": 2782
+    },
+    {
+      "chain_id": 2784,
+      "name": "Pearl Resorts"
+    },
+    {
+      "name": "The House Hotels",
+      "chain_id": 2795
+    },
+    {
+      "name": "Farm Holidays Denmark",
+      "chain_id": 2796
+    },
+    {
+      "name": "Tanoa Hotel Group",
+      "chain_id": 2797
+    },
+    {
+      "name": "Pyramisa Hotels & Cruises",
+      "chain_id": 2798
+    },
+    {
+      "chain_id": 2801,
+      "name": "Hokkaido Tourism Management"
+    },
+    {
+      "name": "RV Hotels",
+      "chain_id": 2803
+    },
+    {
+      "chain_id": 2807,
+      "name": "Raphael Hotels"
+    },
+    {
+      "name": "Amaks Hotels & Resorts",
+      "chain_id": 2810
+    },
+    {
+      "chain_id": 2811,
+      "name": "AC Hotels by Marriott"
+    },
+    {
+      "chain_id": 2813,
+      "name": "Then Hospitality"
+    },
+    {
+      "chain_id": 2814,
+      "name": "Benessere Hotels"
+    },
+    {
+      "name": "Enotel",
+      "chain_id": 2815
+    },
+    {
+      "chain_id": 2818,
+      "name": "Carrís Hoteles"
+    },
+    {
+      "name": "Red Sea Hotels",
+      "chain_id": 2819
+    },
+    {
+      "chain_id": 2825,
+      "name": "WelcomHotel"
+    },
+    {
+      "name": "Skypark",
+      "chain_id": 2826
+    },
+    {
+      "chain_id": 2828,
+      "name": "Camden Place Villas"
+    },
+    {
+      "chain_id": 2830,
+      "name": "Classic Norway"
+    },
+    {
+      "chain_id": 2831,
+      "name": "Prince Hotels & Resorts"
+    },
+    {
+      "name": "Aston Hotels & Resorts",
+      "chain_id": 2832
+    },
+    {
+      "name": "Hexagon Group",
+      "chain_id": 2833
+    },
+    {
+      "chain_id": 2834,
+      "name": "Budget Host Hotels"
+    },
+    {
+      "name": "Resta Hotels & Resorts",
+      "chain_id": 2838
+    },
+    {
+      "chain_id": 2839,
+      "name": "RZD-Resorts and Spa Hotels"
+    },
+    {
+      "name": "Milenij Hoteli",
+      "chain_id": 2841
+    },
+    {
+      "name": "Union Ljubljana",
+      "chain_id": 2843
+    },
+    {
+      "chain_id": 2844,
+      "name": "Resorts World Sentosa"
+    },
+    {
+      "name": "City Express Hotels",
+      "chain_id": 2846
+    },
+    {
+      "chain_id": 2849,
+      "name": "VR Hotels and Resorts"
+    },
+    {
+      "chain_id": 2850,
+      "name": "RIU Hotels & Resorts"
+    },
+    {
+      "chain_id": 2852,
+      "name": "Clarion Collection"
+    },
+    {
+      "chain_id": 2853,
+      "name": "Urlaub am Bauernhof"
+    },
+    {
+      "name": "Andrade Hoteis",
+      "chain_id": 2856
+    },
+    {
+      "chain_id": 2857,
+      "name": "Azur Hotels & Resorts"
+    },
+    {
+      "chain_id": 2859,
+      "name": "I Grandi Viaggi"
+    },
+    {
+      "chain_id": 2861,
+      "name": "Verdens Minste Hotellkjede"
+    },
+    {
+      "chain_id": 2865,
+      "name": "Trident Hotels"
+    },
+    {
+      "name": "Jugend- Tagungshäuser der Diözese Rottenburg-Stuttgart",
+      "chain_id": 2868
+    },
+    {
+      "chain_id": 2871,
+      "name": "Lena Hoteis"
+    },
+    {
+      "name": "Smile Hotel",
+      "chain_id": 2876
+    },
+    {
+      "chain_id": 2881,
+      "name": "Silver Cloud Inns and Hotels"
+    },
+    {
+      "chain_id": 2882,
+      "name": "Colombo Fort Hotels"
+    },
+    {
+      "name": "Tangerine Group of Hotels",
+      "chain_id": 2883
+    },
+    {
+      "name": "Milling Hotels",
+      "chain_id": 2884
+    },
+    {
+      "chain_id": 2885,
+      "name": "Fegoudakis Hotels & Resorts"
+    },
+    {
+      "chain_id": 2886,
+      "name": "Hoteles Estelar"
+    },
+    {
+      "name": "Design Suites hotels",
+      "chain_id": 2887
+    },
+    {
+      "name": "Adonis",
+      "chain_id": 2888
+    },
+    {
+      "name": "Ventus Rosa Group",
+      "chain_id": 2890
+    },
+    {
+      "name": "IDEA HOTEL",
+      "chain_id": 2893
+    },
+    {
+      "name": "Chain 525",
+      "chain_id": 2895
+    },
+    {
+      "chain_id": 2896,
+      "name": "Grupo Jet"
+    },
+    {
+      "chain_id": 2898,
+      "name": "Namibia Country Lodges"
+    },
+    {
+      "name": "MyCityLofts",
+      "chain_id": 2899
+    },
+    {
+      "name": "Aspen Hotels",
+      "chain_id": 2900
+    },
+    {
+      "chain_id": 2901,
+      "name": "easyHotel"
+    },
+    {
+      "name": "Swiss Youth Hostels",
+      "chain_id": 2905
+    },
+    {
+      "name": "Tallink Hotels",
+      "chain_id": 2906
+    },
+    {
+      "name": "Hotel JAL CITY",
+      "chain_id": 2907
+    },
+    {
+      "chain_id": 2910,
+      "name": "TownePlace Suites by Marriott"
+    },
+    {
+      "name": "Coast Hotels & Resorts",
+      "chain_id": 2911
+    },
+    {
+      "chain_id": 2912,
+      "name": "Privilège Hôtels & Resorts"
+    },
+    {
+      "name": "Butterfly Boutique Hotels",
+      "chain_id": 2913
+    },
+    {
+      "chain_id": 2915,
+      "name": "Comitas Hoteles"
+    },
+    {
+      "name": "Temporary Apartments",
+      "chain_id": 2916
+    },
+    {
+      "name": "La Marina",
+      "chain_id": 2921
+    },
+    {
+      "name": "Mitsis Hotels",
+      "chain_id": 2922
+    },
+    {
+      "name": "Lungarno Collection",
+      "chain_id": 2923
+    },
+    {
+      "chain_id": 2929,
+      "name": "Sabesa"
+    },
+    {
+      "name": "Marina Hotéis",
+      "chain_id": 2930
+    },
+    {
+      "chain_id": 2931,
+      "name": "Serennia Apartments"
+    },
+    {
+      "name": "Centro Hotel Group",
+      "chain_id": 2932
+    },
+    {
+      "chain_id": 2933,
+      "name": "Sun International"
+    },
+    {
+      "chain_id": 2936,
+      "name": "Lamoga"
+    },
+    {
+      "chain_id": 2942,
+      "name": "Universal Hotels"
+    },
+    {
+      "name": "Hotels GF",
+      "chain_id": 2944
+    },
+    {
+      "chain_id": 2945,
+      "name": "Hoteles Valero"
+    },
+    {
+      "name": "Be Cordial Hotels & Resorts",
+      "chain_id": 2946
+    },
+    {
+      "chain_id": 2947,
+      "name": "Turicomplex"
+    },
+    {
+      "name": "Decameron Hotels & Resorts",
+      "chain_id": 2948
+    },
+    {
+      "chain_id": 2949,
+      "name": "Dorchester Collection"
+    },
+    {
+      "chain_id": 2951,
+      "name": "D-hotels"
+    },
+    {
+      "chain_id": 2954,
+      "name": "Eresin Hotels"
+    },
+    {
+      "name": "Sirkeci Group Hotels",
+      "chain_id": 2958
+    },
+    {
+      "name": "SS Residence Apart Hotels Romania",
+      "chain_id": 2961
+    },
+    {
+      "chain_id": 2962,
+      "name": "Singer Group"
+    },
+    {
+      "name": "Faros Hotels",
+      "chain_id": 2963
+    },
+    {
+      "chain_id": 2964,
+      "name": "Servatur"
+    },
+    {
+      "name": "Amalia Hotels",
+      "chain_id": 2966
+    },
+    {
+      "name": "Kenzi",
+      "chain_id": 2967
+    },
+    {
+      "chain_id": 2968,
+      "name": "Atlas"
+    },
+    {
+      "name": "Heritage Kenya",
+      "chain_id": 2972
+    },
+    {
+      "chain_id": 2973,
+      "name": "Mada Hotels"
+    },
+    {
+      "chain_id": 2977,
+      "name": "Confident Group"
+    },
+    {
+      "chain_id": 2979,
+      "name": "Cabot Hotels"
+    },
+    {
+      "chain_id": 2980,
+      "name": "Flatsforyou"
+    },
+    {
+      "name": "Sterling Holiday Resorts",
+      "chain_id": 2981
+    },
+    {
+      "chain_id": 2982,
+      "name": "Mll Hotels"
+    },
+    {
+      "chain_id": 2983,
+      "name": "Agon Group"
+    },
+    {
+      "chain_id": 2985,
+      "name": "Motel6"
+    },
+    {
+      "chain_id": 2986,
+      "name": "Titanic Hotels"
+    },
+    {
+      "name": "South Pacific Management",
+      "chain_id": 2987
+    },
+    {
+      "chain_id": 2988,
+      "name": "Hotel Tetora Group"
+    },
+    {
+      "name": "Xperience Hotels",
+      "chain_id": 2989
+    },
+    {
+      "chain_id": 2992,
+      "name": "Istanbul Kervansaray Hotels"
+    },
+    {
+      "chain_id": 2993,
+      "name": "Hokke Club"
+    },
+    {
+      "name": "Adagio Access Aparthotels",
+      "chain_id": 2994
+    },
+    {
+      "name": "Omena Hotels",
+      "chain_id": 2999
+    },
+    {
+      "chain_id": 3000,
+      "name": "Orascom Hotels and Development"
+    },
+    {
+      "chain_id": 3001,
+      "name": "Seramar Hotels"
+    },
+    {
+      "name": "The LaLiT Suri Hospitality Group",
+      "chain_id": 3002
+    },
+    {
+      "name": "Historic Hotels of America",
+      "chain_id": 3003
+    },
+    {
+      "name": "SAJ Hotels& Resorts",
+      "chain_id": 3004
+    },
+    {
+      "name": "The Peninsula Hotels",
+      "chain_id": 3007
+    },
+    {
+      "name": "Makarem Hospitality Group",
+      "chain_id": 3008
+    },
+    {
+      "chain_id": 3009,
+      "name": "City Junior"
+    },
+    {
+      "chain_id": 3010,
+      "name": "City Suites"
+    },
+    {
+      "name": "Best Vienna Hotels",
+      "chain_id": 3013
+    },
+    {
+      "name": "FDM Camping",
+      "chain_id": 3014
+    },
+    {
+      "chain_id": 3017,
+      "name": "Yasmak Hotels"
+    },
+    {
+      "name": "Nishitetsu Hotels",
+      "chain_id": 3018
+    },
+    {
+      "name": "Feelathome",
+      "chain_id": 3019
+    },
+    {
+      "name": "TopCamp",
+      "chain_id": 3021
+    },
+    {
+      "chain_id": 3022,
+      "name": "Roadchef"
+    },
+    {
+      "name": "Stella Di Mare Hotels & Resorts",
+      "chain_id": 3023
+    },
+    {
+      "chain_id": 3027,
+      "name": "TD Hotels"
+    },
+    {
+      "name": "Mayaland Resorts",
+      "chain_id": 3031
+    },
+    {
+      "chain_id": 3032,
+      "name": "Beachcomber Hotels"
+    },
+    {
+      "name": "Kremslehner Hotels",
+      "chain_id": 3033
+    },
+    {
+      "name": "De Salis Hotels",
+      "chain_id": 3036
+    },
+    {
+      "name": "Green Park Hotels",
+      "chain_id": 3037
+    },
+    {
+      "name": "EMA House Suites & Serviced Apartments",
+      "chain_id": 3039
+    },
+    {
+      "chain_id": 3040,
+      "name": "Organizacion Hotelera del Sur"
+    },
+    {
+      "name": "Fair Sleep Hotels & Motels",
+      "chain_id": 3042
+    },
+    {
+      "chain_id": 3043,
+      "name": "Sport Hotels"
+    },
+    {
+      "name": "Daguisa",
+      "chain_id": 3044
+    },
+    {
+      "chain_id": 3046,
+      "name": "Greentree Inn"
+    },
+    {
+      "chain_id": 3047,
+      "name": "Favoritcamping"
+    },
+    {
+      "chain_id": 3049,
+      "name": "Giannoulis Hotels & Resorts"
+    },
+    {
+      "name": "Europa Group",
+      "chain_id": 3050
+    },
+    {
+      "chain_id": 3054,
+      "name": "Connect Hotels"
+    },
+    {
+      "name": "Mareblue Hotels",
+      "chain_id": 3055
+    },
+    {
+      "chain_id": 3056,
+      "name": "Meltemi Hotels & Resorts"
+    },
+    {
+      "name": "Likus Hotels",
+      "chain_id": 3059
+    },
+    {
+      "chain_id": 3060,
+      "name": "Tempo Hotels"
+    },
+    {
+      "chain_id": 3064,
+      "name": "Maldron"
+    },
+    {
+      "chain_id": 3067,
+      "name": "Grupo Welcome S.A."
+    },
+    {
+      "name": "Charming Hotels Madeira",
+      "chain_id": 3068
+    },
+    {
+      "name": "C-Hotels",
+      "chain_id": 3069
+    },
+    {
+      "chain_id": 3071,
+      "name": "Excel Hotels and Resorts"
+    },
+    {
+      "name": "AHORN Hotels & Resorts",
+      "chain_id": 3072
+    },
+    {
+      "chain_id": 3077,
+      "name": "SIBIZA"
+    },
+    {
+      "name": "Artiem",
+      "chain_id": 3079
+    },
+    {
+      "name": "Protea Hotels by Marriott",
+      "chain_id": 3081
+    },
+    {
+      "chain_id": 3082,
+      "name": "DielleHotels Group"
+    },
+    {
+      "name": "Pite Havsbad Group",
+      "chain_id": 3083
+    },
+    {
+      "chain_id": 3085,
+      "name": "RF Hoteles"
+    },
+    {
+      "chain_id": 3086,
+      "name": "ibis Styles"
+    },
+    {
+      "chain_id": 3087,
+      "name": "Great Hotels of the World"
+    },
+    {
+      "chain_id": 3089,
+      "name": "Rochester Hotels"
+    },
+    {
+      "name": "Constance Hotels",
+      "chain_id": 3091
+    },
+    {
+      "chain_id": 3094,
+      "name": "Okura Hotels & Resorts"
+    },
+    {
+      "chain_id": 3096,
+      "name": "1834 Hotels"
+    },
+    {
+      "chain_id": 3099,
+      "name": "Urgo Hotels"
+    },
+    {
+      "chain_id": 3100,
+      "name": "Hard Rock"
+    },
+    {
+      "name": "RR Hotels",
+      "chain_id": 3102
+    },
+    {
+      "chain_id": 3103,
+      "name": "Chagala Group"
+    },
+    {
+      "name": "Flower Campings",
+      "chain_id": 3104
+    },
+    {
+      "chain_id": 3105,
+      "name": "Grupo Habita"
+    },
+    {
+      "chain_id": 3106,
+      "name": "HOVIMA HOTELS"
+    },
+    {
+      "name": "Feetup Hostels",
+      "chain_id": 3109
+    },
+    {
+      "name": "Paradise Hotels & Resorts",
+      "chain_id": 3111
+    },
+    {
+      "chain_id": 3113,
+      "name": "Leisureplex Hotels"
+    },
+    {
+      "chain_id": 3115,
+      "name": "Kat Leisure Hotel Group"
+    },
+    {
+      "name": "Crestline Hotels",
+      "chain_id": 3118
+    },
+    {
+      "name": "Sinatur",
+      "chain_id": 3119
+    },
+    {
+      "name": "RPB Hotels and Resorts",
+      "chain_id": 3121
+    },
+    {
+      "name": "Bahía Príncipe Hotels & Resorts",
+      "chain_id": 3127
+    },
+    {
+      "name": "Gran Melia Hotels & Resorts",
+      "chain_id": 3128
+    },
+    {
+      "chain_id": 3130,
+      "name": "BWH apartments"
+    },
+    {
+      "chain_id": 3135,
+      "name": "Grand Mercure"
+    },
+    {
+      "name": "Zdrojowa Hotels & Resorts",
+      "chain_id": 3138
+    },
+    {
+      "name": "Royal Resorts",
+      "chain_id": 3141
+    },
+    {
+      "chain_id": 3142,
+      "name": "Onyx Hospitality Group"
+    },
+    {
+      "name": "ReMar Hotels",
+      "chain_id": 3143
+    },
+    {
+      "name": "Mascareignes",
+      "chain_id": 3146
+    },
+    {
+      "name": "Amari Hotels & Resorts",
+      "chain_id": 3147
+    },
+    {
+      "chain_id": 3148,
+      "name": "Saffron"
+    },
+    {
+      "name": "Shama",
+      "chain_id": 3149
+    },
+    {
+      "chain_id": 3150,
+      "name": "Ozo"
+    },
+    {
+      "name": "MC Apartments",
+      "chain_id": 3152
+    },
+    {
+      "chain_id": 3160,
+      "name": "Amethyst"
+    },
+    {
+      "name": "Accord Hotels",
+      "chain_id": 3161
+    },
+    {
+      "name": "Sentido",
+      "chain_id": 3162
+    },
+    {
+      "name": "DM Hoteles",
+      "chain_id": 3164
+    },
+    {
+      "name": "Saimaan Charmantit",
+      "chain_id": 3165
+    },
+    {
+      "chain_id": 3166,
+      "name": "CitizenM"
+    },
+    {
+      "name": "Aspasios Apartments",
+      "chain_id": 3167
+    },
+    {
+      "chain_id": 3169,
+      "name": "Marriott Vacation Club"
+    },
+    {
+      "name": "Paya Hotels",
+      "chain_id": 3175
+    },
+    {
+      "chain_id": 3176,
+      "name": "Orion Hotel Group"
+    },
+    {
+      "chain_id": 3182,
+      "name": "R2 Hotels"
+    },
+    {
+      "chain_id": 3185,
+      "name": "Sunparks"
+    },
+    {
+      "name": "ibis Budget",
+      "chain_id": 3186
+    },
+    {
+      "chain_id": 3187,
+      "name": "Astron"
+    },
+    {
+      "name": "BCN Apartment Rentals",
+      "chain_id": 3188
+    },
+    {
+      "chain_id": 3191,
+      "name": "Importanne Resort"
+    },
+    {
+      "name": "CDB Resorts",
+      "chain_id": 3192
+    },
+    {
+      "chain_id": 3193,
+      "name": "Mir Gostinits"
+    },
+    {
+      "chain_id": 3196,
+      "name": "Pousadas de Compostela"
+    },
+    {
+      "chain_id": 3199,
+      "name": "Aminess Hotels & Campsites"
+    },
+    {
+      "name": "DK-CAMP",
+      "chain_id": 3202
+    },
+    {
+      "name": "Home2 Suites by Hilton",
+      "chain_id": 3203
+    },
+    {
+      "chain_id": 3204,
+      "name": "Fassbindhotels.ch"
+    },
+    {
+      "name": "Topparken",
+      "chain_id": 3205
+    },
+    {
+      "chain_id": 3207,
+      "name": "5footway.inn"
+    },
+    {
+      "name": "Sunplace Hotels",
+      "chain_id": 3208
+    },
+    {
+      "name": "Magnuson Hotels",
+      "chain_id": 3210
+    },
+    {
+      "chain_id": 3212,
+      "name": "Fergus Hotels"
+    },
+    {
+      "name": "PrivateCityHotels.",
+      "chain_id": 3214
+    },
+    {
+      "chain_id": 3215,
+      "name": "Super Hotel"
+    },
+    {
+      "chain_id": 3216,
+      "name": "Princess Egypt Hotels"
+    },
+    {
+      "chain_id": 3219,
+      "name": "Brownsword Hotels"
+    },
+    {
+      "chain_id": 3220,
+      "name": "Tierra Viva Hotels"
+    },
+    {
+      "name": "Whotells",
+      "chain_id": 3221
+    },
+    {
+      "chain_id": 3224,
+      "name": "HNA hotel group"
+    },
+    {
+      "chain_id": 3227,
+      "name": "Whistler Places"
+    },
+    {
+      "chain_id": 3228,
+      "name": "Hotelgruppe Kelber"
+    },
+    {
+      "chain_id": 3230,
+      "name": "Montra Hotels"
+    },
+    {
+      "name": "Movich Hotels & Resorts",
+      "chain_id": 3231
+    },
+    {
+      "chain_id": 3235,
+      "name": "Ovolo Group"
+    },
+    {
+      "name": "Grace Hotels Group",
+      "chain_id": 3237
+    },
+    {
+      "chain_id": 3239,
+      "name": "Ostar"
+    },
+    {
+      "chain_id": 3241,
+      "name": "Atlantis Hotels & Resorts"
+    },
+    {
+      "name": "Gloria Thalasso & Hotels",
+      "chain_id": 3242
+    },
+    {
+      "name": "Hostelling International",
+      "chain_id": 3243
+    },
+    {
+      "chain_id": 3245,
+      "name": "Agencia Altissim"
+    },
+    {
+      "chain_id": 3246,
+      "name": "Chroma Italy Hotels"
+    },
+    {
+      "name": "Hoteles con Encanto",
+      "chain_id": 3248
+    },
+    {
+      "name": "Tu Apartamento en Valencia",
+      "chain_id": 3249
+    },
+    {
+      "name": "Agua Hotels",
+      "chain_id": 3256
+    },
+    {
+      "name": "KN Hoteles",
+      "chain_id": 3258
+    },
+    {
+      "name": "Gîtes de France",
+      "chain_id": 3262
+    },
+    {
+      "chain_id": 3265,
+      "name": "Gooderson Leisure"
+    },
+    {
+      "chain_id": 3267,
+      "name": "Soluxe Hotels"
+    },
+    {
+      "name": "Eden Hotel Collection",
+      "chain_id": 3270
+    },
+    {
+      "name": "Regency",
+      "chain_id": 3273
+    },
+    {
+      "chain_id": 3277,
+      "name": "Rucksack Inn"
+    },
+    {
+      "name": "Dancamps",
+      "chain_id": 3279
+    },
+    {
+      "name": "MStay",
+      "chain_id": 3280
+    },
+    {
+      "name": "PY Hotels&Resorts",
+      "chain_id": 3284
+    },
+    {
+      "chain_id": 3285,
+      "name": "Hibiscus Hotels"
+    },
+    {
+      "name": "Australian Alpine Resorts",
+      "chain_id": 3286
+    },
+    {
+      "chain_id": 3287,
+      "name": "L’hotel"
+    },
+    {
+      "name": "Basic Menorca",
+      "chain_id": 3289
+    },
+    {
+      "chain_id": 3290,
+      "name": "Porto World Hotels & Resorts"
+    },
+    {
+      "name": "Can Calco Hotels",
+      "chain_id": 3293
+    },
+    {
+      "name": "whala!hotels",
+      "chain_id": 3294
+    },
+    {
+      "name": "VITA HOTELIERS",
+      "chain_id": 3295
+    },
+    {
+      "name": "Trianflor",
+      "chain_id": 3298
+    },
+    {
+      "chain_id": 3305,
+      "name": "Ålandhotels"
+    },
+    {
+      "name": "Esperia Hotel Group",
+      "chain_id": 3314
+    },
+    {
+      "chain_id": 3321,
+      "name": "Tamares Hotels"
+    },
+    {
+      "name": "JI Hotels",
+      "chain_id": 3322
+    },
+    {
+      "chain_id": 3324,
+      "name": "Pueblo Bonito"
+    },
+    {
+      "chain_id": 3328,
+      "name": "Grupo Golf Resort"
+    },
+    {
+      "chain_id": 3330,
+      "name": "Hoteles California"
+    },
+    {
+      "name": "Grupo Palas",
+      "chain_id": 3331
+    },
+    {
+      "chain_id": 3332,
+      "name": "Harbour Plaza Hotels & Resorts"
+    },
+    {
+      "name": "Medina Hoteles",
+      "chain_id": 3333
+    },
+    {
+      "chain_id": 3339,
+      "name": "Thema Hotels & Resorts"
+    },
+    {
+      "name": "The Capital Hotel Group",
+      "chain_id": 3346
+    },
+    {
+      "chain_id": 3347,
+      "name": "Dom & House"
+    },
+    {
+      "chain_id": 3348,
+      "name": "Washington Hotel Plaza"
+    },
+    {
+      "chain_id": 3349,
+      "name": "JA Resorts & Hotels"
+    },
+    {
+      "name": "Petasos Hotels",
+      "chain_id": 3350
+    },
+    {
+      "name": "Gto Hotels",
+      "chain_id": 3351
+    },
+    {
+      "chain_id": 3352,
+      "name": "Adonis Resorts"
+    },
+    {
+      "name": "RAH Rede ADM Hoteleira",
+      "chain_id": 3358
+    },
+    {
+      "chain_id": 3359,
+      "name": "Hoteis Seara LTDA"
+    },
+    {
+      "name": "Salinas Hotéis e Resorts",
+      "chain_id": 3360
+    },
+    {
+      "name": "Tropical Hotéis",
+      "chain_id": 3363
+    },
+    {
+      "chain_id": 3364,
+      "name": "Paradise Hotéis"
+    },
+    {
+      "name": "Warwick International Hotels and Resorts",
+      "chain_id": 3369
+    },
+    {
+      "chain_id": 3370,
+      "name": "A-hotel"
+    },
+    {
+      "chain_id": 3372,
+      "name": "Novina Hotels"
+    },
+    {
+      "chain_id": 3373,
+      "name": "Mogador Hotels & Resorts"
+    },
+    {
+      "chain_id": 3374,
+      "name": "Hotels & Resorts of Morocco"
+    },
+    {
+      "name": "Wellton",
+      "chain_id": 3375
+    },
+    {
+      "chain_id": 3376,
+      "name": "Marsol Hotels & Resorts"
+    },
+    {
+      "chain_id": 3379,
+      "name": "Souq Waqif Boutique Hotels"
+    },
+    {
+      "chain_id": 3380,
+      "name": "APA Hotels&Resorts"
+    },
+    {
+      "chain_id": 3381,
+      "name": "Green Rich Hotels"
+    },
+    {
+      "name": "MGM immobilier",
+      "chain_id": 3386
+    },
+    {
+      "chain_id": 3388,
+      "name": "Court Hotels & Resorts"
+    },
+    {
+      "name": "Hearton Hotel",
+      "chain_id": 3389
+    },
+    {
+      "chain_id": 3390,
+      "name": "JR East"
+    },
+    {
+      "chain_id": 3391,
+      "name": "JR Tokai"
+    },
+    {
+      "name": "Meitetsu Inn",
+      "chain_id": 3392
+    },
+    {
+      "name": "Richmond Hotels",
+      "chain_id": 3393
+    },
+    {
+      "chain_id": 3394,
+      "name": "RIHGA Royal Hotel"
+    },
+    {
+      "chain_id": 3395,
+      "name": "Sotetsu Fresa Inn"
+    },
+    {
+      "name": "Nova Hotels",
+      "chain_id": 3398
+    },
+    {
+      "name": "Boyd Gaming Corporation",
+      "chain_id": 3412
+    },
+    {
+      "name": "Swiss International Hotels and Resorts",
+      "chain_id": 3414
+    },
+    {
+      "name": "Rede Hotéis Ouro Branco",
+      "chain_id": 3416
+    },
+    {
+      "name": "Hotele Logos",
+      "chain_id": 3417
+    },
+    {
+      "chain_id": 3421,
+      "name": "Smart hotels"
+    },
+    {
+      "chain_id": 3422,
+      "name": "The Leela"
+    },
+    {
+      "name": "Keys Hotels",
+      "chain_id": 3423
+    },
+    {
+      "name": "Citrus Hotels",
+      "chain_id": 3424
+    },
+    {
+      "chain_id": 3425,
+      "name": "Club Mahindra"
+    },
+    {
+      "name": "Checkin Hotels & Villas",
+      "chain_id": 3429
+    },
+    {
+      "name": "Harry’s Home",
+      "chain_id": 3431
+    },
+    {
+      "name": "Hoteles López",
+      "chain_id": 3434
+    },
+    {
+      "chain_id": 3437,
+      "name": "Lakeview Hotels & Resorts"
+    },
+    {
+      "name": "Agenda",
+      "chain_id": 3440
+    },
+    {
+      "chain_id": 3441,
+      "name": "Condominium Rentals Hawaii"
+    },
+    {
+      "name": "Villa Gran Canaria",
+      "chain_id": 3442
+    },
+    {
+      "chain_id": 3452,
+      "name": "Exe Hotels"
+    },
+    {
+      "name": "Outrigger Hotels Hawaii",
+      "chain_id": 3454
+    },
+    {
+      "name": "Contact Hôtel",
+      "chain_id": 3455
+    },
+    {
+      "name": "Hotel AreaOne Group",
+      "chain_id": 3456
+    },
+    {
+      "name": "Art Series Hotels",
+      "chain_id": 3459
+    },
+    {
+      "chain_id": 3460,
+      "name": "Garden Palace Group"
+    },
+    {
+      "name": "JR Kyushu",
+      "chain_id": 3464
+    },
+    {
+      "chain_id": 3474,
+      "name": "JUFA Hotels"
+    },
+    {
+      "name": "Heliopark",
+      "chain_id": 3476
+    },
+    {
+      "chain_id": 3477,
+      "name": "Roompot Vakanties"
+    },
+    {
+      "chain_id": 3478,
+      "name": "Pequeños Hoteles con Encanto"
+    },
+    {
+      "chain_id": 3481,
+      "name": "Budvanska Rivijera"
+    },
+    {
+      "name": "MMV",
+      "chain_id": 3482
+    },
+    {
+      "chain_id": 3492,
+      "name": "Beth Hotels"
+    },
+    {
+      "name": "Apartinfo",
+      "chain_id": 3493
+    },
+    {
+      "chain_id": 3495,
+      "name": "BH Hoteles"
+    },
+    {
+      "name": "SBoutique Hoteles ",
+      "chain_id": 3499
+    },
+    {
+      "chain_id": 3500,
+      "name": "Israel Hostels"
+    },
+    {
+      "chain_id": 3503,
+      "name": "The Pride Hotels"
+    },
+    {
+      "chain_id": 3504,
+      "name": "Justa Hotels & Resorts"
+    },
+    {
+      "name": "Heliopark Hotels & Resorts",
+      "chain_id": 3505
+    },
+    {
+      "name": "Accom Noosa",
+      "chain_id": 3514
+    },
+    {
+      "chain_id": 3516,
+      "name": "Asur Hoteles"
+    },
+    {
+      "name": "Central Apartment Group",
+      "chain_id": 3517
+    },
+    {
+      "chain_id": 3520,
+      "name": "Groupe BOAS"
+    },
+    {
+      "name": "Mama Shelter",
+      "chain_id": 3522
+    },
+    {
+      "name": "Hoteles The",
+      "chain_id": 3527
+    },
+    {
+      "chain_id": 3529,
+      "name": "Attica 21 Hotels"
+    },
+    {
+      "name": "NOVASOL",
+      "chain_id": 3531
+    },
+    {
+      "chain_id": 3534,
+      "name": "Apartamenty VisitZakopane"
+    },
+    {
+      "chain_id": 3536,
+      "name": "Veranda Leisure & Hospitality"
+    },
+    {
+      "chain_id": 3537,
+      "name": "Fincas Arena"
+    },
+    {
+      "chain_id": 3538,
+      "name": "Olimarotels"
+    },
+    {
+      "name": "Crystal Hotels",
+      "chain_id": 3539
+    },
+    {
+      "chain_id": 3540,
+      "name": "Delphin Hotels"
+    },
+    {
+      "chain_id": 3541,
+      "name": "Aska Hotels"
+    },
+    {
+      "chain_id": 3542,
+      "name": "Paloma Hotels"
+    },
+    {
+      "chain_id": 3543,
+      "name": "Marston's Inns"
+    },
+    {
+      "name": "Danland",
+      "chain_id": 3544
+    },
+    {
+      "chain_id": 3558,
+      "name": "Rent A Home"
+    },
+    {
+      "name": "Piazza Di Spagna View Hotels",
+      "chain_id": 3566
+    },
+    {
+      "chain_id": 3567,
+      "name": "Civitel Hotels & Resorts"
+    },
+    {
+      "chain_id": 3569,
+      "name": "Rede de Hoteis OK"
+    },
+    {
+      "name": "Royal Hotels & Spa Resorts",
+      "chain_id": 3570
+    },
+    {
+      "name": "BUENAS HOTEIS",
+      "chain_id": 3573
+    },
+    {
+      "chain_id": 3577,
+      "name": "Parque de Campismo Orbitur"
+    },
+    {
+      "chain_id": 3578,
+      "name": "Rosewood Hotels & Resorts"
+    },
+    {
+      "name": "Libertador",
+      "chain_id": 3580
+    },
+    {
+      "name": "Aguilarent",
+      "chain_id": 3581
+    },
+    {
+      "name": "Presidentes",
+      "chain_id": 3582
+    },
+    {
+      "name": "Hoteleria Neruda",
+      "chain_id": 3583
+    },
+    {
+      "name": "Enjoy",
+      "chain_id": 3584
+    },
+    {
+      "chain_id": 3585,
+      "name": "Atton"
+    },
+    {
+      "chain_id": 3586,
+      "name": "Grupo Hoteles Park"
+    },
+    {
+      "name": "Dreams",
+      "chain_id": 3587
+    },
+    {
+      "name": "Staycity Aparthotels ",
+      "chain_id": 3589
+    },
+    {
+      "chain_id": 3591,
+      "name": "Equity Point"
+    },
+    {
+      "name": "Old Town Apartments",
+      "chain_id": 3595
+    },
+    {
+      "name": "Hoteles Benidorm",
+      "chain_id": 3596
+    },
+    {
+      "name": "Beninter",
+      "chain_id": 3597
+    },
+    {
+      "chain_id": 3598,
+      "name": "Grupo Terra de Mar"
+    },
+    {
+      "name": "Ace Hotels",
+      "chain_id": 3616
+    },
+    {
+      "chain_id": 3619,
+      "name": "Bondia Hotels"
+    },
+    {
+      "name": "Rafael Hotels",
+      "chain_id": 3621
+    },
+    {
+      "chain_id": 3622,
+      "name": "TOP 10 Holiday Parks"
+    },
+    {
+      "name": "BCN Urban Hotels",
+      "chain_id": 3624
+    },
+    {
+      "name": "IRS Royal Apartments",
+      "chain_id": 3625
+    },
+    {
+      "name": "Park Hyatt",
+      "chain_id": 3628
+    },
+    {
+      "name": "Andaz",
+      "chain_id": 3629
+    },
+    {
+      "chain_id": 3630,
+      "name": "Grand Hyatt"
+    },
+    {
+      "name": "Hyatt Regency",
+      "chain_id": 3631
+    },
+    {
+      "chain_id": 3632,
+      "name": "Hyatt Place"
+    },
+    {
+      "name": "Hyatt house",
+      "chain_id": 3633
+    },
+    {
+      "chain_id": 3634,
+      "name": "Hyatt Residence Club"
+    },
+    {
+      "chain_id": 3638,
+      "name": "Drury"
+    },
+    {
+      "chain_id": 3640,
+      "name": "Coral Sea Hotels "
+    },
+    {
+      "name": "U Hotels & Resorts",
+      "chain_id": 3643
+    },
+    {
+      "chain_id": 3649,
+      "name": "Holiday Mooloolaba"
+    },
+    {
+      "name": "Blue Doors",
+      "chain_id": 3653
+    },
+    {
+      "chain_id": 3654,
+      "name": "Noi Hoteles"
+    },
+    {
+      "name": "Il Burcardo - Antiche Dimore Romane",
+      "chain_id": 3655
+    },
+    {
+      "chain_id": 3656,
+      "name": "B&B Di Qualità"
+    },
+    {
+      "chain_id": 3657,
+      "name": "3K Hoteis"
+    },
+    {
+      "chain_id": 3659,
+      "name": "Kariyushi Hotels"
+    },
+    {
+      "name": "Club Airotel",
+      "chain_id": 3660
+    },
+    {
+      "name": "CHC Hotels",
+      "chain_id": 3668
+    },
+    {
+      "chain_id": 3669,
+      "name": "PA Wilds Vacation Rentals"
+    },
+    {
+      "name": "Eden Hotels Israel",
+      "chain_id": 3670
+    },
+    {
+      "chain_id": 3680,
+      "name": "Jinjiang Metropolo"
+    },
+    {
+      "name": "Baolong Homelike",
+      "chain_id": 3682
+    },
+    {
+      "name": "Apartamenty TWW",
+      "chain_id": 3684
+    },
+    {
+      "chain_id": 3687,
+      "name": "Landal Greenparks"
+    },
+    {
+      "name": "Ebeltoft Feriehusudlejning",
+      "chain_id": 3688
+    },
+    {
+      "chain_id": 3693,
+      "name": "Cervia Club Hotels"
+    },
+    {
+      "chain_id": 3694,
+      "name": "Bühlmann Hotels"
+    },
+    {
+      "chain_id": 3699,
+      "name": "Mabú Hotéis & Resorts"
+    },
+    {
+      "chain_id": 3700,
+      "name": "Senator Hotels & Apartments"
+    },
+    {
+      "name": "Club Hotels Israel",
+      "chain_id": 3704
+    },
+    {
+      "chain_id": 3706,
+      "name": "Ulfborg Feriehus Udlejning"
+    },
+    {
+      "chain_id": 3707,
+      "name": "Adagio Aparthotels"
+    },
+    {
+      "chain_id": 3709,
+      "name": "Costa do Sauípe"
+    },
+    {
+      "chain_id": 3713,
+      "name": "Anders Group"
+    },
+    {
+      "name": "Park Avenue Accommodation Group",
+      "chain_id": 3715
+    },
+    {
+      "chain_id": 3716,
+      "name": "LE Royal Hotels"
+    },
+    {
+      "name": "Associazione Ostelli di Lombardia",
+      "chain_id": 3723
+    },
+    {
+      "chain_id": 3725,
+      "name": "Visito"
+    },
+    {
+      "chain_id": 3726,
+      "name": "CASTHOTELS"
+    },
+    {
+      "name": "Qafqaz Hotels",
+      "chain_id": 3733
+    },
+    {
+      "name": "Feriecenter-eu Holiday Houses",
+      "chain_id": 3734
+    },
+    {
+      "chain_id": 3739,
+      "name": "Trump Hotel Collection"
+    },
+    {
+      "chain_id": 3741,
+      "name": "Bandara Hotels & Resorts"
+    },
+    {
+      "name": "Rewita",
+      "chain_id": 3748
+    },
+    {
+      "name": "Terme Olimia",
+      "chain_id": 3814
+    },
+    {
+      "name": "Rimske Terme",
+      "chain_id": 3815
+    },
+    {
+      "name": "BCN City Hotels",
+      "chain_id": 3817
+    },
+    {
+      "name": "Lisbon Holidays",
+      "chain_id": 3832
+    },
+    {
+      "chain_id": 3841,
+      "name": "Aranwa"
+    },
+    {
+      "chain_id": 3844,
+      "name": "Grup Florida Hotels"
+    },
+    {
+      "name": "A Part of Reykjavík",
+      "chain_id": 3847
+    },
+    {
+      "name": "ESTIVAL GROUP HOTELS",
+      "chain_id": 3850
+    },
+    {
+      "chain_id": 3852,
+      "name": "Harmony Resorts"
+    },
+    {
+      "name": "Hotels & Preference",
+      "chain_id": 3853
+    },
+    {
+      "name": "Daniya",
+      "chain_id": 3854
+    },
+    {
+      "name": "Festa Hotels",
+      "chain_id": 3870
+    },
+    {
+      "chain_id": 3873,
+      "name": "Grifid Hotels"
+    },
+    {
+      "name": "Arrizul Hoteles",
+      "chain_id": 3876
+    },
+    {
+      "chain_id": 3882,
+      "name": "Hotels Mediterraneo"
+    },
+    {
+      "name": "Sixty Hotels",
+      "chain_id": 3884
+    },
+    {
+      "chain_id": 3886,
+      "name": "Koox Hotels"
+    },
+    {
+      "name": "Divi Resorts",
+      "chain_id": 3891
+    },
+    {
+      "name": "Tryp",
+      "chain_id": 3893
+    },
+    {
+      "name": "VOI hotels",
+      "chain_id": 3895
+    },
+    {
+      "name": "Oakwood Premier",
+      "chain_id": 3899
+    },
+    {
+      "chain_id": 3900,
+      "name": "Oakwood Residence"
+    },
+    {
+      "name": "Oakwood Apartments",
+      "chain_id": 3901
+    },
+    {
+      "chain_id": 3920,
+      "name": "Onahotels"
+    },
+    {
+      "name": "Olé Hoteles",
+      "chain_id": 3953
+    },
+    {
+      "chain_id": 3955,
+      "name": "Accent Hotels"
+    },
+    {
+      "chain_id": 3960,
+      "name": "Cabins 4 Less"
+    },
+    {
+      "chain_id": 3961,
+      "name": "Bulgari Hotels and Resorts"
+    },
+    {
+      "name": "Oxford Hotel Group",
+      "chain_id": 3962
+    },
+    {
+      "chain_id": 3966,
+      "name": "BIO Hotels"
+    },
+    {
+      "name": "Lax-á",
+      "chain_id": 3968
+    },
+    {
+      "chain_id": 3969,
+      "name": "Villages Clubs"
+    },
+    {
+      "name": "Niseko Management Service",
+      "chain_id": 3970
+    },
+    {
+      "chain_id": 3971,
+      "name": "Ski Japan Travel Co LTD"
+    },
+    {
+      "chain_id": 3973,
+      "name": "Sol Beach House"
+    },
+    {
+      "chain_id": 4018,
+      "name": "Hoteles Cosmos"
+    },
+    {
+      "name": "Laghetto Hotéis",
+      "chain_id": 4019
+    },
+    {
+      "name": "Noosa Luxury Holidays",
+      "chain_id": 4021
+    },
+    {
+      "chain_id": 4024,
+      "name": "D Varee Hotels & Resorts"
+    },
+    {
+      "name": "Oriental Residence",
+      "chain_id": 4034
+    },
+    {
+      "chain_id": 4035,
+      "name": "Citi Lodge"
+    },
+    {
+      "name": "Hersonissos Group Hotels",
+      "chain_id": 4045
+    },
+    {
+      "name": "Cerise Hotels & Residences",
+      "chain_id": 4046
+    },
+    {
+      "chain_id": 4047,
+      "name": "Che Lagarto"
+    },
+    {
+      "name": "Retaj Hotels & Hospitality",
+      "chain_id": 4048
+    },
+    {
+      "chain_id": 4050,
+      "name": "Vessel Hotels"
+    },
+    {
+      "chain_id": 4052,
+      "name": "Reikartz Hotel Group"
+    },
+    {
+      "chain_id": 4057,
+      "name": "The Best Stay"
+    },
+    {
+      "chain_id": 4058,
+      "name": "St. James Hotel Group"
+    },
+    {
+      "name": "Gaylord Hotels",
+      "chain_id": 4059
+    },
+    {
+      "chain_id": 4060,
+      "name": "Edition"
+    },
+    {
+      "chain_id": 4065,
+      "name": "BESTZEIT FERIENWOHNUNGEN"
+    },
+    {
+      "chain_id": 4069,
+      "name": "Elbest Hotels"
+    },
+    {
+      "chain_id": 4072,
+      "name": "Fort Noks Resorts"
+    },
+    {
+      "name": "Dinevi Resort",
+      "chain_id": 4073
+    },
+    {
+      "chain_id": 4075,
+      "name": "Hoteis Suarez"
+    },
+    {
+      "name": "Alpvision Résidences",
+      "chain_id": 4076
+    },
+    {
+      "chain_id": 4104,
+      "name": "Vacances Bleues"
+    },
+    {
+      "chain_id": 4115,
+      "name": "Eastin Hotels & Residences"
+    },
+    {
+      "name": "Moxy Hotels",
+      "chain_id": 4128
+    },
+    {
+      "name": "Windsor Management Services",
+      "chain_id": 4129
+    },
+    {
+      "chain_id": 4133,
+      "name": "Ukraine Black Sea Hotels"
+    },
+    {
+      "chain_id": 4134,
+      "name": "Hostelling International USA"
+    },
+    {
+      "name": "One Hotels",
+      "chain_id": 4146
+    },
+    {
+      "name": "Agaztak",
+      "chain_id": 4150
+    },
+    {
+      "name": "The Hotel Collection",
+      "chain_id": 4151
+    },
+    {
+      "name": "Intercorp Hotel Group",
+      "chain_id": 4157
+    },
+    {
+      "name": "Rede Catussaba Hotéis & Resorts",
+      "chain_id": 4179
+    },
+    {
+      "chain_id": 4182,
+      "name": "Elite Havens"
+    },
+    {
+      "chain_id": 4202,
+      "name": "DJH Jugendherbergen"
+    },
+    {
+      "name": "Park Hotel Group",
+      "chain_id": 4212
+    },
+    {
+      "name": "Palace Apartments",
+      "chain_id": 4215
+    },
+    {
+      "chain_id": 4236,
+      "name": "Luxico"
+    },
+    {
+      "name": "Destination Havasu",
+      "chain_id": 4250
+    },
+    {
+      "name": "Golf Resort Inverness",
+      "chain_id": 4263
+    },
+    {
+      "name": "J-Hoppers",
+      "chain_id": 4270
+    },
+    {
+      "chain_id": 4274,
+      "name": "LK Group"
+    },
+    {
+      "name": "AmalfiCoastRental",
+      "chain_id": 4295
+    },
+    {
+      "chain_id": 4296,
+      "name": "Valtur"
+    },
+    {
+      "name": "YMCA",
+      "chain_id": 4297
+    },
+    {
+      "chain_id": 4298,
+      "name": "Muthu Group"
+    },
+    {
+      "name": "Tonziro Residenciais",
+      "chain_id": 4300
+    },
+    {
+      "name": "Starway Hotels",
+      "chain_id": 4304
+    },
+    {
+      "name": "Bendigo Holiday Accomodation",
+      "chain_id": 4307
+    },
+    {
+      "name": "G1 Holidays",
+      "chain_id": 4341
+    },
+    {
+      "chain_id": 4345,
+      "name": "Holiday Locations"
+    },
+    {
+      "name": "Holiday Lodges Canterbury",
+      "chain_id": 4354
+    },
+    {
+      "chain_id": 4357,
+      "name": "ABJ Cyprus Blue Ltd"
+    },
+    {
+      "name": "United 21 Hotels & Resorts",
+      "chain_id": 4358
+    },
+    {
+      "chain_id": 4362,
+      "name": "Metropolo Jinjiang Hotels"
+    },
+    {
+      "chain_id": 4367,
+      "name": "Stay at My Place"
+    },
+    {
+      "chain_id": 4370,
+      "name": "Marriott Executive Apartments"
+    },
+    {
+      "name": "Ayres Hotels",
+      "chain_id": 4371
+    },
+    {
+      "chain_id": 4373,
+      "name": "Ziv Apartments"
+    },
+    {
+      "name": "Arendaizrail Apartments",
+      "chain_id": 4380
+    },
+    {
+      "chain_id": 4381,
+      "name": "Curio Collection by Hilton"
+    },
+    {
+      "name": "The Sebel",
+      "chain_id": 4382
+    },
+    {
+      "chain_id": 4384,
+      "name": "Kerry Hotels by Shangri-La"
+    },
+    {
+      "chain_id": 4386,
+      "name": "Villaspain.co.uk"
+    },
+    {
+      "chain_id": 4387,
+      "name": "Studio 6"
+    },
+    {
+      "name": "Holidays Hua Hin",
+      "chain_id": 4388
+    },
+    {
+      "name": "HappyHome",
+      "chain_id": 4391
+    },
+    {
+      "chain_id": 4392,
+      "name": "Interholiday"
+    },
+    {
+      "name": "Samara's Villas",
+      "chain_id": 4395
+    },
+    {
+      "chain_id": 4402,
+      "name": "Veith Rittenhouse Luxury Apartments and Studios"
+    },
+    {
+      "name": "[Plateno Hotels Group] 7 Days Premium",
+      "chain_id": 4404
+    },
+    {
+      "name": "Hotels in Venice",
+      "chain_id": 4406
+    },
+    {
+      "chain_id": 4408,
+      "name": "Dancenter"
+    },
+    {
+      "name": "INTER CHALET",
+      "chain_id": 4409
+    },
+    {
+      "chain_id": 4411,
+      "name": "Travelopo"
+    },
+    {
+      "chain_id": 4413,
+      "name": "MAISONS & HOTELS Sibuet"
+    },
+    {
+      "chain_id": 4428,
+      "name": "Niseko Alpine Developments"
+    },
+    {
+      "chain_id": 4434,
+      "name": "Hoshino Resort"
+    },
+    {
+      "name": "Atlantis",
+      "chain_id": 4435
+    },
+    {
+      "chain_id": 4444,
+      "name": "Best Western Plus"
+    },
+    {
+      "chain_id": 4445,
+      "name": "Best Western Premier"
+    },
+    {
+      "chain_id": 4446,
+      "name": "City Home Tel Aviv"
+    },
+    {
+      "chain_id": 4451,
+      "name": "Agenzia D'Affari Filippi"
+    },
+    {
+      "name": "St Joe Club & Resort",
+      "chain_id": 4456
+    },
+    {
+      "chain_id": 4460,
+      "name": "ITDC Group"
+    },
+    {
+      "name": "Alpenchalets",
+      "chain_id": 4465
+    },
+    {
+      "chain_id": 4466,
+      "name": "Harbin Xilong hotels"
+    },
+    {
+      "chain_id": 4481,
+      "name": "Corendon"
+    },
+    {
+      "name": "AIC",
+      "chain_id": 4486
+    },
+    {
+      "name": "Hplus Hotelaria",
+      "chain_id": 4487
+    },
+    {
+      "chain_id": 4491,
+      "name": "Langebaan Holiday Homes"
+    },
+    {
+      "chain_id": 4497,
+      "name": "Fortune Hotels"
+    },
+    {
+      "name": "Anforas Mar",
+      "chain_id": 4498
+    },
+    {
+      "name": "B-aparthotels",
+      "chain_id": 4504
+    },
+    {
+      "name": "Carlosferien",
+      "chain_id": 4509
+    },
+    {
+      "name": "Nau Hotels & Resorts",
+      "chain_id": 4510
+    },
+    {
+      "name": "Residences Suiteasy",
+      "chain_id": 4546
+    },
+    {
+      "chain_id": 4553,
+      "name": "FeelFree Rentals"
+    },
+    {
+      "chain_id": 4555,
+      "name": "Arra Accommodation Group"
+    },
+    {
+      "name": "H&Hotels",
+      "chain_id": 4557
+    },
+    {
+      "name": "Pousadas da Juventude",
+      "chain_id": 4559
+    },
+    {
+      "chain_id": 4586,
+      "name": "Hotel Jen by Shangri-La"
+    },
+    {
+      "name": "Veya Immobilier",
+      "chain_id": 4588
+    },
+    {
+      "name": "Ohtels",
+      "chain_id": 4595
+    },
+    {
+      "name": "Hotel Sogo",
+      "chain_id": 4596
+    },
+    {
+      "chain_id": 4621,
+      "name": "Loi Suites"
+    },
+    {
+      "name": "Hotel Inn",
+      "chain_id": 4627
+    },
+    {
+      "chain_id": 4629,
+      "name": "Mysty Mountain Properties"
+    },
+    {
+      "name": "Madame Vacances",
+      "chain_id": 4641
+    },
+    {
+      "chain_id": 4664,
+      "name": "Alpine Getaways"
+    },
+    {
+      "name": "Alkoclar Hotels & Resorts",
+      "chain_id": 4671
+    },
+    {
+      "name": "Belambra Club",
+      "chain_id": 4693
+    },
+    {
+      "name": "Paradores de Turismo",
+      "chain_id": 4694
+    },
+    {
+      "name": "Sol Katmandu Park & Resort",
+      "chain_id": 4715
+    },
+    {
+      "chain_id": 4722,
+      "name": "Verdidea"
+    },
+    {
+      "name": "The Rentals Collection",
+      "chain_id": 4813
+    },
+    {
+      "chain_id": 4896,
+      "name": "Vacation Happily"
+    },
+    {
+      "name": "First Group",
+      "chain_id": 4930
+    },
+    {
+      "chain_id": 4939,
+      "name": "Red Planet Hotels"
+    },
+    {
+      "chain_id": 4978,
+      "name": "Mitchells and Butlers Innkeepers lodge"
+    },
+    {
+      "chain_id": 5001,
+      "name": "Tsokkos Hotels & Resorts"
+    },
+    {
+      "name": "Extra Holidays",
+      "chain_id": 5006
+    },
+    {
+      "chain_id": 5182,
+      "name": "BBH Hotel Group"
+    },
+    {
+      "name": "Boutique Stays",
+      "chain_id": 5194
+    },
+    {
+      "chain_id": 5196,
+      "name": "Discover Tekapo"
+    },
+    {
+      "name": "Starwood Vacation Ownership",
+      "chain_id": 5199
+    },
+    {
+      "chain_id": 5206,
+      "name": "Pearl Hotels"
+    },
+    {
+      "chain_id": 5304,
+      "name": "Vintage Travel"
+    },
+    {
+      "chain_id": 5348,
+      "name": "Elan"
+    },
+    {
+      "name": "Hi Inn",
+      "chain_id": 5349
+    },
+    {
+      "name": "Manxin",
+      "chain_id": 5350
+    },
+    {
+      "chain_id": 5351,
+      "name": "AinB Apartments"
+    },
+    {
+      "name": "Rent Top Apartments",
+      "chain_id": 5366
+    },
+    {
+      "chain_id": 5432,
+      "name": "Universal Holiday Centre"
+    },
+    {
+      "name": "Universal Holiday Centre",
+      "chain_id": 5433
+    },
+    {
+      "name": "Joya",
+      "chain_id": 5473
+    },
+    {
+      "chain_id": 5488,
+      "name": "Webvillas"
+    },
+    {
+      "name": "Gondwana Collection",
+      "chain_id": 5753
+    },
+    {
+      "chain_id": 5755,
+      "name": "Grands Hotels de Nouvelle Caledonie"
+    },
+    {
+      "chain_id": 5758,
+      "name": "1/3rd Residence Apartments"
+    },
+    {
+      "chain_id": 5759,
+      "name": "K's House"
+    },
+    {
+      "chain_id": 5768,
+      "name": "Vida Hotels and Resorts"
+    },
+    {
+      "name": "myusedom24 GmbH",
+      "chain_id": 5789
+    },
+    {
+      "chain_id": 5791,
+      "name": "Rome as you feel"
+    },
+    {
+      "chain_id": 5792,
+      "name": "Suites & Apartments Roma "
+    },
+    {
+      "chain_id": 5796,
+      "name": "Ace Hotel France"
+    },
+    {
+      "chain_id": 5807,
+      "name": "Viajes Turisdenia - BTB"
+    },
+    {
+      "name": "Aloha Coast",
+      "chain_id": 5809
+    },
+    {
+      "chain_id": 5812,
+      "name": "Historic Hotels"
+    },
+    {
+      "name": "Charles Home",
+      "chain_id": 5813
+    },
+    {
+      "chain_id": 5814,
+      "name": "Galena Reservations"
+    },
+    {
+      "chain_id": 5815,
+      "name": "Keio Presso Inn"
+    },
+    {
+      "name": "Austin David Apartments",
+      "chain_id": 5817
+    },
+    {
+      "name": "Delta",
+      "chain_id": 5826
+    },
+    {
+      "chain_id": 5846,
+      "name": "CHSS LLC"
+    },
+    {
+      "chain_id": 5847,
+      "name": "Cresta Hotels"
+    },
+    {
+      "name": "Settle Inn",
+      "chain_id": 5850
+    },
+    {
+      "name": "Crown Vacation Rentals",
+      "chain_id": 5855
+    },
+    {
+      "name": "Team Holiday Partners",
+      "chain_id": 5856
+    },
+    {
+      "name": "WJW Hospitality",
+      "chain_id": 5865
+    },
+    {
+      "name": "Flats in Catania",
+      "chain_id": 5870
+    },
+    {
+      "chain_id": 5876,
+      "name": "Occidental Hotels and Resorts by Barcelo Hotel Group"
+    },
+    {
+      "chain_id": 5879,
+      "name": "VESTAS HOTELS & RESORTS"
+    },
+    {
+      "name": "WakeUp",
+      "chain_id": 5882
+    },
+    {
+      "name": "Fraser Suites",
+      "chain_id": 5883
+    },
+    {
+      "chain_id": 5884,
+      "name": "Fraser Place"
+    },
+    {
+      "name": "Fraser Residence",
+      "chain_id": 5885
+    },
+    {
+      "name": "Modena by Fraser",
+      "chain_id": 5886
+    },
+    {
+      "name": "Capri by Fraser",
+      "chain_id": 5887
+    },
+    {
+      "chain_id": 5888,
+      "name": "Sheraton Grand"
+    },
+    {
+      "name": "Wyndham Garden",
+      "chain_id": 5889
+    },
+    {
+      "chain_id": 5890,
+      "name": "Planet Hollywood"
+    },
+    {
+      "name": "Wyndham Grand",
+      "chain_id": 5892
+    },
+    {
+      "chain_id": 5893,
+      "name": "Other Residence by Ascott"
+    },
+    {
+      "name": "Aruba Happy Rentals",
+      "chain_id": 5894
+    },
+    {
+      "name": "Hyatt Centric",
+      "chain_id": 5895
+    },
+    {
+      "name": "Hyatt Zilara",
+      "chain_id": 5896
+    },
+    {
+      "name": "Hyatt Ziva",
+      "chain_id": 5897
+    },
+    {
+      "chain_id": 5904,
+      "name": "Elegancia"
+    },
+    {
+      "name": "Kasa25",
+      "chain_id": 5906
+    },
+    {
+      "chain_id": 5914,
+      "name": "Vacancéole"
+    },
+    {
+      "name": "Vienna Hotel",
+      "chain_id": 5921
+    },
+    {
+      "chain_id": 5923,
+      "name": "Angsana Hotels & Resorts"
+    },
+    {
+      "chain_id": 5926,
+      "name": "Centro Hotels by Rotana"
+    },
+    {
+      "chain_id": 5927,
+      "name": "Rayhaan Hotels & Resorts by Rotana"
+    },
+    {
+      "name": "Arjaan Hotel Apartments by Rotana",
+      "chain_id": 5928
+    },
+    {
+      "chain_id": 5929,
+      "name": "Go hotelaria"
+    },
+    {
+      "name": "Sweetome",
+      "chain_id": 5931
+    },
+    {
+      "chain_id": 5943,
+      "name": "Leonardo Royal Hotels"
+    },
+    {
+      "name": "Leonardo Boutique Hotels",
+      "chain_id": 5944
+    },
+    {
+      "chain_id": 5963,
+      "name": "SACO Apartments"
+    },
+    {
+      "chain_id": 5964,
+      "name": "Tribute Portfolio"
+    },
+    {
+      "chain_id": 5972,
+      "name": "AB Apartment Barcelona"
+    },
+    {
+      "name": "Skärgårdsstiftelsen",
+      "chain_id": 5974
+    },
+    {
+      "name": "Treebo Hotels",
+      "chain_id": 5975
+    },
+    {
+      "chain_id": 5976,
+      "name": "Iberostar The Grand Collection"
+    },
+    {
+      "name": "Leonardo Inn",
+      "chain_id": 5980
+    },
+    {
+      "chain_id": 5982,
+      "name": "Vienna International Hotels"
+    },
+    {
+      "name": "Vienna 3 Best Hotel",
+      "chain_id": 5983
+    },
+    {
+      "name": "Venus Hotel",
+      "chain_id": 5984
+    },
+    {
+      "chain_id": 6000,
+      "name": "Cottesloe Beach House Stays"
+    },
+    {
+      "name": "JST Michaud",
+      "chain_id": 6012
+    },
+    {
+      "chain_id": 6014,
+      "name": "Aqua Vista Hotels"
+    },
+    {
+      "chain_id": 6015,
+      "name": "OYO Rooms"
+    },
+    {
+      "chain_id": 6016,
+      "name": "ZO Rooms"
+    },
+    {
+      "chain_id": 6017,
+      "name": "Zostel"
+    },
+    {
+      "name": "Vista Rooms",
+      "chain_id": 6018
+    },
+    {
+      "chain_id": 6025,
+      "name": "AVE hotels"
+    },
+    {
+      "chain_id": 6027,
+      "name": "Malliott Apartments"
+    },
+    {
+      "chain_id": 6038,
+      "name": "[Plateno Hotels Group] James Joyce Coffetel"
+    },
+    {
+      "chain_id": 6039,
+      "name": "[Plateno Hotels Group] Lavande Hotel"
+    },
+    {
+      "name": "Cape Town Life Accommodation",
+      "chain_id": 6041
+    },
+    {
+      "chain_id": 6042,
+      "name": "Nadwiślańska Agencja Turystyczna"
+    },
+    {
+      "name": "E Hotels",
+      "chain_id": 6043
+    },
+    {
+      "chain_id": 6044,
+      "name": "Mocks Amelia Vacations"
+    },
+    {
+      "chain_id": 6046,
+      "name": "Astral Hotels"
+    },
+    {
+      "name": "Atiram Hotels",
+      "chain_id": 6047
+    },
+    {
+      "name": "Every Hotels",
+      "chain_id": 6051
+    },
+    {
+      "chain_id": 6052,
+      "name": "Amba Hotels"
+    },
+    {
+      "chain_id": 6061,
+      "name": "Promociones Calafat"
+    },
+    {
+      "name": "Mil Pisos",
+      "chain_id": 6065
+    },
+    {
+      "name": "Mazagan Resorts",
+      "chain_id": 6072
+    },
+    {
+      "name": "Singular Stays",
+      "chain_id": 6073
+    },
+    {
+      "name": "Marti Hotels",
+      "chain_id": 6076
+    },
+    {
+      "name": "Friendly Rentals",
+      "chain_id": 6077
+    },
+    {
+      "chain_id": 6090,
+      "name": "Akturk Hotels Group"
+    },
+    {
+      "chain_id": 6103,
+      "name": "Cassia"
+    },
+    {
+      "name": "Terrafortunata",
+      "chain_id": 6114
+    },
+    {
+      "name": "vipstay",
+      "chain_id": 6119
+    },
+    {
+      "chain_id": 6123,
+      "name": "5starshome"
+    },
+    {
+      "name": "inmozonanet",
+      "chain_id": 6126
+    },
+    {
+      "name": "FabHotels",
+      "chain_id": 6129
+    },
+    {
+      "name": "MC HOTELS COLLECTION",
+      "chain_id": 6134
+    },
+    {
+      "chain_id": 6143,
+      "name": "COMO"
+    },
+    {
+      "name": "Priority Villas",
+      "chain_id": 6145
+    },
+    {
+      "chain_id": 6152,
+      "name": "LF Apartments"
+    },
+    {
+      "name": "Sci Mont Blanc Investissement",
+      "chain_id": 6159
+    },
+    {
+      "chain_id": 6168,
+      "name": "Fairyland Hotel"
+    },
+    {
+      "name": "Home Inn",
+      "chain_id": 6169
+    },
+    {
+      "name": "Home Inn Plus",
+      "chain_id": 6170
+    },
+    {
+      "name": "Motel",
+      "chain_id": 6171
+    },
+    {
+      "name": "Yiju",
+      "chain_id": 6172
+    },
+    {
+      "chain_id": 6173,
+      "name": "Yitel"
+    },
+    {
+      "name": "marbellavacationhomes",
+      "chain_id": 6174
+    },
+    {
+      "chain_id": 6175,
+      "name": "Arenaturist - PPHE"
+    },
+    {
+      "name": "Zest Hotels International",
+      "chain_id": 6196
+    },
+    {
+      "chain_id": 6207,
+      "name": "Apartamenty na Urlop"
+    },
+    {
+      "chain_id": 6224,
+      "name": "Grand Millennium Hotels"
+    },
+    {
+      "chain_id": 6225,
+      "name": "The Leng's Collection"
+    },
+    {
+      "name": "Resort Choice",
+      "chain_id": 6234
+    },
+    {
+      "chain_id": 6239,
+      "name": "Canopy by Hilton"
+    },
+    {
+      "name": "Abahana Villas",
+      "chain_id": 6250
+    },
+    {
+      "chain_id": 6251,
+      "name": "AGI Apartments"
+    },
+    {
+      "name": "Apart-Rent",
+      "chain_id": 6257
+    },
+    {
+      "chain_id": 6288,
+      "name": "Quality Rent"
+    },
+    {
+      "chain_id": 6300,
+      "name": "Sweet Inn"
+    },
+    {
+      "chain_id": 6311,
+      "name": "Yupihome"
+    },
+    {
+      "name": "Aco Properties",
+      "chain_id": 6343
+    },
+    {
+      "name": "Domitys",
+      "chain_id": 6345
+    },
+    {
+      "chain_id": 6415,
+      "name": "GreenTree Eastern"
+    },
+    {
+      "name": "GreenTree Alliance",
+      "chain_id": 6417
+    },
+    {
+      "chain_id": 6418,
+      "name": "Vatica"
+    },
+    {
+      "name": "CYTS Eastern",
+      "chain_id": 6419
+    },
+    {
+      "name": "Ruben Lanzarote",
+      "chain_id": 6487
+    },
+    {
+      "chain_id": 6494,
+      "name": "TatryTop"
+    },
+    {
+      "name": "Sweet Hoteles",
+      "chain_id": 6518
+    },
+    {
+      "chain_id": 6519,
+      "name": "Cheerfulway Hotels & Resorts"
+    },
+    {
+      "chain_id": 6520,
+      "name": "My Extra Home"
+    },
+    {
+      "chain_id": 6522,
+      "name": "Rental in Rome"
+    },
+    {
+      "chain_id": 6527,
+      "name": "Hotel Familio / Folkloro"
+    },
+    {
+      "name": "Apt Roma",
+      "chain_id": 6531
+    },
+    {
+      "chain_id": 6532,
+      "name": "Tru by Hilton"
+    },
+    {
+      "chain_id": 6535,
+      "name": "Tulip Inn"
+    },
+    {
+      "chain_id": 6536,
+      "name": "Golden Tulip"
+    },
+    {
+      "chain_id": 6537,
+      "name": "Royal Tulip Luxury Hotels"
+    },
+    {
+      "name": "RedDoorz",
+      "chain_id": 6539
+    },
+    {
+      "chain_id": 6582,
+      "name": "JD Wetherspoon PLC"
+    },
+    {
+      "name": "Euromar",
+      "chain_id": 6597
+    },
+    {
+      "chain_id": 6599,
+      "name": "P&O Apartments"
+    },
+    {
+      "chain_id": 6608,
+      "name": "Schwarzsee Tourismus"
+    },
+    {
+      "name": "Apartreception",
+      "chain_id": 6617
+    },
+    {
+      "name": "ZEN Rooms",
+      "chain_id": 6627
+    },
+    {
+      "chain_id": 6628,
+      "name": "Jassu Reisen"
+    },
+    {
+      "chain_id": 6670,
+      "name": "Allegro Hotels Resorts by Barcelo Hotel Group"
+    },
+    {
+      "name": "Royal Hideway Luxury Hotels by Barcelo Hotel Group",
+      "chain_id": 6671
+    },
+    {
+      "name": "grupovisto",
+      "chain_id": 6677
+    },
+    {
+      "name": "homesbookings",
+      "chain_id": 6684
+    },
+    {
+      "name": "SS4U",
+      "chain_id": 6689
+    },
+    {
+      "name": "Hoteli Ilidza",
+      "chain_id": 6702
+    },
+    {
+      "chain_id": 6737,
+      "name": "Executive Residency by Best Western "
+    },
+    {
+      "chain_id": 6738,
+      "name": "Vib by Best Western"
+    },
+    {
+      "name": "BW Premier Collection",
+      "chain_id": 6740
+    },
+    {
+      "name": "CZECH INN HOTELS",
+      "chain_id": 6868
+    },
+    {
+      "chain_id": 6869,
+      "name": "Fattal Hotels"
+    },
+    {
+      "name": "Acorn London",
+      "chain_id": 6894
+    },
+    {
+      "name": "Yukai Resort",
+      "chain_id": 6896
+    },
+    {
+      "name": "GRT Hotels and Resorts",
+      "chain_id": 6915
+    },
+    {
+      "chain_id": 6920,
+      "name": "Dolce Hotels & Resorts"
+    },
+    {
+      "name": "Yosemite",
+      "chain_id": 6921
+    },
+    {
+      "chain_id": 6922,
+      "name": "Fiesta Key RV"
+    },
+    {
+      "name": "Rixwell",
+      "chain_id": 6927
+    },
+    {
+      "chain_id": 6929,
+      "name": "Home2SF LLC"
+    },
+    {
+      "name": "EA Hotels",
+      "chain_id": 6939
+    },
+    {
+      "name": "Jeffrey Hill Vacation Rentals",
+      "chain_id": 6945
+    },
+    {
+      "name": "Alpine Lake",
+      "chain_id": 6951
+    },
+    {
+      "name": "Bend",
+      "chain_id": 6952
+    },
+    {
+      "chain_id": 6953,
+      "name": "Brennan Beach"
+    },
+    {
+      "name": "Bulow",
+      "chain_id": 6954
+    },
+    {
+      "chain_id": 6955,
+      "name": "Clerbrook"
+    },
+    {
+      "name": "Crystal Isles",
+      "chain_id": 6956
+    },
+    {
+      "chain_id": 6957,
+      "name": "Fort Myers Beach Resort"
+    },
+    {
+      "chain_id": 6958,
+      "name": "Harbor Lakes"
+    },
+    {
+      "chain_id": 6959,
+      "name": "La Conner"
+    },
+    {
+      "name": "Lake Conroe",
+      "chain_id": 6960
+    },
+    {
+      "chain_id": 6961,
+      "name": "Lake George Escape"
+    },
+    {
+      "name": "Lake Magic",
+      "chain_id": 6962
+    },
+    {
+      "chain_id": 6963,
+      "name": "Lake Myers"
+    },
+    {
+      "name": "Leavenworth",
+      "chain_id": 6964
+    },
+    {
+      "chain_id": 6965,
+      "name": "Mount Hood"
+    },
+    {
+      "chain_id": 6966,
+      "name": "O'Connell's Yogi Bear"
+    },
+    {
+      "chain_id": 6967,
+      "name": "Rambler's Rest"
+    },
+    {
+      "name": "Sherwood Forest",
+      "chain_id": 6968
+    },
+    {
+      "name": "Soledad Canyon",
+      "chain_id": 6969
+    },
+    {
+      "chain_id": 6970,
+      "name": "Southern Palms"
+    },
+    {
+      "name": "Spring Gulch",
+      "chain_id": 6971
+    },
+    {
+      "chain_id": 6972,
+      "name": "Sunshine Key"
+    },
+    {
+      "name": "Verde Valley",
+      "chain_id": 6973
+    },
+    {
+      "name": "Manten Hotel Group",
+      "chain_id": 6975
+    },
+    {
+      "chain_id": 6979,
+      "name": "AllAboutFurano"
+    },
+    {
+      "name": "Sol House MIXED BY IBIZA ROCKS",
+      "chain_id": 6980
+    },
+    {
+      "chain_id": 6988,
+      "name": "Smartflats"
+    },
+    {
+      "chain_id": 7002,
+      "name": "Down Home Property Management, LLC"
+    },
+    {
+      "chain_id": 7004,
+      "name": "Rentseason"
+    },
+    {
+      "chain_id": 7005,
+      "name": "So Sofitel"
+    },
+    {
+      "name": "Sofitel Legend",
+      "chain_id": 7006
+    },
+    {
+      "chain_id": 7008,
+      "name": "Elia Hotels"
+    },
+    {
+      "chain_id": 7034,
+      "name": "FLATINFO"
+    },
+    {
+      "chain_id": 7045,
+      "name": "Blue Ridge Vacation Cabins"
+    },
+    {
+      "chain_id": 7048,
+      "name": "SkyRun Vacation Rentals Nederland by SkyRun Partners, LLC"
+    },
+    {
+      "name": "Keystone Vacation Rentals",
+      "chain_id": 7049
+    },
+    {
+      "chain_id": 7061,
+      "name": "Simply Steamboat LLC"
+    },
+    {
+      "name": "Kimpton Hotels",
+      "chain_id": 7076
+    },
+    {
+      "chain_id": 7079,
+      "name": "New Spirit Vacation Homes"
+    },
+    {
+      "chain_id": 7097,
+      "name": "Oakwood Studios"
+    },
+    {
+      "name": "Smithfield Apartments Limited",
+      "chain_id": 7116
+    },
+    {
+      "name": "Luv Surf Vacation Homes LP",
+      "chain_id": 7129
+    },
+    {
+      "chain_id": 7140,
+      "name": "visit baltic"
+    },
+    {
+      "chain_id": 7165,
+      "name": "Ibersol"
+    },
+    {
+      "name": "Timberwinds Log Cabin Resorts Inc",
+      "chain_id": 7184
+    },
+    {
+      "name": "VenAVera",
+      "chain_id": 7186
+    },
+    {
+      "name": "Jantar Apartamenty",
+      "chain_id": 7190
+    },
+    {
+      "name": "Labode Accommodation",
+      "chain_id": 7193
+    },
+    {
+      "name": "Cintro.com",
+      "chain_id": 7212
+    },
+    {
+      "chain_id": 7220,
+      "name": "Unbound Collection by Hyatt"
+    },
+    {
+      "chain_id": 7223,
+      "name": "DE BER - Rösing Touristik GmbH"
+    },
+    {
+      "name": "Sun Seasons 24",
+      "chain_id": 7230
+    },
+    {
+      "name": "SeeWest",
+      "chain_id": 7245
+    },
+    {
+      "chain_id": 7246,
+      "name": "Avilla Hospitality"
+    },
+    {
+      "name": "Extraordinary",
+      "chain_id": 7260
+    },
+    {
+      "name": "Grand Residence",
+      "chain_id": 7264
+    },
+    {
+      "name": "Coaching Inn",
+      "chain_id": 7270
+    },
+    {
+      "chain_id": 7277,
+      "name": "LDC Group"
+    },
+    {
+      "name": "Qualys",
+      "chain_id": 7278
+    },
+    {
+      "chain_id": 7302,
+      "name": "Apartamenty Gdańsk EU"
+    },
+    {
+      "name": "Tivoli Hotels & Resorts",
+      "chain_id": 7315
+    },
+    {
+      "chain_id": 7316,
+      "name": "Anantara Hotels & Resorts"
+    },
+    {
+      "name": "Avani Hotels & Resorts",
+      "chain_id": 7317
+    },
+    {
+      "name": "Elawara Collection",
+      "chain_id": 7318
+    },
+    {
+      "name": "Oaks Hotels & Resorts",
+      "chain_id": 7319
+    },
+    {
+      "name": "PER AQUUM Hotels & Resorts",
+      "chain_id": 7320
+    },
+    {
+      "chain_id": 7328,
+      "name": "Latitud Group"
+    },
+    {
+      "name": "Perfect Hotels",
+      "chain_id": 7329
+    },
+    {
+      "chain_id": 7352,
+      "name": "HipHop Hostels"
+    },
+    {
+      "name": "TOLIP Hotels and Resorts",
+      "chain_id": 7417
+    },
+    {
+      "chain_id": 7418,
+      "name": "SF Corporate Rentals LLC by SF Rentals Company LLC"
+    },
+    {
+      "chain_id": 7424,
+      "name": "HRH Group"
+    },
+    {
+      "chain_id": 7425,
+      "name": "Quay West"
+    },
+    {
+      "name": "AAA Stay",
+      "chain_id": 7426
+    },
+    {
+      "chain_id": 7435,
+      "name": "Dream Hotel Group"
+    },
+    {
+      "name": "Sokha Hotels & Resorts",
+      "chain_id": 7486
+    },
+    {
+      "chain_id": 7495,
+      "name": "VacationClub"
+    },
+    {
+      "name": "Accommodations by Parkside LLC",
+      "chain_id": 7502
+    },
+    {
+      "chain_id": 7533,
+      "name": "In The City"
+    },
+    {
+      "chain_id": 7536,
+      "name": "Mama Shelter"
+    },
+    {
+      "chain_id": 7538,
+      "name": "Home Care"
+    },
+    {
+      "name": "Attitude Hotels",
+      "chain_id": 7547
+    },
+    {
+      "name": "Melbourne Holiday Apartments",
+      "chain_id": 7599
+    },
+    {
+      "chain_id": 7602,
+      "name": "Goldmet Inn"
+    },
+    {
+      "name": "Amstra Luxury Apartments",
+      "chain_id": 7603
+    },
+    {
+      "chain_id": 7637,
+      "name": "Grupo de Turismo Gaviota"
+    },
+    {
+      "name": "Victoria Hotels",
+      "chain_id": 7638
+    },
+    {
+      "name": "Labranda Hotels",
+      "chain_id": 7639
+    },
+    {
+      "chain_id": 7657,
+      "name": "Sivek Hotels"
+    },
+    {
+      "name": "Inter-hotel",
+      "chain_id": 7659
+    },
+    {
+      "chain_id": 7660,
+      "name": "P'tit Déj Hôtel"
+    },
+    {
+      "chain_id": 7662,
+      "name": "Relais du Silence"
+    },
+    {
+      "chain_id": 7663,
+      "name": "Châteaux Demeures Hôtels"
+    },
+    {
+      "chain_id": 7664,
+      "name": "Urban Style"
+    },
+    {
+      "name": "Belambra Hotels & Resorts in France",
+      "chain_id": 7665
+    },
+    {
+      "chain_id": 7667,
+      "name": "Asten Hotels"
+    },
+    {
+      "chain_id": 7679,
+      "name": "Grand - Tourist"
+    },
+    {
+      "chain_id": 7680,
+      "name": "A Hotels"
+    },
+    {
+      "chain_id": 7681,
+      "name": "Riviera Holiday Club"
+    },
+    {
+      "name": "Bt Collection",
+      "chain_id": 7682
+    },
+    {
+      "chain_id": 7701,
+      "name": "Jyozankei Daichi Hotel"
+    },
+    {
+      "name": "Surya Hotels",
+      "chain_id": 7704
+    },
+    {
+      "chain_id": 7707,
+      "name": "Unique Hotels Collection"
+    },
+    {
+      "chain_id": 7715,
+      "name": "Perla Tourist"
+    },
+    {
+      "name": "Innotality",
+      "chain_id": 7777
+    },
+    {
+      "name": "GF Hotels",
+      "chain_id": 7790
+    },
+    {
+      "chain_id": 7817,
+      "name": "Preference Hotels"
+    },
+    {
+      "chain_id": 7818,
+      "name": "Yello Hotels"
+    },
+    {
+      "name": "POP! Hotels",
+      "chain_id": 7819
+    },
+    {
+      "name": "Managed by Tauzia",
+      "chain_id": 7820
+    },
+    {
+      "name": "Bks Motel chain",
+      "chain_id": 7821
+    },
+    {
+      "name": "TLV2GO",
+      "chain_id": 7854
+    },
+    {
+      "name": "MPM Hotels",
+      "chain_id": 7856
+    },
+    {
+      "chain_id": 7858,
+      "name": "Maeva Location de Particuliers"
+    },
+    {
+      "chain_id": 7860,
+      "name": "Oetker Collection"
+    },
+    {
+      "name": "Altstadt Hotels Luzern",
+      "chain_id": 7878
+    },
+    {
+      "name": "Ooedo-Onsen Monogatari group",
+      "chain_id": 7883
+    },
+    {
+      "chain_id": 7884,
+      "name": "Tokyo West Hotel Group"
+    },
+    {
+      "name": "Vinpearl Hotels and Resorts",
+      "chain_id": 7891
+    },
+    {
+      "name": "Muong Thanh Hospitality",
+      "chain_id": 7892
+    },
+    {
+      "name": "Agence Domus ",
+      "chain_id": 7893
+    },
+    {
+      "chain_id": 7894,
+      "name": "Brit Hotel Essentiel"
+    },
+    {
+      "name": "Brit Hotel Confort",
+      "chain_id": 7895
+    },
+    {
+      "chain_id": 7896,
+      "name": "Brit Hotel Privilège"
+    },
+    {
+      "name": "Long Beach",
+      "chain_id": 7913
+    },
+    {
+      "chain_id": 7935,
+      "name": "Tallinn Historical Hotels"
+    },
+    {
+      "name": "The Crest Collection",
+      "chain_id": 8030
+    },
+    {
+      "name": "Kämp Collection Hotels",
+      "chain_id": 8031
+    },
+    {
+      "name": "SureStay Hotel by Best Western",
+      "chain_id": 8033
+    },
+    {
+      "name": "SureStay Plus Hotel by Best Western",
+      "chain_id": 8034
+    },
+    {
+      "chain_id": 8035,
+      "name": "SureStay Collection by Best Western"
+    },
+    {
+      "name": "ATM",
+      "chain_id": 8068
+    },
+    {
+      "chain_id": 8069,
+      "name": "Winslow Hotels"
+    },
+    {
+      "name": "ECFA Group",
+      "chain_id": 8072
+    },
+    {
+      "chain_id": 8126,
+      "name": "Destination hotels"
+    },
+    {
+      "chain_id": 8127,
+      "name": "Joie De Vivre hotels"
+    },
+    {
+      "chain_id": 8128,
+      "name": "Thompson hotels"
+    },
+    {
+      "name": "Alila hotels",
+      "chain_id": 8129
+    },
+    {
+      "chain_id": 8135,
+      "name": "Amritara"
+    },
+    {
+      "name": "Lords Hotels & Resorts",
+      "chain_id": 8136
+    },
+    {
+      "chain_id": 8137,
+      "name": "Clayton"
+    },
+    {
+      "name": "Abad Hotels and Resorts",
+      "chain_id": 8138
+    },
+    {
+      "chain_id": 8139,
+      "name": "Green Route Hospitality"
+    },
+    {
+      "chain_id": 8155,
+      "name": "ZakopaneApartamenty"
+    },
+    {
+      "chain_id": 8223,
+      "name": "ZEN Premium"
+    },
+    {
+      "name": "ZEN Villa",
+      "chain_id": 8224
+    },
+    {
+      "name": "Artery Hotels",
+      "chain_id": 8225
+    },
+    {
+      "chain_id": 8235,
+      "name": "Fen Hoteles"
+    },
+    {
+      "name": "Your Prague Hotels",
+      "chain_id": 8250
+    },
+    {
+      "chain_id": 8269,
+      "name": "checkmyguest"
+    },
+    {
+      "name": "Rede Encantos",
+      "chain_id": 8272
+    },
+    {
+      "name": "Rent like home",
+      "chain_id": 8275
+    },
+    {
+      "chain_id": 8276,
+      "name": "Cosmopolita Group"
+    },
+    {
+      "name": "Top Apartments",
+      "chain_id": 8277
+    },
+    {
+      "chain_id": 8279,
+      "name": "Fairmont Hotels & Resorts"
+    },
+    {
+      "chain_id": 8282,
+      "name": "Raffles"
+    },
+    {
+      "chain_id": 8283,
+      "name": "Swissôtel Hotels & Resorts"
+    },
+    {
+      "chain_id": 8284,
+      "name": "Casa del Mare"
+    },
+    {
+      "name": "Apartamenty Laguna",
+      "chain_id": 8331
+    },
+    {
+      "chain_id": 8338,
+      "name": "Casual Hoteles"
+    },
+    {
+      "chain_id": 8407,
+      "name": "Baltic Home"
+    },
+    {
+      "chain_id": 8408,
+      "name": "Wanda Reign"
+    },
+    {
+      "chain_id": 8409,
+      "name": "Wanda Vista"
+    },
+    {
+      "name": "Wanda Realm",
+      "chain_id": 8410
+    },
+    {
+      "chain_id": 8411,
+      "name": "Wanda Jin"
+    },
+    {
+      "name": "ShortStayPoland",
+      "chain_id": 8414
+    },
+    {
+      "chain_id": 8423,
+      "name": "Goodnight Warsaw"
+    },
+    {
+      "chain_id": 8441,
+      "name": "Best 3 Star Hotels"
+    },
+    {
+      "name": "Quality Hotel",
+      "chain_id": 8456
+    },
+    {
+      "name": "ibis Styles",
+      "chain_id": 8457
+    },
+    {
+      "chain_id": 8461,
+      "name": "Harmony Suites"
+    },
+    {
+      "chain_id": 8462,
+      "name": "HITrental"
+    },
+    {
+      "name": "Amandine Vacances",
+      "chain_id": 8463
+    },
+    {
+      "name": "Horstmann",
+      "chain_id": 8498
+    },
+    {
+      "name": "Montagnoli Group",
+      "chain_id": 8499
+    },
+    {
+      "name": "Aqueen",
+      "chain_id": 8502
+    },
+    {
+      "name": "Cyan Hoteles",
+      "chain_id": 8547
+    },
+    {
+      "chain_id": 8548,
+      "name": "Grupa Old Town Residence"
+    },
+    {
+      "chain_id": 8565,
+      "name": "Cape & Kantary"
+    },
+    {
+      "name": "Luxury Skopje Apartments.",
+      "chain_id": 8569
+    },
+    {
+      "name": "StrandBergen",
+      "chain_id": 8587
+    },
+    {
+      "chain_id": 8588,
+      "name": "doispontozero"
+    },
+    {
+      "name": "Bon Bon Hotels",
+      "chain_id": 8591
+    },
+    {
+      "name": "Friendhouse Apartments",
+      "chain_id": 8592
+    },
+    {
+      "name": "Shell",
+      "chain_id": 8597
+    },
+    {
+      "chain_id": 8599,
+      "name": "FeelHome Israel Apartments"
+    },
+    {
+      "name": "De Vere",
+      "chain_id": 8600
+    },
+    {
+      "chain_id": 8601,
+      "name": "Principal"
+    },
+    {
+      "name": "Vacation Inn LA",
+      "chain_id": 8605
+    },
+    {
+      "chain_id": 8630,
+      "name": "Ikonik Hotels"
+    },
+    {
+      "name": "Apartamenty InPoint",
+      "chain_id": 8631
+    },
+    {
+      "name": "Rental Advisor",
+      "chain_id": 8641
+    },
+    {
+      "name": "Country Inn & Suites by Radisson",
+      "chain_id": 8644
+    },
+    {
+      "name": "Park Inn by Radisson",
+      "chain_id": 8645
+    },
+    {
+      "chain_id": 8646,
+      "name": "Quorvus Collection"
+    },
+    {
+      "name": "Radisson",
+      "chain_id": 8647
+    },
+    {
+      "chain_id": 8648,
+      "name": "Radisson Blu"
+    },
+    {
+      "name": "Radisson Blu Edwardian",
+      "chain_id": 8649
+    },
+    {
+      "chain_id": 8650,
+      "name": "Radisson Red"
+    },
+    {
+      "chain_id": 8670,
+      "name": "Sol by Meliá"
+    },
+    {
+      "chain_id": 8673,
+      "name": "JO & JOE"
+    },
+    {
+      "name": "Albir Up Holidays",
+      "chain_id": 8707
+    },
+    {
+      "chain_id": 8708,
+      "name": "Yourplace Apartments"
+    },
+    {
+      "name": "IU Hotel",
+      "chain_id": 8709
+    },
+    {
+      "chain_id": 8718,
+      "name": "Z Hotels"
+    },
+    {
+      "name": "[Plateno Hotels Group] IU Hotel",
+      "chain_id": 8719
+    },
+    {
+      "chain_id": 8765,
+      "name": "Morgan Christa Management"
+    },
+    {
+      "chain_id": 8828,
+      "name": "Apartamentos & Hoteles Viaggio"
+    },
+    {
+      "chain_id": 8832,
+      "name": "Disney® Hotels"
+    },
+    {
+      "name": "Giewont",
+      "chain_id": 8833
+    },
+    {
+      "name": "COOP Hotels",
+      "chain_id": 8834
+    },
+    {
+      "chain_id": 8842,
+      "name": "Maremonti Istra"
+    },
+    {
+      "name": "Navy Group",
+      "chain_id": 8862
+    },
+    {
+      "chain_id": 8897,
+      "name": "Your Freedom"
+    },
+    {
+      "name": "Apartamenty Centrum",
+      "chain_id": 8899
+    },
+    {
+      "name": "BBHotels",
+      "chain_id": 8904
+    },
+    {
+      "chain_id": 8928,
+      "name": "Horizon Apartments"
+    },
+    {
+      "name": "Heaven Eleven Apartments",
+      "chain_id": 8944
+    },
+    {
+      "chain_id": 8952,
+      "name": "Radis Group Hotels"
+    },
+    {
+      "chain_id": 9058,
+      "name": "Family Homes"
+    },
+    {
+      "chain_id": 9094,
+      "name": "test chain brand 1"
+    },
+    {
+      "chain_id": 9095,
+      "name": "test chain brand 2"
+    },
+    {
+      "name": "Sopot Lu Apartments",
+      "chain_id": 9193
+    },
+    {
+      "chain_id": 9213,
+      "name": "Rentalmar"
+    },
+    {
+      "chain_id": 9230,
+      "name": "3x3 Rentals"
+    },
+    {
+      "chain_id": 9231,
+      "name": "Bou Ros"
+    },
+    {
+      "chain_id": 9235,
+      "name": "SHG"
+    },
+    {
+      "name": "Red Roof PLUS+",
+      "chain_id": 9239
+    },
+    {
+      "chain_id": 9259,
+      "name": "Bently Apartments"
+    },
+    {
+      "name": "Elite Apartments",
+      "chain_id": 9260
+    },
+    {
+      "chain_id": 9262,
+      "name": "Regis Hotelschiff Flotte"
+    },
+    {
+      "chain_id": 9263,
+      "name": "Magna Hoteles"
+    },
+    {
+      "name": "GLH",
+      "chain_id": 9264
+    },
+    {
+      "name": "Thistle Express",
+      "chain_id": 9265
+    },
+    {
+      "chain_id": 9266,
+      "name": "Hotels En Ville"
+    },
+    {
+      "chain_id": 9297,
+      "name": "Rove Hotels"
+    },
+    {
+      "name": "Roda Hotels & Resorts",
+      "chain_id": 9315
+    },
+    {
+      "name": "Imperial Apartments",
+      "chain_id": 9316
+    },
+    {
+      "name": "Residhome Apparthotel",
+      "chain_id": 9326
+    },
+    {
+      "name": "Séjours & Affaires Apparthotel",
+      "chain_id": 9327
+    },
+    {
+      "name": "Relais Spa",
+      "chain_id": 9328
+    },
+    {
+      "chain_id": 9329,
+      "name": "Trademark"
+    },
+    {
+      "chain_id": 9353,
+      "name": "Weflating"
+    },
+    {
+      "name": "OEKOTEL",
+      "chain_id": 9354
+    },
+    {
+      "name": "Brown Hotels",
+      "chain_id": 9364
+    },
+    {
+      "chain_id": 9392,
+      "name": "AX Hotels"
+    },
+    {
+      "name": "Cumbres",
+      "chain_id": 9404
+    },
+    {
+      "name": "Comfort Apartments",
+      "chain_id": 9406
+    },
+    {
+      "name": "VIP Apartamenty",
+      "chain_id": 9415
+    },
+    {
+      "chain_id": 9427,
+      "name": "Unique Hotels"
+    },
+    {
+      "name": "Deshadan Resorts & Hotels",
+      "chain_id": 9432
+    },
+    {
+      "chain_id": 9433,
+      "name": "Rede Soberano"
+    },
+    {
+      "name": "Pousadeiros",
+      "chain_id": 9441
+    },
+    {
+      "chain_id": 9446,
+      "name": "Rixos"
+    },
+    {
+      "name": "Yoho Bed",
+      "chain_id": 9450
+    },
+    {
+      "name": "MAS Country",
+      "chain_id": 9481
+    },
+    {
+      "name": "Rainbow Apartments",
+      "chain_id": 9486
+    },
+    {
+      "name": "ZAKObooking",
+      "chain_id": 9494
+    },
+    {
+      "chain_id": 9540,
+      "name": "Sunmei"
+    },
+    {
+      "name": "Thank Inn Chain Hotel",
+      "chain_id": 9541
+    },
+    {
+      "chain_id": 9542,
+      "name": "JUNYI Hotel"
+    },
+    {
+      "name": "Thank Inn Plus Hotel",
+      "chain_id": 9543
+    },
+    {
+      "chain_id": 9544,
+      "name": "JUNYI Plus Hotel"
+    },
+    {
+      "chain_id": 9602,
+      "name": "Tandem"
+    },
+    {
+      "chain_id": 9605,
+      "name": "Poduszka"
+    },
+    {
+      "name": "Rint",
+      "chain_id": 9649
+    },
+    {
+      "chain_id": 9650,
+      "name": "CFI Hotels Group"
+    },
+    {
+      "name": "Fragola apartments",
+      "chain_id": 9654
+    },
+    {
+      "chain_id": 9663,
+      "name": "Cycas Hospitality"
+    },
+    {
+      "name": "Guinnard Immobilier & Tourisme",
+      "chain_id": 9670
+    },
+    {
+      "chain_id": 9681,
+      "name": "eSuites"
+    },
+    {
+      "chain_id": 9684,
+      "name": "City Quality"
+    },
+    {
+      "chain_id": 9685,
+      "name": "KrakowLiving"
+    },
+    {
+      "name": "Plateno group",
+      "chain_id": 9686
+    },
+    {
+      "name": "Carema Hotels",
+      "chain_id": 9688
+    },
+    {
+      "chain_id": 9690,
+      "name": "CACHET Boutique"
+    },
+    {
+      "name": "Apart-Invest",
+      "chain_id": 9718
+    },
+    {
+      "chain_id": 9725,
+      "name": "[Plateno Hotels Group] Pai Hotel"
+    },
+    {
+      "name": "Sunroute Hotel",
+      "chain_id": 9744
+    },
+    {
+      "name": "Maison Albar",
+      "chain_id": 9745
+    },
+    {
+      "chain_id": 9776,
+      "name": "Thien Minh Hospitality Management"
+    },
+    {
+      "name": "VFP Immobilier SA",
+      "chain_id": 9779
+    },
+    {
+      "chain_id": 9790,
+      "name": "Hestia Hotel Group"
+    },
+    {
+      "chain_id": 9791,
+      "name": "Krak Apartments"
+    },
+    {
+      "chain_id": 9792,
+      "name": "iRooms"
+    },
+    {
+      "chain_id": 9803,
+      "name": "Patricia"
+    },
+    {
+      "name": "Tapestry",
+      "chain_id": 9817
+    },
+    {
+      "chain_id": 9830,
+      "name": "Avanthay & Partners SA"
+    },
+    {
+      "chain_id": 9834,
+      "name": "CGH Earth"
+    },
+    {
+      "chain_id": 9840,
+      "name": "Myo Hotel"
+    },
+    {
+      "chain_id": 9872,
+      "name": "Stories - Croatian Unique Hotels"
+    },
+    {
+      "name": "Cresmarta",
+      "chain_id": 9874
+    },
+    {
+      "chain_id": 9895,
+      "name": "Itoen"
+    },
+    {
+      "name": "Southern Cross Motel Group",
+      "chain_id": 9896
+    },
+    {
+      "chain_id": 9898,
+      "name": "Amadria Park"
+    },
+    {
+      "chain_id": 9902,
+      "name": "Zafiro Hotels"
+    },
+    {
+      "name": "Nevsky Hotels",
+      "chain_id": 9949
+    },
+    {
+      "name": "BW Signature Collection by Best Western",
+      "chain_id": 9983
+    },
+    {
+      "chain_id": 9984,
+      "name": "Glo by Best Western"
+    },
+    {
+      "chain_id": 9985,
+      "name": "Arosa Holiday"
+    },
+    {
+      "name": "MINT Hotels & Suites",
+      "chain_id": 9998
+    },
+    {
+      "name": "ELEGANCE HOSPITALITY GROUP - EHG",
+      "chain_id": 10012
+    },
+    {
+      "name": "Alagon Hotels and Spa Group",
+      "chain_id": 10016
+    },
+    {
+      "name": "Small Charming Hotels",
+      "chain_id": 10039
+    },
+    {
+      "name": "Elegant Apartment",
+      "chain_id": 10051
+    },
+    {
+      "chain_id": 10057,
+      "name": "Perla Group Montenegro"
+    },
+    {
+      "chain_id": 10069,
+      "name": "Homeprime"
+    },
+    {
+      "name": "Fasano",
+      "chain_id": 10080
+    },
+    {
+      "name": "Alegria Hotels",
+      "chain_id": 10103
+    },
+    {
+      "chain_id": 10104,
+      "name": "MaxOneHotels"
+    },
+    {
+      "name": "Nite & Day Hotels",
+      "chain_id": 10117
+    },
+    {
+      "name": "Zia Hotels",
+      "chain_id": 10118
+    },
+    {
+      "name": "DoDisturb Group",
+      "chain_id": 10127
+    },
+    {
+      "chain_id": 10134,
+      "name": "Details Hotels & Resorts"
+    },
+    {
+      "name": "Coastlands Hotels & Resorts",
+      "chain_id": 10139
+    },
+    {
+      "chain_id": 10152,
+      "name": "KD HOTELS SANTORINI"
+    },
+    {
+      "name": "Ellicott Hospitality",
+      "chain_id": 10170
+    },
+    {
+      "chain_id": 10172,
+      "name": "Panamericana Hoteles"
+    },
+    {
+      "name": "Reka",
+      "chain_id": 10173
+    },
+    {
+      "name": "9 Hotel Collection",
+      "chain_id": 10176
+    },
+    {
+      "name": "DON Hoteles",
+      "chain_id": 10206
+    },
+    {
+      "name": "Selina Hotels",
+      "chain_id": 10207
+    },
+    {
+      "chain_id": 10220,
+      "name": "VOU Hotéis"
+    },
+    {
+      "name": "Eden Hotels - The Netherlands",
+      "chain_id": 10246
+    },
+    {
+      "chain_id": 10247,
+      "name": "Lindian Collection"
+    },
+    {
+      "name": "Zabeel House",
+      "chain_id": 10248
+    },
+    {
+      "chain_id": 10249,
+      "name": "Zabeel House MINI"
+    },
+    {
+      "chain_id": 10252,
+      "name": "CitiGO"
+    },
+    {
+      "chain_id": 10259,
+      "name": "Wengen Apartments"
+    },
+    {
+      "name": "welcome hotels",
+      "chain_id": 10265
+    },
+    {
+      "chain_id": 10279,
+      "name": "Avatar Group"
+    },
+    {
+      "name": "AP Hotels & Resorts",
+      "chain_id": 10280
+    },
+    {
+      "chain_id": 10283,
+      "name": "Marina Apartments"
+    },
+    {
+      "name": "Radisson Collection",
+      "chain_id": 10295
+    },
+    {
+      "chain_id": 10301,
+      "name": "Samba Hoteis"
+    },
+    {
+      "chain_id": 10303,
+      "name": "MINT Residential"
+    },
+    {
+      "chain_id": 10332,
+      "name": "MSHoteles"
+    },
+    {
+      "name": "Ribas Hotels Group",
+      "chain_id": 10340
+    },
+    {
+      "name": "Coral Sea Hotels & Resorts",
+      "chain_id": 10352
+    },
+    {
+      "chain_id": 10354,
+      "name": "HMC Colombia"
+    },
+    {
+      "name": "The Student Hotel",
+      "chain_id": 10355
+    },
+    {
+      "chain_id": 10358,
+      "name": "Costa Uruguay Gestion hotelera"
+    },
+    {
+      "name": "Dream Hotels & Resorts",
+      "chain_id": 10363
+    },
+    {
+      "name": "Fusion",
+      "chain_id": 10364
+    },
+    {
+      "chain_id": 10372,
+      "name": "Class"
+    },
+    {
+      "name": "Silverland Hospitality",
+      "chain_id": 10376
+    },
+    {
+      "chain_id": 10379,
+      "name": "Solar Hoteles"
+    },
+    {
+      "chain_id": 10380,
+      "name": "Evok Hôtels Collection"
+    },
+    {
+      "chain_id": 10381,
+      "name": "Tang's Living"
+    },
+    {
+      "chain_id": 10382,
+      "name": "Isibindi Africa Lodges"
+    },
+    {
+      "name": "Lux* Resorts and Hotels",
+      "chain_id": 10401
+    },
+    {
+      "chain_id": 10418,
+      "name": "Hoteles Regency Santorini"
+    },
+    {
+      "chain_id": 10422,
+      "name": "Cristal Hospitality Group"
+    },
+    {
+      "chain_id": 10426,
+      "name": "Red Lion Inn & Suites"
+    },
+    {
+      "chain_id": 10427,
+      "name": "Hotel RL by Red Lion"
+    },
+    {
+      "name": "GuestHouse Inn & Suites",
+      "chain_id": 10431
+    },
+    {
+      "chain_id": 10434,
+      "name": "udanypobyt"
+    },
+    {
+      "name": "Private Hotels Bonn",
+      "chain_id": 10458
+    },
+    {
+      "chain_id": 10462,
+      "name": "Sun Resorts"
+    },
+    {
+      "chain_id": 10466,
+      "name": "Human Company"
+    },
+    {
+      "name": "Victus",
+      "chain_id": 10467
+    },
+    {
+      "name": "HPH-GROUP",
+      "chain_id": 10468
+    },
+    {
+      "chain_id": 10469,
+      "name": "Concept Hotel Group"
+    },
+    {
+      "chain_id": 10510,
+      "name": "Sunway"
+    },
+    {
+      "name": "Avid",
+      "chain_id": 10533
+    },
+    {
+      "name": "test judith",
+      "chain_id": 10545
+    },
+    {
+      "name": "Canadas Best Value Inn",
+      "chain_id": 10561
+    },
+    {
+      "name": "Americas Best Value Inn & Suites",
+      "chain_id": 10563
+    },
+    {
+      "name": "Knights Inn",
+      "chain_id": 10567
+    },
+    {
+      "chain_id": 10574,
+      "name": "Liberty Hotels & Resorts"
+    },
+    {
+      "chain_id": 10579,
+      "name": "Edrichton"
+    },
+    {
+      "name": "MyHotels Malta",
+      "chain_id": 10580
+    },
+    {
+      "name": "Country Hearth Inn",
+      "chain_id": 10581
+    },
+    {
+      "chain_id": 10582,
+      "name": "Jameson Inn"
+    },
+    {
+      "name": "Lexington Inn",
+      "chain_id": 10583
+    },
+    {
+      "name": "Oro Verde",
+      "chain_id": 10593
+    },
+    {
+      "name": "Los Portales",
+      "chain_id": 10606
+    },
+    {
+      "chain_id": 10633,
+      "name": "Rent Apartments"
+    },
+    {
+      "name": "Tridente Collection",
+      "chain_id": 10634
+    },
+    {
+      "chain_id": 10635,
+      "name": "Jose Antonio"
+    },
+    {
+      "name": "Carlton Plaza",
+      "chain_id": 10652
+    },
+    {
+      "chain_id": 10655,
+      "name": "vyb (vacaciones y bienestar)"
+    },
+    {
+      "name": "Windsor Property Management Group",
+      "chain_id": 10660
+    },
+    {
+      "name": "South African National Parks",
+      "chain_id": 10688
+    },
+    {
+      "name": "Dazzler By Wyndham",
+      "chain_id": 10689
+    },
+    {
+      "name": "Esplendor by Wyndham",
+      "chain_id": 10690
+    },
+    {
+      "chain_id": 10696,
+      "name": "Frasers Hospitality"
+    },
+    {
+      "name": "Park Hotel",
+      "chain_id": 10697
+    },
+    {
+      "chain_id": 10724,
+      "name": "CHA Hotéis"
+    },
+    {
+      "name": "visitHOMES",
+      "chain_id": 10731
+    },
+    {
+      "chain_id": 10736,
+      "name": "Grupo Presidente"
+    },
+    {
+      "chain_id": 10737,
+      "name": "Sopockie Apartamenty"
+    },
+    {
+      "chain_id": 10739,
+      "name": "Poppys Hotels"
+    },
+    {
+      "name": "GHL Local",
+      "chain_id": 10776
+    },
+    {
+      "chain_id": 10778,
+      "name": "Jinyi Chain Hotels"
+    },
+    {
+      "name": "CDSHotels",
+      "chain_id": 10780
+    },
+    {
+      "chain_id": 10811,
+      "name": "SANCOINN HOTELS"
+    },
+    {
+      "name": "Prime Time Vacation Rentals iTrip",
+      "chain_id": 10814
+    },
+    {
+      "chain_id": 10820,
+      "name": "Novum Hotels"
+    },
+    {
+      "chain_id": 10821,
+      "name": "niu Hotels"
+    },
+    {
+      "chain_id": 10822,
+      "name": "Novum Select Hotels"
+    },
+    {
+      "name": "Novum Hospitality",
+      "chain_id": 10825
+    },
+    {
+      "name": "Zingo Hotels",
+      "chain_id": 10843
+    },
+    {
+      "chain_id": 10844,
+      "name": "Niraamaya"
+    },
+    {
+      "name": "TTC Hospitality",
+      "chain_id": 10846
+    },
+    {
+      "chain_id": 10854,
+      "name": "Hotel Sentral"
+    },
+    {
+      "name": "JR Inn",
+      "chain_id": 10855
+    },
+    {
+      "name": "Giant Hospitality",
+      "chain_id": 10856
+    },
+    {
+      "chain_id": 10870,
+      "name": "H Hotels Collection"
+    },
+    {
+      "name": "Hong Kong Hostel Group",
+      "chain_id": 10873
+    },
+    {
+      "chain_id": 10896,
+      "name": "Duna Parque Group"
+    },
+    {
+      "chain_id": 10909,
+      "name": "WTB Hotels"
+    },
+    {
+      "chain_id": 10912,
+      "name": "Inzone"
+    },
+    {
+      "chain_id": 10913,
+      "name": "Grace Inn"
+    },
+    {
+      "name": "JiYi Delicate Hotel",
+      "chain_id": 10914
+    },
+    {
+      "chain_id": 10915,
+      "name": "Inzone Garland Hotel"
+    },
+    {
+      "chain_id": 10916,
+      "name": "Inzone Garland Collection Hotel"
+    },
+    {
+      "chain_id": 10917,
+      "name": "JiYi Inns"
+    },
+    {
+      "chain_id": 10918,
+      "name": "Doban Hotel"
+    },
+    {
+      "name": "JunLan Hotel",
+      "chain_id": 10919
+    },
+    {
+      "chain_id": 10920,
+      "name": "Royal Plaza Hotels & Resorts"
+    },
+    {
+      "name": "RAC",
+      "chain_id": 10947
+    },
+    {
+      "chain_id": 10948,
+      "name": "NRMA"
+    },
+    {
+      "chain_id": 10949,
+      "name": "Lincore Hotels"
+    },
+    {
+      "name": "Apartments Possession",
+      "chain_id": 10952
+    },
+    {
+      "name": "Stay-In",
+      "chain_id": 10953
+    },
+    {
+      "chain_id": 10961,
+      "name": "Odalys City"
+    },
+    {
+      "chain_id": 10962,
+      "name": "Odalys Plein Air"
+    },
+    {
+      "name": "Odalys Vacances",
+      "chain_id": 10963
+    },
+    {
+      "name": "Ramoji Group",
+      "chain_id": 10966
+    },
+    {
+      "name": "Greenpark",
+      "chain_id": 10967
+    },
+    {
+      "name": "Evolve Back Resorts",
+      "chain_id": 10971
+    },
+    {
+      "name": "Caldera Collection",
+      "chain_id": 10988
+    },
+    {
+      "chain_id": 11004,
+      "name": "Atour S Hotel"
+    },
+    {
+      "chain_id": 11005,
+      "name": "Atour Hotel"
+    },
+    {
+      "name": "Atour Light Hotel",
+      "chain_id": 11006
+    },
+    {
+      "name": "Bunkhouse",
+      "chain_id": 11008
+    },
+    {
+      "chain_id": 11012,
+      "name": "HomeTowne Studios"
+    },
+    {
+      "name": "Aryaduta",
+      "chain_id": 11025
+    },
+    {
+      "name": "Hokkaido Tracks",
+      "chain_id": 11027
+    },
+    {
+      "name": "Starling Hotels",
+      "chain_id": 11065
+    },
+    {
+      "chain_id": 11066,
+      "name": "Nightcap Hotels"
+    },
+    {
+      "name": "Torre de Canyamel Group",
+      "chain_id": 11067
+    },
+    {
+      "chain_id": 11069,
+      "name": "Hoteles Extended Suites"
+    },
+    {
+      "name": "Phoenicia Hotels",
+      "chain_id": 11081
+    },
+    {
+      "chain_id": 11090,
+      "name": "Mont Blanc"
+    },
+    {
+      "name": "Coucou&Co",
+      "chain_id": 11098
+    },
+    {
+      "name": "Galeria Hotels",
+      "chain_id": 11102
+    },
+    {
+      "name": "Eldorado",
+      "chain_id": 11120
+    },
+    {
+      "name": "Xandari Resorts",
+      "chain_id": 11128
+    },
+    {
+      "chain_id": 11149,
+      "name": "The Swan Group"
+    },
+    {
+      "name": "Belforthotels",
+      "chain_id": 11150
+    },
+    {
+      "chain_id": 11151,
+      "name": "Plaza Hotelgroup"
+    },
+    {
+      "name": "Spree Hotels",
+      "chain_id": 11165
+    },
+    {
+      "chain_id": 11166,
+      "name": "Mango Hotels"
+    },
+    {
+      "chain_id": 11172,
+      "name": "Rysgaard Hotels"
+    },
+    {
+      "chain_id": 11174,
+      "name": "WBF"
+    },
+    {
+      "name": "Hospitality Investors Trust",
+      "chain_id": 11179
+    },
+    {
+      "chain_id": 11187,
+      "name": "Marriott International"
+    },
+    {
+      "name": "Apartamenty Tatry",
+      "chain_id": 11188
+    },
+    {
+      "chain_id": 11210,
+      "name": "Mrs Miggins"
+    },
+    {
+      "name": "Little Hoi An Group",
+      "chain_id": 11219
+    },
+    {
+      "chain_id": 11229,
+      "name": "GO KRAKOW APARTMENTS"
+    },
+    {
+      "chain_id": 11230,
+      "name": "Camplus"
+    },
+    {
+      "chain_id": 11231,
+      "name": "Raeli Hotels"
+    },
+    {
+      "name": "Ruby Hotels",
+      "chain_id": 11268
+    },
+    {
+      "name": "Metropolo",
+      "chain_id": 11272
+    },
+    {
+      "chain_id": 11278,
+      "name": "Greenland"
+    },
+    {
+      "name": "Centennial Condominium Association",
+      "chain_id": 11285
+    },
+    {
+      "chain_id": 11292,
+      "name": "MAADS"
+    },
+    {
+      "name": "Direct Hotels",
+      "chain_id": 11301
+    },
+    {
+      "name": "Airy Rooms",
+      "chain_id": 11306
+    },
+    {
+      "chain_id": 11307,
+      "name": "Lion Apartments"
+    },
+    {
+      "name": "Christina's",
+      "chain_id": 11308
+    },
+    {
+      "chain_id": 11316,
+      "name": "Sacramento Management"
+    },
+    {
+      "chain_id": 11333,
+      "name": "Easy Living"
+    },
+    {
+      "chain_id": 11338,
+      "name": "Warsaw Concierge"
+    },
+    {
+      "chain_id": 11341,
+      "name": "Pesonna Hotels"
+    },
+    {
+      "name": "Checkin Hoteles",
+      "chain_id": 11345
+    },
+    {
+      "chain_id": 11346,
+      "name": "Europe Hotels Private Collection"
+    },
+    {
+      "chain_id": 11379,
+      "name": "Rede Pires"
+    },
+    {
+      "chain_id": 11380,
+      "name": "Stranda Booking"
+    },
+    {
+      "chain_id": 11381,
+      "name": "Nordic Host"
+    },
+    {
+      "name": "Real Estate Norway",
+      "chain_id": 11382
+    },
+    {
+      "chain_id": 11383,
+      "name": "Norwegian Hotelapartments"
+    },
+    {
+      "name": "Gakenia Gathura",
+      "chain_id": 11392
+    },
+    {
+      "chain_id": 11393,
+      "name": "Chatur Group"
+    },
+    {
+      "chain_id": 11394,
+      "name": "Sentrim"
+    },
+    {
+      "name": "Superior Hotels",
+      "chain_id": 11395
+    },
+    {
+      "name": "Mercy Gacheke",
+      "chain_id": 11396
+    },
+    {
+      "chain_id": 11397,
+      "name": "Imperial Hotels"
+    },
+    {
+      "chain_id": 11398,
+      "name": "Acacia Properties"
+    },
+    {
+      "name": "Marasa Africa",
+      "chain_id": 11399
+    },
+    {
+      "name": "Serendib Hotels & Resorts",
+      "chain_id": 11400
+    },
+    {
+      "name": "Serena",
+      "chain_id": 11402
+    },
+    {
+      "name": "Sarova",
+      "chain_id": 11403
+    },
+    {
+      "name": "Prideinn",
+      "chain_id": 11404
+    },
+    {
+      "chain_id": 11412,
+      "name": "Signature Inn"
+    },
+    {
+      "chain_id": 11417,
+      "name": "Kaimoo Group"
+    },
+    {
+      "name": "Happy 7",
+      "chain_id": 11420
+    },
+    {
+      "name": "Sino Hotels",
+      "chain_id": 11425
+    }
+  ],
+  "meta": {
+    "ruid": "UmFuZG9tSVYkc2RlIyh9YRnmQeqeCcPuw962Y08rq/0y2SlmEJOtEQiYlONnxhC6X1yIgDPTe5EwwGXo/cOTEqvapzWA5RlkBaP+wUyaAL0="
+  }
+}

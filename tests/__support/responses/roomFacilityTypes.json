@@ -1,0 +1,2119 @@
+{
+  "result": [
+    {
+      "type": "boolean",
+      "facility_type_id": 7,
+      "room_facility_type_id": 1,
+      "name": "Tea/Coffee Maker",
+      "translations": [
+        {
+          "name": "Tea/Coffee Maker",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Internet Facilities",
+          "language": "en"
+        }
+      ],
+      "name": "Internet Facilities",
+      "room_facility_type_id": 2,
+      "type": "boolean",
+      "facility_type_id": 3
+    },
+    {
+      "type": "free_or_paid",
+      "facility_type_id": 7,
+      "room_facility_type_id": 3,
+      "name": "Minibar",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Minibar"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 5,
+      "type": "boolean",
+      "room_facility_type_id": 4,
+      "name": "Shower",
+      "translations": [
+        {
+          "name": "Shower",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Bath",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Bath"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 5,
+      "room_facility_type_id": 5
+    },
+    {
+      "name": "Safety Deposit Box",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Safety Deposit Box"
+        }
+      ],
+      "type": "free_or_paid",
+      "facility_type_id": 4,
+      "room_facility_type_id": 6
+    },
+    {
+      "translations": [
+        {
+          "name": "Pay-per-view Channels",
+          "language": "en"
+        }
+      ],
+      "name": "Pay-per-view Channels",
+      "room_facility_type_id": 7,
+      "facility_type_id": 6,
+      "type": "boolean"
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 6,
+      "room_facility_type_id": 8,
+      "name": "TV",
+      "translations": [
+        {
+          "name": "TV",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Telephone"
+        }
+      ],
+      "name": "Telephone",
+      "room_facility_type_id": 9,
+      "facility_type_id": 6,
+      "type": "boolean"
+    },
+    {
+      "name": "Fax",
+      "translations": [
+        {
+          "name": "Fax",
+          "language": "en"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 6,
+      "room_facility_type_id": 10
+    },
+    {
+      "name": "Air conditioning",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Air conditioning"
+        }
+      ],
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 11
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Hairdryer"
+        }
+      ],
+      "name": "Hairdryer",
+      "room_facility_type_id": 12,
+      "type": "boolean",
+      "facility_type_id": 5
+    },
+    {
+      "translations": [
+        {
+          "name": "Wake Up Service/Alarm Clock",
+          "language": "en"
+        }
+      ],
+      "name": "Wake Up Service/Alarm Clock",
+      "room_facility_type_id": 13,
+      "facility_type_id": 8,
+      "type": "boolean"
+    },
+    {
+      "name": "Hot Tub",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Hot Tub"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 14
+    },
+    {
+      "name": "Iron",
+      "translations": [
+        {
+          "name": "Iron",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 15
+    },
+    {
+      "translations": [
+        {
+          "name": "Kitchenette",
+          "language": "en"
+        }
+      ],
+      "name": "Kitchenette",
+      "room_facility_type_id": 16,
+      "facility_type_id": 7,
+      "type": "boolean"
+    },
+    {
+      "facility_type_id": 9,
+      "type": "boolean",
+      "room_facility_type_id": 17,
+      "name": "Balcony",
+      "translations": [
+        {
+          "name": "Balcony",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 18,
+      "name": "Trouser Press",
+      "translations": [
+        {
+          "name": "Trouser Press",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 19,
+      "type": "free_or_paid",
+      "facility_type_id": 5,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Bathrobe"
+        }
+      ],
+      "name": "Bathrobe"
+    },
+    {
+      "name": "Spa Bath",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Spa Bath"
+        }
+      ],
+      "facility_type_id": 5,
+      "type": "boolean",
+      "room_facility_type_id": 20
+    },
+    {
+      "name": "Radio",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Radio"
+        }
+      ],
+      "facility_type_id": 6,
+      "type": "boolean",
+      "room_facility_type_id": 21
+    },
+    {
+      "room_facility_type_id": 22,
+      "facility_type_id": 7,
+      "type": "boolean",
+      "translations": [
+        {
+          "name": "Refrigerator",
+          "language": "en"
+        }
+      ],
+      "name": "Refrigerator"
+    },
+    {
+      "name": "Desk",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Desk"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 23
+    },
+    {
+      "name": "Shared Bathroom",
+      "translations": [
+        {
+          "name": "Shared Bathroom",
+          "language": "en"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 5,
+      "room_facility_type_id": 24
+    },
+    {
+      "name": "Ironing Facilities",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Ironing Facilities"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 25
+    },
+    {
+      "room_facility_type_id": 26,
+      "type": "boolean",
+      "facility_type_id": 4,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Seating Area"
+        }
+      ],
+      "name": "Seating Area"
+    },
+    {
+      "name": "Free toiletries",
+      "translations": [
+        {
+          "name": "Free toiletries",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 5,
+      "type": "boolean",
+      "room_facility_type_id": 27
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 6,
+      "room_facility_type_id": 28,
+      "name": "DVD Player",
+      "translations": [
+        {
+          "name": "DVD Player",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "type": "free_or_paid",
+      "facility_type_id": 6,
+      "room_facility_type_id": 29,
+      "name": "CD Player",
+      "translations": [
+        {
+          "name": "CD Player",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 30,
+      "name": "Fan",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Fan"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Toilet"
+        }
+      ],
+      "name": "Toilet",
+      "room_facility_type_id": 31,
+      "type": "boolean",
+      "facility_type_id": 5
+    },
+    {
+      "room_facility_type_id": 32,
+      "type": "boolean",
+      "facility_type_id": 7,
+      "translations": [
+        {
+          "name": "Microwave",
+          "language": "en"
+        }
+      ],
+      "name": "Microwave"
+    },
+    {
+      "room_facility_type_id": 33,
+      "facility_type_id": 7,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Dishwasher"
+        }
+      ],
+      "name": "Dishwasher"
+    },
+    {
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 34,
+      "name": "Washing Machine",
+      "translations": [
+        {
+          "name": "Washing Machine",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 35,
+      "facility_type_id": 6,
+      "type": "boolean",
+      "translations": [
+        {
+          "name": "Video",
+          "language": "en"
+        }
+      ],
+      "name": "Video"
+    },
+    {
+      "name": "Video Games",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Video Games"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 6,
+      "room_facility_type_id": 36
+    },
+    {
+      "name": "Patio",
+      "translations": [
+        {
+          "name": "Patio",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 9,
+      "type": "boolean",
+      "room_facility_type_id": 37
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Private bathroom"
+        }
+      ],
+      "name": "Private bathroom",
+      "room_facility_type_id": 38,
+      "type": "boolean",
+      "facility_type_id": 5
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 39,
+      "name": "Extra Long Beds (> 2 metres)",
+      "translations": [
+        {
+          "name": "Extra Long Beds (> 2 metres)",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Heating"
+        }
+      ],
+      "name": "Heating",
+      "room_facility_type_id": 40,
+      "type": "boolean",
+      "facility_type_id": 4
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 41,
+      "name": "Dressing Room",
+      "translations": [
+        {
+          "name": "Dressing Room",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Shared Toilet"
+        }
+      ],
+      "name": "Shared Toilet",
+      "room_facility_type_id": 42,
+      "facility_type_id": 5,
+      "type": "boolean"
+    },
+    {
+      "facility_type_id": 5,
+      "type": "free_or_paid",
+      "room_facility_type_id": 43,
+      "name": "Slippers",
+      "translations": [
+        {
+          "name": "Slippers",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Satellite Channels",
+          "language": "en"
+        }
+      ],
+      "name": "Satellite Channels",
+      "room_facility_type_id": 44,
+      "facility_type_id": 6,
+      "type": "boolean"
+    },
+    {
+      "name": "Kitchen",
+      "translations": [
+        {
+          "name": "Kitchen",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 7,
+      "type": "boolean",
+      "room_facility_type_id": 45
+    },
+    {
+      "room_facility_type_id": 46,
+      "type": "boolean",
+      "facility_type_id": 3,
+      "translations": [
+        {
+          "name": "Wireless Internet",
+          "language": "en"
+        }
+      ],
+      "name": "Wireless Internet"
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 6,
+      "room_facility_type_id": 68,
+      "name": "Cable Channels",
+      "translations": [
+        {
+          "name": "Cable Channels",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 5,
+      "type": "boolean",
+      "room_facility_type_id": 69,
+      "name": "Bath or Shower",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Bath or Shower"
+        }
+      ]
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 70,
+      "name": "Carpeted",
+      "translations": [
+        {
+          "name": "Carpeted",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Fireplace",
+      "translations": [
+        {
+          "name": "Fireplace",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 71
+    },
+    {
+      "name": "Additional Toilet",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Additional Toilet"
+        }
+      ],
+      "facility_type_id": 5,
+      "type": "boolean",
+      "room_facility_type_id": 72
+    },
+    {
+      "room_facility_type_id": 73,
+      "type": "boolean",
+      "facility_type_id": 4,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Interconnected room(s) available"
+        }
+      ],
+      "name": "Interconnected room(s) available"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Laptop safe"
+        }
+      ],
+      "name": "Laptop safe",
+      "room_facility_type_id": 74,
+      "facility_type_id": 6,
+      "type": "free_or_paid"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Flat-screen TV"
+        }
+      ],
+      "name": "Flat-screen TV",
+      "room_facility_type_id": 75,
+      "facility_type_id": 6,
+      "type": "boolean"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Private entrance"
+        }
+      ],
+      "name": "Private entrance",
+      "room_facility_type_id": 76,
+      "facility_type_id": 4,
+      "type": "boolean"
+    },
+    {
+      "room_facility_type_id": 77,
+      "type": "boolean",
+      "facility_type_id": 4,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Sofa"
+        }
+      ],
+      "name": "Sofa"
+    },
+    {
+      "translations": [
+        {
+          "name": "Soundproofing",
+          "language": "en"
+        }
+      ],
+      "name": "Soundproofing",
+      "room_facility_type_id": 79,
+      "facility_type_id": 4,
+      "type": "boolean"
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 80,
+      "name": "Tile/Marble floor",
+      "translations": [
+        {
+          "name": "Tile/Marble floor",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 9,
+      "type": "boolean",
+      "room_facility_type_id": 81,
+      "name": "View",
+      "translations": [
+        {
+          "name": "View",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Hardwood/Parquet floors"
+        }
+      ],
+      "name": "Hardwood/Parquet floors",
+      "room_facility_type_id": 82,
+      "facility_type_id": 4,
+      "type": "boolean"
+    },
+    {
+      "name": "Wake-up service",
+      "translations": [
+        {
+          "name": "Wake-up service",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 8,
+      "type": "boolean",
+      "room_facility_type_id": 83
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Alarm clock"
+        }
+      ],
+      "name": "Alarm clock",
+      "room_facility_type_id": 84,
+      "facility_type_id": 8,
+      "type": "boolean"
+    },
+    {
+      "name": "Dining area",
+      "translations": [
+        {
+          "name": "Dining area",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 7,
+      "type": "boolean",
+      "room_facility_type_id": 85
+    },
+    {
+      "name": "Electric kettle",
+      "translations": [
+        {
+          "name": "Electric kettle",
+          "language": "en"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 7,
+      "room_facility_type_id": 86
+    },
+    {
+      "facility_type_id": 8,
+      "type": "boolean",
+      "room_facility_type_id": 87,
+      "name": "Executive Lounge Access",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Executive Lounge Access"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 88,
+      "facility_type_id": 6,
+      "type": "free_or_paid",
+      "translations": [
+        {
+          "language": "en",
+          "name": "iPod dock"
+        }
+      ],
+      "name": "iPod dock"
+    },
+    {
+      "facility_type_id": 7,
+      "type": "boolean",
+      "room_facility_type_id": 89,
+      "name": "Kitchenware",
+      "translations": [
+        {
+          "name": "Kitchenware",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Mosquito net",
+      "translations": [
+        {
+          "name": "Mosquito net",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 90
+    },
+    {
+      "name": "Towels/Sheets (extra fee)",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Towels/Sheets (extra fee)"
+        }
+      ],
+      "facility_type_id": 8,
+      "type": "boolean",
+      "room_facility_type_id": 91
+    },
+    {
+      "room_facility_type_id": 92,
+      "type": "boolean",
+      "facility_type_id": 5,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Sauna"
+        }
+      ],
+      "name": "Sauna"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Private pool"
+        }
+      ],
+      "name": "Private pool",
+      "room_facility_type_id": 93,
+      "type": "boolean",
+      "facility_type_id": 4
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Tumble dryer"
+        }
+      ],
+      "name": "Tumble dryer",
+      "room_facility_type_id": 94,
+      "facility_type_id": 4,
+      "type": "boolean"
+    },
+    {
+      "room_facility_type_id": 95,
+      "type": "boolean",
+      "facility_type_id": 4,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Wardrobe/Closet"
+        }
+      ],
+      "name": "Wardrobe/Closet"
+    },
+    {
+      "room_facility_type_id": 96,
+      "facility_type_id": 7,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Oven"
+        }
+      ],
+      "name": "Oven"
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 7,
+      "room_facility_type_id": 97,
+      "name": "Stovetop",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Stovetop"
+        }
+      ]
+    },
+    {
+      "name": "Toaster",
+      "translations": [
+        {
+          "name": "Toaster",
+          "language": "en"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 7,
+      "room_facility_type_id": 98
+    },
+    {
+      "room_facility_type_id": 99,
+      "facility_type_id": 7,
+      "type": "boolean",
+      "translations": [
+        {
+          "name": "Barbecue",
+          "language": "en"
+        }
+      ],
+      "name": "Barbecue"
+    },
+    {
+      "name": "Bidet",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Bidet"
+        }
+      ],
+      "facility_type_id": 5,
+      "type": "boolean",
+      "room_facility_type_id": 100
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Computer"
+        }
+      ],
+      "name": "Computer",
+      "room_facility_type_id": 101,
+      "type": "free_or_paid",
+      "facility_type_id": 6
+    },
+    {
+      "name": "iPad",
+      "translations": [
+        {
+          "language": "en",
+          "name": "iPad"
+        }
+      ],
+      "type": "free_or_paid",
+      "facility_type_id": 6,
+      "room_facility_type_id": 102
+    },
+    {
+      "translations": [
+        {
+          "name": "Game console",
+          "language": "en"
+        }
+      ],
+      "name": "Game console",
+      "room_facility_type_id": 103,
+      "type": "free_or_paid",
+      "facility_type_id": 6
+    },
+    {
+      "facility_type_id": 6,
+      "type": "free_or_paid",
+      "room_facility_type_id": 104,
+      "name": "Game console - Xbox 360",
+      "translations": [
+        {
+          "name": "Game console - Xbox 360",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "type": "free_or_paid",
+      "facility_type_id": 6,
+      "room_facility_type_id": 105,
+      "name": "Game console - PS2",
+      "translations": [
+        {
+          "name": "Game console - PS2",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 6,
+      "type": "free_or_paid",
+      "room_facility_type_id": 106,
+      "name": "Game console - PS3",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Game console - PS3"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Game console - Nintendo Wii"
+        }
+      ],
+      "name": "Game console - Nintendo Wii",
+      "room_facility_type_id": 107,
+      "facility_type_id": 6,
+      "type": "free_or_paid"
+    },
+    {
+      "translations": [
+        {
+          "name": "Sea view",
+          "language": "en"
+        }
+      ],
+      "name": "Sea view",
+      "room_facility_type_id": 108,
+      "facility_type_id": 9,
+      "type": "boolean"
+    },
+    {
+      "name": "Lake view",
+      "translations": [
+        {
+          "name": "Lake view",
+          "language": "en"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 9,
+      "room_facility_type_id": 109
+    },
+    {
+      "room_facility_type_id": 110,
+      "type": "boolean",
+      "facility_type_id": 9,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Garden view"
+        }
+      ],
+      "name": "Garden view"
+    },
+    {
+      "name": "Pool view",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Pool view"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 9,
+      "room_facility_type_id": 111
+    },
+    {
+      "translations": [
+        {
+          "name": "Mountain view",
+          "language": "en"
+        }
+      ],
+      "name": "Mountain view",
+      "room_facility_type_id": 112,
+      "facility_type_id": 9,
+      "type": "boolean"
+    },
+    {
+      "name": "Landmark view",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Landmark view"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 9,
+      "room_facility_type_id": 113
+    },
+    {
+      "type": "free_or_paid",
+      "facility_type_id": 6,
+      "room_facility_type_id": 114,
+      "name": "Laptop",
+      "translations": [
+        {
+          "name": "Laptop",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Hypoallergenic",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Hypoallergenic"
+        }
+      ],
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 115
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 116,
+      "name": "Cleaning products",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Cleaning products"
+        }
+      ]
+    },
+    {
+      "name": "Electric blankets",
+      "translations": [
+        {
+          "name": "Electric blankets",
+          "language": "en"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 117
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Additional bathroom"
+        }
+      ],
+      "name": "Additional bathroom",
+      "room_facility_type_id": 118,
+      "type": "boolean",
+      "facility_type_id": 5
+    },
+    {
+      "name": "Blu-ray player",
+      "translations": [
+        {
+          "name": "Blu-ray player",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 6,
+      "type": "boolean",
+      "room_facility_type_id": 119
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 7,
+      "room_facility_type_id": 120,
+      "name": "Coffee machine",
+      "translations": [
+        {
+          "name": "Coffee machine",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "City view"
+        }
+      ],
+      "name": "City view",
+      "room_facility_type_id": 121,
+      "type": "boolean",
+      "facility_type_id": 9
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 9,
+      "room_facility_type_id": 122,
+      "name": "River view",
+      "translations": [
+        {
+          "name": "River view",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Terrace",
+      "translations": [
+        {
+          "name": "Terrace",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 9,
+      "type": "boolean",
+      "room_facility_type_id": 123
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Towels"
+        }
+      ],
+      "name": "Towels",
+      "room_facility_type_id": 124,
+      "type": "free_or_paid",
+      "facility_type_id": 8
+    },
+    {
+      "type": "free_or_paid",
+      "facility_type_id": 8,
+      "room_facility_type_id": 125,
+      "name": "Linen",
+      "translations": [
+        {
+          "name": "Linen",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Dining table",
+      "translations": [
+        {
+          "name": "Dining table",
+          "language": "en"
+        }
+      ],
+      "type": "integer",
+      "facility_type_id": 7,
+      "room_facility_type_id": 126
+    },
+    {
+      "room_facility_type_id": 127,
+      "facility_type_id": 7,
+      "type": "free_or_paid",
+      "translations": [
+        {
+          "name": "Children's high chair",
+          "language": "en"
+        }
+      ],
+      "name": "Children's high chair"
+    },
+    {
+      "room_facility_type_id": 129,
+      "type": "boolean",
+      "facility_type_id": 7,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Outdoor furniture"
+        }
+      ],
+      "name": "Outdoor furniture"
+    },
+    {
+      "room_facility_type_id": 130,
+      "facility_type_id": 7,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Outdoor dining area"
+        }
+      ],
+      "name": "Outdoor dining area"
+    },
+    {
+      "name": "Entire unit located on ground floor",
+      "translations": [
+        {
+          "name": "Entire unit located on ground floor",
+          "language": "en"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 19,
+      "room_facility_type_id": 131
+    },
+    {
+      "room_facility_type_id": 132,
+      "type": "boolean",
+      "facility_type_id": 19,
+      "translations": [
+        {
+          "name": "Upper floors accessible by lift",
+          "language": "en"
+        }
+      ],
+      "name": "Upper floors accessible by lift"
+    },
+    {
+      "name": "Upper floors accessible by stairs only",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Upper floors accessible by stairs only"
+        }
+      ],
+      "facility_type_id": 19,
+      "type": "boolean",
+      "room_facility_type_id": 133
+    },
+    {
+      "facility_type_id": 19,
+      "type": "boolean",
+      "room_facility_type_id": 134,
+      "name": "Entire unit wheelchair accessible",
+      "translations": [
+        {
+          "name": "Entire unit wheelchair accessible",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 20,
+      "type": "boolean",
+      "room_facility_type_id": 135,
+      "name": "Detached",
+      "translations": [
+        {
+          "name": "Detached",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 136,
+      "type": "boolean",
+      "facility_type_id": 20,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Semi-detached"
+        }
+      ],
+      "name": "Semi-detached"
+    },
+    {
+      "room_facility_type_id": 137,
+      "facility_type_id": 20,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Private flat in building"
+        }
+      ],
+      "name": "Private flat in building"
+    },
+    {
+      "room_facility_type_id": 138,
+      "type": "boolean",
+      "facility_type_id": 4,
+      "translations": [
+        {
+          "name": "Clothes rack",
+          "language": "en"
+        }
+      ],
+      "name": "Clothes rack"
+    },
+    {
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 139,
+      "name": "Fold-up bed",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Fold-up bed"
+        }
+      ]
+    },
+    {
+      "name": "Drying rack for clothing",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Drying rack for clothing"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 140
+    },
+    {
+      "room_facility_type_id": 141,
+      "facility_type_id": 5,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Toilet paper"
+        }
+      ],
+      "name": "Toilet paper"
+    },
+    {
+      "facility_type_id": 25,
+      "type": "boolean",
+      "room_facility_type_id": 142,
+      "name": "Child safety socket covers",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Child safety socket covers"
+        }
+      ]
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 25,
+      "room_facility_type_id": 143,
+      "name": "Board games/puzzles",
+      "translations": [
+        {
+          "name": "Board games/puzzles",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 144,
+      "facility_type_id": 25,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Books, DVDs or music for children"
+        }
+      ],
+      "name": "Books, DVDs or music for children"
+    },
+    {
+      "name": "Baby safety gates",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Baby safety gates"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 25,
+      "room_facility_type_id": 145
+    },
+    {
+      "name": "Sofa bed",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Sofa bed"
+        }
+      ],
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 146
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 19,
+      "room_facility_type_id": 147,
+      "name": "Toilet with grab rails",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Toilet with grab rails"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 148,
+      "facility_type_id": 19,
+      "type": "boolean",
+      "translations": [
+        {
+          "name": "Adapted bath",
+          "language": "en"
+        }
+      ],
+      "name": "Adapted bath"
+    },
+    {
+      "room_facility_type_id": 149,
+      "facility_type_id": 19,
+      "type": "boolean",
+      "translations": [
+        {
+          "name": "Roll in shower",
+          "language": "en"
+        }
+      ],
+      "name": "Roll in shower"
+    },
+    {
+      "room_facility_type_id": 150,
+      "type": "boolean",
+      "facility_type_id": 19,
+      "translations": [
+        {
+          "name": "Walk in shower",
+          "language": "en"
+        }
+      ],
+      "name": "Walk in shower"
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 19,
+      "room_facility_type_id": 151,
+      "name": "Raised toilet",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Raised toilet"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Lowered sink",
+          "language": "en"
+        }
+      ],
+      "name": "Lowered sink",
+      "room_facility_type_id": 152,
+      "type": "boolean",
+      "facility_type_id": 19
+    },
+    {
+      "room_facility_type_id": 153,
+      "type": "boolean",
+      "facility_type_id": 19,
+      "translations": [
+        {
+          "name": "Emergency cord in bathroom",
+          "language": "en"
+        }
+      ],
+      "name": "Emergency cord in bathroom"
+    },
+    {
+      "translations": [
+        {
+          "name": "Shower chair",
+          "language": "en"
+        }
+      ],
+      "name": "Shower chair",
+      "room_facility_type_id": 154,
+      "type": "boolean",
+      "facility_type_id": 19
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 157,
+      "name": "Rooftop pool",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Rooftop pool"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 158,
+      "facility_type_id": 4,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Infinity pool"
+        }
+      ],
+      "name": "Infinity pool"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Pool with a view"
+        }
+      ],
+      "name": "Pool with a view",
+      "room_facility_type_id": 159,
+      "facility_type_id": 4,
+      "type": "boolean"
+    },
+    {
+      "room_facility_type_id": 160,
+      "facility_type_id": 4,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Heated pool"
+        }
+      ],
+      "name": "Heated pool"
+    },
+    {
+      "room_facility_type_id": 161,
+      "facility_type_id": 4,
+      "type": "boolean",
+      "translations": [
+        {
+          "name": "Salt-water pool",
+          "language": "en"
+        }
+      ],
+      "name": "Salt-water pool"
+    },
+    {
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 162,
+      "name": "Plunge pool",
+      "translations": [
+        {
+          "name": "Plunge pool",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 163,
+      "name": "Pool towels",
+      "translations": [
+        {
+          "name": "Pool towels",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 4,
+      "room_facility_type_id": 164,
+      "name": "Shallow end",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Shallow end"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Pool cover"
+        }
+      ],
+      "name": "Pool cover",
+      "room_facility_type_id": 165,
+      "type": "boolean",
+      "facility_type_id": 4
+    },
+    {
+      "facility_type_id": 7,
+      "type": "free_or_paid",
+      "room_facility_type_id": 166,
+      "name": "Wine or champagne",
+      "translations": [
+        {
+          "name": "Wine or champagne",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Bottle of water",
+          "language": "en"
+        }
+      ],
+      "name": "Bottle of water",
+      "room_facility_type_id": 167,
+      "type": "free_or_paid",
+      "facility_type_id": 7
+    },
+    {
+      "room_facility_type_id": 168,
+      "type": "free_or_paid",
+      "facility_type_id": 7,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Fruits"
+        }
+      ],
+      "name": "Fruits"
+    },
+    {
+      "name": "Chocolate or cookies",
+      "translations": [
+        {
+          "name": "Chocolate or cookies",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 7,
+      "type": "free_or_paid",
+      "room_facility_type_id": 169
+    },
+    {
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 170,
+      "name": "Trash cans",
+      "translations": [
+        {
+          "name": "Trash cans",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Wine glasses"
+        }
+      ],
+      "name": "Wine glasses",
+      "room_facility_type_id": 171,
+      "type": "boolean",
+      "facility_type_id": 7
+    },
+    {
+      "room_facility_type_id": 172,
+      "type": "boolean",
+      "facility_type_id": 6,
+      "translations": [
+        {
+          "name": "Game console - Xbox One",
+          "language": "en"
+        }
+      ],
+      "name": "Game console - Xbox One"
+    },
+    {
+      "facility_type_id": 6,
+      "type": "boolean",
+      "room_facility_type_id": 173,
+      "name": "Game console - Wii U",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Game console - Wii U"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Game console - PS4",
+          "language": "en"
+        }
+      ],
+      "name": "Game console - PS4",
+      "room_facility_type_id": 174,
+      "type": "boolean",
+      "facility_type_id": 6
+    },
+    {
+      "type": "free_or_paid",
+      "facility_type_id": 4,
+      "room_facility_type_id": 175,
+      "name": "Children's cots/cribs",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Children's cots/cribs"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 5,
+      "type": "free_or_paid",
+      "room_facility_type_id": 176,
+      "name": "Toothbrush",
+      "translations": [
+        {
+          "name": "Toothbrush",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "type": "free_or_paid",
+      "facility_type_id": 5,
+      "room_facility_type_id": 177,
+      "name": "Shampoo",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Shampoo"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 5,
+      "type": "free_or_paid",
+      "room_facility_type_id": 178,
+      "name": "Conditioner",
+      "translations": [
+        {
+          "name": "Conditioner",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 179,
+      "type": "free_or_paid",
+      "facility_type_id": 5,
+      "translations": [
+        {
+          "name": "Body soap",
+          "language": "en"
+        }
+      ],
+      "name": "Body soap"
+    },
+    {
+      "room_facility_type_id": 180,
+      "type": "free_or_paid",
+      "facility_type_id": 5,
+      "translations": [
+        {
+          "name": "Shower cap",
+          "language": "en"
+        }
+      ],
+      "name": "Shower cap"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Pajamas"
+        }
+      ],
+      "name": "Pajamas",
+      "room_facility_type_id": 181,
+      "type": "free_or_paid",
+      "facility_type_id": 4
+    },
+    {
+      "name": "Yukata",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Yukata"
+        }
+      ],
+      "facility_type_id": 4,
+      "type": "free_or_paid",
+      "room_facility_type_id": 182
+    },
+    {
+      "room_facility_type_id": 184,
+      "facility_type_id": 4,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Socket near the bed"
+        }
+      ],
+      "name": "Socket near the bed"
+    },
+    {
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 185,
+      "name": "Adapter",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Adapter"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 186,
+      "facility_type_id": 4,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Feather pillow"
+        }
+      ],
+      "name": "Feather pillow"
+    },
+    {
+      "name": "Non-feather pillow",
+      "translations": [
+        {
+          "name": "Non-feather pillow",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 187
+    },
+    {
+      "name": "Hypoallergenic pillow",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Hypoallergenic pillow"
+        }
+      ],
+      "facility_type_id": 4,
+      "type": "boolean",
+      "room_facility_type_id": 188
+    },
+    {
+      "facility_type_id": 19,
+      "type": "boolean",
+      "room_facility_type_id": 189,
+      "name": "Accessible by lift",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Accessible by lift"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 190,
+      "facility_type_id": 9,
+      "type": "boolean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Inner courtyard view"
+        }
+      ],
+      "name": "Inner courtyard view"
+    },
+    {
+      "room_facility_type_id": 191,
+      "facility_type_id": 9,
+      "type": "boolean",
+      "translations": [
+        {
+          "name": "Quiet street view",
+          "language": "en"
+        }
+      ],
+      "name": "Quiet street view"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Portable Wifi"
+        }
+      ],
+      "name": "Portable Wifi",
+      "room_facility_type_id": 196,
+      "facility_type_id": 6,
+      "type": "boolean"
+    },
+    {
+      "room_facility_type_id": 198,
+      "type": "boolean",
+      "facility_type_id": 6,
+      "translations": [
+        {
+          "name": "Smartphone",
+          "language": "en"
+        }
+      ],
+      "name": "Smartphone"
+    },
+    {
+      "name": "Streaming service (such as Netflix)",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Streaming service (such as Netflix)"
+        }
+      ],
+      "type": "boolean",
+      "facility_type_id": 6,
+      "room_facility_type_id": 199
+    },
+    {
+      "type": "boolean",
+      "facility_type_id": 8,
+      "room_facility_type_id": 200,
+      "name": "Lockers",
+      "translations": [
+        {
+          "name": "Lockers",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 201,
+      "type": "boolean",
+      "facility_type_id": 8,
+      "translations": [
+        {
+          "name": "Smoke alarm",
+          "language": "en"
+        }
+      ],
+      "name": "Smoke alarm"
+    },
+    {
+      "room_facility_type_id": 202,
+      "type": "boolean",
+      "facility_type_id": 8,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Fire extinguisher"
+        }
+      ],
+      "name": "Fire extinguisher"
+    },
+    {
+      "facility_type_id": 8,
+      "type": "boolean",
+      "room_facility_type_id": 203,
+      "name": "Key access",
+      "translations": [
+        {
+          "name": "Key access",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Key card access"
+        }
+      ],
+      "name": "Key card access",
+      "room_facility_type_id": 204,
+      "type": "boolean",
+      "facility_type_id": 8
+    },
+    {
+      "facility_type_id": 33,
+      "type": "boolean",
+      "room_facility_type_id": 205,
+      "name": "Reading light",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Reading light"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 33,
+      "type": "boolean",
+      "room_facility_type_id": 206,
+      "name": "Earplugs",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Earplugs"
+        }
+      ]
+    },
+    {
+      "room_facility_type_id": 207,
+      "facility_type_id": 33,
+      "type": "boolean",
+      "translations": [
+        {
+          "name": "Privacy curtain",
+          "language": "en"
+        }
+      ],
+      "name": "Privacy curtain"
+    }
+  ],
+  "meta": {
+    "ruid": "UmFuZG9tSVYkc2RlIyh9YRnmQeqeCcPuFl0QVn/rxUUQpBFEvs7x+95ajMiu8rtJSKCN2j6rWHpQy08n4CGcjK5YkU4UtTUAZksJdK4XxcU="
+  }
+}

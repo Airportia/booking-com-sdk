@@ -1,0 +1,327 @@
+{
+  "result": [
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "General"
+        }
+      ],
+      "name": "General",
+      "facility_type_id": 1
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Activities"
+        }
+      ],
+      "name": "Activities",
+      "facility_type_id": 2
+    },
+    {
+      "name": "Services",
+      "facility_type_id": 3,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Services"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 4,
+      "name": "Room Amenities",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Room Amenities"
+        }
+      ]
+    },
+    {
+      "name": "Bathroom",
+      "facility_type_id": 5,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Bathroom"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Media & Technology"
+        }
+      ],
+      "name": "Media & Technology",
+      "facility_type_id": 6
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Food & Drink"
+        }
+      ],
+      "facility_type_id": 7,
+      "name": "Food & Drink"
+    },
+    {
+      "name": "Services & Extras",
+      "facility_type_id": 8,
+      "translations": [
+        {
+          "name": "Services & Extras",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 9,
+      "name": "Outdoor & View",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Outdoor & View"
+        }
+      ]
+    },
+    {
+      "name": "Ski",
+      "facility_type_id": 10,
+      "translations": [
+        {
+          "name": "Ski",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Internet"
+        }
+      ],
+      "facility_type_id": 11,
+      "name": "Internet"
+    },
+    {
+      "name": "Kitchen",
+      "facility_type_id": 12,
+      "translations": [
+        {
+          "name": "Kitchen",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Outdoors",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 13,
+      "name": "Outdoors"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "View"
+        }
+      ],
+      "facility_type_id": 14,
+      "name": "View"
+    },
+    {
+      "facility_type_id": 15,
+      "name": "Living Area",
+      "translations": [
+        {
+          "name": "Living Area",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Parking",
+          "language": "en"
+        }
+      ],
+      "name": "Parking",
+      "facility_type_id": 16
+    },
+    {
+      "facility_type_id": 17,
+      "name": "Bedroom",
+      "translations": [
+        {
+          "name": "Bedroom",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 18,
+      "name": "Layout",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Layout"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Accessibility",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 19,
+      "name": "Accessibility"
+    },
+    {
+      "facility_type_id": 20,
+      "name": "Building characteristics",
+      "translations": [
+        {
+          "name": "Building characteristics",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Pool and wellness",
+          "language": "en"
+        }
+      ],
+      "name": "Pool and wellness",
+      "facility_type_id": 21
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Transport"
+        }
+      ],
+      "facility_type_id": 22,
+      "name": "Transport"
+    },
+    {
+      "facility_type_id": 23,
+      "name": "Reception services",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Reception services"
+        }
+      ]
+    },
+    {
+      "name": "Common areas",
+      "facility_type_id": 24,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Common areas"
+        }
+      ]
+    },
+    {
+      "name": "Entertainment and family services",
+      "facility_type_id": 25,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Entertainment and family services"
+        }
+      ]
+    },
+    {
+      "name": "Cleaning services",
+      "facility_type_id": 26,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Cleaning services"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 27,
+      "name": "Business facilities",
+      "translations": [
+        {
+          "name": "Business facilities",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Shops",
+          "language": "en"
+        }
+      ],
+      "facility_type_id": 28,
+      "name": "Shops"
+    },
+    {
+      "translations": [
+        {
+          "name": "Miscellaneous",
+          "language": "en"
+        }
+      ],
+      "name": "Miscellaneous",
+      "facility_type_id": 29
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Hot spring"
+        }
+      ],
+      "facility_type_id": 30,
+      "name": "Hot spring"
+    },
+    {
+      "facility_type_id": 33,
+      "name": "Hostel facilities",
+      "translations": [
+        {
+          "name": "Hostel facilities",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "facility_type_id": 34,
+      "name": "Safety & security",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Safety & security"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "ruid": "UmFuZG9tSVYkc2RlIyh9YRnmQeqeCcPu5CsyHSyUCfEyOIZJ2Hd4bNUYKnd2YPdIB1Z/LitLQR1eCfMC+lnsVEUNdlMi08njYIAla2/+KHo="
+  }
+}

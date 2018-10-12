@@ -3,6 +3,7 @@
 namespace BookingCom\Tests\Models\Hotel;
 
 use BookingCom\Models\Hotel\Facility;
+use BookingCom\Tests\__support\ArraysProvider;
 use PHPUnit\Framework\TestCase;
 
 class FacilityTest extends TestCase
@@ -35,5 +36,20 @@ class FacilityTest extends TestCase
         ]);
 
         $this->assertEquals(['Extra attribute of this facility.'], $hotelFacility->getAttrs());
+    }
+
+    /**
+     * @dataProvider arraysProvider
+     * @param $array
+     */
+    public function testBookingArrays($array): void
+    {
+        $this->expectNotToPerformAssertions();
+        Facility::fromArray($array);
+    }
+
+    public function arraysProvider(): array
+    {
+        return ArraysProvider::getItems(ArraysProvider::HOTEL_FACILITY_TYPES);
     }
 }

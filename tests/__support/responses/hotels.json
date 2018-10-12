@@ -1,0 +1,3285 @@
+{
+  "meta": {
+    "ruid": "UmFuZG9tSVYkc2RlIyh9YRnmQeqeCcPuwhQh3omqI3i/zH6NpB95JnwjIIl35GIc6s0rWcg6mo5Vc34BUejuked1Kvxtwj1mAMJQq9S5TE0="
+  },
+  "result": [
+    {
+      "hotel_id": 10004,
+      "hotel_data": {
+        "city_id": -2140479,
+        "name": "The Toren",
+        "checkin_checkout_times": {
+          "checkout_from": "07:00",
+          "checkin_to": "",
+          "checkout_to": "12:00",
+          "checkin_from": "15:00"
+        },
+        "class": 4,
+        "number_of_reviews": 972,
+        "city": "Amsterdam",
+        "ranking": 3913218,
+        "hotelier_welcome_message": "Canal building\nThe hotel has two 17th century historical canal buildings. The main building houses the reception and the bar, where breakfast is served every day. The second building is only on a few steps from the main building. The typical features of the canal houses, along with the nostalgic atmosphere, provides the hotel with a traditional charm. Due to the fixed position of both properties several smaller steps are apparent throughout the hotel. In case of mobility challenges and/or concerns a detailed explanation can be provided.",
+        "creditcard_required": true,
+        "payment_details": [
+          {
+            "bookable": true,
+            "cvc_required": false,
+            "payment_id": 5,
+            "payable": true
+          },
+          {
+            "bookable": true,
+            "cvc_required": false,
+            "payment_id": 7,
+            "payable": true
+          },
+          {
+            "bookable": false,
+            "cvc_required": false,
+            "payment_id": 8,
+            "payable": true
+          },
+          {
+            "payment_id": 3,
+            "cvc_required": false,
+            "payable": true,
+            "bookable": true
+          },
+          {
+            "bookable": true,
+            "cvc_required": false,
+            "payable": true,
+            "payment_id": 2
+          },
+          {
+            "cvc_required": false,
+            "payment_id": 10,
+            "payable": true,
+            "bookable": false
+          },
+          {
+            "bookable": true,
+            "cvc_required": false,
+            "payable": true,
+            "payment_id": 1
+          }
+        ],
+        "deep_link_url": "booking://hotel/10004?affiliate_id=1613783",
+        "currency": "EUR",
+        "hotel_photos": [
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934654.jpg?k=806399263699a47361bdbbefc9c872a3db03eea26c4a815f5f4df95c93e38cdb&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934654.jpg?k=806399263699a47361bdbbefc9c872a3db03eea26c4a815f5f4df95c93e38cdb&o=",
+            "main_photo": true,
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934654.jpg?k=806399263699a47361bdbbefc9c872a3db03eea26c4a815f5f4df95c93e38cdb&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/109100183.jpg?k=53608d252f73e6be8cd6e51777f371a165474d74e07bbedbfd4ac4386139031b&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/109100183.jpg?k=53608d252f73e6be8cd6e51777f371a165474d74e07bbedbfd4ac4386139031b&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/109100183.jpg?k=53608d252f73e6be8cd6e51777f371a165474d74e07bbedbfd4ac4386139031b&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934663.jpg?k=93448957e75221c6a5285278b1bbfd211459e762d369d8d700d50535ee26506b&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934663.jpg?k=93448957e75221c6a5285278b1bbfd211459e762d369d8d700d50535ee26506b&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934663.jpg?k=93448957e75221c6a5285278b1bbfd211459e762d369d8d700d50535ee26506b&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106787402.jpg?k=dae7a6df072e1413558e4f1c1c1de4f426918972358772232a235259a41c53f2&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106787402.jpg?k=dae7a6df072e1413558e4f1c1c1de4f426918972358772232a235259a41c53f2&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106787402.jpg?k=dae7a6df072e1413558e4f1c1c1de4f426918972358772232a235259a41c53f2&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934559.jpg?k=34b77cd34e5ac9bf75e36c8fca6331ef35b65a25ddbc7c3bbf8d7b324d8430ae&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934559.jpg?k=34b77cd34e5ac9bf75e36c8fca6331ef35b65a25ddbc7c3bbf8d7b324d8430ae&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934559.jpg?k=34b77cd34e5ac9bf75e36c8fca6331ef35b65a25ddbc7c3bbf8d7b324d8430ae&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/109100213.jpg?k=0c3204233b345dbb940c3f47812bd4779074d548dbf9e3e17c960d7af6775cf7&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/109100213.jpg?k=0c3204233b345dbb940c3f47812bd4779074d548dbf9e3e17c960d7af6775cf7&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/109100213.jpg?k=0c3204233b345dbb940c3f47812bd4779074d548dbf9e3e17c960d7af6775cf7&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106787415.jpg?k=79dc0d6e49967ddb842e1897db9ae1d623796946737b2dab460066f9d69a0f60&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106787415.jpg?k=79dc0d6e49967ddb842e1897db9ae1d623796946737b2dab460066f9d69a0f60&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106787415.jpg?k=79dc0d6e49967ddb842e1897db9ae1d623796946737b2dab460066f9d69a0f60&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/85308059.jpg?k=8e036a38d29cf810217096ad14badae2be2fa08bdc2cc4bc5cc848ee6e46ff56&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/85308059.jpg?k=8e036a38d29cf810217096ad14badae2be2fa08bdc2cc4bc5cc848ee6e46ff56&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/85308059.jpg?k=8e036a38d29cf810217096ad14badae2be2fa08bdc2cc4bc5cc848ee6e46ff56&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106786178.jpg?k=e5e09480975946cc7dc3267b73fc7d4d5909ac25fe9e5acb9e1f7ee09011eafd&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106786178.jpg?k=e5e09480975946cc7dc3267b73fc7d4d5909ac25fe9e5acb9e1f7ee09011eafd&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106786178.jpg?k=e5e09480975946cc7dc3267b73fc7d4d5909ac25fe9e5acb9e1f7ee09011eafd&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106786176.jpg?k=ce25e88e8fbba7931e57d30fc0ea4fad53f99b471b9b6362913e9f159ff73db5&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106786176.jpg?k=ce25e88e8fbba7931e57d30fc0ea4fad53f99b471b9b6362913e9f159ff73db5&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106786176.jpg?k=ce25e88e8fbba7931e57d30fc0ea4fad53f99b471b9b6362913e9f159ff73db5&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106866389.jpg?k=f0b895ec1bc13d2d74f1e276dac742ba3b6bc729671c2d62cb26b338c6c1e17f&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106866389.jpg?k=f0b895ec1bc13d2d74f1e276dac742ba3b6bc729671c2d62cb26b338c6c1e17f&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106866389.jpg?k=f0b895ec1bc13d2d74f1e276dac742ba3b6bc729671c2d62cb26b338c6c1e17f&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106787407.jpg?k=b8946226bcdc1569a4fcabc76525f064f0ef6488ab4b3c4a3051ac67d8d364cd&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106787407.jpg?k=b8946226bcdc1569a4fcabc76525f064f0ef6488ab4b3c4a3051ac67d8d364cd&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106787407.jpg?k=b8946226bcdc1569a4fcabc76525f064f0ef6488ab4b3c4a3051ac67d8d364cd&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106786181.jpg?k=84f331736a15addfacd353e22283f8505718a4db4994dcf83a98493d0a19c260&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106786181.jpg?k=84f331736a15addfacd353e22283f8505718a4db4994dcf83a98493d0a19c260&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106786181.jpg?k=84f331736a15addfacd353e22283f8505718a4db4994dcf83a98493d0a19c260&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934948.jpg?k=d886dc90387dc5a242150d82e20808ab951c57d704350d460a948f0c225392d6&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934948.jpg?k=d886dc90387dc5a242150d82e20808ab951c57d704350d460a948f0c225392d6&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934948.jpg?k=d886dc90387dc5a242150d82e20808ab951c57d704350d460a948f0c225392d6&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934560.jpg?k=526c14ca16bfbb5b8f0d16369929fa5df7c95f1d39e5b0379c03c7cff5b6eca1&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934560.jpg?k=526c14ca16bfbb5b8f0d16369929fa5df7c95f1d39e5b0379c03c7cff5b6eca1&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934560.jpg?k=526c14ca16bfbb5b8f0d16369929fa5df7c95f1d39e5b0379c03c7cff5b6eca1&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934362.jpg?k=69eeae2c16cfb984465fa78888f79be0fa2d516da4e1f4d16a588ef8b6fa14b5&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934362.jpg?k=69eeae2c16cfb984465fa78888f79be0fa2d516da4e1f4d16a588ef8b6fa14b5&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934362.jpg?k=69eeae2c16cfb984465fa78888f79be0fa2d516da4e1f4d16a588ef8b6fa14b5&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934879.jpg?k=5e46adc050d0b2356cfe0aec26c9b28403aa0da49c974de123cb1f3c7e103bb0&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934879.jpg?k=5e46adc050d0b2356cfe0aec26c9b28403aa0da49c974de123cb1f3c7e103bb0&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934879.jpg?k=5e46adc050d0b2356cfe0aec26c9b28403aa0da49c974de123cb1f3c7e103bb0&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/85307293.jpg?k=868e2825dba0130e8f00bc125ea58b708560c376558458846c8d62357e23f9b7&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/85307293.jpg?k=868e2825dba0130e8f00bc125ea58b708560c376558458846c8d62357e23f9b7&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/85307293.jpg?k=868e2825dba0130e8f00bc125ea58b708560c376558458846c8d62357e23f9b7&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/109100199.jpg?k=66f8d6453943c3e7480c160b428f20e3bd48f78098c795d4b98f683605d6320c&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/109100199.jpg?k=66f8d6453943c3e7480c160b428f20e3bd48f78098c795d4b98f683605d6320c&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/109100199.jpg?k=66f8d6453943c3e7480c160b428f20e3bd48f78098c795d4b98f683605d6320c&o="
+          },
+          {
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934562.jpg?k=a434113312a528c5a92b82f43ec24399808fd12999dea7183d1a63bd923fff52&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934562.jpg?k=a434113312a528c5a92b82f43ec24399808fd12999dea7183d1a63bd923fff52&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934562.jpg?k=a434113312a528c5a92b82f43ec24399808fd12999dea7183d1a63bd923fff52&o="
+          },
+          {
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934925.jpg?k=f490d47dc29bab8b2d49b3f12e4ee80fd938009bbfea3082fb156c33d4bd156a&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934925.jpg?k=f490d47dc29bab8b2d49b3f12e4ee80fd938009bbfea3082fb156c33d4bd156a&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934925.jpg?k=f490d47dc29bab8b2d49b3f12e4ee80fd938009bbfea3082fb156c33d4bd156a&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934880.jpg?k=60d71f8cb3467b8b33688137e70c1817b505a1b292ba2f0ff3bc59c4c99f8e1a&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934880.jpg?k=60d71f8cb3467b8b33688137e70c1817b505a1b292ba2f0ff3bc59c4c99f8e1a&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934880.jpg?k=60d71f8cb3467b8b33688137e70c1817b505a1b292ba2f0ff3bc59c4c99f8e1a&o="
+          },
+          {
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934881.jpg?k=9b97a8ed9b1015ce44007b4997b8657fe8e6eb9cb37c1d3fed36cc49700bdba5&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934881.jpg?k=9b97a8ed9b1015ce44007b4997b8657fe8e6eb9cb37c1d3fed36cc49700bdba5&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934881.jpg?k=9b97a8ed9b1015ce44007b4997b8657fe8e6eb9cb37c1d3fed36cc49700bdba5&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/41394583.jpg?k=60d291d2b3586e75aa024ed55d152dd54271534d39e2b61857a0403793734683&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/41394583.jpg?k=60d291d2b3586e75aa024ed55d152dd54271534d39e2b61857a0403793734683&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/41394583.jpg?k=60d291d2b3586e75aa024ed55d152dd54271534d39e2b61857a0403793734683&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934563.jpg?k=1d71ab6549506d91d85db36398e18552fb3c3f8f3eb198106b16ea1082931d51&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934563.jpg?k=1d71ab6549506d91d85db36398e18552fb3c3f8f3eb198106b16ea1082931d51&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934563.jpg?k=1d71ab6549506d91d85db36398e18552fb3c3f8f3eb198106b16ea1082931d51&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934660.jpg?k=23013e8a142c9a6c3a497a77a5dfcef94b2e8b6d4a9b3e154f36f494ea1daf80&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934660.jpg?k=23013e8a142c9a6c3a497a77a5dfcef94b2e8b6d4a9b3e154f36f494ea1daf80&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934660.jpg?k=23013e8a142c9a6c3a497a77a5dfcef94b2e8b6d4a9b3e154f36f494ea1daf80&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934664.jpg?k=798700f9916c201d1bd648b6195fc6bccd7de4ab6805c25bd0082a7eeec739f0&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934664.jpg?k=798700f9916c201d1bd648b6195fc6bccd7de4ab6805c25bd0082a7eeec739f0&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934664.jpg?k=798700f9916c201d1bd648b6195fc6bccd7de4ab6805c25bd0082a7eeec739f0&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/11393398.jpg?k=f6cab59afcaa4e6a3b8e3186dd4e0cad97d5175d5ce13ccb653765290ad7790a&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/11393398.jpg?k=f6cab59afcaa4e6a3b8e3186dd4e0cad97d5175d5ce13ccb653765290ad7790a&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/11393398.jpg?k=f6cab59afcaa4e6a3b8e3186dd4e0cad97d5175d5ce13ccb653765290ad7790a&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934655.jpg?k=35cf703bbf4ddffc5ebab07c2a73e7058f0075047a7c727a005e247e98c2ce3c&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934655.jpg?k=35cf703bbf4ddffc5ebab07c2a73e7058f0075047a7c727a005e247e98c2ce3c&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934655.jpg?k=35cf703bbf4ddffc5ebab07c2a73e7058f0075047a7c727a005e247e98c2ce3c&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20953204.jpg?k=350307b057ceea52911855f17c7c7e989ec6cdd23e0b88e9b65c6a65420275e0&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20953204.jpg?k=350307b057ceea52911855f17c7c7e989ec6cdd23e0b88e9b65c6a65420275e0&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20953204.jpg?k=350307b057ceea52911855f17c7c7e989ec6cdd23e0b88e9b65c6a65420275e0&o="
+          },
+          {
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/85307294.jpg?k=d44d8db903326af15595d463bfae45a6cb1decc5e97f6ccc22f69fc1dcc77a26&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/85307294.jpg?k=d44d8db903326af15595d463bfae45a6cb1decc5e97f6ccc22f69fc1dcc77a26&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/85307294.jpg?k=d44d8db903326af15595d463bfae45a6cb1decc5e97f6ccc22f69fc1dcc77a26&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/28649923.jpg?k=11d8c2ea3da54742f3b23c69e47e8fc0f704c71794f0b51d19e8b193961c2c42&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/28649923.jpg?k=11d8c2ea3da54742f3b23c69e47e8fc0f704c71794f0b51d19e8b193961c2c42&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/28649923.jpg?k=11d8c2ea3da54742f3b23c69e47e8fc0f704c71794f0b51d19e8b193961c2c42&o="
+          },
+          {
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20952077.jpg?k=b7dba9eaf8f43c1016f8f8a288331635e0dc244d8208e1c63360124351bdd18a&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20952077.jpg?k=b7dba9eaf8f43c1016f8f8a288331635e0dc244d8208e1c63360124351bdd18a&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20952077.jpg?k=b7dba9eaf8f43c1016f8f8a288331635e0dc244d8208e1c63360124351bdd18a&o="
+          },
+          {
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/28649919.jpg?k=0af18784ecbf3739111934685ab833340e4f4f197c8c71b0e7f42fb8f0156fb5&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/28649919.jpg?k=0af18784ecbf3739111934685ab833340e4f4f197c8c71b0e7f42fb8f0156fb5&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/28649919.jpg?k=0af18784ecbf3739111934685ab833340e4f4f197c8c71b0e7f42fb8f0156fb5&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/154603555.jpg?k=00d54fb7c6abb906f6d792a3a993724ce733514ada1c2d325008e4e81b5494c6&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/154603555.jpg?k=00d54fb7c6abb906f6d792a3a993724ce733514ada1c2d325008e4e81b5494c6&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/154603555.jpg?k=00d54fb7c6abb906f6d792a3a993724ce733514ada1c2d325008e4e81b5494c6&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/154603553.jpg?k=bc2be507636ec187e72dc70fd9d895143322bc2d04549792237fcbe9389075e9&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/154603553.jpg?k=bc2be507636ec187e72dc70fd9d895143322bc2d04549792237fcbe9389075e9&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/154603553.jpg?k=bc2be507636ec187e72dc70fd9d895143322bc2d04549792237fcbe9389075e9&o="
+          }
+        ],
+        "max_persons_in_reservation": 0,
+        "url": "https://www.booking.com/hotel/nl/toren.html",
+        "theme_ids": [
+          3,
+          5,
+          6,
+          8,
+          9,
+          14,
+          15,
+          17
+        ],
+        "number_of_rooms": 38,
+        "address": "Keizersgracht 164",
+        "review_score": 9.2,
+        "class_is_estimated": false,
+        "spoken_languages": [
+          "nl",
+          "en",
+          "de"
+        ],
+        "license_number": "",
+        "default_language": "en",
+        "max_rooms_in_reservation": 3,
+        "key_collection_info": {
+          "key_location": "at_the_property",
+          "how_to_collect": "unknown"
+        },
+        "hotel_facilities": [
+          {
+            "name": "Room service",
+            "hotel_facility_type_id": 5
+          },
+          {
+            "hotel_facility_type_id": 7,
+            "name": "Bar"
+          },
+          {
+            "name": "24-hour front desk",
+            "hotel_facility_type_id": 8
+          },
+          {
+            "name": "Newspapers",
+            "hotel_facility_type_id": 13,
+            "attrs": [
+              "paid"
+            ]
+          },
+          {
+            "name": "Garden",
+            "hotel_facility_type_id": 14
+          },
+          {
+            "name": "Terrace",
+            "hotel_facility_type_id": 15
+          },
+          {
+            "name": "Non-smoking rooms",
+            "hotel_facility_type_id": 16
+          },
+          {
+            "hotel_facility_type_id": 17,
+            "name": "Airport shuttle"
+          },
+          {
+            "attrs": [
+              "paid"
+            ],
+            "name": "Babysitting/child services",
+            "hotel_facility_type_id": 21
+          },
+          {
+            "attrs": [
+              "paid"
+            ],
+            "name": "Laundry",
+            "hotel_facility_type_id": 22
+          },
+          {
+            "attrs": [
+              "paid"
+            ],
+            "name": "Dry cleaning",
+            "hotel_facility_type_id": 23
+          },
+          {
+            "name": "VIP room facilities",
+            "hotel_facility_type_id": 41
+          },
+          {
+            "name": "Breakfast in the room",
+            "hotel_facility_type_id": 43
+          },
+          {
+            "name": "Ironing service",
+            "hotel_facility_type_id": 44,
+            "attrs": [
+              "paid"
+            ]
+          },
+          {
+            "name": "Bridal suite",
+            "hotel_facility_type_id": 45
+          },
+          {
+            "hotel_facility_type_id": 47,
+            "name": "Internet services"
+          },
+          {
+            "name": "Lift",
+            "hotel_facility_type_id": 48
+          },
+          {
+            "name": "Safety deposit box",
+            "hotel_facility_type_id": 51
+          },
+          {
+            "name": "Bicycle rental (additional charge)",
+            "hotel_facility_type_id": 65
+          },
+          {
+            "name": "Shoeshine",
+            "hotel_facility_type_id": 67
+          },
+          {
+            "hotel_facility_type_id": 75,
+            "name": "Car hire"
+          },
+          {
+            "attrs": [
+              "offsite"
+            ],
+            "hotel_facility_type_id": 76,
+            "name": "Cycling"
+          },
+          {
+            "hotel_facility_type_id": 80,
+            "name": "Heating"
+          },
+          {
+            "attrs": [
+              "paid"
+            ],
+            "name": "Fax/photocopying",
+            "hotel_facility_type_id": 81
+          },
+          {
+            "name": "Ticket service",
+            "hotel_facility_type_id": 89
+          },
+          {
+            "name": "Luggage storage",
+            "hotel_facility_type_id": 91
+          },
+          {
+            "name": "WiFi",
+            "hotel_facility_type_id": 96
+          },
+          {
+            "name": "Free WiFi",
+            "hotel_facility_type_id": 107
+          },
+          {
+            "hotel_facility_type_id": 109,
+            "name": "Air conditioning"
+          },
+          {
+            "name": "Designated smoking area",
+            "hotel_facility_type_id": 110
+          },
+          {
+            "name": "Snack bar",
+            "hotel_facility_type_id": 117
+          },
+          {
+            "name": "Shuttle service (additional charge)",
+            "hotel_facility_type_id": 129
+          },
+          {
+            "hotel_facility_type_id": 140,
+            "name": "Airport shuttle (additional charge)"
+          },
+          {
+            "name": "Daily maid service",
+            "hotel_facility_type_id": 158
+          },
+          {
+            "hotel_facility_type_id": 163,
+            "name": "WiFi available in all areas"
+          },
+          {
+            "name": "Kid-friendly buffet",
+            "hotel_facility_type_id": 177
+          },
+          {
+            "name": "Street parking",
+            "hotel_facility_type_id": 180
+          },
+          {
+            "hotel_facility_type_id": 183,
+            "name": "Public transport tickets",
+            "attrs": [
+              "paid"
+            ]
+          }
+        ],
+        "book_domestic_without_cc_details": false,
+        "country": "nl",
+        "zip": "1015 CZ",
+        "is_closed": false,
+        "district_id": 145,
+        "hotel_important_information": "Please note that a tourism tax of 6% will be charged for reservations starting from 01 January 2018. This is not included in the room rate.\n\nThe credit card that has been used to book a non-refundable rate, will be charged on the day of booking and needs to be presented upon check-in. In case the credit card owner is not traveling with you, an online payment link will be sent to prepay your stay.\n\nPlease note that the hotel pre-authorizes your credit card with the amount for the first night, 8 days prior to arrival. This is not a payment and this only applies to flexible rates.\n\nFor reservations of 4 nights and more, different cancellation policies may apply.\n\nParking in Amsterdam is challenging, there are parking garages near to the hotel or a valet service is possible to arrange upon request. Charges are applicable. Please contact the hotel ahead of time for information",
+        "preferred": true,
+        "hotel_description": "The Toren features elegant accommodation alongside the famous Keizersgracht canal, around the corner from the Anne Frank House. It offers elegant rooms with flat-screen TVs with digital entertainment system. Each air-conditioned room at the Toren has an en suite bathroom with a bathtub. They have classic decorations such as chandeliers and ceiling paintings. Coffee and tea making facilities are also provided in every room. In the morning, guests can enjoy a delightful breakfast buffet in the elegant breakfast room with views of the Keizersgracht. The trendy hotel bar serves refreshing drinks during the day. Westermarkt Tram Stop is less than 250 metres from the hotel. Dam Square and the Royal Palace are a 10-minute walk away.",
+        "exact_class": 4.0,
+        "location": {
+          "longitude": 4.88601,
+          "latitude": 52.37586
+        },
+        "hotel_type_id": 204,
+        "hotel_policies": [
+          {
+            "content": "When booking more than 5 rooms, different policies and additional supplements may apply.\n",
+            "type": "POLICY_HOTEL_GROUPS",
+            "name": "Groups"
+          },
+          {
+            "content": "WiFi is available in all areas and is free of charge.\n",
+            "name": "Internet",
+            "type": "POLICY_HOTEL_INTERNET"
+          },
+          {
+            "type": "POLICY_HOTEL_PARKING",
+            "name": "Parking",
+            "content": "No parking available.\n"
+          },
+          {
+            "type": "POLICY_HOTEL_PETS",
+            "name": "Pets",
+            "content": "Pets are not allowed.\n"
+          },
+          {
+            "type": "POLICY_CHILDREN",
+            "name": "Children and Extra Bed Policy",
+            "content": "All children are welcome.\nAll children under 3 years stay free of charge for children's cots/cribs.\nThe maximum number of children's cots/cribs in a room is 1.\nThere is no capacity for extra beds in the room.\n"
+          }
+        ]
+      },
+      "room_data": [
+        {
+          "room_id": 1000405,
+          "room_facilities": [
+            {
+              "room_facility_type_id": 3,
+              "name": "Minibar"
+            },
+            {
+              "name": "Shower",
+              "room_facility_type_id": 4
+            },
+            {
+              "name": "Bath",
+              "room_facility_type_id": 5
+            },
+            {
+              "room_facility_type_id": 6,
+              "name": "Safety Deposit Box"
+            },
+            {
+              "room_facility_type_id": 7,
+              "name": "Pay-per-view Channels"
+            },
+            {
+              "name": "TV",
+              "room_facility_type_id": 8
+            },
+            {
+              "room_facility_type_id": 9,
+              "name": "Telephone"
+            },
+            {
+              "name": "Air conditioning",
+              "room_facility_type_id": 11
+            },
+            {
+              "name": "Hairdryer",
+              "room_facility_type_id": 12
+            },
+            {
+              "room_facility_type_id": 13,
+              "name": "Wake Up Service/Alarm Clock"
+            },
+            {
+              "room_facility_type_id": 19,
+              "name": "Bathrobe"
+            },
+            {
+              "name": "Radio",
+              "room_facility_type_id": 21
+            },
+            {
+              "name": "Desk",
+              "room_facility_type_id": 23
+            },
+            {
+              "room_facility_type_id": 27,
+              "name": "Free toiletries"
+            },
+            {
+              "name": "Toilet",
+              "room_facility_type_id": 31
+            },
+            {
+              "name": "Private bathroom",
+              "room_facility_type_id": 38
+            },
+            {
+              "room_facility_type_id": 40,
+              "name": "Heating"
+            },
+            {
+              "room_facility_type_id": 43,
+              "name": "Slippers"
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "name": "Bath or Shower",
+              "room_facility_type_id": 69
+            },
+            {
+              "room_facility_type_id": 70,
+              "name": "Carpeted"
+            },
+            {
+              "name": "Flat-screen TV",
+              "room_facility_type_id": 75
+            },
+            {
+              "name": "Wake-up service",
+              "room_facility_type_id": 83
+            },
+            {
+              "name": "Alarm clock",
+              "room_facility_type_id": 84
+            },
+            {
+              "name": "Electric kettle",
+              "room_facility_type_id": 86
+            },
+            {
+              "room_facility_type_id": 95,
+              "name": "Wardrobe/Closet"
+            },
+            {
+              "room_facility_type_id": 115,
+              "name": "Hypoallergenic"
+            },
+            {
+              "name": "Coffee machine",
+              "room_facility_type_id": 120
+            },
+            {
+              "name": "Towels",
+              "room_facility_type_id": 124
+            },
+            {
+              "name": "Upper floors accessible by lift",
+              "room_facility_type_id": 132
+            },
+            {
+              "name": "Clothes rack",
+              "room_facility_type_id": 138
+            },
+            {
+              "name": "Toilet paper",
+              "room_facility_type_id": 141
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "room_facility_type_id": 177,
+              "name": "Shampoo"
+            },
+            {
+              "room_facility_type_id": 178,
+              "name": "Conditioner"
+            },
+            {
+              "room_facility_type_id": 179,
+              "name": "Body soap"
+            },
+            {
+              "name": "Shower cap",
+              "room_facility_type_id": 180
+            },
+            {
+              "name": "Hypoallergenic pillow",
+              "room_facility_type_id": 188
+            },
+            {
+              "name": "Accessible by lift",
+              "room_facility_type_id": 189
+            }
+          ],
+          "room_photos": [
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/16739430.jpg?k=cbb417fb4e6d3a2be7da23c560b4f56fcb7a5a69b820a0093d8e1d6fe4d00709&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/16739430.jpg?k=cbb417fb4e6d3a2be7da23c560b4f56fcb7a5a69b820a0093d8e1d6fe4d00709&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/16739430.jpg?k=cbb417fb4e6d3a2be7da23c560b4f56fcb7a5a69b820a0093d8e1d6fe4d00709&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/16739420.jpg?k=81082e0f71af1cae8a4a65043f21db55bee8d7237c2c35c3a20a036bd7252a1b&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/16739420.jpg?k=81082e0f71af1cae8a4a65043f21db55bee8d7237c2c35c3a20a036bd7252a1b&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/16739420.jpg?k=81082e0f71af1cae8a4a65043f21db55bee8d7237c2c35c3a20a036bd7252a1b&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20952317.jpg?k=789c779de6f465bd15a83eb0b3fd3f6e4f221a10e52417a7591854bc981db5cf&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20952317.jpg?k=789c779de6f465bd15a83eb0b3fd3f6e4f221a10e52417a7591854bc981db5cf&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20952317.jpg?k=789c779de6f465bd15a83eb0b3fd3f6e4f221a10e52417a7591854bc981db5cf&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934878.jpg?k=3f90eaa7a8dd5e137c65336c6bdbba92325533aa5f0edcf2680dd12f4781bb3f&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934878.jpg?k=3f90eaa7a8dd5e137c65336c6bdbba92325533aa5f0edcf2680dd12f4781bb3f&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934878.jpg?k=3f90eaa7a8dd5e137c65336c6bdbba92325533aa5f0edcf2680dd12f4781bb3f&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/55121836.jpg?k=988e10406a1ebba225ed71b7f37a043105502ec4058fe167aad8cf377e90bbdd&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/55121836.jpg?k=988e10406a1ebba225ed71b7f37a043105502ec4058fe167aad8cf377e90bbdd&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/55121836.jpg?k=988e10406a1ebba225ed71b7f37a043105502ec4058fe167aad8cf377e90bbdd&o="
+            }
+          ],
+          "room_info": {
+            "room_type_id": 7,
+            "room_size": {
+              "metre_square": 20.0
+            },
+            "bookable": true,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "count": "3",
+                    "configuration_id": 1,
+                    "description": "90-130 cm wide",
+                    "description_imperial": "35-51 inches wide",
+                    "name": "Single bed(s)"
+                  }
+                ]
+              },
+              {
+                "bed_types": [
+                  {
+                    "count": "1",
+                    "description": "90-130 cm wide",
+                    "configuration_id": 2,
+                    "description_imperial": "35-51 inches wide",
+                    "name": "Single bed(s)"
+                  },
+                  {
+                    "description_imperial": "60-70 inches wide",
+                    "name": "Large bed(s) (King size)",
+                    "description": "151-180cm wide",
+                    "configuration_id": 2,
+                    "count": "1"
+                  }
+                ]
+              }
+            ],
+            "bathroom_count": 1,
+            "max_persons": 3,
+            "ranking": 1002,
+            "room_type": "Triple",
+            "max_price": 0.0,
+            "bedroom_count": 0.0,
+            "min_price": 0.0
+          }
+        },
+        {
+          "room_photos": [
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934319.jpg?k=a542cb4813e514cb368bfafa65947b3d895871f0c2a7f5ee2d0ef91a7a5a69c9&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934319.jpg?k=a542cb4813e514cb368bfafa65947b3d895871f0c2a7f5ee2d0ef91a7a5a69c9&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934319.jpg?k=a542cb4813e514cb368bfafa65947b3d895871f0c2a7f5ee2d0ef91a7a5a69c9&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934332.jpg?k=fb7db0fad30f211306941cd1d5ca7e19b74757a16c0fa8b9e091bb47b5aacacc&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934332.jpg?k=fb7db0fad30f211306941cd1d5ca7e19b74757a16c0fa8b9e091bb47b5aacacc&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934332.jpg?k=fb7db0fad30f211306941cd1d5ca7e19b74757a16c0fa8b9e091bb47b5aacacc&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934339.jpg?k=f7d5be605f8286eae71b693ec5448a4ebacb82a165508311298f6bcc8d5f8751&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934339.jpg?k=f7d5be605f8286eae71b693ec5448a4ebacb82a165508311298f6bcc8d5f8751&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934339.jpg?k=f7d5be605f8286eae71b693ec5448a4ebacb82a165508311298f6bcc8d5f8751&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934340.jpg?k=2d852426d6f4423639de99ca1200ca05645e379c9a602df5b67787e8ac37e1dd&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934340.jpg?k=2d852426d6f4423639de99ca1200ca05645e379c9a602df5b67787e8ac37e1dd&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934340.jpg?k=2d852426d6f4423639de99ca1200ca05645e379c9a602df5b67787e8ac37e1dd&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/55119016.jpg?k=378c10057fbb5e8509a57ee7807ab5aa9de66624f94361121cba47a243a59112&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/55119016.jpg?k=378c10057fbb5e8509a57ee7807ab5aa9de66624f94361121cba47a243a59112&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/55119016.jpg?k=378c10057fbb5e8509a57ee7807ab5aa9de66624f94361121cba47a243a59112&o="
+            }
+          ],
+          "room_info": {
+            "bedroom_count": 1.0,
+            "min_price": 0.0,
+            "max_price": 0.0,
+            "room_type": "Suite",
+            "bathroom_count": 1,
+            "ranking": 1004,
+            "max_persons": 2,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "description_imperial": "60-70 inches wide",
+                    "name": "Large bed(s) (King size)",
+                    "description": "151-180cm wide",
+                    "configuration_id": 1,
+                    "count": "1"
+                  }
+                ]
+              }
+            ],
+            "bookable": true,
+            "bedrooms": [
+              {
+                "name": "Bedroom 1",
+                "description": "1 large double bed"
+              }
+            ],
+            "room_size": {
+              "metre_square": 32.0
+            },
+            "room_type_id": 5
+          },
+          "room_id": 1000406,
+          "room_facilities": [
+            {
+              "name": "Minibar",
+              "room_facility_type_id": 3
+            },
+            {
+              "name": "Shower",
+              "room_facility_type_id": 4
+            },
+            {
+              "room_facility_type_id": 5,
+              "name": "Bath"
+            },
+            {
+              "room_facility_type_id": 6,
+              "name": "Safety Deposit Box"
+            },
+            {
+              "name": "Pay-per-view Channels",
+              "room_facility_type_id": 7
+            },
+            {
+              "name": "TV",
+              "room_facility_type_id": 8
+            },
+            {
+              "room_facility_type_id": 9,
+              "name": "Telephone"
+            },
+            {
+              "room_facility_type_id": 11,
+              "name": "Air conditioning"
+            },
+            {
+              "name": "Hairdryer",
+              "room_facility_type_id": 12
+            },
+            {
+              "name": "Wake Up Service/Alarm Clock",
+              "room_facility_type_id": 13
+            },
+            {
+              "name": "Bathrobe",
+              "room_facility_type_id": 19
+            },
+            {
+              "name": "Spa Bath",
+              "room_facility_type_id": 20
+            },
+            {
+              "name": "Radio",
+              "room_facility_type_id": 21
+            },
+            {
+              "name": "Desk",
+              "room_facility_type_id": 23
+            },
+            {
+              "room_facility_type_id": 27,
+              "name": "Free toiletries"
+            },
+            {
+              "room_facility_type_id": 31,
+              "name": "Toilet"
+            },
+            {
+              "name": "Private bathroom",
+              "room_facility_type_id": 38
+            },
+            {
+              "room_facility_type_id": 40,
+              "name": "Heating"
+            },
+            {
+              "name": "Slippers",
+              "room_facility_type_id": 43
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "name": "Bath or Shower",
+              "room_facility_type_id": 69
+            },
+            {
+              "name": "Carpeted",
+              "room_facility_type_id": 70
+            },
+            {
+              "room_facility_type_id": 75,
+              "name": "Flat-screen TV"
+            },
+            {
+              "room_facility_type_id": 83,
+              "name": "Wake-up service"
+            },
+            {
+              "room_facility_type_id": 84,
+              "name": "Alarm clock"
+            },
+            {
+              "room_facility_type_id": 86,
+              "name": "Electric kettle"
+            },
+            {
+              "name": "Wardrobe/Closet",
+              "room_facility_type_id": 95
+            },
+            {
+              "name": "Garden view",
+              "room_facility_type_id": 110
+            },
+            {
+              "name": "Hypoallergenic",
+              "room_facility_type_id": 115
+            },
+            {
+              "name": "Coffee machine",
+              "room_facility_type_id": 120
+            },
+            {
+              "room_facility_type_id": 124,
+              "name": "Towels"
+            },
+            {
+              "name": "Upper floors accessible by lift",
+              "room_facility_type_id": 132
+            },
+            {
+              "room_facility_type_id": 138,
+              "name": "Clothes rack"
+            },
+            {
+              "room_facility_type_id": 141,
+              "name": "Toilet paper"
+            },
+            {
+              "room_facility_type_id": 150,
+              "name": "Walk in shower"
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "name": "Shampoo",
+              "room_facility_type_id": 177
+            },
+            {
+              "name": "Conditioner",
+              "room_facility_type_id": 178
+            },
+            {
+              "name": "Body soap",
+              "room_facility_type_id": 179
+            },
+            {
+              "name": "Shower cap",
+              "room_facility_type_id": 180
+            },
+            {
+              "name": "Hypoallergenic pillow",
+              "room_facility_type_id": 188
+            },
+            {
+              "name": "Accessible by lift",
+              "room_facility_type_id": 189
+            }
+          ]
+        },
+        {
+          "room_info": {
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "name": "Large bed(s) (King size)",
+                    "description_imperial": "60-70 inches wide",
+                    "description": "151-180cm wide",
+                    "configuration_id": 1,
+                    "count": "1"
+                  }
+                ]
+              },
+              {
+                "bed_types": [
+                  {
+                    "description_imperial": "35-51 inches wide",
+                    "name": "Single bed(s)",
+                    "configuration_id": 2,
+                    "description": "90-130 cm wide",
+                    "count": "2"
+                  }
+                ]
+              }
+            ],
+            "bathroom_count": 1,
+            "max_persons": 2,
+            "ranking": 1005,
+            "max_price": 455.24,
+            "room_type": "Twin/Double",
+            "min_price": 275.54,
+            "bedroom_count": 0.0,
+            "room_size": {
+              "metre_square": 23.0
+            },
+            "room_type_id": 24,
+            "bookable": true
+          },
+          "room_photos": [
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/28649923.jpg?k=11d8c2ea3da54742f3b23c69e47e8fc0f704c71794f0b51d19e8b193961c2c42&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/28649923.jpg?k=11d8c2ea3da54742f3b23c69e47e8fc0f704c71794f0b51d19e8b193961c2c42&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/28649923.jpg?k=11d8c2ea3da54742f3b23c69e47e8fc0f704c71794f0b51d19e8b193961c2c42&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934355.jpg?k=8a1ed2d566a2a13820d311e78c91a4d6803ec8bf9b59184fa180d064b7be1b44&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934355.jpg?k=8a1ed2d566a2a13820d311e78c91a4d6803ec8bf9b59184fa180d064b7be1b44&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934355.jpg?k=8a1ed2d566a2a13820d311e78c91a4d6803ec8bf9b59184fa180d064b7be1b44&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/21095973.jpg?k=b3738bf8793806fa1f25ce93325d932e6e464ac3c3fe780917fd69687b908533&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/21095973.jpg?k=b3738bf8793806fa1f25ce93325d932e6e464ac3c3fe780917fd69687b908533&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/21095973.jpg?k=b3738bf8793806fa1f25ce93325d932e6e464ac3c3fe780917fd69687b908533&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/55120458.jpg?k=1c3c265ae1c78facd6d8a55401d756c77cab35a9510b21d6df36248bf63a954e&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/55120458.jpg?k=1c3c265ae1c78facd6d8a55401d756c77cab35a9510b21d6df36248bf63a954e&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/55120458.jpg?k=1c3c265ae1c78facd6d8a55401d756c77cab35a9510b21d6df36248bf63a954e&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/55120442.jpg?k=279e69b32d43096dca24c966f165b62b7f877c301a50c6dac3bc36df29c9a067&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/55120442.jpg?k=279e69b32d43096dca24c966f165b62b7f877c301a50c6dac3bc36df29c9a067&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/55120442.jpg?k=279e69b32d43096dca24c966f165b62b7f877c301a50c6dac3bc36df29c9a067&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/55120429.jpg?k=64f46ac742266821fd1b113afcc0bff8b44fe4a66fc3e07cd51fa24b02b12c88&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/55120429.jpg?k=64f46ac742266821fd1b113afcc0bff8b44fe4a66fc3e07cd51fa24b02b12c88&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/55120429.jpg?k=64f46ac742266821fd1b113afcc0bff8b44fe4a66fc3e07cd51fa24b02b12c88&o="
+            }
+          ],
+          "room_facilities": [
+            {
+              "name": "Minibar",
+              "room_facility_type_id": 3
+            },
+            {
+              "name": "Shower",
+              "room_facility_type_id": 4
+            },
+            {
+              "name": "Bath",
+              "room_facility_type_id": 5
+            },
+            {
+              "room_facility_type_id": 6,
+              "name": "Safety Deposit Box"
+            },
+            {
+              "name": "Pay-per-view Channels",
+              "room_facility_type_id": 7
+            },
+            {
+              "room_facility_type_id": 8,
+              "name": "TV"
+            },
+            {
+              "name": "Telephone",
+              "room_facility_type_id": 9
+            },
+            {
+              "name": "Air conditioning",
+              "room_facility_type_id": 11
+            },
+            {
+              "room_facility_type_id": 12,
+              "name": "Hairdryer"
+            },
+            {
+              "name": "Wake Up Service/Alarm Clock",
+              "room_facility_type_id": 13
+            },
+            {
+              "name": "Bathrobe",
+              "room_facility_type_id": 19
+            },
+            {
+              "name": "Radio",
+              "room_facility_type_id": 21
+            },
+            {
+              "room_facility_type_id": 23,
+              "name": "Desk"
+            },
+            {
+              "name": "Free toiletries",
+              "room_facility_type_id": 27
+            },
+            {
+              "name": "Toilet",
+              "room_facility_type_id": 31
+            },
+            {
+              "room_facility_type_id": 38,
+              "name": "Private bathroom"
+            },
+            {
+              "room_facility_type_id": 40,
+              "name": "Heating"
+            },
+            {
+              "room_facility_type_id": 43,
+              "name": "Slippers"
+            },
+            {
+              "name": "Cable Channels",
+              "room_facility_type_id": 68
+            },
+            {
+              "name": "Bath or Shower",
+              "room_facility_type_id": 69
+            },
+            {
+              "name": "Flat-screen TV",
+              "room_facility_type_id": 75
+            },
+            {
+              "room_facility_type_id": 83,
+              "name": "Wake-up service"
+            },
+            {
+              "name": "Alarm clock",
+              "room_facility_type_id": 84
+            },
+            {
+              "name": "Electric kettle",
+              "room_facility_type_id": 86
+            },
+            {
+              "room_facility_type_id": 95,
+              "name": "Wardrobe/Closet"
+            },
+            {
+              "room_facility_type_id": 110,
+              "name": "Garden view"
+            },
+            {
+              "name": "Hypoallergenic",
+              "room_facility_type_id": 115
+            },
+            {
+              "room_facility_type_id": 120,
+              "name": "Coffee machine"
+            },
+            {
+              "room_facility_type_id": 124,
+              "name": "Towels"
+            },
+            {
+              "name": "Upper floors accessible by lift",
+              "room_facility_type_id": 132
+            },
+            {
+              "room_facility_type_id": 138,
+              "name": "Clothes rack"
+            },
+            {
+              "room_facility_type_id": 141,
+              "name": "Toilet paper"
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "name": "Shampoo",
+              "room_facility_type_id": 177
+            },
+            {
+              "room_facility_type_id": 178,
+              "name": "Conditioner"
+            },
+            {
+              "name": "Body soap",
+              "room_facility_type_id": 179
+            },
+            {
+              "room_facility_type_id": 180,
+              "name": "Shower cap"
+            },
+            {
+              "name": "Hypoallergenic pillow",
+              "room_facility_type_id": 188
+            },
+            {
+              "name": "Accessible by lift",
+              "room_facility_type_id": 189
+            }
+          ],
+          "room_id": 1000407
+        },
+        {
+          "room_photos": [
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106866389.jpg?k=f0b895ec1bc13d2d74f1e276dac742ba3b6bc729671c2d62cb26b338c6c1e17f&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106866389.jpg?k=f0b895ec1bc13d2d74f1e276dac742ba3b6bc729671c2d62cb26b338c6c1e17f&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106866389.jpg?k=f0b895ec1bc13d2d74f1e276dac742ba3b6bc729671c2d62cb26b338c6c1e17f&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106787402.jpg?k=dae7a6df072e1413558e4f1c1c1de4f426918972358772232a235259a41c53f2&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106787402.jpg?k=dae7a6df072e1413558e4f1c1c1de4f426918972358772232a235259a41c53f2&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106787402.jpg?k=dae7a6df072e1413558e4f1c1c1de4f426918972358772232a235259a41c53f2&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106787407.jpg?k=b8946226bcdc1569a4fcabc76525f064f0ef6488ab4b3c4a3051ac67d8d364cd&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106787407.jpg?k=b8946226bcdc1569a4fcabc76525f064f0ef6488ab4b3c4a3051ac67d8d364cd&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106787407.jpg?k=b8946226bcdc1569a4fcabc76525f064f0ef6488ab4b3c4a3051ac67d8d364cd&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106787415.jpg?k=79dc0d6e49967ddb842e1897db9ae1d623796946737b2dab460066f9d69a0f60&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106787415.jpg?k=79dc0d6e49967ddb842e1897db9ae1d623796946737b2dab460066f9d69a0f60&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106787415.jpg?k=79dc0d6e49967ddb842e1897db9ae1d623796946737b2dab460066f9d69a0f60&o="
+            }
+          ],
+          "room_info": {
+            "bookable": true,
+            "bedrooms": [
+              {
+                "description": "1 large double bed",
+                "name": "Bedroom 1"
+              }
+            ],
+            "room_size": {
+              "metre_square": 27.0
+            },
+            "room_type_id": 5,
+            "min_price": 0.0,
+            "bedroom_count": 1.0,
+            "room_type": "Suite",
+            "max_price": 0.0,
+            "bathroom_count": 1,
+            "max_persons": 2,
+            "ranking": 1007
+          },
+          "room_id": 1000408,
+          "room_facilities": [
+            {
+              "room_facility_type_id": 3,
+              "name": "Minibar"
+            },
+            {
+              "name": "Shower",
+              "room_facility_type_id": 4
+            },
+            {
+              "room_facility_type_id": 5,
+              "name": "Bath"
+            },
+            {
+              "name": "Safety Deposit Box",
+              "room_facility_type_id": 6
+            },
+            {
+              "name": "Pay-per-view Channels",
+              "room_facility_type_id": 7
+            },
+            {
+              "room_facility_type_id": 8,
+              "name": "TV"
+            },
+            {
+              "room_facility_type_id": 9,
+              "name": "Telephone"
+            },
+            {
+              "room_facility_type_id": 11,
+              "name": "Air conditioning"
+            },
+            {
+              "name": "Hairdryer",
+              "room_facility_type_id": 12
+            },
+            {
+              "room_facility_type_id": 13,
+              "name": "Wake Up Service/Alarm Clock"
+            },
+            {
+              "room_facility_type_id": 19,
+              "name": "Bathrobe"
+            },
+            {
+              "room_facility_type_id": 20,
+              "name": "Spa Bath"
+            },
+            {
+              "name": "Radio",
+              "room_facility_type_id": 21
+            },
+            {
+              "room_facility_type_id": 23,
+              "name": "Desk"
+            },
+            {
+              "name": "Seating Area",
+              "room_facility_type_id": 26
+            },
+            {
+              "room_facility_type_id": 27,
+              "name": "Free toiletries"
+            },
+            {
+              "name": "Toilet",
+              "room_facility_type_id": 31
+            },
+            {
+              "room_facility_type_id": 38,
+              "name": "Private bathroom"
+            },
+            {
+              "name": "Heating",
+              "room_facility_type_id": 40
+            },
+            {
+              "name": "Slippers",
+              "room_facility_type_id": 43
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "room_facility_type_id": 69,
+              "name": "Bath or Shower"
+            },
+            {
+              "room_facility_type_id": 75,
+              "name": "Flat-screen TV"
+            },
+            {
+              "room_facility_type_id": 77,
+              "name": "Sofa"
+            },
+            {
+              "room_facility_type_id": 83,
+              "name": "Wake-up service"
+            },
+            {
+              "room_facility_type_id": 84,
+              "name": "Alarm clock"
+            },
+            {
+              "name": "Electric kettle",
+              "room_facility_type_id": 86
+            },
+            {
+              "room_facility_type_id": 95,
+              "name": "Wardrobe/Closet"
+            },
+            {
+              "name": "iPad",
+              "room_facility_type_id": 102
+            },
+            {
+              "room_facility_type_id": 115,
+              "name": "Hypoallergenic"
+            },
+            {
+              "room_facility_type_id": 120,
+              "name": "Coffee machine"
+            },
+            {
+              "name": "Towels",
+              "room_facility_type_id": 124
+            },
+            {
+              "name": "Upper floors accessible by lift",
+              "room_facility_type_id": 132
+            },
+            {
+              "name": "Upper floors accessible by stairs only",
+              "room_facility_type_id": 133
+            },
+            {
+              "room_facility_type_id": 138,
+              "name": "Clothes rack"
+            },
+            {
+              "name": "Toilet paper",
+              "room_facility_type_id": 141
+            },
+            {
+              "room_facility_type_id": 150,
+              "name": "Walk in shower"
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "name": "Shampoo",
+              "room_facility_type_id": 177
+            },
+            {
+              "room_facility_type_id": 178,
+              "name": "Conditioner"
+            },
+            {
+              "name": "Body soap",
+              "room_facility_type_id": 179
+            },
+            {
+              "room_facility_type_id": 180,
+              "name": "Shower cap"
+            },
+            {
+              "name": "Hypoallergenic pillow",
+              "room_facility_type_id": 188
+            }
+          ]
+        },
+        {
+          "room_info": {
+            "room_size": {
+              "metre_square": 32.0
+            },
+            "room_type_id": 24,
+            "bookable": true,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "count": "1",
+                    "configuration_id": 1,
+                    "description": "151-180cm wide",
+                    "description_imperial": "60-70 inches wide",
+                    "name": "Large bed(s) (King size)"
+                  }
+                ]
+              }
+            ],
+            "max_persons": 2,
+            "bathroom_count": 1,
+            "ranking": 1008,
+            "max_price": 0.0,
+            "room_type": "Twin/Double",
+            "min_price": 0.0,
+            "bedroom_count": 0.0
+          },
+          "room_photos": [
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934566.jpg?k=356095344f2033a5a676b925bbd8cc16f27e512275491bdbb89f59c1f4b67a35&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934566.jpg?k=356095344f2033a5a676b925bbd8cc16f27e512275491bdbb89f59c1f4b67a35&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934566.jpg?k=356095344f2033a5a676b925bbd8cc16f27e512275491bdbb89f59c1f4b67a35&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934567.jpg?k=e4aa099ff909a2685e556751e8f09b5b1b382115feece0e5347cbb6883ecf234&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934567.jpg?k=e4aa099ff909a2685e556751e8f09b5b1b382115feece0e5347cbb6883ecf234&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934567.jpg?k=e4aa099ff909a2685e556751e8f09b5b1b382115feece0e5347cbb6883ecf234&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934562.jpg?k=a434113312a528c5a92b82f43ec24399808fd12999dea7183d1a63bd923fff52&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934562.jpg?k=a434113312a528c5a92b82f43ec24399808fd12999dea7183d1a63bd923fff52&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934562.jpg?k=a434113312a528c5a92b82f43ec24399808fd12999dea7183d1a63bd923fff52&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934563.jpg?k=1d71ab6549506d91d85db36398e18552fb3c3f8f3eb198106b16ea1082931d51&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934563.jpg?k=1d71ab6549506d91d85db36398e18552fb3c3f8f3eb198106b16ea1082931d51&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934563.jpg?k=1d71ab6549506d91d85db36398e18552fb3c3f8f3eb198106b16ea1082931d51&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934564.jpg?k=95ee5bbda8683516bc6310d132d40fb1bad94fb52acc1da04b5c4cf7b073c624&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934564.jpg?k=95ee5bbda8683516bc6310d132d40fb1bad94fb52acc1da04b5c4cf7b073c624&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934564.jpg?k=95ee5bbda8683516bc6310d132d40fb1bad94fb52acc1da04b5c4cf7b073c624&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934565.jpg?k=89a8c6928a421cd035b8086fb9f10a70a559a2ced2e8cf351c13e79d7397b5b7&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934565.jpg?k=89a8c6928a421cd035b8086fb9f10a70a559a2ced2e8cf351c13e79d7397b5b7&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934565.jpg?k=89a8c6928a421cd035b8086fb9f10a70a559a2ced2e8cf351c13e79d7397b5b7&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934559.jpg?k=34b77cd34e5ac9bf75e36c8fca6331ef35b65a25ddbc7c3bbf8d7b324d8430ae&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934559.jpg?k=34b77cd34e5ac9bf75e36c8fca6331ef35b65a25ddbc7c3bbf8d7b324d8430ae&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934559.jpg?k=34b77cd34e5ac9bf75e36c8fca6331ef35b65a25ddbc7c3bbf8d7b324d8430ae&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934560.jpg?k=526c14ca16bfbb5b8f0d16369929fa5df7c95f1d39e5b0379c03c7cff5b6eca1&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934560.jpg?k=526c14ca16bfbb5b8f0d16369929fa5df7c95f1d39e5b0379c03c7cff5b6eca1&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934560.jpg?k=526c14ca16bfbb5b8f0d16369929fa5df7c95f1d39e5b0379c03c7cff5b6eca1&o="
+            }
+          ],
+          "room_facilities": [
+            {
+              "room_facility_type_id": 3,
+              "name": "Minibar"
+            },
+            {
+              "name": "Shower",
+              "room_facility_type_id": 4
+            },
+            {
+              "room_facility_type_id": 5,
+              "name": "Bath"
+            },
+            {
+              "room_facility_type_id": 6,
+              "name": "Safety Deposit Box"
+            },
+            {
+              "room_facility_type_id": 7,
+              "name": "Pay-per-view Channels"
+            },
+            {
+              "room_facility_type_id": 8,
+              "name": "TV"
+            },
+            {
+              "name": "Telephone",
+              "room_facility_type_id": 9
+            },
+            {
+              "name": "Air conditioning",
+              "room_facility_type_id": 11
+            },
+            {
+              "name": "Hairdryer",
+              "room_facility_type_id": 12
+            },
+            {
+              "room_facility_type_id": 13,
+              "name": "Wake Up Service/Alarm Clock"
+            },
+            {
+              "room_facility_type_id": 19,
+              "name": "Bathrobe"
+            },
+            {
+              "name": "Spa Bath",
+              "room_facility_type_id": 20
+            },
+            {
+              "name": "Radio",
+              "room_facility_type_id": 21
+            },
+            {
+              "room_facility_type_id": 23,
+              "name": "Desk"
+            },
+            {
+              "name": "Seating Area",
+              "room_facility_type_id": 26
+            },
+            {
+              "room_facility_type_id": 27,
+              "name": "Free toiletries"
+            },
+            {
+              "room_facility_type_id": 31,
+              "name": "Toilet"
+            },
+            {
+              "room_facility_type_id": 38,
+              "name": "Private bathroom"
+            },
+            {
+              "name": "Heating",
+              "room_facility_type_id": 40
+            },
+            {
+              "room_facility_type_id": 43,
+              "name": "Slippers"
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "name": "Bath or Shower",
+              "room_facility_type_id": 69
+            },
+            {
+              "name": "Carpeted",
+              "room_facility_type_id": 70
+            },
+            {
+              "room_facility_type_id": 75,
+              "name": "Flat-screen TV"
+            },
+            {
+              "name": "Wake-up service",
+              "room_facility_type_id": 83
+            },
+            {
+              "room_facility_type_id": 84,
+              "name": "Alarm clock"
+            },
+            {
+              "room_facility_type_id": 86,
+              "name": "Electric kettle"
+            },
+            {
+              "name": "Wardrobe/Closet",
+              "room_facility_type_id": 95
+            },
+            {
+              "room_facility_type_id": 110,
+              "name": "Garden view"
+            },
+            {
+              "name": "Hypoallergenic",
+              "room_facility_type_id": 115
+            },
+            {
+              "name": "Coffee machine",
+              "room_facility_type_id": 120
+            },
+            {
+              "room_facility_type_id": 124,
+              "name": "Towels"
+            },
+            {
+              "name": "Upper floors accessible by lift",
+              "room_facility_type_id": 132
+            },
+            {
+              "name": "Clothes rack",
+              "room_facility_type_id": 138
+            },
+            {
+              "room_facility_type_id": 141,
+              "name": "Toilet paper"
+            },
+            {
+              "name": "Walk in shower",
+              "room_facility_type_id": 150
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "room_facility_type_id": 177,
+              "name": "Shampoo"
+            },
+            {
+              "room_facility_type_id": 178,
+              "name": "Conditioner"
+            },
+            {
+              "room_facility_type_id": 179,
+              "name": "Body soap"
+            },
+            {
+              "name": "Shower cap",
+              "room_facility_type_id": 180
+            },
+            {
+              "room_facility_type_id": 188,
+              "name": "Hypoallergenic pillow"
+            },
+            {
+              "room_facility_type_id": 189,
+              "name": "Accessible by lift"
+            }
+          ],
+          "room_id": 1000418
+        },
+        {
+          "room_photos": [
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934879.jpg?k=5e46adc050d0b2356cfe0aec26c9b28403aa0da49c974de123cb1f3c7e103bb0&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934879.jpg?k=5e46adc050d0b2356cfe0aec26c9b28403aa0da49c974de123cb1f3c7e103bb0&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934879.jpg?k=5e46adc050d0b2356cfe0aec26c9b28403aa0da49c974de123cb1f3c7e103bb0&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934881.jpg?k=9b97a8ed9b1015ce44007b4997b8657fe8e6eb9cb37c1d3fed36cc49700bdba5&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934881.jpg?k=9b97a8ed9b1015ce44007b4997b8657fe8e6eb9cb37c1d3fed36cc49700bdba5&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934881.jpg?k=9b97a8ed9b1015ce44007b4997b8657fe8e6eb9cb37c1d3fed36cc49700bdba5&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934880.jpg?k=60d71f8cb3467b8b33688137e70c1817b505a1b292ba2f0ff3bc59c4c99f8e1a&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934880.jpg?k=60d71f8cb3467b8b33688137e70c1817b505a1b292ba2f0ff3bc59c4c99f8e1a&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934880.jpg?k=60d71f8cb3467b8b33688137e70c1817b505a1b292ba2f0ff3bc59c4c99f8e1a&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934878.jpg?k=3f90eaa7a8dd5e137c65336c6bdbba92325533aa5f0edcf2680dd12f4781bb3f&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934878.jpg?k=3f90eaa7a8dd5e137c65336c6bdbba92325533aa5f0edcf2680dd12f4781bb3f&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934878.jpg?k=3f90eaa7a8dd5e137c65336c6bdbba92325533aa5f0edcf2680dd12f4781bb3f&o="
+            }
+          ],
+          "room_info": {
+            "bookable": true,
+            "room_type_id": 24,
+            "room_size": {
+              "metre_square": 19.0
+            },
+            "max_price": 0.0,
+            "room_type": "Twin/Double",
+            "bedroom_count": 0.0,
+            "min_price": 0.0,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "description": "151-180cm wide",
+                    "configuration_id": 1,
+                    "name": "Large bed(s) (King size)",
+                    "description_imperial": "60-70 inches wide",
+                    "count": "1"
+                  }
+                ]
+              },
+              {
+                "bed_types": [
+                  {
+                    "description_imperial": "35-51 inches wide",
+                    "name": "Single bed(s)",
+                    "description": "90-130 cm wide",
+                    "configuration_id": 2,
+                    "count": "2"
+                  }
+                ]
+              }
+            ],
+            "bathroom_count": 0,
+            "max_persons": 2,
+            "ranking": 1003
+          },
+          "room_id": 1000419,
+          "room_facilities": [
+            {
+              "name": "Minibar",
+              "room_facility_type_id": 3
+            },
+            {
+              "name": "Shower",
+              "room_facility_type_id": 4
+            },
+            {
+              "name": "Bath",
+              "room_facility_type_id": 5
+            },
+            {
+              "name": "Safety Deposit Box",
+              "room_facility_type_id": 6
+            },
+            {
+              "room_facility_type_id": 7,
+              "name": "Pay-per-view Channels"
+            },
+            {
+              "room_facility_type_id": 8,
+              "name": "TV"
+            },
+            {
+              "room_facility_type_id": 9,
+              "name": "Telephone"
+            },
+            {
+              "name": "Air conditioning",
+              "room_facility_type_id": 11
+            },
+            {
+              "room_facility_type_id": 12,
+              "name": "Hairdryer"
+            },
+            {
+              "name": "Wake Up Service/Alarm Clock",
+              "room_facility_type_id": 13
+            },
+            {
+              "room_facility_type_id": 19,
+              "name": "Bathrobe"
+            },
+            {
+              "room_facility_type_id": 21,
+              "name": "Radio"
+            },
+            {
+              "name": "Desk",
+              "room_facility_type_id": 23
+            },
+            {
+              "room_facility_type_id": 27,
+              "name": "Free toiletries"
+            },
+            {
+              "name": "Toilet",
+              "room_facility_type_id": 31
+            },
+            {
+              "room_facility_type_id": 38,
+              "name": "Private bathroom"
+            },
+            {
+              "name": "Heating",
+              "room_facility_type_id": 40
+            },
+            {
+              "name": "Slippers",
+              "room_facility_type_id": 43
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "name": "Bath or Shower",
+              "room_facility_type_id": 69
+            },
+            {
+              "room_facility_type_id": 70,
+              "name": "Carpeted"
+            },
+            {
+              "room_facility_type_id": 75,
+              "name": "Flat-screen TV"
+            },
+            {
+              "name": "View",
+              "room_facility_type_id": 81
+            },
+            {
+              "room_facility_type_id": 83,
+              "name": "Wake-up service"
+            },
+            {
+              "room_facility_type_id": 84,
+              "name": "Alarm clock"
+            },
+            {
+              "name": "Electric kettle",
+              "room_facility_type_id": 86
+            },
+            {
+              "name": "Wardrobe/Closet",
+              "room_facility_type_id": 95
+            },
+            {
+              "room_facility_type_id": 115,
+              "name": "Hypoallergenic"
+            },
+            {
+              "name": "Coffee machine",
+              "room_facility_type_id": 120
+            },
+            {
+              "room_facility_type_id": 124,
+              "name": "Towels"
+            },
+            {
+              "room_facility_type_id": 132,
+              "name": "Upper floors accessible by lift"
+            },
+            {
+              "room_facility_type_id": 138,
+              "name": "Clothes rack"
+            },
+            {
+              "name": "Toilet paper",
+              "room_facility_type_id": 141
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "room_facility_type_id": 177,
+              "name": "Shampoo"
+            },
+            {
+              "name": "Conditioner",
+              "room_facility_type_id": 178
+            },
+            {
+              "name": "Body soap",
+              "room_facility_type_id": 179
+            },
+            {
+              "room_facility_type_id": 180,
+              "name": "Shower cap"
+            },
+            {
+              "name": "Hypoallergenic pillow",
+              "room_facility_type_id": 188
+            },
+            {
+              "room_facility_type_id": 189,
+              "name": "Accessible by lift"
+            }
+          ]
+        },
+        {
+          "room_facilities": [
+            {
+              "room_facility_type_id": 3,
+              "name": "Minibar"
+            },
+            {
+              "name": "Shower",
+              "room_facility_type_id": 4
+            },
+            {
+              "name": "Bath",
+              "room_facility_type_id": 5
+            },
+            {
+              "room_facility_type_id": 6,
+              "name": "Safety Deposit Box"
+            },
+            {
+              "room_facility_type_id": 7,
+              "name": "Pay-per-view Channels"
+            },
+            {
+              "name": "TV",
+              "room_facility_type_id": 8
+            },
+            {
+              "name": "Telephone",
+              "room_facility_type_id": 9
+            },
+            {
+              "room_facility_type_id": 11,
+              "name": "Air conditioning"
+            },
+            {
+              "name": "Hairdryer",
+              "room_facility_type_id": 12
+            },
+            {
+              "name": "Wake Up Service/Alarm Clock",
+              "room_facility_type_id": 13
+            },
+            {
+              "room_facility_type_id": 19,
+              "name": "Bathrobe"
+            },
+            {
+              "room_facility_type_id": 21,
+              "name": "Radio"
+            },
+            {
+              "room_facility_type_id": 23,
+              "name": "Desk"
+            },
+            {
+              "room_facility_type_id": 27,
+              "name": "Free toiletries"
+            },
+            {
+              "name": "Toilet",
+              "room_facility_type_id": 31
+            },
+            {
+              "name": "Private bathroom",
+              "room_facility_type_id": 38
+            },
+            {
+              "name": "Heating",
+              "room_facility_type_id": 40
+            },
+            {
+              "name": "Slippers",
+              "room_facility_type_id": 43
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "room_facility_type_id": 69,
+              "name": "Bath or Shower"
+            },
+            {
+              "room_facility_type_id": 70,
+              "name": "Carpeted"
+            },
+            {
+              "room_facility_type_id": 75,
+              "name": "Flat-screen TV"
+            },
+            {
+              "room_facility_type_id": 83,
+              "name": "Wake-up service"
+            },
+            {
+              "room_facility_type_id": 84,
+              "name": "Alarm clock"
+            },
+            {
+              "name": "Electric kettle",
+              "room_facility_type_id": 86
+            },
+            {
+              "name": "Wardrobe/Closet",
+              "room_facility_type_id": 95
+            },
+            {
+              "name": "Hypoallergenic",
+              "room_facility_type_id": 115
+            },
+            {
+              "name": "Coffee machine",
+              "room_facility_type_id": 120
+            },
+            {
+              "room_facility_type_id": 124,
+              "name": "Towels"
+            },
+            {
+              "room_facility_type_id": 132,
+              "name": "Upper floors accessible by lift"
+            },
+            {
+              "room_facility_type_id": 138,
+              "name": "Clothes rack"
+            },
+            {
+              "name": "Toilet paper",
+              "room_facility_type_id": 141
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "room_facility_type_id": 177,
+              "name": "Shampoo"
+            },
+            {
+              "room_facility_type_id": 178,
+              "name": "Conditioner"
+            },
+            {
+              "name": "Body soap",
+              "room_facility_type_id": 179
+            },
+            {
+              "room_facility_type_id": 180,
+              "name": "Shower cap"
+            },
+            {
+              "room_facility_type_id": 188,
+              "name": "Hypoallergenic pillow"
+            },
+            {
+              "room_facility_type_id": 189,
+              "name": "Accessible by lift"
+            }
+          ],
+          "room_id": 1000420,
+          "room_info": {
+            "bookable": true,
+            "room_size": {
+              "metre_square": 18.0
+            },
+            "room_type_id": 9,
+            "room_type": "Double",
+            "max_price": 0.0,
+            "bedroom_count": 0.0,
+            "min_price": 0.0,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "name": "Large bed(s) (King size)",
+                    "description_imperial": "60-70 inches wide",
+                    "description": "151-180cm wide",
+                    "configuration_id": 1,
+                    "count": "1"
+                  }
+                ]
+              },
+              {
+                "bed_types": [
+                  {
+                    "count": "2",
+                    "description": "90-130 cm wide",
+                    "configuration_id": 2,
+                    "name": "Single bed(s)",
+                    "description_imperial": "35-51 inches wide"
+                  }
+                ]
+              }
+            ],
+            "ranking": 1001,
+            "bathroom_count": 1,
+            "max_persons": 2
+          },
+          "room_photos": [
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934095.jpg?k=713910bbcdf46740cc1e678634c8e481f1d7aa39cb1288ac6b2d1d05e9d1ecf2&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934095.jpg?k=713910bbcdf46740cc1e678634c8e481f1d7aa39cb1288ac6b2d1d05e9d1ecf2&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934095.jpg?k=713910bbcdf46740cc1e678634c8e481f1d7aa39cb1288ac6b2d1d05e9d1ecf2&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934081.jpg?k=b3fa7e5252d729e09cb8e1f194a946033a3317ad2351340a7595b1db00a148ab&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934081.jpg?k=b3fa7e5252d729e09cb8e1f194a946033a3317ad2351340a7595b1db00a148ab&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934081.jpg?k=b3fa7e5252d729e09cb8e1f194a946033a3317ad2351340a7595b1db00a148ab&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934084.jpg?k=888274b1eba422ee761add93f2d7817041ff5ddd68818377799874de74893869&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934084.jpg?k=888274b1eba422ee761add93f2d7817041ff5ddd68818377799874de74893869&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934084.jpg?k=888274b1eba422ee761add93f2d7817041ff5ddd68818377799874de74893869&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934086.jpg?k=fc7250cee9b1e627b5dea302db1f2cbdac993493a71abd0c2e0c0049fb2bac77&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934086.jpg?k=fc7250cee9b1e627b5dea302db1f2cbdac993493a71abd0c2e0c0049fb2bac77&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934086.jpg?k=fc7250cee9b1e627b5dea302db1f2cbdac993493a71abd0c2e0c0049fb2bac77&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934090.jpg?k=27ecb7a7c5cc08aaaf68b020d65d475668fdd3b87f4a080a52927604cbd6b04a&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934090.jpg?k=27ecb7a7c5cc08aaaf68b020d65d475668fdd3b87f4a080a52927604cbd6b04a&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934090.jpg?k=27ecb7a7c5cc08aaaf68b020d65d475668fdd3b87f4a080a52927604cbd6b04a&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934091.jpg?k=55a680b70ea97dbb71b86f1f89d2592579678a5954aefe4eaa73ff8def1e5117&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934091.jpg?k=55a680b70ea97dbb71b86f1f89d2592579678a5954aefe4eaa73ff8def1e5117&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934091.jpg?k=55a680b70ea97dbb71b86f1f89d2592579678a5954aefe4eaa73ff8def1e5117&o="
+            }
+          ]
+        },
+        {
+          "room_id": 1000421,
+          "room_facilities": [
+            {
+              "room_facility_type_id": 3,
+              "name": "Minibar"
+            },
+            {
+              "room_facility_type_id": 4,
+              "name": "Shower"
+            },
+            {
+              "name": "Bath",
+              "room_facility_type_id": 5
+            },
+            {
+              "room_facility_type_id": 6,
+              "name": "Safety Deposit Box"
+            },
+            {
+              "room_facility_type_id": 7,
+              "name": "Pay-per-view Channels"
+            },
+            {
+              "name": "TV",
+              "room_facility_type_id": 8
+            },
+            {
+              "name": "Telephone",
+              "room_facility_type_id": 9
+            },
+            {
+              "room_facility_type_id": 11,
+              "name": "Air conditioning"
+            },
+            {
+              "name": "Hairdryer",
+              "room_facility_type_id": 12
+            },
+            {
+              "room_facility_type_id": 13,
+              "name": "Wake Up Service/Alarm Clock"
+            },
+            {
+              "room_facility_type_id": 19,
+              "name": "Bathrobe"
+            },
+            {
+              "name": "Radio",
+              "room_facility_type_id": 21
+            },
+            {
+              "room_facility_type_id": 23,
+              "name": "Desk"
+            },
+            {
+              "name": "Free toiletries",
+              "room_facility_type_id": 27
+            },
+            {
+              "name": "Toilet",
+              "room_facility_type_id": 31
+            },
+            {
+              "room_facility_type_id": 38,
+              "name": "Private bathroom"
+            },
+            {
+              "name": "Heating",
+              "room_facility_type_id": 40
+            },
+            {
+              "name": "Slippers",
+              "room_facility_type_id": 43
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "room_facility_type_id": 69,
+              "name": "Bath or Shower"
+            },
+            {
+              "name": "Flat-screen TV",
+              "room_facility_type_id": 75
+            },
+            {
+              "name": "Wake-up service",
+              "room_facility_type_id": 83
+            },
+            {
+              "room_facility_type_id": 84,
+              "name": "Alarm clock"
+            },
+            {
+              "name": "Electric kettle",
+              "room_facility_type_id": 86
+            },
+            {
+              "room_facility_type_id": 95,
+              "name": "Wardrobe/Closet"
+            },
+            {
+              "name": "Hypoallergenic",
+              "room_facility_type_id": 115
+            },
+            {
+              "room_facility_type_id": 120,
+              "name": "Coffee machine"
+            },
+            {
+              "name": "Towels",
+              "room_facility_type_id": 124
+            },
+            {
+              "room_facility_type_id": 132,
+              "name": "Upper floors accessible by lift"
+            },
+            {
+              "room_facility_type_id": 138,
+              "name": "Clothes rack"
+            },
+            {
+              "name": "Toilet paper",
+              "room_facility_type_id": 141
+            },
+            {
+              "name": "Trash cans",
+              "room_facility_type_id": 170
+            },
+            {
+              "room_facility_type_id": 177,
+              "name": "Shampoo"
+            },
+            {
+              "name": "Conditioner",
+              "room_facility_type_id": 178
+            },
+            {
+              "name": "Body soap",
+              "room_facility_type_id": 179
+            },
+            {
+              "room_facility_type_id": 180,
+              "name": "Shower cap"
+            },
+            {
+              "room_facility_type_id": 188,
+              "name": "Hypoallergenic pillow"
+            },
+            {
+              "name": "Accessible by lift",
+              "room_facility_type_id": 189
+            }
+          ],
+          "room_photos": [
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20933429.jpg?k=642f339f6ba98583accbc98270d8f7f748759913f56691ac2a3e9c14f5c95453&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20933429.jpg?k=642f339f6ba98583accbc98270d8f7f748759913f56691ac2a3e9c14f5c95453&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20933429.jpg?k=642f339f6ba98583accbc98270d8f7f748759913f56691ac2a3e9c14f5c95453&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20933587.jpg?k=74be442cbb834018b77d98b4a4e291934fd5a631c54a7b6bb1d708e935c25aa0&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20933587.jpg?k=74be442cbb834018b77d98b4a4e291934fd5a631c54a7b6bb1d708e935c25aa0&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20933587.jpg?k=74be442cbb834018b77d98b4a4e291934fd5a631c54a7b6bb1d708e935c25aa0&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20933590.jpg?k=07a1c81efeefbb9012c353afc5c28e391ae9c0a44a94ae66afb2085c0a2a3660&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20933590.jpg?k=07a1c81efeefbb9012c353afc5c28e391ae9c0a44a94ae66afb2085c0a2a3660&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20933590.jpg?k=07a1c81efeefbb9012c353afc5c28e391ae9c0a44a94ae66afb2085c0a2a3660&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/28598846.jpg?k=b0907f35ad57c3d690dc21da7642d9d1a103055aed810db29737c229e33c1f2a&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/28598846.jpg?k=b0907f35ad57c3d690dc21da7642d9d1a103055aed810db29737c229e33c1f2a&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/28598846.jpg?k=b0907f35ad57c3d690dc21da7642d9d1a103055aed810db29737c229e33c1f2a&o="
+            }
+          ],
+          "room_info": {
+            "max_price": 499.9,
+            "room_type": "Single",
+            "min_price": 159.0,
+            "bedroom_count": 0.0,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "description": "90-130 cm wide",
+                    "configuration_id": 1,
+                    "description_imperial": "35-51 inches wide",
+                    "name": "Single bed(s)",
+                    "count": "1"
+                  }
+                ]
+              }
+            ],
+            "ranking": 0,
+            "bathroom_count": 1,
+            "max_persons": 1,
+            "bookable": true,
+            "room_type_id": 10,
+            "room_size": {
+              "metre_square": 13.0
+            }
+          }
+        },
+        {
+          "room_photos": [
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20933349.jpg?k=e9cebb098bdde4d4f112f1cc87a90660adc75d7a81b356f3181ec4918ce21f6a&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20933349.jpg?k=e9cebb098bdde4d4f112f1cc87a90660adc75d7a81b356f3181ec4918ce21f6a&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20933349.jpg?k=e9cebb098bdde4d4f112f1cc87a90660adc75d7a81b356f3181ec4918ce21f6a&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20933373.jpg?k=3fe7f24f9d7a16ea574fc5437d17c1353e2c915437a51cc9183ba15ebf5179e0&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20933373.jpg?k=3fe7f24f9d7a16ea574fc5437d17c1353e2c915437a51cc9183ba15ebf5179e0&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20933373.jpg?k=3fe7f24f9d7a16ea574fc5437d17c1353e2c915437a51cc9183ba15ebf5179e0&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/21063873.jpg?k=65dffcedd9c391f8f873754580b55ae2943261cb72223f2177cb0e5ce87af609&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/21063873.jpg?k=65dffcedd9c391f8f873754580b55ae2943261cb72223f2177cb0e5ce87af609&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/21063873.jpg?k=65dffcedd9c391f8f873754580b55ae2943261cb72223f2177cb0e5ce87af609&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/21063867.jpg?k=41bcc632ba515b8ce318067a540c6ac36f87745e219529365bd1605b1d0460d0&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/21063867.jpg?k=41bcc632ba515b8ce318067a540c6ac36f87745e219529365bd1605b1d0460d0&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/21063867.jpg?k=41bcc632ba515b8ce318067a540c6ac36f87745e219529365bd1605b1d0460d0&o="
+            }
+          ],
+          "room_info": {
+            "room_type": "Double",
+            "max_price": 0.0,
+            "bedroom_count": 0.0,
+            "min_price": 0.0,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "description": "151-180cm wide",
+                    "configuration_id": 1,
+                    "name": "Large bed(s) (King size)",
+                    "description_imperial": "60-70 inches wide",
+                    "count": "1"
+                  }
+                ]
+              }
+            ],
+            "max_persons": 2,
+            "bathroom_count": 1,
+            "ranking": 0,
+            "bookable": true,
+            "room_type_id": 9,
+            "room_size": {
+              "metre_square": 27.0
+            }
+          },
+          "room_id": 1000422,
+          "room_facilities": [
+            {
+              "room_facility_type_id": 3,
+              "name": "Minibar"
+            },
+            {
+              "room_facility_type_id": 4,
+              "name": "Shower"
+            },
+            {
+              "room_facility_type_id": 5,
+              "name": "Bath"
+            },
+            {
+              "name": "Safety Deposit Box",
+              "room_facility_type_id": 6
+            },
+            {
+              "name": "Pay-per-view Channels",
+              "room_facility_type_id": 7
+            },
+            {
+              "name": "TV",
+              "room_facility_type_id": 8
+            },
+            {
+              "name": "Telephone",
+              "room_facility_type_id": 9
+            },
+            {
+              "room_facility_type_id": 11,
+              "name": "Air conditioning"
+            },
+            {
+              "room_facility_type_id": 12,
+              "name": "Hairdryer"
+            },
+            {
+              "room_facility_type_id": 13,
+              "name": "Wake Up Service/Alarm Clock"
+            },
+            {
+              "name": "Bathrobe",
+              "room_facility_type_id": 19
+            },
+            {
+              "name": "Spa Bath",
+              "room_facility_type_id": 20
+            },
+            {
+              "room_facility_type_id": 21,
+              "name": "Radio"
+            },
+            {
+              "room_facility_type_id": 23,
+              "name": "Desk"
+            },
+            {
+              "name": "Free toiletries",
+              "room_facility_type_id": 27
+            },
+            {
+              "name": "Toilet",
+              "room_facility_type_id": 31
+            },
+            {
+              "room_facility_type_id": 38,
+              "name": "Private bathroom"
+            },
+            {
+              "name": "Heating",
+              "room_facility_type_id": 40
+            },
+            {
+              "room_facility_type_id": 43,
+              "name": "Slippers"
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "room_facility_type_id": 69,
+              "name": "Bath or Shower"
+            },
+            {
+              "name": "Flat-screen TV",
+              "room_facility_type_id": 75
+            },
+            {
+              "room_facility_type_id": 81,
+              "name": "View"
+            },
+            {
+              "room_facility_type_id": 82,
+              "name": "Hardwood/Parquet floors"
+            },
+            {
+              "name": "Wake-up service",
+              "room_facility_type_id": 83
+            },
+            {
+              "room_facility_type_id": 84,
+              "name": "Alarm clock"
+            },
+            {
+              "name": "Electric kettle",
+              "room_facility_type_id": 86
+            },
+            {
+              "name": "Wardrobe/Closet",
+              "room_facility_type_id": 95
+            },
+            {
+              "room_facility_type_id": 115,
+              "name": "Hypoallergenic"
+            },
+            {
+              "room_facility_type_id": 120,
+              "name": "Coffee machine"
+            },
+            {
+              "room_facility_type_id": 124,
+              "name": "Towels"
+            },
+            {
+              "name": "Upper floors accessible by lift",
+              "room_facility_type_id": 132
+            },
+            {
+              "name": "Clothes rack",
+              "room_facility_type_id": 138
+            },
+            {
+              "name": "Toilet paper",
+              "room_facility_type_id": 141
+            },
+            {
+              "name": "Walk in shower",
+              "room_facility_type_id": 150
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "name": "Children's cots/cribs",
+              "room_facility_type_id": 175
+            },
+            {
+              "name": "Shampoo",
+              "room_facility_type_id": 177
+            },
+            {
+              "room_facility_type_id": 178,
+              "name": "Conditioner"
+            },
+            {
+              "name": "Body soap",
+              "room_facility_type_id": 179
+            },
+            {
+              "room_facility_type_id": 180,
+              "name": "Shower cap"
+            },
+            {
+              "room_facility_type_id": 188,
+              "name": "Hypoallergenic pillow"
+            },
+            {
+              "room_facility_type_id": 189,
+              "name": "Accessible by lift"
+            }
+          ]
+        },
+        {
+          "room_facilities": [
+            {
+              "name": "Minibar",
+              "room_facility_type_id": 3
+            },
+            {
+              "name": "Shower",
+              "room_facility_type_id": 4
+            },
+            {
+              "room_facility_type_id": 5,
+              "name": "Bath"
+            },
+            {
+              "name": "Safety Deposit Box",
+              "room_facility_type_id": 6
+            },
+            {
+              "name": "Pay-per-view Channels",
+              "room_facility_type_id": 7
+            },
+            {
+              "room_facility_type_id": 8,
+              "name": "TV"
+            },
+            {
+              "name": "Telephone",
+              "room_facility_type_id": 9
+            },
+            {
+              "room_facility_type_id": 11,
+              "name": "Air conditioning"
+            },
+            {
+              "name": "Hairdryer",
+              "room_facility_type_id": 12
+            },
+            {
+              "room_facility_type_id": 13,
+              "name": "Wake Up Service/Alarm Clock"
+            },
+            {
+              "name": "Bathrobe",
+              "room_facility_type_id": 19
+            },
+            {
+              "room_facility_type_id": 20,
+              "name": "Spa Bath"
+            },
+            {
+              "room_facility_type_id": 21,
+              "name": "Radio"
+            },
+            {
+              "room_facility_type_id": 23,
+              "name": "Desk"
+            },
+            {
+              "room_facility_type_id": 26,
+              "name": "Seating Area"
+            },
+            {
+              "name": "Free toiletries",
+              "room_facility_type_id": 27
+            },
+            {
+              "room_facility_type_id": 31,
+              "name": "Toilet"
+            },
+            {
+              "name": "Private bathroom",
+              "room_facility_type_id": 38
+            },
+            {
+              "name": "Heating",
+              "room_facility_type_id": 40
+            },
+            {
+              "room_facility_type_id": 43,
+              "name": "Slippers"
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "room_facility_type_id": 69,
+              "name": "Bath or Shower"
+            },
+            {
+              "name": "Interconnected room(s) available",
+              "room_facility_type_id": 73
+            },
+            {
+              "room_facility_type_id": 75,
+              "name": "Flat-screen TV"
+            },
+            {
+              "room_facility_type_id": 77,
+              "name": "Sofa"
+            },
+            {
+              "name": "Hardwood/Parquet floors",
+              "room_facility_type_id": 82
+            },
+            {
+              "name": "Wake-up service",
+              "room_facility_type_id": 83
+            },
+            {
+              "name": "Alarm clock",
+              "room_facility_type_id": 84
+            },
+            {
+              "room_facility_type_id": 86,
+              "name": "Electric kettle"
+            },
+            {
+              "room_facility_type_id": 95,
+              "name": "Wardrobe/Closet"
+            },
+            {
+              "room_facility_type_id": 102,
+              "name": "iPad"
+            },
+            {
+              "name": "Hypoallergenic",
+              "room_facility_type_id": 115
+            },
+            {
+              "room_facility_type_id": 120,
+              "name": "Coffee machine"
+            },
+            {
+              "name": "Towels",
+              "room_facility_type_id": 124
+            },
+            {
+              "room_facility_type_id": 132,
+              "name": "Upper floors accessible by lift"
+            },
+            {
+              "room_facility_type_id": 133,
+              "name": "Upper floors accessible by stairs only"
+            },
+            {
+              "room_facility_type_id": 138,
+              "name": "Clothes rack"
+            },
+            {
+              "room_facility_type_id": 141,
+              "name": "Toilet paper"
+            },
+            {
+              "room_facility_type_id": 150,
+              "name": "Walk in shower"
+            },
+            {
+              "name": "Trash cans",
+              "room_facility_type_id": 170
+            },
+            {
+              "name": "Children's cots/cribs",
+              "room_facility_type_id": 175
+            },
+            {
+              "name": "Shampoo",
+              "room_facility_type_id": 177
+            },
+            {
+              "name": "Conditioner",
+              "room_facility_type_id": 178
+            },
+            {
+              "room_facility_type_id": 179,
+              "name": "Body soap"
+            },
+            {
+              "room_facility_type_id": 180,
+              "name": "Shower cap"
+            },
+            {
+              "name": "Hypoallergenic pillow",
+              "room_facility_type_id": 188
+            }
+          ],
+          "room_id": 1000424,
+          "room_info": {
+            "room_size": {
+              "metre_square": 45.0
+            },
+            "room_type_id": 5,
+            "bedrooms": [
+              {
+                "description": "1 extra-large double bed",
+                "name": "Bedroom 1"
+              }
+            ],
+            "bookable": true,
+            "bathroom_count": 1,
+            "ranking": 0,
+            "max_persons": 2,
+            "room_type": "Suite",
+            "max_price": 0.0,
+            "bedroom_count": 1.0,
+            "min_price": 0.0
+          },
+          "room_photos": [
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/11393398.jpg?k=f6cab59afcaa4e6a3b8e3186dd4e0cad97d5175d5ce13ccb653765290ad7790a&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/11393398.jpg?k=f6cab59afcaa4e6a3b8e3186dd4e0cad97d5175d5ce13ccb653765290ad7790a&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/11393398.jpg?k=f6cab59afcaa4e6a3b8e3186dd4e0cad97d5175d5ce13ccb653765290ad7790a&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/11393377.jpg?k=42b23aa568367c751c64a40df6cb602eb8699eb526b791bc3cdf731c51117f22&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/11393377.jpg?k=42b23aa568367c751c64a40df6cb602eb8699eb526b791bc3cdf731c51117f22&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/11393377.jpg?k=42b23aa568367c751c64a40df6cb602eb8699eb526b791bc3cdf731c51117f22&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/11393352.jpg?k=095b2ead77d4109490f38e7c2ef191bdac5f631bd5920043f82f84078cb1ea89&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/11393352.jpg?k=095b2ead77d4109490f38e7c2ef191bdac5f631bd5920043f82f84078cb1ea89&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/11393352.jpg?k=095b2ead77d4109490f38e7c2ef191bdac5f631bd5920043f82f84078cb1ea89&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/11393330.jpg?k=b0355966aa0ff47116e705bd723b93816399cd965e7c53af768ae031a40ac990&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/11393330.jpg?k=b0355966aa0ff47116e705bd723b93816399cd965e7c53af768ae031a40ac990&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/11393330.jpg?k=b0355966aa0ff47116e705bd723b93816399cd965e7c53af768ae031a40ac990&o="
+            },
+            {
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/11393203.jpg?k=48d12fa72744df2190a173edb4cbb29e614ae02b2a1be3dead818fda82d45054&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/11393203.jpg?k=48d12fa72744df2190a173edb4cbb29e614ae02b2a1be3dead818fda82d45054&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/11393203.jpg?k=48d12fa72744df2190a173edb4cbb29e614ae02b2a1be3dead818fda82d45054&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106786178.jpg?k=e5e09480975946cc7dc3267b73fc7d4d5909ac25fe9e5acb9e1f7ee09011eafd&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106786178.jpg?k=e5e09480975946cc7dc3267b73fc7d4d5909ac25fe9e5acb9e1f7ee09011eafd&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106786178.jpg?k=e5e09480975946cc7dc3267b73fc7d4d5909ac25fe9e5acb9e1f7ee09011eafd&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106786181.jpg?k=84f331736a15addfacd353e22283f8505718a4db4994dcf83a98493d0a19c260&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106786181.jpg?k=84f331736a15addfacd353e22283f8505718a4db4994dcf83a98493d0a19c260&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106786181.jpg?k=84f331736a15addfacd353e22283f8505718a4db4994dcf83a98493d0a19c260&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/106786176.jpg?k=ce25e88e8fbba7931e57d30fc0ea4fad53f99b471b9b6362913e9f159ff73db5&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/106786176.jpg?k=ce25e88e8fbba7931e57d30fc0ea4fad53f99b471b9b6362913e9f159ff73db5&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/106786176.jpg?k=ce25e88e8fbba7931e57d30fc0ea4fad53f99b471b9b6362913e9f159ff73db5&o="
+            }
+          ]
+        },
+        {
+          "room_id": 1000425,
+          "room_facilities": [
+            {
+              "room_facility_type_id": 3,
+              "name": "Minibar"
+            },
+            {
+              "room_facility_type_id": 4,
+              "name": "Shower"
+            },
+            {
+              "name": "Bath",
+              "room_facility_type_id": 5
+            },
+            {
+              "room_facility_type_id": 6,
+              "name": "Safety Deposit Box"
+            },
+            {
+              "name": "Pay-per-view Channels",
+              "room_facility_type_id": 7
+            },
+            {
+              "name": "TV",
+              "room_facility_type_id": 8
+            },
+            {
+              "name": "Telephone",
+              "room_facility_type_id": 9
+            },
+            {
+              "room_facility_type_id": 11,
+              "name": "Air conditioning"
+            },
+            {
+              "room_facility_type_id": 12,
+              "name": "Hairdryer"
+            },
+            {
+              "name": "Wake Up Service/Alarm Clock",
+              "room_facility_type_id": 13
+            },
+            {
+              "room_facility_type_id": 19,
+              "name": "Bathrobe"
+            },
+            {
+              "name": "Radio",
+              "room_facility_type_id": 21
+            },
+            {
+              "name": "Desk",
+              "room_facility_type_id": 23
+            },
+            {
+              "name": "Free toiletries",
+              "room_facility_type_id": 27
+            },
+            {
+              "room_facility_type_id": 31,
+              "name": "Toilet"
+            },
+            {
+              "name": "Private bathroom",
+              "room_facility_type_id": 38
+            },
+            {
+              "room_facility_type_id": 40,
+              "name": "Heating"
+            },
+            {
+              "room_facility_type_id": 43,
+              "name": "Slippers"
+            },
+            {
+              "room_facility_type_id": 68,
+              "name": "Cable Channels"
+            },
+            {
+              "room_facility_type_id": 69,
+              "name": "Bath or Shower"
+            },
+            {
+              "room_facility_type_id": 75,
+              "name": "Flat-screen TV"
+            },
+            {
+              "room_facility_type_id": 83,
+              "name": "Wake-up service"
+            },
+            {
+              "name": "Alarm clock",
+              "room_facility_type_id": 84
+            },
+            {
+              "room_facility_type_id": 86,
+              "name": "Electric kettle"
+            },
+            {
+              "room_facility_type_id": 95,
+              "name": "Wardrobe/Closet"
+            },
+            {
+              "room_facility_type_id": 115,
+              "name": "Hypoallergenic"
+            },
+            {
+              "room_facility_type_id": 120,
+              "name": "Coffee machine"
+            },
+            {
+              "room_facility_type_id": 124,
+              "name": "Towels"
+            },
+            {
+              "name": "Upper floors accessible by lift",
+              "room_facility_type_id": 132
+            },
+            {
+              "name": "Clothes rack",
+              "room_facility_type_id": 138
+            },
+            {
+              "name": "Toilet paper",
+              "room_facility_type_id": 141
+            },
+            {
+              "room_facility_type_id": 147,
+              "name": "Toilet with grab rails"
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "name": "Children's cots/cribs",
+              "room_facility_type_id": 175
+            },
+            {
+              "name": "Shampoo",
+              "room_facility_type_id": 177
+            },
+            {
+              "room_facility_type_id": 178,
+              "name": "Conditioner"
+            },
+            {
+              "room_facility_type_id": 179,
+              "name": "Body soap"
+            },
+            {
+              "name": "Shower cap",
+              "room_facility_type_id": 180
+            },
+            {
+              "name": "Hypoallergenic pillow",
+              "room_facility_type_id": 188
+            },
+            {
+              "name": "Accessible by lift",
+              "room_facility_type_id": 189
+            }
+          ],
+          "room_photos": [
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/16993262.jpg?k=0965f01b7e0927d5eda3fca2c2d116c8dfee8f06181727f16c1d1e3727cc7131&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/16993262.jpg?k=0965f01b7e0927d5eda3fca2c2d116c8dfee8f06181727f16c1d1e3727cc7131&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/16993262.jpg?k=0965f01b7e0927d5eda3fca2c2d116c8dfee8f06181727f16c1d1e3727cc7131&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20952070.jpg?k=097df9a8e96d0ed013708cb011d69697fe0864855bd986eb5aca49b8fa2270ef&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20952070.jpg?k=097df9a8e96d0ed013708cb011d69697fe0864855bd986eb5aca49b8fa2270ef&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20952070.jpg?k=097df9a8e96d0ed013708cb011d69697fe0864855bd986eb5aca49b8fa2270ef&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20952077.jpg?k=b7dba9eaf8f43c1016f8f8a288331635e0dc244d8208e1c63360124351bdd18a&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20952077.jpg?k=b7dba9eaf8f43c1016f8f8a288331635e0dc244d8208e1c63360124351bdd18a&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20952077.jpg?k=b7dba9eaf8f43c1016f8f8a288331635e0dc244d8208e1c63360124351bdd18a&o="
+            },
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o="
+            }
+          ],
+          "room_info": {
+            "room_type_id": 24,
+            "room_size": {
+              "metre_square": 26.0
+            },
+            "bookable": true,
+            "ranking": 0,
+            "bathroom_count": 1,
+            "max_persons": 2,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "name": "Single bed(s)",
+                    "description_imperial": "35-51 inches wide",
+                    "configuration_id": 1,
+                    "description": "90-130 cm wide",
+                    "count": "2"
+                  }
+                ]
+              },
+              {
+                "bed_types": [
+                  {
+                    "count": "1",
+                    "name": "Large bed(s) (King size)",
+                    "description_imperial": "60-70 inches wide",
+                    "description": "151-180cm wide",
+                    "configuration_id": 2
+                  }
+                ]
+              }
+            ],
+            "min_price": 0.0,
+            "bedroom_count": 0.0,
+            "max_price": 0.0,
+            "room_type": "Twin/Double"
+          }
+        },
+        {
+          "room_facilities": [
+            {
+              "name": "Minibar",
+              "room_facility_type_id": 3
+            },
+            {
+              "room_facility_type_id": 4,
+              "name": "Shower"
+            },
+            {
+              "room_facility_type_id": 5,
+              "name": "Bath"
+            },
+            {
+              "room_facility_type_id": 6,
+              "name": "Safety Deposit Box"
+            },
+            {
+              "room_facility_type_id": 7,
+              "name": "Pay-per-view Channels"
+            },
+            {
+              "room_facility_type_id": 8,
+              "name": "TV"
+            },
+            {
+              "name": "Telephone",
+              "room_facility_type_id": 9
+            },
+            {
+              "name": "Air conditioning",
+              "room_facility_type_id": 11
+            },
+            {
+              "name": "Hairdryer",
+              "room_facility_type_id": 12
+            },
+            {
+              "name": "Wake Up Service/Alarm Clock",
+              "room_facility_type_id": 13
+            },
+            {
+              "room_facility_type_id": 19,
+              "name": "Bathrobe"
+            },
+            {
+              "room_facility_type_id": 20,
+              "name": "Spa Bath"
+            },
+            {
+              "name": "Radio",
+              "room_facility_type_id": 21
+            },
+            {
+              "name": "Desk",
+              "room_facility_type_id": 23
+            },
+            {
+              "room_facility_type_id": 27,
+              "name": "Free toiletries"
+            },
+            {
+              "room_facility_type_id": 31,
+              "name": "Toilet"
+            },
+            {
+              "room_facility_type_id": 38,
+              "name": "Private bathroom"
+            },
+            {
+              "room_facility_type_id": 40,
+              "name": "Heating"
+            },
+            {
+              "name": "Slippers",
+              "room_facility_type_id": 43
+            },
+            {
+              "name": "Cable Channels",
+              "room_facility_type_id": 68
+            },
+            {
+              "room_facility_type_id": 69,
+              "name": "Bath or Shower"
+            },
+            {
+              "name": "Flat-screen TV",
+              "room_facility_type_id": 75
+            },
+            {
+              "room_facility_type_id": 81,
+              "name": "View"
+            },
+            {
+              "name": "Wake-up service",
+              "room_facility_type_id": 83
+            },
+            {
+              "room_facility_type_id": 84,
+              "name": "Alarm clock"
+            },
+            {
+              "room_facility_type_id": 86,
+              "name": "Electric kettle"
+            },
+            {
+              "name": "Wardrobe/Closet",
+              "room_facility_type_id": 95
+            },
+            {
+              "room_facility_type_id": 115,
+              "name": "Hypoallergenic"
+            },
+            {
+              "name": "Coffee machine",
+              "room_facility_type_id": 120
+            },
+            {
+              "room_facility_type_id": 124,
+              "name": "Towels"
+            },
+            {
+              "name": "Upper floors accessible by lift",
+              "room_facility_type_id": 132
+            },
+            {
+              "name": "Clothes rack",
+              "room_facility_type_id": 138
+            },
+            {
+              "name": "Toilet paper",
+              "room_facility_type_id": 141
+            },
+            {
+              "name": "Walk in shower",
+              "room_facility_type_id": 150
+            },
+            {
+              "room_facility_type_id": 170,
+              "name": "Trash cans"
+            },
+            {
+              "room_facility_type_id": 175,
+              "name": "Children's cots/cribs"
+            },
+            {
+              "room_facility_type_id": 177,
+              "name": "Shampoo"
+            },
+            {
+              "room_facility_type_id": 178,
+              "name": "Conditioner"
+            },
+            {
+              "room_facility_type_id": 179,
+              "name": "Body soap"
+            },
+            {
+              "name": "Shower cap",
+              "room_facility_type_id": 180
+            },
+            {
+              "room_facility_type_id": 188,
+              "name": "Hypoallergenic pillow"
+            },
+            {
+              "room_facility_type_id": 189,
+              "name": "Accessible by lift"
+            }
+          ],
+          "room_id": 1000426,
+          "room_info": {
+            "room_type_id": 7,
+            "room_size": {
+              "metre_square": 32.0
+            },
+            "bookable": true,
+            "max_persons": 3,
+            "bathroom_count": 1,
+            "ranking": 0,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "name": "Single bed(s)",
+                    "description_imperial": "35-51 inches wide",
+                    "description": "90-130 cm wide",
+                    "configuration_id": 1,
+                    "count": "1"
+                  },
+                  {
+                    "description_imperial": "60-70 inches wide",
+                    "name": "Large bed(s) (King size)",
+                    "description": "151-180cm wide",
+                    "configuration_id": 1,
+                    "count": "1"
+                  }
+                ]
+              },
+              {
+                "bed_types": [
+                  {
+                    "configuration_id": 2,
+                    "description": "90-130 cm wide",
+                    "description_imperial": "35-51 inches wide",
+                    "name": "Single bed(s)",
+                    "count": "3"
+                  }
+                ]
+              }
+            ],
+            "bedroom_count": 0.0,
+            "min_price": 0.0,
+            "max_price": 0.0,
+            "room_type": "Triple"
+          },
+          "room_photos": [
+            {
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/29451409.jpg?k=8f894ec0c0f4679154b252d74840fc947b235408f81b3ac8a9444f51a58dfb83&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/29451409.jpg?k=8f894ec0c0f4679154b252d74840fc947b235408f81b3ac8a9444f51a58dfb83&o=",
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/29451409.jpg?k=8f894ec0c0f4679154b252d74840fc947b235408f81b3ac8a9444f51a58dfb83&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/21063873.jpg?k=65dffcedd9c391f8f873754580b55ae2943261cb72223f2177cb0e5ce87af609&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/21063873.jpg?k=65dffcedd9c391f8f873754580b55ae2943261cb72223f2177cb0e5ce87af609&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/21063873.jpg?k=65dffcedd9c391f8f873754580b55ae2943261cb72223f2177cb0e5ce87af609&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934559.jpg?k=34b77cd34e5ac9bf75e36c8fca6331ef35b65a25ddbc7c3bbf8d7b324d8430ae&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934559.jpg?k=34b77cd34e5ac9bf75e36c8fca6331ef35b65a25ddbc7c3bbf8d7b324d8430ae&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934559.jpg?k=34b77cd34e5ac9bf75e36c8fca6331ef35b65a25ddbc7c3bbf8d7b324d8430ae&o="
+            },
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/20934882.jpg?k=fbff50ca380380b99f5e70ca3069668725d4661554659cb91db71999ef217502&o="
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2803 @@
+{
+  "meta": {
+    "ruid": "UmFuZG9tSVYkc2RlIyh9YRnmQeqeCcPu7pyZs+iXgWmTFHUrg5O7wdNDBwphWjNKETflMcQaX5CrDsmRzwCs6q8RlcYTakcM+nKr0kK1uuI="
+  },
+  "result": [
+    {
+      "country": "ad",
+      "area": "Europe",
+      "name": "Andorra",
+      "translations": [
+        {
+          "name": "Andorra",
+          "area": "Europe",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "United Arab Emirates",
+          "area": "Middle East"
+        }
+      ],
+      "name": "United Arab Emirates",
+      "area": "Middle East",
+      "country": "ae"
+    },
+    {
+      "country": "af",
+      "name": "Afghanistan",
+      "area": "Middle East",
+      "translations": [
+        {
+          "name": "Afghanistan",
+          "area": "Middle East",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "ag",
+      "name": "Antigua & Barbuda",
+      "area": "Caribbean",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Antigua & Barbuda"
+        }
+      ]
+    },
+    {
+      "area": "Caribbean",
+      "name": "Anguilla",
+      "country": "ai",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Anguilla"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Albania"
+        }
+      ],
+      "country": "al",
+      "area": "Europe",
+      "name": "Albania"
+    },
+    {
+      "country": "am",
+      "name": "Armenia",
+      "area": "Europe",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Armenia",
+          "area": "Europe"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Angola",
+          "area": "Africa"
+        }
+      ],
+      "area": "Africa",
+      "name": "Angola",
+      "country": "ao"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Argentina",
+          "area": "South America"
+        }
+      ],
+      "country": "ar",
+      "area": "South America",
+      "name": "Argentina"
+    },
+    {
+      "country": "as",
+      "area": "Asia",
+      "name": "American Samoa",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Asia",
+          "name": "American Samoa"
+        }
+      ]
+    },
+    {
+      "name": "Austria",
+      "area": "Europe",
+      "country": "at",
+      "translations": [
+        {
+          "name": "Austria",
+          "area": "Europe",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Oceania",
+          "name": "Australia"
+        }
+      ],
+      "country": "au",
+      "name": "Australia",
+      "area": "Oceania"
+    },
+    {
+      "translations": [
+        {
+          "area": "Caribbean",
+          "name": "Aruba",
+          "language": "en"
+        }
+      ],
+      "country": "aw",
+      "name": "Aruba",
+      "area": "Caribbean"
+    },
+    {
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Azerbaijan",
+          "language": "en"
+        }
+      ],
+      "country": "az",
+      "area": "Europe",
+      "name": "Azerbaijan"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "area": "Europe",
+      "country": "ba",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Bosnia and Herzegovina",
+          "area": "Europe"
+        }
+      ]
+    },
+    {
+      "country": "bb",
+      "area": "Caribbean",
+      "name": "Barbados",
+      "translations": [
+        {
+          "area": "Caribbean",
+          "name": "Barbados",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Asia",
+          "name": "Bangladesh",
+          "language": "en"
+        }
+      ],
+      "name": "Bangladesh",
+      "area": "Asia",
+      "country": "bd"
+    },
+    {
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Belgium",
+          "language": "en"
+        }
+      ],
+      "country": "be",
+      "name": "Belgium",
+      "area": "Europe"
+    },
+    {
+      "country": "bf",
+      "area": "Africa",
+      "name": "Burkina Faso",
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Burkina Faso",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "bg",
+      "name": "Bulgaria",
+      "area": "Europe",
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Bulgaria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "bh",
+      "area": "Middle East",
+      "name": "Bahrain",
+      "translations": [
+        {
+          "area": "Middle East",
+          "name": "Bahrain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Burundi",
+          "language": "en"
+        }
+      ],
+      "name": "Burundi",
+      "area": "Africa",
+      "country": "bi"
+    },
+    {
+      "area": "Africa",
+      "name": "Benin",
+      "country": "bj",
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Benin",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Caribbean",
+      "name": "Saint Barthelemy",
+      "country": "bl",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Saint Barthelemy",
+          "area": "Caribbean"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Caribbean",
+          "name": "Bermuda",
+          "language": "en"
+        }
+      ],
+      "name": "Bermuda",
+      "area": "Caribbean",
+      "country": "bm"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Asia",
+          "name": "Brunei Darussalam"
+        }
+      ],
+      "country": "bn",
+      "name": "Brunei Darussalam",
+      "area": "Asia"
+    },
+    {
+      "translations": [
+        {
+          "area": "South America",
+          "name": "Bolivia",
+          "language": "en"
+        }
+      ],
+      "country": "bo",
+      "area": "South America",
+      "name": "Bolivia"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Bonaire St Eustatius and Saba"
+        }
+      ],
+      "area": "Caribbean",
+      "name": "Bonaire St Eustatius and Saba",
+      "country": "bq"
+    },
+    {
+      "country": "br",
+      "area": "South America",
+      "name": "Brazil",
+      "translations": [
+        {
+          "name": "Brazil",
+          "area": "South America",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Caribbean",
+      "name": "Bahamas",
+      "country": "bs",
+      "translations": [
+        {
+          "area": "Caribbean",
+          "name": "Bahamas",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Bhutan",
+          "area": "Asia",
+          "language": "en"
+        }
+      ],
+      "country": "bt",
+      "area": "Asia",
+      "name": "Bhutan"
+    },
+    {
+      "translations": [
+        {
+          "name": "Botswana",
+          "area": "Africa",
+          "language": "en"
+        }
+      ],
+      "country": "bw",
+      "name": "Botswana",
+      "area": "Africa"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Belarus"
+        }
+      ],
+      "country": "by",
+      "area": "Europe",
+      "name": "Belarus"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Belize",
+          "area": "Central America"
+        }
+      ],
+      "area": "Central America",
+      "name": "Belize",
+      "country": "bz"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "North America",
+          "name": "Canada"
+        }
+      ],
+      "country": "ca",
+      "area": "North America",
+      "name": "Canada"
+    },
+    {
+      "name": "Cocos (K) I.",
+      "area": "Oceania",
+      "country": "cc",
+      "translations": [
+        {
+          "name": "Cocos (K) I.",
+          "area": "Oceania",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Democratic Republic of Congo",
+          "area": "Africa"
+        }
+      ],
+      "name": "Democratic Republic of Congo",
+      "area": "Africa",
+      "country": "cd"
+    },
+    {
+      "country": "cf",
+      "area": "Africa",
+      "name": "Central Africa Republic",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Central Africa Republic",
+          "area": "Africa"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Congo",
+          "area": "Africa",
+          "language": "en"
+        }
+      ],
+      "country": "cg",
+      "area": "Africa",
+      "name": "Congo"
+    },
+    {
+      "area": "Europe",
+      "name": "Switzerland",
+      "country": "ch",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Switzerland"
+        }
+      ]
+    },
+    {
+      "country": "ci",
+      "name": "Côte d'Ivoire",
+      "area": "Africa",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Côte d'Ivoire"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Cook Islands",
+          "area": "Oceania",
+          "language": "en"
+        }
+      ],
+      "country": "ck",
+      "area": "Oceania",
+      "name": "Cook Islands"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "South America",
+          "name": "Chile"
+        }
+      ],
+      "name": "Chile",
+      "area": "South America",
+      "country": "cl"
+    },
+    {
+      "country": "cm",
+      "area": "Africa",
+      "name": "Cameroon",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Cameroon"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "China",
+          "area": "Asia"
+        }
+      ],
+      "area": "Asia",
+      "name": "China",
+      "country": "cn"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Colombia",
+          "area": "South America"
+        }
+      ],
+      "country": "co",
+      "area": "South America",
+      "name": "Colombia"
+    },
+    {
+      "area": "Central America",
+      "name": "Costa Rica",
+      "country": "cr",
+      "translations": [
+        {
+          "name": "Costa Rica",
+          "area": "Central America",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "cu",
+      "area": "Caribbean",
+      "name": "Cuba",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Cuba"
+        }
+      ]
+    },
+    {
+      "country": "cv",
+      "name": "Cape Verde",
+      "area": "Africa",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Cape Verde"
+        }
+      ]
+    },
+    {
+      "country": "cw",
+      "area": "Caribbean",
+      "name": "Curaçao",
+      "translations": [
+        {
+          "area": "Caribbean",
+          "name": "Curaçao",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Cyprus",
+          "language": "en"
+        }
+      ],
+      "area": "Europe",
+      "name": "Cyprus",
+      "country": "cy"
+    },
+    {
+      "area": "Europe",
+      "name": "Czech Republic",
+      "country": "cz",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Czech Republic"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Germany"
+        }
+      ],
+      "country": "de",
+      "area": "Europe",
+      "name": "Germany"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Djibouti"
+        }
+      ],
+      "country": "dj",
+      "name": "Djibouti",
+      "area": "Africa"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Denmark"
+        }
+      ],
+      "area": "Europe",
+      "name": "Denmark",
+      "country": "dk"
+    },
+    {
+      "translations": [
+        {
+          "name": "Dominica",
+          "area": "Caribbean",
+          "language": "en"
+        }
+      ],
+      "country": "dm",
+      "area": "Caribbean",
+      "name": "Dominica"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Dominican Republic"
+        }
+      ],
+      "country": "do",
+      "area": "Caribbean",
+      "name": "Dominican Republic"
+    },
+    {
+      "country": "dz",
+      "area": "Africa",
+      "name": "Algeria",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Algeria"
+        }
+      ]
+    },
+    {
+      "area": "South America",
+      "name": "Ecuador",
+      "country": "ec",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Ecuador",
+          "area": "South America"
+        }
+      ]
+    },
+    {
+      "name": "Estonia",
+      "area": "Europe",
+      "country": "ee",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Estonia"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Egypt",
+          "area": "Africa"
+        }
+      ],
+      "area": "Africa",
+      "name": "Egypt",
+      "country": "eg"
+    },
+    {
+      "name": "Eritrea",
+      "area": "Africa",
+      "country": "er",
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Eritrea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "es",
+      "name": "Spain",
+      "area": "Europe",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Spain"
+        }
+      ]
+    },
+    {
+      "name": "Ethiopia",
+      "area": "Africa",
+      "country": "et",
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Ethiopia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Europe",
+      "name": "Finland",
+      "country": "fi",
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Finland",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Oceania",
+      "name": "Fiji",
+      "country": "fj",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Oceania",
+          "name": "Fiji"
+        }
+      ]
+    },
+    {
+      "country": "fk",
+      "name": "Falkland Islands (Malvinas)",
+      "area": "South America",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Falkland Islands (Malvinas)",
+          "area": "South America"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Micronesia",
+          "area": "Oceania",
+          "language": "en"
+        }
+      ],
+      "name": "Micronesia",
+      "area": "Oceania",
+      "country": "fm"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Faroe Islands",
+          "area": "Europe"
+        }
+      ],
+      "name": "Faroe Islands",
+      "area": "Europe",
+      "country": "fo"
+    },
+    {
+      "translations": [
+        {
+          "name": "France",
+          "area": "Europe",
+          "language": "en"
+        }
+      ],
+      "country": "fr",
+      "area": "Europe",
+      "name": "France"
+    },
+    {
+      "name": "Gabon",
+      "area": "Africa",
+      "country": "ga",
+      "translations": [
+        {
+          "name": "Gabon",
+          "area": "Africa",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "United Kingdom",
+          "area": "Europe"
+        }
+      ],
+      "area": "Europe",
+      "name": "United Kingdom",
+      "country": "gb"
+    },
+    {
+      "translations": [
+        {
+          "area": "Caribbean",
+          "name": "Grenada",
+          "language": "en"
+        }
+      ],
+      "country": "gd",
+      "area": "Caribbean",
+      "name": "Grenada"
+    },
+    {
+      "country": "ge",
+      "name": "Georgia",
+      "area": "Europe",
+      "translations": [
+        {
+          "name": "Georgia",
+          "area": "Europe",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "South America",
+          "name": "French Guiana",
+          "language": "en"
+        }
+      ],
+      "name": "French Guiana",
+      "area": "South America",
+      "country": "gf"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Ghana"
+        }
+      ],
+      "country": "gh",
+      "name": "Ghana",
+      "area": "Africa"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Gibraltar"
+        }
+      ],
+      "country": "gi",
+      "area": "Europe",
+      "name": "Gibraltar"
+    },
+    {
+      "area": "Europe",
+      "name": "Greenland",
+      "country": "gl",
+      "translations": [
+        {
+          "name": "Greenland",
+          "area": "Europe",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "gm",
+      "area": "Africa",
+      "name": "Gambia",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Gambia"
+        }
+      ]
+    },
+    {
+      "country": "gn",
+      "name": "Guinea",
+      "area": "Africa",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Guinea",
+          "area": "Africa"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Caribbean",
+          "name": "Guadeloupe",
+          "language": "en"
+        }
+      ],
+      "country": "gp",
+      "area": "Caribbean",
+      "name": "Guadeloupe"
+    },
+    {
+      "country": "gq",
+      "name": "Equatorial Guinea",
+      "area": "Africa",
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Equatorial Guinea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "gr",
+      "name": "Greece",
+      "area": "Europe",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Greece"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Central America",
+          "name": "Guatemala",
+          "language": "en"
+        }
+      ],
+      "country": "gt",
+      "name": "Guatemala",
+      "area": "Central America"
+    },
+    {
+      "country": "gu",
+      "area": "Oceania",
+      "name": "Guam",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Oceania",
+          "name": "Guam"
+        }
+      ]
+    },
+    {
+      "country": "gw",
+      "name": "Guinea-Bissau",
+      "area": "Africa",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Guinea-Bissau"
+        }
+      ]
+    },
+    {
+      "country": "gy",
+      "area": "South America",
+      "name": "Guyana",
+      "translations": [
+        {
+          "name": "Guyana",
+          "area": "South America",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Asia",
+      "name": "Hong Kong",
+      "country": "hk",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Hong Kong",
+          "area": "Asia"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Central America",
+          "name": "Honduras",
+          "language": "en"
+        }
+      ],
+      "name": "Honduras",
+      "area": "Central America",
+      "country": "hn"
+    },
+    {
+      "translations": [
+        {
+          "name": "Croatia",
+          "area": "Europe",
+          "language": "en"
+        }
+      ],
+      "area": "Europe",
+      "name": "Croatia",
+      "country": "hr"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Haiti",
+          "area": "Caribbean"
+        }
+      ],
+      "area": "Caribbean",
+      "name": "Haiti",
+      "country": "ht"
+    },
+    {
+      "name": "Hungary",
+      "area": "Europe",
+      "country": "hu",
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Hungary",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Indonesia",
+          "area": "Asia"
+        }
+      ],
+      "area": "Asia",
+      "name": "Indonesia",
+      "country": "id"
+    },
+    {
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Ireland",
+          "language": "en"
+        }
+      ],
+      "country": "ie",
+      "area": "Europe",
+      "name": "Ireland"
+    },
+    {
+      "country": "il",
+      "name": "Israel",
+      "area": "Middle East",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Israel",
+          "area": "Middle East"
+        }
+      ]
+    },
+    {
+      "country": "im",
+      "name": "Isle of Man",
+      "area": "Europe",
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Isle of Man",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Asia",
+      "name": "India",
+      "country": "in",
+      "translations": [
+        {
+          "language": "en",
+          "name": "India",
+          "area": "Asia"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Middle East",
+          "name": "Iraq"
+        }
+      ],
+      "country": "iq",
+      "area": "Middle East",
+      "name": "Iraq"
+    },
+    {
+      "translations": [
+        {
+          "area": "Middle East",
+          "name": "Iran",
+          "language": "en"
+        }
+      ],
+      "country": "ir",
+      "area": "Middle East",
+      "name": "Iran"
+    },
+    {
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Iceland",
+          "language": "en"
+        }
+      ],
+      "country": "is",
+      "name": "Iceland",
+      "area": "Europe"
+    },
+    {
+      "country": "it",
+      "name": "Italy",
+      "area": "Europe",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Italy",
+          "area": "Europe"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Caribbean",
+          "name": "Jamaica",
+          "language": "en"
+        }
+      ],
+      "area": "Caribbean",
+      "name": "Jamaica",
+      "country": "jm"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Middle East",
+          "name": "Jordan"
+        }
+      ],
+      "area": "Middle East",
+      "name": "Jordan",
+      "country": "jo"
+    },
+    {
+      "area": "Asia",
+      "name": "Japan",
+      "country": "jp",
+      "translations": [
+        {
+          "name": "Japan",
+          "area": "Asia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Kenya",
+          "area": "Africa",
+          "language": "en"
+        }
+      ],
+      "name": "Kenya",
+      "area": "Africa",
+      "country": "ke"
+    },
+    {
+      "translations": [
+        {
+          "name": "Kyrgyzstan",
+          "area": "Asia",
+          "language": "en"
+        }
+      ],
+      "name": "Kyrgyzstan",
+      "area": "Asia",
+      "country": "kg"
+    },
+    {
+      "country": "kh",
+      "name": "Cambodia",
+      "area": "Asia",
+      "translations": [
+        {
+          "name": "Cambodia",
+          "area": "Asia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Kiribati",
+          "area": "Oceania",
+          "language": "en"
+        }
+      ],
+      "country": "ki",
+      "name": "Kiribati",
+      "area": "Oceania"
+    },
+    {
+      "translations": [
+        {
+          "name": "Comoros",
+          "area": "Africa",
+          "language": "en"
+        }
+      ],
+      "area": "Africa",
+      "name": "Comoros",
+      "country": "km"
+    },
+    {
+      "translations": [
+        {
+          "area": "Caribbean",
+          "name": "Saint Kitts and Nevis",
+          "language": "en"
+        }
+      ],
+      "area": "Caribbean",
+      "name": "Saint Kitts and Nevis",
+      "country": "kn"
+    },
+    {
+      "country": "kr",
+      "area": "Asia",
+      "name": "South Korea",
+      "translations": [
+        {
+          "name": "South Korea",
+          "area": "Asia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Middle East",
+          "name": "Kuwait",
+          "language": "en"
+        }
+      ],
+      "country": "kw",
+      "area": "Middle East",
+      "name": "Kuwait"
+    },
+    {
+      "translations": [
+        {
+          "name": "Cayman Islands",
+          "area": "Caribbean",
+          "language": "en"
+        }
+      ],
+      "area": "Caribbean",
+      "name": "Cayman Islands",
+      "country": "ky"
+    },
+    {
+      "country": "kz",
+      "area": "Asia",
+      "name": "Kazakhstan",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Asia",
+          "name": "Kazakhstan"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Asia",
+          "name": "Laos"
+        }
+      ],
+      "country": "la",
+      "area": "Asia",
+      "name": "Laos"
+    },
+    {
+      "country": "lb",
+      "name": "Lebanon",
+      "area": "Middle East",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Lebanon",
+          "area": "Middle East"
+        }
+      ]
+    },
+    {
+      "name": "Saint Lucia",
+      "area": "Caribbean",
+      "country": "lc",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Saint Lucia"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Liechtenstein",
+          "language": "en"
+        }
+      ],
+      "country": "li",
+      "area": "Europe",
+      "name": "Liechtenstein"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Asia",
+          "name": "Sri Lanka"
+        }
+      ],
+      "area": "Asia",
+      "name": "Sri Lanka",
+      "country": "lk"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Liberia"
+        }
+      ],
+      "country": "lr",
+      "name": "Liberia",
+      "area": "Africa"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Lesotho",
+          "area": "Africa"
+        }
+      ],
+      "country": "ls",
+      "area": "Africa",
+      "name": "Lesotho"
+    },
+    {
+      "translations": [
+        {
+          "name": "Lithuania",
+          "area": "Europe",
+          "language": "en"
+        }
+      ],
+      "name": "Lithuania",
+      "area": "Europe",
+      "country": "lt"
+    },
+    {
+      "area": "Europe",
+      "name": "Luxembourg",
+      "country": "lu",
+      "translations": [
+        {
+          "name": "Luxembourg",
+          "area": "Europe",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Latvia"
+        }
+      ],
+      "country": "lv",
+      "area": "Europe",
+      "name": "Latvia"
+    },
+    {
+      "translations": [
+        {
+          "name": "Libya",
+          "area": "Africa",
+          "language": "en"
+        }
+      ],
+      "country": "ly",
+      "area": "Africa",
+      "name": "Libya"
+    },
+    {
+      "country": "ma",
+      "name": "Morocco",
+      "area": "Africa",
+      "translations": [
+        {
+          "name": "Morocco",
+          "area": "Africa",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "mc",
+      "area": "Europe",
+      "name": "Monaco",
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Monaco",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Moldova",
+      "area": "Europe",
+      "country": "md",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Moldova",
+          "area": "Europe"
+        }
+      ]
+    },
+    {
+      "name": "Montenegro",
+      "area": "Europe",
+      "country": "me",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Montenegro",
+          "area": "Europe"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Saint Martin"
+        }
+      ],
+      "country": "mf",
+      "area": "Caribbean",
+      "name": "Saint Martin"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Madagascar"
+        }
+      ],
+      "name": "Madagascar",
+      "area": "Africa",
+      "country": "mg"
+    },
+    {
+      "country": "mh",
+      "area": "Oceania",
+      "name": "Marshall Islands",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Oceania",
+          "name": "Marshall Islands"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Europe",
+          "name": "Macedonia",
+          "language": "en"
+        }
+      ],
+      "country": "mk",
+      "name": "Macedonia",
+      "area": "Europe"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Mali",
+          "area": "Africa"
+        }
+      ],
+      "name": "Mali",
+      "area": "Africa",
+      "country": "ml"
+    },
+    {
+      "country": "mm",
+      "area": "Asia",
+      "name": "Myanmar",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Myanmar",
+          "area": "Asia"
+        }
+      ]
+    },
+    {
+      "country": "mn",
+      "name": "Mongolia",
+      "area": "Asia",
+      "translations": [
+        {
+          "name": "Mongolia",
+          "area": "Asia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Macao",
+          "area": "Asia"
+        }
+      ],
+      "country": "mo",
+      "name": "Macao",
+      "area": "Asia"
+    },
+    {
+      "area": "Oceania",
+      "name": "Northern Mariana Islands",
+      "country": "mp",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Northern Mariana Islands",
+          "area": "Oceania"
+        }
+      ]
+    },
+    {
+      "country": "mq",
+      "name": "Martinique",
+      "area": "Caribbean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Martinique",
+          "area": "Caribbean"
+        }
+      ]
+    },
+    {
+      "country": "mr",
+      "name": "Mauritania",
+      "area": "Africa",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Mauritania",
+          "area": "Africa"
+        }
+      ]
+    },
+    {
+      "country": "ms",
+      "area": "Caribbean",
+      "name": "Montserrat",
+      "translations": [
+        {
+          "name": "Montserrat",
+          "area": "Caribbean",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Malta",
+          "area": "Europe",
+          "language": "en"
+        }
+      ],
+      "country": "mt",
+      "area": "Europe",
+      "name": "Malta"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Mauritius",
+          "area": "Africa"
+        }
+      ],
+      "area": "Africa",
+      "name": "Mauritius",
+      "country": "mu"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Asia",
+          "name": "Maldives"
+        }
+      ],
+      "name": "Maldives",
+      "area": "Asia",
+      "country": "mv"
+    },
+    {
+      "area": "Africa",
+      "name": "Malawi",
+      "country": "mw",
+      "translations": [
+        {
+          "name": "Malawi",
+          "area": "Africa",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Mexico",
+          "area": "North America"
+        }
+      ],
+      "name": "Mexico",
+      "area": "North America",
+      "country": "mx"
+    },
+    {
+      "country": "my",
+      "area": "Asia",
+      "name": "Malaysia",
+      "translations": [
+        {
+          "area": "Asia",
+          "name": "Malaysia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Africa",
+      "name": "Mozambique",
+      "country": "mz",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Mozambique",
+          "area": "Africa"
+        }
+      ]
+    },
+    {
+      "area": "Africa",
+      "name": "Namibia",
+      "country": "na",
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Namibia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "nc",
+      "name": "New Caledonia",
+      "area": "Oceania",
+      "translations": [
+        {
+          "name": "New Caledonia",
+          "area": "Oceania",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Niger"
+        }
+      ],
+      "area": "Africa",
+      "name": "Niger",
+      "country": "ne"
+    },
+    {
+      "translations": [
+        {
+          "name": "Norfolk Island",
+          "area": "Oceania",
+          "language": "en"
+        }
+      ],
+      "country": "nf",
+      "name": "Norfolk Island",
+      "area": "Oceania"
+    },
+    {
+      "name": "Nigeria",
+      "area": "Africa",
+      "country": "ng",
+      "translations": [
+        {
+          "name": "Nigeria",
+          "area": "Africa",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "ni",
+      "name": "Nicaragua",
+      "area": "Central America",
+      "translations": [
+        {
+          "name": "Nicaragua",
+          "area": "Central America",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Netherlands"
+        }
+      ],
+      "area": "Europe",
+      "name": "Netherlands",
+      "country": "nl"
+    },
+    {
+      "country": "no",
+      "name": "Norway",
+      "area": "Europe",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Norway"
+        }
+      ]
+    },
+    {
+      "name": "Nepal",
+      "area": "Asia",
+      "country": "np",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Nepal",
+          "area": "Asia"
+        }
+      ]
+    },
+    {
+      "country": "nr",
+      "area": "Oceania",
+      "name": "Nauru",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Nauru",
+          "area": "Oceania"
+        }
+      ]
+    },
+    {
+      "country": "nu",
+      "area": "Oceania",
+      "name": "Niue",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Oceania",
+          "name": "Niue"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Oceania",
+          "name": "New Zealand",
+          "language": "en"
+        }
+      ],
+      "country": "nz",
+      "name": "New Zealand",
+      "area": "Oceania"
+    },
+    {
+      "translations": [
+        {
+          "area": "Middle East",
+          "name": "Oman",
+          "language": "en"
+        }
+      ],
+      "country": "om",
+      "name": "Oman",
+      "area": "Middle East"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Central America",
+          "name": "Panama"
+        }
+      ],
+      "country": "pa",
+      "name": "Panama",
+      "area": "Central America"
+    },
+    {
+      "name": "Peru",
+      "area": "South America",
+      "country": "pe",
+      "translations": [
+        {
+          "language": "en",
+          "area": "South America",
+          "name": "Peru"
+        }
+      ]
+    },
+    {
+      "name": "French Polynesia",
+      "area": "Oceania",
+      "country": "pf",
+      "translations": [
+        {
+          "language": "en",
+          "name": "French Polynesia",
+          "area": "Oceania"
+        }
+      ]
+    },
+    {
+      "name": "Papua New Guinea",
+      "area": "Oceania",
+      "country": "pg",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Oceania",
+          "name": "Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Asia",
+          "name": "Philippines",
+          "language": "en"
+        }
+      ],
+      "country": "ph",
+      "name": "Philippines",
+      "area": "Asia"
+    },
+    {
+      "name": "Pakistan",
+      "area": "Asia",
+      "country": "pk",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Pakistan",
+          "area": "Asia"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Poland",
+          "area": "Europe",
+          "language": "en"
+        }
+      ],
+      "name": "Poland",
+      "area": "Europe",
+      "country": "pl"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "St Pierre and Miquelon",
+          "area": "North America"
+        }
+      ],
+      "country": "pm",
+      "area": "North America",
+      "name": "St Pierre and Miquelon"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Puerto Rico",
+          "area": "Caribbean"
+        }
+      ],
+      "country": "pr",
+      "area": "Caribbean",
+      "name": "Puerto Rico"
+    },
+    {
+      "translations": [
+        {
+          "name": "Palestinian Territory",
+          "area": "Middle East",
+          "language": "en"
+        }
+      ],
+      "area": "Middle East",
+      "name": "Palestinian Territory",
+      "country": "ps"
+    },
+    {
+      "country": "pt",
+      "area": "Europe",
+      "name": "Portugal",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Portugal"
+        }
+      ]
+    },
+    {
+      "area": "Oceania",
+      "name": "Palau",
+      "country": "pw",
+      "translations": [
+        {
+          "area": "Oceania",
+          "name": "Palau",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "South America",
+          "name": "Paraguay"
+        }
+      ],
+      "name": "Paraguay",
+      "area": "South America",
+      "country": "py"
+    },
+    {
+      "translations": [
+        {
+          "name": "Qatar",
+          "area": "Middle East",
+          "language": "en"
+        }
+      ],
+      "area": "Middle East",
+      "name": "Qatar",
+      "country": "qa"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Reunion"
+        }
+      ],
+      "country": "re",
+      "name": "Reunion",
+      "area": "Africa"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Romania",
+          "area": "Europe"
+        }
+      ],
+      "area": "Europe",
+      "name": "Romania",
+      "country": "ro"
+    },
+    {
+      "country": "rs",
+      "name": "Serbia",
+      "area": "Europe",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Serbia"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Russia",
+          "area": "Europe",
+          "language": "en"
+        }
+      ],
+      "country": "ru",
+      "area": "Europe",
+      "name": "Russia"
+    },
+    {
+      "translations": [
+        {
+          "name": "Rwanda",
+          "area": "Africa",
+          "language": "en"
+        }
+      ],
+      "name": "Rwanda",
+      "area": "Africa",
+      "country": "rw"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Saudi Arabia",
+          "area": "Middle East"
+        }
+      ],
+      "country": "sa",
+      "name": "Saudi Arabia",
+      "area": "Middle East"
+    },
+    {
+      "translations": [
+        {
+          "name": "Solomon Islands",
+          "area": "Oceania",
+          "language": "en"
+        }
+      ],
+      "country": "sb",
+      "area": "Oceania",
+      "name": "Solomon Islands"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Seychelles"
+        }
+      ],
+      "country": "sc",
+      "area": "Africa",
+      "name": "Seychelles"
+    },
+    {
+      "translations": [
+        {
+          "name": "Sudan",
+          "area": "Africa",
+          "language": "en"
+        }
+      ],
+      "name": "Sudan",
+      "area": "Africa",
+      "country": "sd"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Sweden",
+          "area": "Europe"
+        }
+      ],
+      "country": "se",
+      "name": "Sweden",
+      "area": "Europe"
+    },
+    {
+      "area": "Asia",
+      "name": "Singapore",
+      "country": "sg",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Asia",
+          "name": "Singapore"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "St Helena",
+          "area": "Caribbean",
+          "language": "en"
+        }
+      ],
+      "area": "Caribbean",
+      "name": "St Helena",
+      "country": "sh"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Slovenia"
+        }
+      ],
+      "country": "si",
+      "name": "Slovenia",
+      "area": "Europe"
+    },
+    {
+      "country": "sk",
+      "area": "Europe",
+      "name": "Slovakia",
+      "translations": [
+        {
+          "name": "Slovakia",
+          "area": "Europe",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Africa",
+      "name": "Sierra Leone",
+      "country": "sl",
+      "translations": [
+        {
+          "name": "Sierra Leone",
+          "area": "Africa",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "San Marino",
+      "area": "Europe",
+      "country": "sm",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "San Marino"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Senegal"
+        }
+      ],
+      "country": "sn",
+      "area": "Africa",
+      "name": "Senegal"
+    },
+    {
+      "name": "Somalia",
+      "area": "Africa",
+      "country": "so",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Somalia"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "South America",
+          "name": "Suriname",
+          "language": "en"
+        }
+      ],
+      "name": "Suriname",
+      "area": "South America",
+      "country": "sr"
+    },
+    {
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "South Sudan",
+          "language": "en"
+        }
+      ],
+      "country": "ss",
+      "area": "Africa",
+      "name": "South Sudan"
+    },
+    {
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "São Tomé and Príncipe",
+          "language": "en"
+        }
+      ],
+      "country": "st",
+      "name": "São Tomé and Príncipe",
+      "area": "Africa"
+    },
+    {
+      "area": "Central America",
+      "name": "El Salvador",
+      "country": "sv",
+      "translations": [
+        {
+          "name": "El Salvador",
+          "area": "Central America",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "sx",
+      "name": "Sint Maarten",
+      "area": "Caribbean",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Sint Maarten",
+          "area": "Caribbean"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Syria",
+          "area": "Middle East"
+        }
+      ],
+      "country": "sy",
+      "name": "Syria",
+      "area": "Middle East"
+    },
+    {
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Swaziland",
+          "language": "en"
+        }
+      ],
+      "country": "sz",
+      "name": "Swaziland",
+      "area": "Africa"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Turks & Caicos Islands"
+        }
+      ],
+      "name": "Turks & Caicos Islands",
+      "area": "Caribbean",
+      "country": "tc"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Chad"
+        }
+      ],
+      "country": "td",
+      "area": "Africa",
+      "name": "Chad"
+    },
+    {
+      "translations": [
+        {
+          "name": "Togo",
+          "area": "Africa",
+          "language": "en"
+        }
+      ],
+      "name": "Togo",
+      "area": "Africa",
+      "country": "tg"
+    },
+    {
+      "translations": [
+        {
+          "area": "Asia",
+          "name": "Thailand",
+          "language": "en"
+        }
+      ],
+      "area": "Asia",
+      "name": "Thailand",
+      "country": "th"
+    },
+    {
+      "area": "Asia",
+      "name": "Tajikistan",
+      "country": "tj",
+      "translations": [
+        {
+          "name": "Tajikistan",
+          "area": "Asia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "tl",
+      "name": "East Timor",
+      "area": "Asia",
+      "translations": [
+        {
+          "language": "en",
+          "name": "East Timor",
+          "area": "Asia"
+        }
+      ]
+    },
+    {
+      "area": "Asia",
+      "name": "Turkmenistan",
+      "country": "tm",
+      "translations": [
+        {
+          "area": "Asia",
+          "name": "Turkmenistan",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Tunisia",
+          "language": "en"
+        }
+      ],
+      "name": "Tunisia",
+      "area": "Africa",
+      "country": "tn"
+    },
+    {
+      "translations": [
+        {
+          "area": "Oceania",
+          "name": "Tonga",
+          "language": "en"
+        }
+      ],
+      "country": "to",
+      "area": "Oceania",
+      "name": "Tonga"
+    },
+    {
+      "name": "Turkey",
+      "area": "Europe",
+      "country": "tr",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Turkey"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Trinidad and Tobago"
+        }
+      ],
+      "country": "tt",
+      "area": "Caribbean",
+      "name": "Trinidad and Tobago"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Oceania",
+          "name": "Tuvalu"
+        }
+      ],
+      "country": "tv",
+      "area": "Oceania",
+      "name": "Tuvalu"
+    },
+    {
+      "name": "Taiwan",
+      "area": "Asia",
+      "country": "tw",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Asia",
+          "name": "Taiwan"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "name": "Tanzania",
+          "area": "Africa",
+          "language": "en"
+        }
+      ],
+      "country": "tz",
+      "area": "Africa",
+      "name": "Tanzania"
+    },
+    {
+      "name": "Ukraine",
+      "area": "Europe",
+      "country": "ua",
+      "translations": [
+        {
+          "name": "Ukraine",
+          "area": "Europe",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Uganda",
+      "area": "Africa",
+      "country": "ug",
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Uganda",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "us",
+      "name": "USA",
+      "area": "North America",
+      "translations": [
+        {
+          "language": "en",
+          "area": "North America",
+          "name": "USA"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "South America",
+          "name": "Uruguay"
+        }
+      ],
+      "country": "uy",
+      "area": "South America",
+      "name": "Uruguay"
+    },
+    {
+      "name": "Uzbekistan",
+      "area": "Asia",
+      "country": "uz",
+      "translations": [
+        {
+          "area": "Asia",
+          "name": "Uzbekistan",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Caribbean",
+      "name": "Saint Vincent & Grenadines",
+      "country": "vc",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Caribbean",
+          "name": "Saint Vincent & Grenadines"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Venezuela",
+          "area": "South America"
+        }
+      ],
+      "name": "Venezuela",
+      "area": "South America",
+      "country": "ve"
+    },
+    {
+      "name": "UK Virgin Islands",
+      "area": "Caribbean",
+      "country": "vg",
+      "translations": [
+        {
+          "language": "en",
+          "name": "UK Virgin Islands",
+          "area": "Caribbean"
+        }
+      ]
+    },
+    {
+      "name": "US Virgin Islands",
+      "area": "Caribbean",
+      "country": "vi",
+      "translations": [
+        {
+          "language": "en",
+          "name": "US Virgin Islands",
+          "area": "Caribbean"
+        }
+      ]
+    },
+    {
+      "country": "vn",
+      "area": "Asia",
+      "name": "Vietnam",
+      "translations": [
+        {
+          "name": "Vietnam",
+          "area": "Asia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Vanuatu",
+      "area": "Oceania",
+      "country": "vu",
+      "translations": [
+        {
+          "name": "Vanuatu",
+          "area": "Oceania",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Oceania",
+          "name": "Samoa"
+        }
+      ],
+      "area": "Oceania",
+      "name": "Samoa",
+      "country": "ws"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Europe",
+          "name": "Abkhazia"
+        }
+      ],
+      "country": "xa",
+      "name": "Abkhazia",
+      "area": "Europe"
+    },
+    {
+      "country": "xc",
+      "area": "Europe",
+      "name": "Crimea",
+      "translations": [
+        {
+          "name": "Crimea",
+          "area": "Europe",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "area": "Europe",
+      "name": "Kosovo",
+      "country": "xk",
+      "translations": [
+        {
+          "name": "Kosovo",
+          "area": "Europe",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "yt",
+      "area": "Africa",
+      "name": "Mayotte",
+      "translations": [
+        {
+          "name": "Mayotte",
+          "area": "Africa",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "country": "za",
+      "area": "Africa",
+      "name": "South Africa",
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "South Africa"
+        }
+      ]
+    },
+    {
+      "translations": [
+        {
+          "area": "Africa",
+          "name": "Zambia",
+          "language": "en"
+        }
+      ],
+      "country": "zm",
+      "name": "Zambia",
+      "area": "Africa"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "area": "Africa",
+          "name": "Zimbabwe"
+        }
+      ],
+      "country": "zw",
+      "area": "Africa",
+      "name": "Zimbabwe"
+    }
+  ]
+}

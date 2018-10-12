@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "ruid": "UmFuZG9tSVYkc2RlIyh9YRnmQeqeCcPuk4PcaQgwsfj66jBptF6IZNmXSnQskYG4zjpEwU3hz/egxYH56I7MHpSOdQ2hwf74Z3BqFiH+Bdc="
+  },
+  "result": [
+    {
+      "name": "Apartments",
+      "hotel_type_id": 201,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Apartments"
+        }
+      ]
+    },
+    {
+      "hotel_type_id": 202,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Guest accommodation"
+        }
+      ],
+      "name": "Guest accommodation"
+    },
+    {
+      "name": "Hostels",
+      "translations": [
+        {
+          "name": "Hostels",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 203
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Hotels"
+        }
+      ],
+      "hotel_type_id": 204,
+      "name": "Hotels"
+    },
+    {
+      "hotel_type_id": 205,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Motels"
+        }
+      ],
+      "name": "Motels"
+    },
+    {
+      "translations": [
+        {
+          "name": "Resorts",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 206,
+      "name": "Resorts"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Residences"
+        }
+      ],
+      "hotel_type_id": 207,
+      "name": "Residences"
+    },
+    {
+      "hotel_type_id": 208,
+      "translations": [
+        {
+          "name": "Bed and breakfasts",
+          "language": "en"
+        }
+      ],
+      "name": "Bed and breakfasts"
+    },
+    {
+      "translations": [
+        {
+          "name": "Ryokans",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 209,
+      "name": "Ryokans"
+    },
+    {
+      "hotel_type_id": 210,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Farm stays"
+        }
+      ],
+      "name": "Farm stays"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Holiday parks"
+        }
+      ],
+      "hotel_type_id": 212,
+      "name": "Holiday parks"
+    },
+    {
+      "name": "Villas",
+      "hotel_type_id": 213,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Villas"
+        }
+      ]
+    },
+    {
+      "name": "Campsites",
+      "translations": [
+        {
+          "name": "Campsites",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 214
+    },
+    {
+      "name": "Boats",
+      "translations": [
+        {
+          "name": "Boats",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 215
+    },
+    {
+      "name": "Guest houses",
+      "hotel_type_id": 216,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Guest houses"
+        }
+      ]
+    },
+    {
+      "name": "Uncertain",
+      "hotel_type_id": 217
+    },
+    {
+      "name": "Inns",
+      "translations": [
+        {
+          "language": "en",
+          "name": "Inns"
+        }
+      ],
+      "hotel_type_id": 218
+    },
+    {
+      "hotel_type_id": 219,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Aparthotels"
+        }
+      ],
+      "name": "Aparthotels"
+    },
+    {
+      "translations": [
+        {
+          "language": "en",
+          "name": "Holiday homes"
+        }
+      ],
+      "hotel_type_id": 220,
+      "name": "Holiday homes"
+    },
+    {
+      "hotel_type_id": 221,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Lodges"
+        }
+      ],
+      "name": "Lodges"
+    },
+    {
+      "hotel_type_id": 222,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Homestays"
+        }
+      ],
+      "name": "Homestays"
+    },
+    {
+      "name": "Country houses",
+      "hotel_type_id": 223,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Country houses"
+        }
+      ]
+    },
+    {
+      "name": "Luxury tents",
+      "hotel_type_id": 224,
+      "translations": [
+        {
+          "language": "en",
+          "name": "Luxury tents"
+        }
+      ]
+    },
+    {
+      "hotel_type_id": 225,
+      "translations": [
+        {
+          "name": "Capsule hotels",
+          "language": "en"
+        }
+      ],
+      "name": "Capsule hotels"
+    },
+    {
+      "translations": [
+        {
+          "name": "Love hotels",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 226,
+      "name": "Love hotels"
+    },
+    {
+      "hotel_type_id": 227,
+      "translations": [
+        {
+          "name": "Riads",
+          "language": "en"
+        }
+      ],
+      "name": "Riads"
+    },
+    {
+      "translations": [
+        {
+          "name": "Chalets",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 228,
+      "name": "Chalets"
+    },
+    {
+      "name": "Condos",
+      "translations": [
+        {
+          "name": "Condos",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 229
+    },
+    {
+      "name": "Cottages",
+      "translations": [
+        {
+          "name": "Cottages",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 230
+    },
+    {
+      "hotel_type_id": 231,
+      "translations": [
+        {
+          "name": "Economy hotels",
+          "language": "en"
+        }
+      ],
+      "name": "Economy hotels"
+    },
+    {
+      "hotel_type_id": 232,
+      "translations": [
+        {
+          "name": "Gites",
+          "language": "en"
+        }
+      ],
+      "name": "Gites"
+    },
+    {
+      "name": "Health resorts",
+      "translations": [
+        {
+          "name": "Health resorts",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 233
+    },
+    {
+      "name": "Cruises",
+      "translations": [
+        {
+          "name": "Cruises",
+          "language": "en"
+        }
+      ],
+      "hotel_type_id": 234
+    },
+    {
+      "name": "Student accommodation",
+      "hotel_type_id": 235,
+      "translations": [
+        {
+          "name": "Student accommodation",
+          "language": "en"
+        }
+      ]
+    }
+  ]
+}

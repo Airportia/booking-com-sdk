@@ -4,6 +4,7 @@ namespace BookingCom\Tests\Models\District;
 
 use BookingCom\Models\District\District;
 use BookingCom\Models\Location;
+use BookingCom\Tests\__support\ArraysProvider;
 use PHPUnit\Framework\TestCase;
 
 class DistrictTest extends TestCase
@@ -54,5 +55,20 @@ class DistrictTest extends TestCase
         ]);
 
         $this->assertInstanceOf(Location::class, $district->getLocation());
+    }
+
+    /**
+     * @dataProvider arraysProvider
+     * @param $array
+     */
+    public function testBookingArrays($array): void
+    {
+        $this->expectNotToPerformAssertions();
+        District::fromArray($array);
+    }
+
+    public function arraysProvider(): array
+    {
+        return ArraysProvider::getItems(ArraysProvider::DISTRICTS);
     }
 }

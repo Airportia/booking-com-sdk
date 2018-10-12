@@ -12,6 +12,7 @@ use BookingCom\Models\Hotel\Hotel;
 use BookingCom\Models\Hotel\Photo;
 use BookingCom\Models\Hotel\Policy;
 use BookingCom\Models\Payment\PaymentDetail;
+use BookingCom\Tests\__support\ArraysProvider;
 use PHPUnit\Framework\TestCase;
 
 class HotelTest extends TestCase
@@ -179,6 +180,21 @@ class HotelTest extends TestCase
 
         $this->assertNotEmpty($hotel->getFacilities());
         $this->assertContainsOnlyInstancesOf(Facility::class, $hotel->getFacilities());
+    }
+
+    /**
+     * @dataProvider arraysProvider
+     * @param $array
+     */
+    public function testBookingArrays($array): void
+    {
+        $this->expectNotToPerformAssertions();
+        Hotel::fromArray($array);
+    }
+
+    public function arraysProvider(): array
+    {
+        return ArraysProvider::getItems(ArraysProvider::HOTELS);
     }
 
 }

@@ -3,6 +3,7 @@
 namespace BookingCom\Tests\Models\Room;
 
 use BookingCom\Models\Room\RoomFacilityType;
+use BookingCom\Tests\__support\ArraysProvider;
 use PHPUnit\Framework\TestCase;
 
 class RoomFacilityTypeTest extends TestCase
@@ -23,5 +24,20 @@ class RoomFacilityTypeTest extends TestCase
         $this->assertEquals(1, $roomFacilityType->getId());
         $this->assertEquals(7, $roomFacilityType->getFacilityTypeId());
         $this->assertEquals('boolean', $roomFacilityType->getType());
+    }
+
+    /**
+     * @dataProvider arraysProvider
+     * @param $array
+     */
+    public function testBookingArrays($array): void
+    {
+        $this->expectNotToPerformAssertions();
+        RoomFacilityType::fromArray($array);
+    }
+
+    public function arraysProvider(): array
+    {
+        return ArraysProvider::getItems(ArraysProvider::ROOM_FACILITY_TYPES);
     }
 }

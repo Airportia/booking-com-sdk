@@ -1,0 +1,342 @@
+{
+  "result": [
+    {
+      "name": "American Express",
+      "bookable": true,
+      "payment_id": 1
+    },
+    {
+      "name": "Visa",
+      "payment_id": 2,
+      "bookable": true
+    },
+    {
+      "payment_id": 3,
+      "bookable": true,
+      "name": "Euro/Mastercard"
+    },
+    {
+      "payment_id": 4,
+      "bookable": false,
+      "name": "Carte Bleue"
+    },
+    {
+      "name": "Diners Club",
+      "bookable": true,
+      "payment_id": 5
+    },
+    {
+      "name": "JCB",
+      "payment_id": 7,
+      "bookable": true
+    },
+    {
+      "payment_id": 8,
+      "bookable": false,
+      "name": "PIN"
+    },
+    {
+      "bookable": false,
+      "payment_id": 9,
+      "name": "Red 6000"
+    },
+    {
+      "bookable": false,
+      "payment_id": 10,
+      "name": "Maestro"
+    },
+    {
+      "payment_id": 11,
+      "bookable": true,
+      "name": "Discover"
+    },
+    {
+      "bookable": false,
+      "payment_id": 12,
+      "name": "Bancontact"
+    },
+    {
+      "name": "Solo",
+      "payment_id": 13,
+      "bookable": false
+    },
+    {
+      "bookable": true,
+      "payment_id": 14,
+      "name": "Switch"
+    },
+    {
+      "payment_id": 15,
+      "bookable": true,
+      "name": "Carte Blanche"
+    },
+    {
+      "bookable": false,
+      "payment_id": 16,
+      "name": "NICOS"
+    },
+    {
+      "name": "UC",
+      "payment_id": 17,
+      "bookable": false
+    },
+    {
+      "name": "No creditcards accepted, only cash",
+      "bookable": false,
+      "payment_id": 18
+    },
+    {
+      "bookable": false,
+      "payment_id": 19,
+      "name": "Bankcard"
+    },
+    {
+      "name": "CartaSi",
+      "payment_id": 21,
+      "bookable": false
+    },
+    {
+      "name": "Argencard",
+      "bookable": true,
+      "payment_id": 22
+    },
+    {
+      "bookable": false,
+      "payment_id": 23,
+      "name": "Cabal"
+    },
+    {
+      "bookable": false,
+      "payment_id": 25,
+      "name": "Red Compra"
+    },
+    {
+      "name": "Other Cards",
+      "payment_id": 26,
+      "bookable": false
+    },
+    {
+      "bookable": false,
+      "payment_id": 27,
+      "name": "Greatwall"
+    },
+    {
+      "name": "Peony",
+      "payment_id": 28,
+      "bookable": false
+    },
+    {
+      "payment_id": 29,
+      "bookable": false,
+      "name": "Dragon"
+    },
+    {
+      "payment_id": 30,
+      "bookable": true,
+      "name": "Pacific"
+    },
+    {
+      "name": "Jin Sui",
+      "payment_id": 31,
+      "bookable": false
+    },
+    {
+      "name": "Eftpos",
+      "bookable": false,
+      "payment_id": 32
+    },
+    {
+      "name": "Hipercard",
+      "payment_id": 34,
+      "bookable": true
+    },
+    {
+      "payment_id": 35,
+      "bookable": false,
+      "name": "UnionPay debit card"
+    },
+    {
+      "name": "UnionPay credit card",
+      "payment_id": 36,
+      "bookable": true
+    },
+    {
+      "bookable": false,
+      "payment_id": 37,
+      "name": "EC-Card"
+    },
+    {
+      "bookable": false,
+      "payment_id": 38,
+      "name": "BC-Card"
+    },
+    {
+      "bookable": false,
+      "payment_id": 41,
+      "name": "KH Széchényi Pihenõkártya"
+    },
+    {
+      "name": "MKB Széchényi Pihenõkártya",
+      "payment_id": 42,
+      "bookable": false
+    },
+    {
+      "name": "OTP Széchényi Pihenõkártya",
+      "payment_id": 43,
+      "bookable": false
+    },
+    {
+      "bookable": true,
+      "payment_id": 44,
+      "name": "UnionPay credit card"
+    },
+    {
+      "payment_id": 45,
+      "bookable": false,
+      "name": "Cash"
+    },
+    {
+      "payment_id": 46,
+      "bookable": false,
+      "name": "PayPal"
+    },
+    {
+      "name": "Cheque (domestic only)",
+      "bookable": false,
+      "payment_id": 47
+    },
+    {
+      "name": "ANCV chèques-vacances",
+      "bookable": false,
+      "payment_id": 48
+    },
+    {
+      "name": "PayPlug",
+      "bookable": false,
+      "payment_id": 49
+    },
+    {
+      "name": "Euro 6000",
+      "bookable": false,
+      "payment_id": 50
+    },
+    {
+      "name": "Postepay",
+      "payment_id": 51,
+      "bookable": false
+    },
+    {
+      "payment_id": 52,
+      "bookable": false,
+      "name": "Sistema 4B"
+    },
+    {
+      "name": "PagSeguro",
+      "payment_id": 53,
+      "bookable": false
+    },
+    {
+      "bookable": true,
+      "payment_id": 54,
+      "name": "Elo Creditcard"
+    },
+    {
+      "name": "Bcash",
+      "payment_id": 55,
+      "bookable": false
+    },
+    {
+      "name": "Interac e-Transfer",
+      "bookable": false,
+      "payment_id": 56
+    },
+    {
+      "bookable": false,
+      "payment_id": 57,
+      "name": "M-Pesa"
+    },
+    {
+      "bookable": false,
+      "payment_id": 58,
+      "name": "Knet"
+    },
+    {
+      "name": "Western Union",
+      "bookable": false,
+      "payment_id": 59
+    },
+    {
+      "bookable": false,
+      "payment_id": 60,
+      "name": "Apple Pay"
+    },
+    {
+      "bookable": false,
+      "payment_id": 61,
+      "name": "Square Cash"
+    },
+    {
+      "payment_id": 62,
+      "bookable": false,
+      "name": "iDeal"
+    },
+    {
+      "bookable": false,
+      "payment_id": 63,
+      "name": "BankAxept"
+    },
+    {
+      "name": "Reka-Check",
+      "payment_id": 64,
+      "bookable": false
+    },
+    {
+      "bookable": false,
+      "payment_id": 65,
+      "name": "Paysera.com"
+    },
+    {
+      "name": "BankLink",
+      "bookable": false,
+      "payment_id": 66
+    },
+    {
+      "name": "Alipay",
+      "payment_id": 67,
+      "bookable": false
+    },
+    {
+      "name": "Tenpay",
+      "bookable": false,
+      "payment_id": 68
+    },
+    {
+      "name": "Lastschrift",
+      "payment_id": 69,
+      "bookable": false
+    },
+    {
+      "payment_id": 70,
+      "bookable": false,
+      "name": "Sadad"
+    },
+    {
+      "payment_id": 71,
+      "bookable": false,
+      "name": "Qiwi"
+    },
+    {
+      "bookable": false,
+      "payment_id": 72,
+      "name": "AirPlus"
+    },
+    {
+      "bookable": false,
+      "payment_id": 73,
+      "name": "Virtual Credit Card"
+    }
+  ],
+  "meta": {
+    "ruid": "UmFuZG9tSVYkc2RlIyh9YRnmQeqeCcPuigDDmtkaVndQ0sY5w2CwHxmtbV9Xy6n8mQQ2n6Xt9JGfpb/L7NKzlALAsnbSlMD3AlqQJS7G/Y4="
+  }
+}

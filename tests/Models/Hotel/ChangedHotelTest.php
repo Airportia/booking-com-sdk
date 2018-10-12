@@ -3,6 +3,7 @@
 namespace BookingCom\Tests\Models\Hotel;
 
 use BookingCom\Models\Hotel\ChangedHotel;
+use BookingCom\Tests\__support\ArraysProvider;
 use PHPUnit\Framework\TestCase;
 
 class ChangedHotelTest extends TestCase
