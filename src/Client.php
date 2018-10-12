@@ -4,6 +4,8 @@ namespace BookingCom;
 
 use BookingCom\Models\City\City;
 use BookingCom\Models\Region\Region;
+use BookingCom\Queries\CitiesQuery;
+use BookingCom\Queries\RegionsQuery;
 
 class Client
 {
@@ -23,22 +25,37 @@ class Client
     }
 
     /**
+     * @param RegionsQuery $query
      * @return Region[]
      */
-    public function getRegions(): array
+    public function getRegions(RegionsQuery $query = null): array
     {
-        return array_map(function (array $regionArray) {
-            return Region::fromArray($regionArray);
-        }, $this->connection->execute('/regions'));
+        return $this->runQuery('/regions', Region::class, $query);
     }
 
     /**
+     * @param CitiesQuery|null $query
      * @return City[]
      */
-    public function getCities(): array
+    public function getCities(CitiesQuery $query = null): array
     {
-        return array_map(function (array $regionArray) {
-            return City::fromArray($regionArray);
-        }, $this->connection->execute('/cities'));
+        return $this->runQuery('/cities', City::class, $query);
+    }
+
+    /**
+     * @param QueryObject $query
+     * @return array
+     */
+    private function getQueryParams(QueryObject $query = null): array
+    {
+        return $query === null ? [] : $query->toArray();
+    }
+
+    private function runQuery(string $uri, string $targetClass, QueryObject $query = null): array
+    {
+        $params = $this->getQueryParams($query);
+        return array_map(function (array $modelArray) use ($targetClass) {
+            return \call_user_func([$targetClass, 'fromArray'], $modelArray);
+        }, $this->connection->execute($uri, $params));
     }
 }

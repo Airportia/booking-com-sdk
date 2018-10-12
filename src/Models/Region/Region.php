@@ -31,7 +31,7 @@ class Region extends BookingObject
      * @param string $regionType
      * @param string $country
      */
-    public function __construct(int $id, string $name, string $regionType, string $country)
+    public function __construct(int $id, string $name, string $regionType, ?string $country)
     {
         $this->name       = $name;
         $this->id         = $id;

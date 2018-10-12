@@ -7,6 +7,8 @@ use BookingCom\Client;
 use BookingCom\Connection;
 use BookingCom\Models\City\City;
 use BookingCom\Models\Region\Region;
+use BookingCom\Queries\CitiesQuery;
+use BookingCom\Queries\RegionsQuery;
 use PHPUnit\Framework\TestCase;
 
 class ClientTest extends TestCase
@@ -25,12 +27,9 @@ class ClientTest extends TestCase
             ],
         ]);
 
-        $regions = $client->getRegions();
+        $regions = $client->getRegions((new RegionsQuery())->setRows(1));
         $this->assertNotEmpty($regions);
-
-        foreach ($regions as $region) {
-            $this->assertInstanceOf(Region::class, $region);
-        }
+        $this->assertContainsOnlyInstancesOf(Region::class, $regions);
     }
 
     /**
@@ -55,15 +54,13 @@ class ClientTest extends TestCase
             ],
         ]);
 
-        $cities = $client->getCities();
+        $cities = $client->getCities((new CitiesQuery())->setRows(1));
 
-        foreach ($cities as $city) {
-            $this->assertInstanceOf(City::class, $city);
-        }
+        $this->assertNotEmpty($cities);
+        $this->assertContainsOnlyInstancesOf(City::class, $cities);
     }
 
     /**
-     * @param $method
      * @param $response
      * @return Client
      */

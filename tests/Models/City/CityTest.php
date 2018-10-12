@@ -5,6 +5,7 @@ namespace BookingCom\Tests\Models\City;
 use BookingCom\Models\City\City;
 use BookingCom\Models\City\Timezone;
 use BookingCom\Models\Location;
+use BookingCom\Tests\__support\ArraysProvider;
 use PHPUnit\Framework\TestCase;
 
 class CityTest extends TestCase
@@ -61,5 +62,18 @@ class CityTest extends TestCase
         $this->assertInstanceOf(Timezone::class, $city->getTimezone());
     }
 
+    /**
+     * @dataProvider arraysProvider
+     * @param $array
+     */
+    public function testBookingArrays($array): void
+    {
+        $this->expectNotToPerformAssertions();
+        City::fromArray($array);
+    }
 
+    public function arraysProvider(): array
+    {
+        return ArraysProvider::getItems(ArraysProvider::CITIES);
+    }
 }
