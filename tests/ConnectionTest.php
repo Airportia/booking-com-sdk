@@ -7,6 +7,7 @@
 namespace BookingCom\Tests;
 
 
+use BookingCom\Connection;
 use BookingCom\ConnectionException;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
@@ -27,6 +28,13 @@ class ConnectionTest extends TestCase
         $request = $container[0]['request'];
         $authValue = 'Basic ' . base64_encode('login:password');
         $this->assertEquals($authValue, $request->getHeaderLine('Authorization'));
+    }
+
+    public function testCredentialsIsRequired(): void
+    {
+        $this->expectException(ConnectionException::class);
+        $this->expectExceptionMessage('Login and password are required');
+        new Connection([]);
     }
 
     public function testExecute(): void
@@ -106,7 +114,7 @@ class ConnectionTest extends TestCase
         $stack->push(Middleware::history($container));
 
         $client = new Client(['handler' => $stack]);
-        return new \BookingCom\Connection('login', 'password', $client);
+        return new \BookingCom\Connection(['login' => 'login', 'password' => 'password'], $client);
     }
 
 }

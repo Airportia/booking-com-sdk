@@ -9,14 +9,6 @@ namespace BookingCom;
 class Connection
 {
     /**
-     * @var string
-     */
-    private $login;
-    /**
-     * @var string
-     */
-    private $password;
-    /**
      * @var \GuzzleHttp\Client
      */
     private $client;
@@ -28,18 +20,22 @@ class Connection
      * @param \GuzzleHttp\Client $client
      */
     private const API_URL = 'https://distribution-xml.booking.com/2.2';
+    /**
+     * @var array
+     */
+    private $config;
 
-    public function __construct(string $login, string $password, \GuzzleHttp\Client $client = null)
+    public function __construct(array $config, \GuzzleHttp\Client $client = null)
     {
-        $this->login = $login;
-        $this->password = $password;
-        $this->client = $client ?? $this->createClient();
+        $this->validateCredentials($config);
+        $this->config = $this->setDefaults($config);
+        $this->client = $client ?? $this->createClient($this->config);
     }
 
     public function execute(string $uri, array $params = [])
     {
         try {
-            $options = $this->getOptions($params);
+            $options = $this->getRequestOptions($params);
             $response = $this->getClient()->get($uri, $options);
             $this->checkResponse($response);
             return $this->parseResponse($response->getBody()->getContents());
@@ -48,21 +44,21 @@ class Connection
         }
     }
 
-    private function getClient()
+    private function getClient(): \GuzzleHttp\Client
     {
         return $this->client;
     }
 
-    private function createClient()
+    private function createClient(array $config): \GuzzleHttp\Client
     {
-        return new \GuzzleHttp\Client(['base_url' => self::API_URL]);
+        return new \GuzzleHttp\Client($config);
     }
 
-    private function getOptions(array $params)
+    private function getRequestOptions(array $params): array
     {
         return [
             'query' => $params,
-            'auth' => [$this->login, $this->password],
+            'auth' => [$this->config['login'], $this->config['password']],
             'http_errors' => false,
         ];
     }
@@ -85,5 +81,20 @@ class Connection
         }
 
         return $array['result'];
+    }
+
+    private function setDefaults(array $config): array
+    {
+        return array_merge([
+            'base_url' => self::API_URL,
+            'timeout' => 5,
+        ], $config);
+    }
+
+    private function validateCredentials(array $config): void
+    {
+        if (!isset($config['login'], $config['password'])) {
+            throw new ConnectionException('Login and password are required');
+        }
     }
 }
