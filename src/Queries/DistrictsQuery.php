@@ -3,59 +3,58 @@
 namespace BookingCom\Queries;
 
 
-use BookingCom\Queries\Conditions\SetCondition;
-use BookingCom\Queries\Conditions\WhereInCondition;
-use BookingCom\Queries\Conditions\WithCondition;
+use BookingCom\Queries\QueryFields\SetQueryField;
+use BookingCom\Queries\QueryFields\WhereInQueryField;
+use BookingCom\Queries\QueryFields\WithQueryField;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\Queries\Validators\OneOfValidator;
-use BookingCom\QueryObject;
 
 /**
- * @method $this whereIdIn(array $values)
- * @method $this whereTypeIn(array $values)
- * @method $this whereCityIn(array $values)
+ * @method $this whereDistrictIdsIn(array $values)
+ * @method $this whereDistrictTypesIn(array $values)
+ * @method $this whereCityIdsIn(array $values)
+ * @method $this whereCountriesIn(array $values)
  * @method $this setOffset(int $value)
  * @method $this setRows(int $value)
- * @method $this whereCountryIn(array $values)
  * @method $this withLocation()
  */
-class DistrictsQuery extends QueryObject
+class DistrictsQuery extends AbstractQuery
 {
     public const DISTRICT_TYPES = ['free', 'official'];
 
     /**
      * @return array
      */
-    protected function rules(): array
+    protected function fields(): array
     {
         return [
             'district_ids'   => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'city_ids'       => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'countries'      => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [CountryValidator::class],
             ],
             'district_types' => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [OneOfValidator::class, ['values' => self::DISTRICT_TYPES]],
             ],
             'offset'         => [
-                'operation' => [SetCondition::class],
+                'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'rows'           => [
-                'operation' => [SetCondition::class],
+                'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'extras'         => [
-                'operation' => [WithCondition::class, ['values' => ['location']]],
+                'operation' => [WithQueryField::class, ['values' => ['location']]],
             ],
         ];
     }

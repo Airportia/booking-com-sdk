@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Payment;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class PaymentType extends BookingObject
+class PaymentType extends AbstractModel
 {
     /** @var integer */
     private $id;

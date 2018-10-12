@@ -6,9 +6,7 @@
 
 namespace BookingCom\Models;
 
-use BookingCom\BookingObject;
-
-class AutoTag extends BookingObject
+class AutoTag extends AbstractModel
 {
     private $id;
     private $name;

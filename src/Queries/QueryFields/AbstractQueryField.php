@@ -1,10 +1,10 @@
 <?php
 
-namespace BookingCom;
+namespace BookingCom\Queries\QueryFields;
 
 use BookingCom\Queries\Validators\ValidatorObject;
 
-abstract class ConditionObject
+abstract class AbstractQueryField
 {
     /**
      * @var ValidatorObject
@@ -28,9 +28,10 @@ abstract class ConditionObject
     abstract protected function getMethodNames(): array;
 
     /**
-     * @param mixed $values
+     * @param        $values
+     * @param string $methodName
      */
-    abstract public function setValue($values): void;
+    abstract public function setValue($values, string $methodName): void;
 
     /**
      * @return mixed
@@ -43,8 +44,6 @@ abstract class ConditionObject
      */
     public function matchMethod(string $methodName): bool
     {
-        $this->methodName = $methodName;
-
         return \in_array($methodName, $this->getMethodNames(), true);
     }
 
@@ -67,13 +66,5 @@ abstract class ConditionObject
     public function getFieldName(): string
     {
         return $this->fieldName;
-    }
-
-    /**
-     * @return string
-     */
-    public function getMethodName(): string
-    {
-        return $this->methodName;
     }
 }

@@ -1,15 +1,15 @@
 <?php
 
-namespace Queries\Conditions;
+namespace Queries\QueryFields;
 
-use BookingCom\Queries\Conditions\WithCondition;
+use BookingCom\Queries\QueryFields\WithQueryField;
 use PHPUnit\Framework\TestCase;
 
-class WithConditionTest extends TestCase
+class WithQueryFieldTest extends TestCase
 {
     public function testMatchMethod(): void
     {
-        $rule = new WithCondition('extras', null, ['location', 'timezone']);
+        $rule = new WithQueryField('extras', null, ['location', 'timezone']);
         $this->assertEquals('extras', $rule->getFieldName());
         $this->assertTrue($rule->matchMethod('withLocation'));
         $this->assertTrue($rule->matchMethod('withTimezone'));
@@ -17,9 +17,9 @@ class WithConditionTest extends TestCase
 
     public function testValue(): void
     {
-        $rule = new WithCondition('extras', null, ['location', 'timezone']);
+        $rule = new WithQueryField('extras', null, ['location', 'timezone']);
         $rule->matchMethod('withLocation');
-        $rule->setValue();
+        $rule->setValue(null, 'withLocation');
         $this->assertEquals('location', $rule->getValue());
     }
 }

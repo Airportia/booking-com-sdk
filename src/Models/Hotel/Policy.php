@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Hotel;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class Policy extends BookingObject
+class Policy extends AbstractModel
 {
     /**
      * @var string

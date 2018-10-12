@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Room;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class RoomInfo extends BookingObject
+class RoomInfo extends AbstractModel
 {
     /**
      * @var bool

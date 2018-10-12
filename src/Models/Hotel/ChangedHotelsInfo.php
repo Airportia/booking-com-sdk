@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Hotel;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class ChangedHotelsInfo extends BookingObject
+class ChangedHotelsInfo extends AbstractModel
 {
     /** @var  array */
     private $closedHotels;

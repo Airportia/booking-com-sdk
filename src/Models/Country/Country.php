@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Country;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class Country extends BookingObject
+class Country extends AbstractModel
 {
     /** @var  string */
     private $name;

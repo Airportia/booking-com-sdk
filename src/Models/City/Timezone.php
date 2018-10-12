@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\City;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class Timezone extends BookingObject
+class Timezone extends AbstractModel
 {
     /** @var int */
     private $offset;

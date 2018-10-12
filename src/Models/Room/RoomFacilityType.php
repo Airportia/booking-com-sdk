@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Room;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class RoomFacilityType extends BookingObject
+class RoomFacilityType extends AbstractModel
 {
     /** @var  string */
     private $name;

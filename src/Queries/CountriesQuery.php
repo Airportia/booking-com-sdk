@@ -3,35 +3,34 @@
 namespace BookingCom\Queries;
 
 
-use BookingCom\Queries\Conditions\SetCondition;
-use BookingCom\Queries\Conditions\WhereInCondition;
+use BookingCom\Queries\QueryFields\SetQueryField;
+use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
-use BookingCom\QueryObject;
 
 /**
  * @method $this whereCountriesIn(array $values)
  * @method $this setOffset(int $value)
  * @method $this setRows(int $value)
  */
-class CountriesQuery extends QueryObject
+class CountriesQuery extends AbstractQuery
 {
     /**
      * @return array
      */
-    protected function rules(): array
+    protected function fields(): array
     {
         return [
             'countries' => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [CountryValidator::class],
             ],
             'offset' => [
-                'operation' => [SetCondition::class],
+                'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'rows'   => [
-                'operation' => [SetCondition::class],
+                'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
         ];

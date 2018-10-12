@@ -3,34 +3,33 @@
 namespace BookingCom\Queries;
 
 
-use BookingCom\Queries\Conditions\SetCondition;
-use BookingCom\Queries\Conditions\WhereInCondition;
+use BookingCom\Queries\QueryFields\SetQueryField;
+use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\Validators\IntegerValidator;
-use BookingCom\QueryObject;
 
 /**
  * @method $this whereHotelTypeIdsIn(array $values)
  * @method $this setOffset(int $value)
  * @method $this setRows(int $value)
  */
-class HotelTypesQuery extends QueryObject
+class HotelTypesQuery extends AbstractQuery
 {
     /**
      * @return array
      */
-    protected function rules(): array
+    protected function fields(): array
     {
         return [
             'hotel_type_ids' => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'offset'         => [
-                'operation' => [SetCondition::class],
+                'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'rows'           => [
-                'operation' => [SetCondition::class],
+                'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
         ];

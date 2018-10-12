@@ -1,11 +1,10 @@
 <?php
 
-namespace BookingCom\Queries\Conditions;
+namespace BookingCom\Queries\QueryFields;
 
-use BookingCom\ConditionObject;
 use BookingCom\Queries\Validators\ValidatorObject;
 
-class WhereInCondition extends ConditionObject
+class WhereInQueryField extends AbstractQueryField
 {
 
     /**
@@ -39,10 +38,12 @@ class WhereInCondition extends ConditionObject
     }
 
     /**
-     * @param mixed $values
+     * @param        $values
+     * @param string $methodName
      */
-    public function setValue($values): void
+    public function setValue($values, string $methodName): void
     {
+        $this->methodName = $methodName;
         if ($this->validator !== null) {
             $this->validator->assertValues($values);
         }

@@ -3,23 +3,22 @@
 namespace BookingCom\Queries;
 
 
-use BookingCom\Queries\Conditions\WhereInCondition;
+use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\Validators\IntegerValidator;
-use BookingCom\QueryObject;
 
 /**
  * @method $this wherePaymentIdsIn(array $values)
  */
-class PaymentTypesQuery extends QueryObject
+class PaymentTypesQuery extends AbstractQuery
 {
     /**
      * @return array
      */
-    protected function rules(): array
+    protected function fields(): array
     {
         return [
             'payment_ids' => [
-                'operation'    => [WhereInCondition::class],
+                'operation'    => [WhereInQueryField::class],
                 'validator'    => [IntegerValidator::class],
             ],
         ];

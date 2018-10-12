@@ -6,9 +6,9 @@
 
 namespace BookingCom\Models\Room;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class BedConfiguration extends BookingObject
+class BedConfiguration extends AbstractModel
 {
     private $bedTypes;
 

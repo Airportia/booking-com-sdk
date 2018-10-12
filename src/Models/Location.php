@@ -2,9 +2,7 @@
 
 namespace BookingCom\Models;
 
-use BookingCom\BookingObject;
-
-class Location extends BookingObject
+class Location extends AbstractModel
 {
 
     /** @var string */

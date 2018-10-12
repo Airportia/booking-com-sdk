@@ -3,12 +3,11 @@
 namespace BookingCom\Queries;
 
 
-use BookingCom\Queries\Conditions\SetCondition;
-use BookingCom\Queries\Conditions\WhereInCondition;
-use BookingCom\Queries\Conditions\WithCondition;
+use BookingCom\Queries\QueryFields\SetQueryField;
+use BookingCom\Queries\QueryFields\WhereInQueryField;
+use BookingCom\Queries\QueryFields\WithQueryField;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
-use BookingCom\QueryObject;
 
 /**
  * @method $this whereHotelIdsIn(array $values)
@@ -32,53 +31,53 @@ use BookingCom\QueryObject;
  * @method $this withRoomFacilities()
  * @method $this withHotelFacilities()
  */
-class HotelsQuery extends QueryObject
+class HotelsQuery extends AbstractQuery
 {
     /**
      * @return array
      */
-    protected function rules(): array
+    protected function fields(): array
     {
         return [
             'chain_ids'               => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'city_ids'                => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'country_ids'             => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [CountryValidator::class],
             ],
             'district_ids'            => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'hotel_facility_type_ids' => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'hotel_ids'               => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'region_ids'              => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'offset'                  => [
-                'operation' => [SetCondition::class],
+                'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'rows'                    => [
-                'operation' => [SetCondition::class],
+                'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'extras'                  => [
                 'operation' => [
-                    WithCondition::class,
+                    WithQueryField::class,
                     [
                         'values' => [
                             'hotel_policies',

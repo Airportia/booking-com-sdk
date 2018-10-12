@@ -6,7 +6,9 @@
 
 namespace BookingCom\Models\Hotel;
 
-class Times
+use BookingCom\Models\AbstractModel;
+
+class Times extends AbstractModel
 {
     /**
      * @var null|string

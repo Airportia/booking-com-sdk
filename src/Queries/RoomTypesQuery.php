@@ -2,23 +2,22 @@
 
 namespace BookingCom\Queries;
 
-use BookingCom\Queries\Conditions\WhereInCondition;
+use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\Validators\IntegerValidator;
-use BookingCom\QueryObject;
 
 /**
  * @method $this whereRoomTypeIdsIn(array $values)
  */
-class RoomTypesQuery extends QueryObject
+class RoomTypesQuery extends AbstractQuery
 {
     /**
      * @return array
      */
-    protected function rules(): array
+    protected function fields(): array
     {
         return [
             'room_type_ids' => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
         ];

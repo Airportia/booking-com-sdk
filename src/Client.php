@@ -16,6 +16,7 @@ use BookingCom\Models\Payment\PaymentType;
 use BookingCom\Models\Region\Region;
 use BookingCom\Models\Room\RoomFacilityType;
 use BookingCom\Models\Room\RoomType;
+use BookingCom\Queries\AbstractQuery;
 use BookingCom\Queries\ChainTypesQuery;
 use BookingCom\Queries\CitiesQuery;
 use BookingCom\Queries\CountriesQuery;
@@ -179,15 +180,15 @@ class Client
     }
 
     /**
-     * @param QueryObject $query
+     * @param AbstractQuery $query
      * @return array
      */
-    private function getQueryParams(QueryObject $query = null): array
+    private function getQueryParams(AbstractQuery $query = null): array
     {
         return $query === null ? [] : $query->toArray();
     }
 
-    private function runQuery(string $uri, string $targetClass, QueryObject $query = null): array
+    private function runQuery(string $uri, string $targetClass, AbstractQuery $query = null): array
     {
         $params = $this->getQueryParams($query);
         return array_map(function (array $modelArray) use ($targetClass) {

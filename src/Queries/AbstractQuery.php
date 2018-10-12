@@ -1,11 +1,12 @@
 <?php
 
-namespace BookingCom;
+namespace BookingCom\Queries;
 
 
+use BookingCom\Queries\QueryFields\AbstractQueryField;
 use BookingCom\Queries\Validators\ValidatorObject;
 
-abstract class QueryObject
+abstract class AbstractQuery
 {
     /** @var  array */
     private $rules;
@@ -13,7 +14,7 @@ abstract class QueryObject
     /**
      * @return array
      */
-    abstract protected function rules(): array;
+    abstract protected function fields(): array;
 
     /**
      * @return array
@@ -33,14 +34,14 @@ abstract class QueryObject
     /**
      * @param $method
      * @param $arguments
-     * @return QueryObject
+     * @return AbstractQuery
      */
     public function __call($method, $arguments): self
     {
         $rules = $this->getRules();
         foreach ($rules as $rule) {
             if ($rule->matchMethod($method)) {
-                $rule->setValue($arguments[0] ?? null);
+                $rule->setValue($arguments[0] ?? null, $method);
             }
         }
 
@@ -49,13 +50,13 @@ abstract class QueryObject
 
 
     /**
-     * @return ConditionObject[]|null
+     * @return AbstractQueryField[]|null
      */
     private function getRules(): ? array
     {
         if ($this->rules === null) {
             $this->rules = [];
-            foreach ($this->rules() as $field => $ruleArray) {
+            foreach ($this->fields() as $field => $ruleArray) {
                 if (isset($ruleArray['validator'])) {
                     /** @var ValidatorObject $validator */
                     $validator = new $ruleArray['validator'][0]($ruleArray['validator'][1]['values'] ?? null);

@@ -2,10 +2,10 @@
 
 namespace BookingCom\Models\District;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 use BookingCom\Models\Location;
 
-class District extends BookingObject
+class District extends AbstractModel
 {
     /** @var  string */
     private $name;

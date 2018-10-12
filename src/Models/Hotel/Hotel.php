@@ -2,11 +2,11 @@
 
 namespace BookingCom\Models\Hotel;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 use BookingCom\Models\Payment\PaymentDetail;
 use BookingCom\Models\Room\Room;
 
-class Hotel extends BookingObject
+class Hotel extends AbstractModel
 {
     /** @var  integer */
     private $id;

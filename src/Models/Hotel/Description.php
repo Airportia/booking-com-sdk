@@ -6,9 +6,9 @@
 
 namespace BookingCom\Models\Hotel;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class Description extends BookingObject
+class Description extends AbstractModel
 {
     /**
      * @var string

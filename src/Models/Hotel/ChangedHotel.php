@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Hotel;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class ChangedHotel extends BookingObject
+class ChangedHotel extends AbstractModel
 {
     public const ROOM_PHOTOS_CHANGED = 'room_photos';
     public const ROOM_DESCRIPTION_CHANGED = 'room_description';

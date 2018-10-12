@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Region;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class Region extends BookingObject
+class Region extends AbstractModel
 {
     public const TYPE_ISLAND = 'island';
     public const TYPE_PROVINCE = 'province';

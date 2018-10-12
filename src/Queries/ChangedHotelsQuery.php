@@ -3,17 +3,16 @@
 namespace BookingCom\Queries;
 
 
-use BookingCom\Queries\Conditions\WhereInCondition;
+use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
-use BookingCom\QueryObject;
 
 /**
  * @method $this whereCityIdsIn(array $values)
  * @method $this whereCountriesIn(array $values)
  * @method $this whereRegionIdsIn(array $values)
  */
-class ChangedHotelsQuery extends QueryObject
+class ChangedHotelsQuery extends AbstractQuery
 {
     /**
      * @var \DateTime
@@ -33,19 +32,19 @@ class ChangedHotelsQuery extends QueryObject
     /**
      * @return array
      */
-    protected function rules(): array
+    protected function fields(): array
     {
         return [
             'city_ids' => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
             'countries' => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [CountryValidator::class],
             ],
             'region_ids' => [
-                'operation' => [WhereInCondition::class],
+                'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
         ];

@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Chain;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class ChainType extends BookingObject
+class ChainType extends AbstractModel
 {
     /** @var  integer */
     private $id;

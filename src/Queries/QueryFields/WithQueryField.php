@@ -1,18 +1,16 @@
 <?php
 
-namespace BookingCom\Queries\Conditions;
+namespace BookingCom\Queries\QueryFields;
 
-
-use BookingCom\ConditionObject;
 use BookingCom\Queries\Validators\ValidatorObject;
 
-class WithCondition extends ConditionObject
+class WithQueryField extends AbstractQueryField
 {
     /** @var array */
     private $values;
 
     /**
-     * WithCondition constructor.
+     * WithQueryField constructor.
      *
      * @param string          $fieldName
      * @param ValidatorObject $validator
@@ -26,13 +24,22 @@ class WithCondition extends ConditionObject
     }
 
     /**
-     * @param mixed $values
+     * @return string
      */
-    public function setValue($values = []): void
+    public function getMethodName(): string
     {
-        $value = $this->unCamelize($this->getMethodName());
+        return $this->methodName;
+    }
 
-        $this->value[] = $value;
+    /**
+     * @param array  $values
+     * @param string $methodName
+     */
+    public function setValue($values = [], string $methodName): void
+    {
+        $this->methodName = $methodName;
+        $value            = $this->unCamelize($this->getMethodName());
+        $this->value[]    = $value;
     }
 
     /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace BookingCom;
+namespace BookingCom\Models;
 
-abstract class BookingObject
+abstract class AbstractModel
 {
     /**
      * @param array $array
@@ -20,7 +20,7 @@ abstract class BookingObject
     {
         if (isset($array[$key])) {
             return array_map(function (array $internalArray) use ($className) {
-                /** @var BookingObject $className */
+                /** @var AbstractModel $className */
                 return $className::fromArray($internalArray);
             }, $array[$key]);
         }
@@ -29,7 +29,7 @@ abstract class BookingObject
 
     protected static function makeChildFromArray(array $array, string $className, string $key)
     {
-        /** @var BookingObject $className */
+        /** @var AbstractModel $className */
         return isset($array[$key]) ? $className::fromArray($array[$key]) : null;
     }
 }

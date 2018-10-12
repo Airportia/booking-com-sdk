@@ -2,9 +2,9 @@
 
 namespace BookingCom\Models\Hotel;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class HotelThemeType extends BookingObject
+class HotelThemeType extends AbstractModel
 {
     /** @var  integer */
     private $id;

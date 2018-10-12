@@ -6,9 +6,9 @@
 
 namespace BookingCom\Models\Room;
 
-use BookingCom\BookingObject;
+use BookingCom\Models\AbstractModel;
 
-class Room extends BookingObject
+class Room extends AbstractModel
 {
 
     /**
