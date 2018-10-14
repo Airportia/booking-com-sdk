@@ -10,15 +10,15 @@ class SetQueryFieldTest extends TestCase
 {
     public function testMatchMethod(): void
     {
-        $rule = new SetQueryField('offset');
+        $rule = new SetQueryField('offset', null);
         $this->assertEquals('offset', $rule->getFieldName());
         $this->assertTrue($rule->matchMethod('setOffset'));
     }
 
     public function testValue(): void
     {
-        $rule = new SetQueryField('offset');
-        $rule->setValue(5, 'withOffset');
+        $rule = new SetQueryField('offset', null);
+        $rule->setValue('setOffset', 5);
         $this->assertEquals(5, $rule->getValue());
     }
 
@@ -26,6 +26,6 @@ class SetQueryFieldTest extends TestCase
     {
         $rule = new SetQueryField('offset', new IntegerValidator());
         $this->expectException(\InvalidArgumentException::class);
-        $rule->setValue('6', 'withOffset');
+        $rule->setValue('setOffset', '6');
     }
 }

@@ -4,7 +4,7 @@ namespace BookingCom\Queries\Validators;
 
 use Webmozart\Assert\Assert;
 
-class IntegerValidator extends ValidatorObject
+class IntegerValidator extends AbstractValidator
 {
     /**
      * @param $values
@@ -16,5 +16,10 @@ class IntegerValidator extends ValidatorObject
         } else {
             Assert::integer($values);
         }
+    }
+
+    public static function make(array $params): AbstractValidator
+    {
+        return new self();
     }
 }

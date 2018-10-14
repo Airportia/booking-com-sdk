@@ -2,7 +2,7 @@
 
 namespace BookingCom\Queries\QueryFields;
 
-use BookingCom\Queries\Validators\ValidatorObject;
+use BookingCom\Queries\Validators\AbstractValidator;
 
 class SetQueryField extends AbstractQueryField
 {
@@ -10,10 +10,10 @@ class SetQueryField extends AbstractQueryField
     /**
      * SetQueryField constructor.
      *
-     * @param string               $fieldName
-     * @param ValidatorObject|null $validator
+     * @param string                 $fieldName
+     * @param AbstractValidator|null $validator
      */
-    public function __construct(string $fieldName, ValidatorObject $validator = null)
+    public function __construct(string $fieldName, ?AbstractValidator $validator)
     {
         $this->fieldName = $fieldName;
         $this->validator = $validator;
@@ -30,16 +30,15 @@ class SetQueryField extends AbstractQueryField
     }
 
     /**
-     * @param mixed  $values
+     * @param mixed  $value
      * @param string $methodName
      */
-    public function setValue($values, string $methodName): void
+    public function setValue(string $methodName, $value = null): void
     {
-        $this->methodName = $methodName;
         if ($this->validator !== null) {
-            $this->validator->assertValues($values);
+            $this->validator->assertValues($value);
         }
-        $this->value = $values;
+        $this->value = $value;
     }
 
     /**
@@ -48,5 +47,10 @@ class SetQueryField extends AbstractQueryField
     public function getValue()
     {
         return $this->value;
+    }
+
+    public static function make(array $params): AbstractQueryField
+    {
+        return new self($params['fieldName'], $params['validator'] ?? null);
     }
 }

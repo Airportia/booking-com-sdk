@@ -2,8 +2,6 @@
 
 namespace BookingCom\Queries\QueryFields;
 
-use BookingCom\Queries\Validators\ValidatorObject;
-
 class WithQueryField extends AbstractQueryField
 {
     /** @var array */
@@ -12,34 +10,23 @@ class WithQueryField extends AbstractQueryField
     /**
      * WithQueryField constructor.
      *
-     * @param string          $fieldName
-     * @param ValidatorObject $validator
-     * @param array           $values
+     * @param string            $fieldName
+     * @param array             $values
      */
-    public function __construct(string $fieldName, ValidatorObject $validator = null, array $values)
+    public function __construct(string $fieldName, array $values)
     {
-        $this->values    = $values;
+        $this->values = $values;
         $this->fieldName = $fieldName;
-        $this->validator = $validator;
     }
 
     /**
-     * @return string
-     */
-    public function getMethodName(): string
-    {
-        return $this->methodName;
-    }
-
-    /**
-     * @param array  $values
+     * @param array  $value
      * @param string $methodName
      */
-    public function setValue($values = [], string $methodName): void
+    public function setValue(string $methodName, $value = null): void
     {
-        $this->methodName = $methodName;
-        $value            = $this->unCamelize($this->getMethodName());
-        $this->value[]    = $value;
+        $val = $this->unCamelize($methodName);
+        $this->value[] = $val;
     }
 
     /**
@@ -55,11 +42,11 @@ class WithQueryField extends AbstractQueryField
      */
     protected function getMethodNames(): array
     {
-        $values    = $this->getValues();
+        $values = $this->getValues();
         $camelized = [];
         foreach ($values as $value) {
             $camelizedValue = $this->camelize($value);
-            $camelized[]    = "with{$camelizedValue}";
+            $camelized[] = "with{$camelizedValue}";
         }
 
         return $camelized;
@@ -67,7 +54,7 @@ class WithQueryField extends AbstractQueryField
 
     private function unCamelize(string $method): string
     {
-        $array  = preg_split('#([A-Z][^A-Z]*)#', $method, null, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
+        $array = preg_split('#([A-Z][^A-Z]*)#', $method, null, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
         $sliced = \array_slice($array, 1);
         $sliced = array_map('lcfirst', $sliced);
 
@@ -80,5 +67,10 @@ class WithQueryField extends AbstractQueryField
     private function getValues(): array
     {
         return $this->values;
+    }
+
+    public static function make(array $params): AbstractQueryField
+    {
+        return new self($params['fieldName'], $params['values']);
     }
 }

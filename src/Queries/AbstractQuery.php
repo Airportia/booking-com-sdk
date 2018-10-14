@@ -3,12 +3,17 @@
 namespace BookingCom\Queries;
 
 use BookingCom\Queries\QueryFields\AbstractQueryField;
-use BookingCom\Queries\Validators\ValidatorObject;
+use BookingCom\Queries\Validators\AbstractValidator;
 
 abstract class AbstractQuery
 {
     /** @var  array */
-    private $rules;
+    private $fields;
+
+    public function __construct()
+    {
+        $this->fields = $this->makeFields();
+    }
 
     /**
      * @return array
@@ -21,9 +26,9 @@ abstract class AbstractQuery
     public function toArray(): array
     {
         $result = [];
-        foreach ($this->getRules() as $rule) {
-            if (($value = $rule->getValue()) !== null) {
-                $result[$rule->getFieldName()] = $value;
+        foreach ($this->fields as $field) {
+            if (($value = $field->getValue()) !== null) {
+                $result[$field->getFieldName()] = $value;
             }
         }
 
@@ -37,10 +42,9 @@ abstract class AbstractQuery
      */
     public function __call($method, $arguments): self
     {
-        $rules = $this->getRules();
-        foreach ($rules as $rule) {
-            if ($rule->matchMethod($method)) {
-                $rule->setValue($arguments[0] ?? null, $method);
+        foreach ($this->fields as $field) {
+            if ($field->matchMethod($method)) {
+                $field->setValue($method, $arguments[0] ?? null);
             }
         }
 
@@ -49,23 +53,29 @@ abstract class AbstractQuery
 
 
     /**
-     * @return AbstractQueryField[]|null
+     * @return AbstractQueryField[]
      */
-    private function getRules(): ? array
+    private function makeFields(): array
     {
-        if ($this->rules === null) {
-            $this->rules = [];
-            foreach ($this->fields() as $field => $ruleArray) {
-                if (isset($ruleArray['validator'])) {
-                    /** @var ValidatorObject $validator */
-                    $validator = new $ruleArray['validator'][0]($ruleArray['validator'][1]['values'] ?? null);
-                } else {
-                    $validator = null;
-                }
-                $this->rules[] = new $ruleArray['operation'][0]($field, $validator, $ruleArray['operation'][1]['values'] ?? null);
-            }
-        }
+        $fields = [];
+        foreach ($this->fields() as $fieldName => $fieldConfig) {
+            /** @var AbstractQueryField $fieldClass */
+            $fieldClass = $fieldConfig['operation'][0];
+            $fieldParams = $fieldConfig['operation'][1] ?? [];
 
-        return $this->rules;
+            /** @var AbstractValidator $validatorClass */
+            $validatorClass = $fieldConfig['validator'][0] ?? null;
+            $validatorParams = $fieldConfig['validator'][1] ?? [];
+
+            $validator = $validatorClass ? $validatorClass::make($validatorParams) : null;
+
+            if ($validator) {
+                $fieldParams['validator'] = $validator;
+            }
+            $fieldParams['fieldName'] = $fieldName;
+
+            $fields[] = $fieldClass::make($fieldParams);
+        }
+        return $fields;
     }
 }

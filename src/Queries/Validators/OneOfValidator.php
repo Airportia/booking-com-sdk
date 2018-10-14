@@ -4,7 +4,7 @@ namespace BookingCom\Queries\Validators;
 
 use Webmozart\Assert\Assert;
 
-class OneOfValidator extends ValidatorObject
+class OneOfValidator extends AbstractValidator
 {
     /** @var  array */
     private $allowedValues;
@@ -34,8 +34,13 @@ class OneOfValidator extends ValidatorObject
     /**
      * @return array
      */
-    public function getAllowedValues(): array
+    private function getAllowedValues(): array
     {
         return $this->allowedValues;
+    }
+
+    public static function make(array $params): AbstractValidator
+    {
+        return new self($params['values']);
     }
 }

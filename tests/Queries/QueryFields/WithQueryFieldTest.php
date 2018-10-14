@@ -9,7 +9,7 @@ class WithQueryFieldTest extends TestCase
 {
     public function testMatchMethod(): void
     {
-        $rule = new WithQueryField('extras', null, ['location', 'timezone']);
+        $rule = new WithQueryField('extras', ['location', 'timezone']);
         $this->assertEquals('extras', $rule->getFieldName());
         $this->assertTrue($rule->matchMethod('withLocation'));
         $this->assertTrue($rule->matchMethod('withTimezone'));
@@ -17,9 +17,11 @@ class WithQueryFieldTest extends TestCase
 
     public function testValue(): void
     {
-        $rule = new WithQueryField('extras', null, ['location', 'timezone']);
+        $rule = new WithQueryField('extras', ['location', 'timezone']);
         $rule->matchMethod('withLocation');
-        $rule->setValue(null, 'withLocation');
+        $rule->setValue('withLocation');
         $this->assertEquals('location', $rule->getValue());
+        $rule->setValue('withTimezone');
+        $this->assertEquals('location,timezone', $rule->getValue());
     }
 }

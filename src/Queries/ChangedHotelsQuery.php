@@ -25,6 +25,7 @@ class ChangedHotelsQuery extends AbstractQuery
      */
     public function __construct(\DateTime $lastChange)
     {
+        parent::__construct();
         $this->setLastChange($lastChange);
     }
 

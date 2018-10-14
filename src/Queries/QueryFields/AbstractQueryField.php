@@ -2,12 +2,12 @@
 
 namespace BookingCom\Queries\QueryFields;
 
-use BookingCom\Queries\Validators\ValidatorObject;
+use BookingCom\Queries\Validators\AbstractValidator;
 
 abstract class AbstractQueryField
 {
     /**
-     * @var ValidatorObject
+     * @var AbstractValidator
      */
     protected $validator;
 
@@ -19,19 +19,18 @@ abstract class AbstractQueryField
     /** @var array */
     protected $value;
 
-    /** @var  string */
-    protected $methodName;
-
     /**
      * @return array
      */
     abstract protected function getMethodNames(): array;
 
+    abstract public static function make(array $params): self;
+
     /**
-     * @param        $values
+     * @param        $value
      * @param string $methodName
      */
-    abstract public function setValue($values, string $methodName): void;
+    abstract public function setValue(string $methodName, $value = null): void;
 
     /**
      * @return mixed
@@ -54,8 +53,8 @@ abstract class AbstractQueryField
     protected function camelize(string $fieldName): string
     {
         $fieldName = strtolower($fieldName);
-        $words     = explode('_', $fieldName);
-        $words     = array_map('ucfirst', $words);
+        $words = explode('_', $fieldName);
+        $words = array_map('ucfirst', $words);
 
         return implode('', $words);
     }

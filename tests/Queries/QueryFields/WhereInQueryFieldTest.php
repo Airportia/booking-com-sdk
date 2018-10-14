@@ -10,15 +10,15 @@ class WhereInQueryFieldTest extends TestCase
 {
     public function testMatchMethod(): void
     {
-        $rule = new WhereInQueryField('cities_ids');
+        $rule = new WhereInQueryField('cities_ids', null);
         $this->assertEquals('cities_ids', $rule->getFieldName());
         $this->assertTrue($rule->matchMethod('whereCitiesIdsIn'));
     }
 
     public function testValue(): void
     {
-        $rule = new WhereInQueryField('cities_ids');
-        $rule->setValue([1, 2, 3], 'withCitiesIdsIn');
+        $rule = new WhereInQueryField('cities_ids', null);
+        $rule->setValue('withCitiesIdsIn', [1, 2, 3]);
         $this->assertEquals('1,2,3', $rule->getValue());
     }
 
@@ -26,6 +26,6 @@ class WhereInQueryFieldTest extends TestCase
     {
         $rule = new WhereInQueryField('cities_ids', new IntegerValidator());
         $this->expectException(\InvalidArgumentException::class);
-        $rule->setValue([1, 'aaa', 3], 'withCitiesIdsIn');
+        $rule->setValue('withCitiesIdsIn', [1, 'aaa', 3]);
     }
 }
