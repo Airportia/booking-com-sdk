@@ -62,7 +62,7 @@ abstract class AbstractQueryField
     /**
      * @return string
      */
-    public function getFieldName(): string
+    public function getName(): string
     {
         return $this->fieldName;
     }

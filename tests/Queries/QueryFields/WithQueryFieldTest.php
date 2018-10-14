@@ -10,7 +10,7 @@ class WithQueryFieldTest extends TestCase
     public function testMatchMethod(): void
     {
         $rule = new WithQueryField('extras', ['location', 'timezone']);
-        $this->assertEquals('extras', $rule->getFieldName());
+        $this->assertEquals('extras', $rule->getName());
         $this->assertTrue($rule->matchMethod('withLocation'));
         $this->assertTrue($rule->matchMethod('withTimezone'));
     }

@@ -28,7 +28,7 @@ abstract class AbstractQuery
         $result = [];
         foreach ($this->fields as $field) {
             if (($value = $field->getValue()) !== null) {
-                $result[$field->getFieldName()] = $value;
+                $result[$field->getName()] = $value;
             }
         }
 

@@ -11,7 +11,7 @@ class WhereInQueryFieldTest extends TestCase
     public function testMatchMethod(): void
     {
         $rule = new WhereInQueryField('cities_ids', null);
-        $this->assertEquals('cities_ids', $rule->getFieldName());
+        $this->assertEquals('cities_ids', $rule->getName());
         $this->assertTrue($rule->matchMethod('whereCitiesIdsIn'));
     }
 

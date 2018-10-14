@@ -11,7 +11,7 @@ class SetQueryFieldTest extends TestCase
     public function testMatchMethod(): void
     {
         $rule = new SetQueryField('offset', null);
-        $this->assertEquals('offset', $rule->getFieldName());
+        $this->assertEquals('offset', $rule->getName());
         $this->assertTrue($rule->matchMethod('setOffset'));
     }
 
