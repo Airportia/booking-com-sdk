@@ -2,7 +2,6 @@
 
 namespace BookingCom\Tests\Queries;
 
-
 use BookingCom\Queries\CitiesQuery;
 use PHPUnit\Framework\TestCase;
 

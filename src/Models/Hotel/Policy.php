@@ -22,6 +22,9 @@ class Policy extends AbstractModel
 
     /**
      * Policy constructor.
+     * @param string $name
+     * @param string $content
+     * @param string $type
      */
     public function __construct(string $name, string $content, string $type)
     {

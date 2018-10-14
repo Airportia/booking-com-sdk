@@ -17,5 +17,4 @@ class TimezoneTest extends TestCase
         $this->assertEquals(2, $timezone->getOffset());
         $this->assertEquals('Europe/Amsterdam', $timezone->getName());
     }
-
 }

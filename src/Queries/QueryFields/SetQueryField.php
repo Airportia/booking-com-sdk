@@ -49,5 +49,4 @@ class SetQueryField extends AbstractQueryField
     {
         return $this->value;
     }
-
 }

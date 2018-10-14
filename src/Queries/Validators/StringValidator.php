@@ -2,7 +2,6 @@
 
 namespace BookingCom\Queries\Validators;
 
-
 use Webmozart\Assert\Assert;
 
 class StringValidator extends ValidatorObject
@@ -11,5 +10,4 @@ class StringValidator extends ValidatorObject
     {
         Assert::allString($values);
     }
-
 }

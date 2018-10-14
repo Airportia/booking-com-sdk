@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Models\Hotel;
 
-
 use PHPUnit\Framework\TestCase;
 
 class TimesTest extends TestCase
@@ -25,5 +24,4 @@ class TimesTest extends TestCase
         $this->assertEquals('12:00', $times->getCheckOutTo());
         $this->assertEquals(null, $times->getCheckInTo());
     }
-
 }

@@ -14,8 +14,10 @@ class AutoTag extends AbstractModel
 
     /**
      * AutoTag constructor.
+     * @param $id
+     * @param $name
      */
-    public function __construct($id, $name)
+    public function __construct(string $id, string $name)
     {
         $this->id = $id;
         $this->name = $name;

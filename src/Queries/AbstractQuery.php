@@ -2,7 +2,6 @@
 
 namespace BookingCom\Queries;
 
-
 use BookingCom\Queries\QueryFields\AbstractQueryField;
 use BookingCom\Queries\Validators\ValidatorObject;
 

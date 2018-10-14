@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Models;
 
-
 use BookingCom\Models\AutoTag;
 use PHPUnit\Framework\TestCase;
 
@@ -22,5 +21,4 @@ class AutoTagTest extends TestCase
         $this->assertEquals('Name', $tag->getName());
         $this->assertEquals(1, $tag->getId());
     }
-
 }

@@ -2,7 +2,6 @@
 
 namespace BookingCom\Queries;
 
-
 use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
@@ -60,6 +59,4 @@ class ChangedHotelsQuery extends AbstractQuery
     {
         return array_merge(['last_change' => $this->lastChange->format('Y-m-d H:i:s')], parent::toArray());
     }
-
-
 }

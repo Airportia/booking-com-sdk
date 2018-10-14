@@ -36,8 +36,9 @@ class Photo extends AbstractModel
 
     /**
      * HotelPhoto constructor.
-     * @param array    $urls
      * @param bool     $isMain
+     * @param bool     $isLogo
+     * @param array    $urls
      * @param string[] $tags
      * @param array    $autoTags
      */

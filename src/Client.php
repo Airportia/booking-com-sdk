@@ -2,20 +2,20 @@
 
 namespace BookingCom;
 
-use BookingCom\Models\Chain\ChainType;
-use BookingCom\Models\City\City;
-use BookingCom\Models\Country\Country;
-use BookingCom\Models\District\District;
-use BookingCom\Models\Facility\FacilityType;
-use BookingCom\Models\Hotel\ChangedHotelsInfo;
-use BookingCom\Models\Hotel\Hotel;
-use BookingCom\Models\Hotel\HotelFacilityType;
-use BookingCom\Models\Hotel\HotelThemeType;
-use BookingCom\Models\Hotel\HotelType;
-use BookingCom\Models\Payment\PaymentType;
-use BookingCom\Models\Region\Region;
-use BookingCom\Models\Room\RoomFacilityType;
-use BookingCom\Models\Room\RoomType;
+use BookingCom\Models\ChainType;
+use BookingCom\Models\ChangedHotels;
+use BookingCom\Models\City;
+use BookingCom\Models\Country;
+use BookingCom\Models\District;
+use BookingCom\Models\FacilityType;
+use BookingCom\Models\Hotel;
+use BookingCom\Models\HotelFacilityType;
+use BookingCom\Models\HotelThemeType;
+use BookingCom\Models\HotelType;
+use BookingCom\Models\PaymentType;
+use BookingCom\Models\Region;
+use BookingCom\Models\RoomFacilityType;
+use BookingCom\Models\RoomType;
 use BookingCom\Queries\AbstractQuery;
 use BookingCom\Queries\ChainTypesQuery;
 use BookingCom\Queries\CitiesQuery;
@@ -82,11 +82,11 @@ class Client
 
     /**
      * @param Queries\ChangedHotelsQuery $query
-     * @return ChangedHotelsInfo
+     * @return ChangedHotels
      */
-    public function getChangedHotelsInfo(Queries\ChangedHotelsQuery $query): ChangedHotelsInfo
+    public function getChangedHotelsInfo(Queries\ChangedHotelsQuery $query): ChangedHotels
     {
-        return ChangedHotelsInfo::fromArray($this->connection->execute('/changedHotels', $query->toArray()));
+        return ChangedHotels::fromArray($this->connection->execute('/changedHotels', $query->toArray()));
     }
 
     /**
@@ -109,7 +109,7 @@ class Client
 
     /**
      * @param FacilityTypesQuery $query
-     * @return FacilityType[]
+     * @return \BookingCom\Models\FacilityType[]
      */
     public function getFacilityTypes(FacilityTypesQuery $query = null): array
     {
@@ -118,7 +118,7 @@ class Client
 
     /**
      * @param HotelFacilityTypesQuery $query
-     * @return HotelFacilityType[]
+     * @return \BookingCom\Models\HotelFacilityType[]
      */
     public function getHotelFacilityTypes(HotelFacilityTypesQuery $query = null): array
     {
@@ -136,7 +136,7 @@ class Client
 
     /**
      * @param HotelThemeTypesQuery|null $query
-     * @return HotelThemeType[]
+     * @return \BookingCom\Models\HotelThemeType[]
      */
     public function getHotelThemeTypes(HotelThemeTypesQuery $query = null): array
     {
@@ -154,7 +154,7 @@ class Client
 
     /**
      * @param PaymentTypesQuery|null $query
-     * @return PaymentType[]
+     * @return \BookingCom\Models\PaymentType[]
      */
     public function getPaymentTypes(PaymentTypesQuery $query = null): array
     {
@@ -163,7 +163,7 @@ class Client
 
     /**
      * @param RoomFacilityTypesQuery|null $query
-     * @return RoomFacilityType[]
+     * @return \BookingCom\Models\RoomFacilityType[]
      */
     public function getRoomFacilityTypes(RoomFacilityTypesQuery $query = null): array
     {
@@ -172,7 +172,7 @@ class Client
 
     /**
      * @param RoomTypesQuery $query
-     * @return RoomType[]
+     * @return \BookingCom\Models\RoomType[]
      */
     public function getRoomTypes(RoomTypesQuery $query): array
     {

@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Models\Hotel;
 
-
 use PHPUnit\Framework\TestCase;
 
 class DescriptionTest extends TestCase
@@ -25,5 +24,4 @@ class DescriptionTest extends TestCase
         $this->assertEquals('Hotel Description', $description->getDescription());
         $this->assertEquals('license number', $description->getLicenseNumber());
     }
-
 }

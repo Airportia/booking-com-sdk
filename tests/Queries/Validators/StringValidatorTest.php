@@ -13,7 +13,9 @@ class StringValidatorTest extends TestCase
     public function testValidator(): void
     {
         $validator = new StringValidator();
+        $validator->assertValues(['test', 'string']);
 
-        $this->assertEquals(null, $validator->assertValues(['test', 'string']));
+        $this->expectException(\InvalidArgumentException::class);
+        $validator->assertValues(['test', 111]);
     }
 }

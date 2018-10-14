@@ -2,7 +2,6 @@
 
 namespace BookingCom\Queries\Validators;
 
-
 use Webmozart\Assert\Assert;
 
 class CountryValidator extends ValidatorObject

@@ -2,7 +2,6 @@
 
 namespace BookingCom\Queries;
 
-
 use BookingCom\Queries\QueryFields\SetQueryField;
 use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\Validators\CountryValidator;

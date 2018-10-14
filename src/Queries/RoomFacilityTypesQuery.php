@@ -2,7 +2,6 @@
 
 namespace BookingCom\Queries;
 
-
 use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\Queries\Validators\OneOfValidator;

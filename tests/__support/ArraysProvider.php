@@ -2,7 +2,6 @@
 
 namespace BookingCom\Tests\__support;
 
-
 class ArraysProvider
 {
     public const REGIONS = 'regions';

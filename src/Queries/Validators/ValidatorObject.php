@@ -2,7 +2,6 @@
 
 namespace BookingCom\Queries\Validators;
 
-
 abstract class ValidatorObject
 {
     /**

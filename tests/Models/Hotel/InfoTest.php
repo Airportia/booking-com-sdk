@@ -6,12 +6,11 @@
 
 namespace BookingCom\Tests\Models\Hotel;
 
-
 use PHPUnit\Framework\TestCase;
 
 class InfoTest extends TestCase
 {
-    public function test()
+    public function test(): void
     {
         $hotelInfo = \BookingCom\Models\Hotel\Info::fromArray([
             'currency' => 'EUR',
@@ -87,5 +86,4 @@ class InfoTest extends TestCase
         $this->assertEquals(145, $hotelInfo->getDistrictId());
         $this->assertEquals('Keizersgracht 164', $hotelInfo->getAddress());
     }
-
 }

@@ -30,17 +30,22 @@ class PhotoTest extends TestCase
             'is_logo_photo' => true,
         ]);
 
-        $this->assertEquals('https://q-xx.bstatic.com/xdata/images/hotel/max500/20934654.jpg',
-            $photo->getUrl());
-        $this->assertEquals('https://q-xx.bstatic.com/xdata/images/hotel/max300/20934654.jpg',
-            $photo->getUrl(Photo::SIZE_MAX_300));
-        $this->assertEquals('https://q-xx.bstatic.com/xdata/images/hotel/square60/20934654.jpg',
-            $photo->getUrl(Photo::SIZE_SQUARE_60));
+        $this->assertEquals(
+            'https://q-xx.bstatic.com/xdata/images/hotel/max500/20934654.jpg',
+            $photo->getUrl()
+        );
+        $this->assertEquals(
+            'https://q-xx.bstatic.com/xdata/images/hotel/max300/20934654.jpg',
+            $photo->getUrl(Photo::SIZE_MAX_300)
+        );
+        $this->assertEquals(
+            'https://q-xx.bstatic.com/xdata/images/hotel/square60/20934654.jpg',
+            $photo->getUrl(Photo::SIZE_SQUARE_60)
+        );
         $this->assertTrue($photo->isMain());
         $this->assertEquals(['Bedroom'], $photo->getTags());
         $this->assertNotEmpty($photo->getAutoTags());
         $this->assertTrue($photo->isLogo());
         $this->assertContainsOnlyInstancesOf(\BookingCom\Models\AutoTag::class, $photo->getAutoTags());
     }
-
 }

@@ -2,7 +2,6 @@
 
 namespace BookingCom\Queries\Validators;
 
-
 use Webmozart\Assert\Assert;
 
 class IntegerValidator extends ValidatorObject
@@ -18,5 +17,4 @@ class IntegerValidator extends ValidatorObject
             Assert::integer($values);
         }
     }
-
 }

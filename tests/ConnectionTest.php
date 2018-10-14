@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests;
 
-
 use BookingCom\Connection;
 use BookingCom\ConnectionException;
 use GuzzleHttp\Client;
@@ -40,8 +39,11 @@ class ConnectionTest extends TestCase
     public function testExecute(): void
     {
         $connection = $this->createConnection([
-            new Response(200, [],
-                '{"result":[{"hotel_id":10004}]}'),
+            new Response(
+                200,
+                [],
+                '{"result":[{"hotel_id":10004}]}'
+            ),
         ], $container);
 
         $connection->execute('endpoint', ['test' => 'test']);
@@ -56,8 +58,11 @@ class ConnectionTest extends TestCase
     public function testBadResponseFormat(): void
     {
         $connection = $this->createConnection([
-            new Response(200, [],
-                '{"meta":{"ruid":"UmFuZG9tSVYkc2RlIyh9YfTdkabS+Lcwtoq6CbJJI87BErJ+73uR6n0+BB/2j20MnHkUwBWmA2aVAKWaG1ZFCBr3QfkFdXpoyYTSfW1DsDk="},"aaa":[{"hotel_id":10004}]}'),
+            new Response(
+                200,
+                [],
+                '{"meta":{"ruid":"UmFuZG9tSVYkc2RlIyh9YfTdkabS+Lcwtoq6CbJJI87BErJ+73uR6n0+BB/2j20MnHkUwBWmA2aVAKWaG1ZFCBr3QfkFdXpoyYTSfW1DsDk="},"aaa":[{"hotel_id":10004}]}'
+            ),
         ], $container);
 
         $this->expectException(ConnectionException::class);
@@ -68,7 +73,7 @@ class ConnectionTest extends TestCase
     public function testTextError(): void
     {
         $connection = $this->createConnection([new Response(404)], $container);
-        $this->expectException(\BookingCom\ConnectionException::class);
+        $this->expectException(ConnectionException::class);
         $this->expectExceptionCode(404);
         $this->expectExceptionMessage('Bad response');
         $connection->execute('endpoint');
@@ -84,7 +89,7 @@ class ConnectionTest extends TestCase
                 ],
             ])),
         ], $container);
-        $this->expectException(\BookingCom\ConnectionException::class);
+        $this->expectException(ConnectionException::class);
         $this->expectExceptionCode(1009);
         $this->expectExceptionMessage('Some error message');
         $connection->execute('endpoint');
@@ -116,5 +121,4 @@ class ConnectionTest extends TestCase
         $client = new Client(['handler' => $stack]);
         return new \BookingCom\Connection(['login' => 'login', 'password' => 'password'], $client);
     }
-
 }

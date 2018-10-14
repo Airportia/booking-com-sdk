@@ -2,8 +2,6 @@
 
 namespace BookingCom\Tests\Queries\Validators;
 
-
-use BookingCom\Queries\DistrictsQuery;
 use BookingCom\Queries\Validators\OneOfValidator;
 use PHPUnit\Framework\TestCase;
 
@@ -14,9 +12,10 @@ class OneOfValidatorTest extends TestCase
      */
     public function testValidator(): void
     {
-        $validator = new OneOfValidator(DistrictsQuery::DISTRICT_TYPES);
+        $validator = new OneOfValidator(['free']);
+        $validator->assertValues(['free']);
 
-        $this->assertEquals(null, $validator->assertValues(['free']));
+        $this->expectException(\InvalidArgumentException::class);
+        $validator->assertValues(['free111']);
     }
-
 }
