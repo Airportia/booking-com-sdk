@@ -19,7 +19,7 @@ class Connection
      * @param string             $password
      * @param \GuzzleHttp\Client $client
      */
-    private const API_URL = 'https://distribution-xml.booking.com/2.2';
+    private const API_URL = 'https://distribution-xml.booking.com/2.2/';
     /**
      * @var array
      */

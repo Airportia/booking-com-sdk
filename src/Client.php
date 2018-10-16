@@ -59,7 +59,7 @@ class Client
      */
     public function getRegions(RegionsQuery $query = null): array
     {
-        return $this->runQuery('/regions', Region::class, $query);
+        return $this->runQuery('regions', Region::class, $query);
     }
 
     /**
@@ -68,7 +68,7 @@ class Client
      */
     public function getCities(CitiesQuery $query = null): array
     {
-        return $this->runQuery('/cities', City::class, $query);
+        return $this->runQuery('cities', City::class, $query);
     }
 
     /**
@@ -77,7 +77,7 @@ class Client
      */
     public function getChainTypes(ChainTypesQuery $query = null): array
     {
-        return $this->runQuery('/chainTypes', ChainType::class, $query);
+        return $this->runQuery('chainTypes', ChainType::class, $query);
     }
 
     /**
@@ -86,7 +86,7 @@ class Client
      */
     public function getChangedHotelsInfo(Queries\ChangedHotelsQuery $query): ChangedHotels
     {
-        return ChangedHotels::fromArray($this->connection->execute('/changedHotels', $query->toArray()));
+        return ChangedHotels::fromArray($this->connection->execute('changedHotels', $query->toArray()));
     }
 
     /**
@@ -95,7 +95,7 @@ class Client
      */
     public function getCountries(CountriesQuery $query = null): array
     {
-        return $this->runQuery('/countries', Country::class, $query);
+        return $this->runQuery('countries', Country::class, $query);
     }
 
     /**
@@ -104,7 +104,7 @@ class Client
      */
     public function getDistricts(DistrictsQuery $query = null): array
     {
-        return $this->runQuery('/districts', District::class, $query);
+        return $this->runQuery('districts', District::class, $query);
     }
 
     /**
@@ -113,7 +113,7 @@ class Client
      */
     public function getFacilityTypes(FacilityTypesQuery $query = null): array
     {
-        return $this->runQuery('/facilityTypes', FacilityType::class, $query);
+        return $this->runQuery('facilityTypes', FacilityType::class, $query);
     }
 
     /**
@@ -122,7 +122,7 @@ class Client
      */
     public function getHotelFacilityTypes(HotelFacilityTypesQuery $query = null): array
     {
-        return $this->runQuery('/hotelFacilityTypes', HotelFacilityType::class, $query);
+        return $this->runQuery('hotelFacilityTypes', HotelFacilityType::class, $query);
     }
 
     /**
@@ -131,7 +131,7 @@ class Client
      */
     public function getHotels(HotelsQuery $query = null): array
     {
-        return $this->runQuery('/hotels', Hotel::class, $query);
+        return $this->runQuery('hotels', Hotel::class, $query);
     }
 
     /**
@@ -140,7 +140,7 @@ class Client
      */
     public function getHotelThemeTypes(HotelThemeTypesQuery $query = null): array
     {
-        return $this->runQuery('/hotelThemeTypes', HotelThemeType::class, $query);
+        return $this->runQuery('hotelThemeTypes', HotelThemeType::class, $query);
     }
 
     /**
@@ -149,7 +149,7 @@ class Client
      */
     public function getHotelTypes(HotelTypesQuery $query = null): array
     {
-        return $this->runQuery('/hotelTypes', HotelType::class, $query);
+        return $this->runQuery('hotelTypes', HotelType::class, $query);
     }
 
     /**
@@ -158,7 +158,7 @@ class Client
      */
     public function getPaymentTypes(PaymentTypesQuery $query = null): array
     {
-        return $this->runQuery('/paymentTypes', PaymentType::class, $query);
+        return $this->runQuery('paymentTypes', PaymentType::class, $query);
     }
 
     /**
@@ -167,7 +167,7 @@ class Client
      */
     public function getRoomFacilityTypes(RoomFacilityTypesQuery $query = null): array
     {
-        return $this->runQuery('/roomFacilityTypes', RoomFacilityType::class, $query);
+        return $this->runQuery('roomFacilityTypes', RoomFacilityType::class, $query);
     }
 
     /**
@@ -176,7 +176,7 @@ class Client
      */
     public function getRoomTypes(RoomTypesQuery $query): array
     {
-        return $this->runQuery('/roomTypes', RoomType::class, $query);
+        return $this->runQuery('roomTypes', RoomType::class, $query);
     }
 
     /**
