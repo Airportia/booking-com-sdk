@@ -86,7 +86,7 @@ class Connection
     private function setDefaults(array $config): array
     {
         return array_merge([
-            'base_url' => self::API_URL,
+            'base_uri' => self::API_URL,
             'timeout' => 5,
         ], $config);
     }
