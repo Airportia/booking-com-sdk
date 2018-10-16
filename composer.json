@@ -1,4 +1,6 @@
 {
+  "name": "digitalbrands/booking-com-sdk",
+  "license": "MIT",
   "require": {
     "php": "^7.1",
     "guzzlehttp/guzzle": "^6.3",
