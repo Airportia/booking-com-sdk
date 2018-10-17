@@ -117,7 +117,7 @@ class Info extends AbstractModel
     private $themeIds;
 
     /**
-     * @var float
+     * @var float|null
      */
     private $reviewScore;
 
@@ -424,9 +424,9 @@ class Info extends AbstractModel
     }
 
     /**
-     * @return float
+     * @return float|null
      */
-    public function getReviewScore(): float
+    public function getReviewScore(): ?float
     {
         return $this->reviewScore;
     }
