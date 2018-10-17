@@ -136,7 +136,10 @@ class Hotel extends AbstractModel
         return $this->paymentDetails;
     }
 
-    public function getDescription(): ?Description
+    /**
+     * @return Description|null
+     */
+    public function getDescription(): ? Description
     {
         return $this->description;
     }
