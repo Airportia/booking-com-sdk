@@ -178,55 +178,81 @@ class Info extends AbstractModel
         bool $isClassIsEstimated,
         array $spokenLanguages,
         array $themeIds,
-        float $reviewScore,
+        ?float $reviewScore,
         int $maxPersonsInReservation,
         string $name,
         string $country,
         string $city,
         int $ranking,
-        ? int $districtId,
+        ?int $districtId,
         string $address
-    )
-    {
-        $this->currency                       = $currency;
-        $this->cityId                         = $cityId;
-        $this->class                          = $class;
-        $this->url                            = $url;
-        $this->zip                            = $zip;
-        $this->times                          = $times;
-        $this->isCreditCardRequired           = $isCreditCardRequired;
-        $this->numberOfRooms                  = $numberOfRooms;
-        $this->location                       = $location;
-        $this->numberOfReviews                = $numberOfReviews;
-        $this->deepLinkUrl                    = $deepLinkUrl;
-        $this->exactClass                     = $exactClass;
-        $this->hotelTypeId                    = $hotelTypeId;
+    ) {
+        $this->currency = $currency;
+        $this->cityId = $cityId;
+        $this->class = $class;
+        $this->url = $url;
+        $this->zip = $zip;
+        $this->times = $times;
+        $this->isCreditCardRequired = $isCreditCardRequired;
+        $this->numberOfRooms = $numberOfRooms;
+        $this->location = $location;
+        $this->numberOfReviews = $numberOfReviews;
+        $this->deepLinkUrl = $deepLinkUrl;
+        $this->exactClass = $exactClass;
+        $this->hotelTypeId = $hotelTypeId;
         $this->isBookDomesticWithoutCcDetails = $isBookDomesticWithoutCcDetails;
-        $this->isClosed                       = $isClosed;
-        $this->defaultLanguage                = $defaultLanguage;
-        $this->isPreferred                    = $isPreferred;
-        $this->maxRoomsInReservation          = $maxRoomsInReservation;
-        $this->isClassIsEstimated             = $isClassIsEstimated;
-        $this->spokenLanguages                = $spokenLanguages;
-        $this->themeIds                       = $themeIds;
-        $this->reviewScore                    = $reviewScore;
-        $this->maxPersonsInReservation        = $maxPersonsInReservation;
-        $this->name                           = $name;
-        $this->country                        = $country;
-        $this->city                           = $city;
-        $this->ranking                        = $ranking;
-        $this->districtId                     = $districtId;
-        $this->address                        = $address;
+        $this->isClosed = $isClosed;
+        $this->defaultLanguage = $defaultLanguage;
+        $this->isPreferred = $isPreferred;
+        $this->maxRoomsInReservation = $maxRoomsInReservation;
+        $this->isClassIsEstimated = $isClassIsEstimated;
+        $this->spokenLanguages = $spokenLanguages;
+        $this->themeIds = $themeIds;
+        $this->reviewScore = $reviewScore;
+        $this->maxPersonsInReservation = $maxPersonsInReservation;
+        $this->name = $name;
+        $this->country = $country;
+        $this->city = $city;
+        $this->ranking = $ranking;
+        $this->districtId = $districtId;
+        $this->address = $address;
     }
 
     public static function fromArray(array $array)
     {
-        return new self($array['currency'], $array['city_id'], $array['class'], $array['url'], $array['zip'],
-            self::makeChildFromArray($array, Times::class, 'checkin_checkout_times'), $array['creditcard_required'], $array['number_of_rooms'],
-            self::makeChildFromArray($array, Location::class, 'location'), $array['number_of_reviews'], $array['deep_link_url'], $array['exact_class'], $array['hotel_type_id'],
-            $array['book_domestic_without_cc_details'], $array['is_closed'], $array['default_language'], $array['preferred'], $array['max_rooms_in_reservation'],
-            $array['class_is_estimated'], $array['spoken_languages'], $array['theme_ids'], $array['review_score'], $array['max_persons_in_reservation'], $array['name'],
-            $array['country'], $array['city'], $array['ranking'], $array['district_id'], $array['address']);
+        $theme_ids = $array['theme_ids'] ?? [];
+
+        return new self(
+            $array['currency'],
+            $array['city_id'],
+            $array['class'],
+            $array['url'],
+            $array['zip'],
+            self::makeChildFromArray($array, Times::class, 'checkin_checkout_times'),
+            $array['creditcard_required'],
+            $array['number_of_rooms'],
+            self::makeChildFromArray($array, Location::class, 'location'),
+            $array['number_of_reviews'],
+            $array['deep_link_url'],
+            $array['exact_class'],
+            $array['hotel_type_id'],
+            $array['book_domestic_without_cc_details'],
+            $array['is_closed'],
+            $array['default_language'],
+            $array['preferred'],
+            $array['max_rooms_in_reservation'],
+            $array['class_is_estimated'],
+            $array['spoken_languages'],
+            $theme_ids,
+            $array['review_score'],
+            $array['max_persons_in_reservation'],
+            $array['name'],
+            $array['country'],
+            $array['city'],
+            $array['ranking'],
+            $array['district_id'],
+            $array['address']
+        );
     }
 
     /**
@@ -448,7 +474,7 @@ class Info extends AbstractModel
     /**
      * @return int|null
      */
-    public function getDistrictId(): ? int
+    public function getDistrictId(): ?int
     {
         return $this->districtId;
     }

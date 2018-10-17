@@ -41,7 +41,7 @@ class ClientTest extends TestCase
     public function testRegions(): void
     {
         $client = $this->createClient(
-            '/regions',
+            'regions',
             ['rows' => 1],
             '[{"country":"ar","region_type":"other","name":"Capital Federal","region_id":592,"translations":[{"language":"en","name":"Capital Federal"}]}]'
         );
@@ -57,7 +57,7 @@ class ClientTest extends TestCase
     public function testCities(): void
     {
         $client = $this->createClient(
-            '/cities',
+            'cities',
             ['rows' => 1],
             '[{"city_id":-3881514,"country":"pk","translations":[{"name":"Kary","language":"en"}],"nr_hotels":1,"name":"Kary"}]'
         );
@@ -70,7 +70,7 @@ class ClientTest extends TestCase
 
     public function testChainTypes(): void
     {
-        $client = $this->createClient('/chainTypes', ['rows' => 1], '[{"name":"Campanile","chain_id":1018}]');
+        $client = $this->createClient('chainTypes', ['rows' => 1], '[{"name":"Campanile","chain_id":1018}]');
 
         $models = $client->getChainTypes((new ChainTypesQuery())->setRows(1));
 
@@ -83,7 +83,7 @@ class ClientTest extends TestCase
         $date = new \DateTime();
 
         $client = $this->createClient(
-            '/changedHotels',
+            'changedHotels',
             ['last_change' => $date->format('Y-m-d H:i:s')],
             '{"closed_hotels": [111, 222, 333], "changed_hotels": [{"hotel_id": 4146774, "changes": ["hotel_photos", "room_description", "room_facilities", "room_photos", "room_info", "hotel_facilities", "hotel_info", "payment_types", "hotel_description"]}]}'
         );
@@ -96,7 +96,7 @@ class ClientTest extends TestCase
     public function testCountries(): void
     {
         $client = $this->createClient(
-            '/countries',
+            'countries',
             ['rows' => 1],
             '[{"country":"ad","translations":[{"language":"en","name":"Andorra","area":"Europe"}],"area":"Europe","name":"Andorra"}]'
         );
@@ -110,7 +110,7 @@ class ClientTest extends TestCase
     public function testDistricts(): void
     {
         $client = $this->createClient(
-            '/districts',
+            'districts',
             ['rows' => 1],
             '[{"country":"fr","nr_hotels":192,"district_id":1,"name":"1st arr.","city_id":-1456928,"translations":[{"name":"1st arr.","language":"en"}]}]'
         );
@@ -124,7 +124,7 @@ class ClientTest extends TestCase
     public function testFacilityTypes(): void
     {
         $client = $this->createClient(
-            '/facilityTypes',
+            'facilityTypes',
             ['facility_type_ids' => 1],
             '[{"translations":[{"name":"General","language":"en"}],"facility_type_id":1,"name":"General"}]'
         );
@@ -138,7 +138,7 @@ class ClientTest extends TestCase
     public function testHotelFacilityTypes(): void
     {
         $client = $this->createClient(
-            '/hotelFacilityTypes',
+            'hotelFacilityTypes',
             ['facility_type_ids' => 1],
             '[{"type":"boolean","translations":[{"language":"en","name":"Parking"}],"facility_type_id":1,"hotel_facility_type_id":2,"name":"Parking"}]'
         );
@@ -151,7 +151,7 @@ class ClientTest extends TestCase
 
     public function testHotels(): void
     {
-        $client = $this->createClient('/hotels', ['chain_ids' => 1], '[{"hotel_id":10004}]');
+        $client = $this->createClient('hotels', ['chain_ids' => 1], '[{"hotel_id":10004}]');
 
         $models = $client->getHotels((new HotelsQuery())->whereChainIdsIn([1]));
 
@@ -161,7 +161,7 @@ class ClientTest extends TestCase
 
     public function testHotelThemeTypes(): void
     {
-        $client = $this->createClient('/hotelThemeTypes', ['rows' => 1], '[{"name":"Spa/Relax","theme_id":3}]');
+        $client = $this->createClient('hotelThemeTypes', ['rows' => 1], '[{"name":"Spa/Relax","theme_id":3}]');
 
         $models = $client->getHotelThemeTypes((new HotelThemeTypesQuery())->setRows(1));
 
@@ -172,7 +172,7 @@ class ClientTest extends TestCase
     public function testHotelTypes(): void
     {
         $client = $this->createClient(
-            '/hotelTypes',
+            'hotelTypes',
             ['rows' => 1],
             '[{"translations":[{"name":"Apartments","language":"en"}],"name":"Apartments","hotel_type_id":201}]'
         );
@@ -186,7 +186,7 @@ class ClientTest extends TestCase
     public function testPaymentTypes(): void
     {
         $client = $this->createClient(
-            '/paymentTypes',
+            'paymentTypes',
             ['payment_ids' => 1],
             '[{"payment_id":1,"name":"American Express","bookable":true}]'
         );
@@ -200,7 +200,7 @@ class ClientTest extends TestCase
     public function testRoomFacilityTypes(): void
     {
         $client = $this->createClient(
-            '/roomFacilityTypes',
+            'roomFacilityTypes',
             ['facility_type_ids' => 1],
             '[{"type":"boolean","room_facility_type_id":1,"name":"Tea/Coffee Maker","facility_type_id":7,"translations":[{"language":"en","name":"Tea/Coffee Maker"}]}]'
         );
@@ -214,7 +214,7 @@ class ClientTest extends TestCase
     public function testRoomTypes(): void
     {
         $client = $this->createClient(
-            '/roomTypes',
+            'roomTypes',
             ['room_type_ids' => 1],
             '[{"translations":[{"language":"en","name":"Apartment"}],"room_type_id":1,"name":"Apartment"}]'
         );
