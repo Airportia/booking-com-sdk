@@ -42794,6 +42794,431 @@
         "hotel_important_information": "",
         "name": "Margarita Studios Ambelas"
       }
+    },
+    {
+      "room_data": [
+        {
+          "room_facilities": [
+            {
+              "name": "Tea/Coffee Maker",
+              "room_facility_type_id": 1
+            },
+            {
+              "room_facility_type_id": 4,
+              "name": "Shower"
+            },
+            {
+              "room_facility_type_id": 11,
+              "name": "Air conditioning"
+            },
+            {
+              "name": "Hairdryer",
+              "room_facility_type_id": 12
+            },
+            {
+              "name": "Kitchenette",
+              "room_facility_type_id": 16
+            },
+            {
+              "room_facility_type_id": 17,
+              "name": "Balcony"
+            },
+            {
+              "room_facility_type_id": 22,
+              "name": "Refrigerator"
+            },
+            {
+              "room_facility_type_id": 23,
+              "name": "Desk"
+            },
+            {
+              "room_facility_type_id": 25,
+              "name": "Ironing Facilities"
+            },
+            {
+              "name": "Free toiletries",
+              "room_facility_type_id": 27
+            },
+            {
+              "room_facility_type_id": 31,
+              "name": "Toilet"
+            },
+            {
+              "name": "Washing Machine",
+              "room_facility_type_id": 34
+            },
+            {
+              "name": "Patio",
+              "room_facility_type_id": 37
+            },
+            {
+              "name": "Private bathroom",
+              "room_facility_type_id": 38
+            },
+            {
+              "room_facility_type_id": 39,
+              "name": "Extra Long Beds (> 2 metres)"
+            },
+            {
+              "name": "Interconnected room(s) available",
+              "room_facility_type_id": 73
+            },
+            {
+              "room_facility_type_id": 80,
+              "name": "Tile/Marble floor"
+            },
+            {
+              "room_facility_type_id": 81,
+              "name": "View"
+            },
+            {
+              "room_facility_type_id": 85,
+              "name": "Dining area"
+            },
+            {
+              "name": "Electric kettle",
+              "room_facility_type_id": 86
+            },
+            {
+              "name": "Kitchenware",
+              "room_facility_type_id": 89
+            },
+            {
+              "room_facility_type_id": 95,
+              "name": "Wardrobe/Closet"
+            },
+            {
+              "room_facility_type_id": 97,
+              "name": "Stovetop"
+            },
+            {
+              "room_facility_type_id": 98,
+              "name": "Toaster"
+            },
+            {
+              "room_facility_type_id": 99,
+              "name": "Barbecue"
+            },
+            {
+              "room_facility_type_id": 108,
+              "name": "Sea view"
+            },
+            {
+              "room_facility_type_id": 109,
+              "name": "Lake view"
+            },
+            {
+              "name": "Garden view",
+              "room_facility_type_id": 110
+            },
+            {
+              "room_facility_type_id": 116,
+              "name": "Cleaning products"
+            },
+            {
+              "room_facility_type_id": 120,
+              "name": "Coffee machine"
+            },
+            {
+              "room_facility_type_id": 121,
+              "name": "City view"
+            },
+            {
+              "room_facility_type_id": 123,
+              "name": "Terrace"
+            },
+            {
+              "name": "Towels",
+              "room_facility_type_id": 124
+            },
+            {
+              "name": "Linen",
+              "room_facility_type_id": 125
+            },
+            {
+              "name": "Dining table",
+              "room_facility_type_id": 126
+            },
+            {
+              "name": "Outdoor furniture",
+              "room_facility_type_id": 129
+            },
+            {
+              "name": "Outdoor dining area",
+              "room_facility_type_id": 130
+            },
+            {
+              "name": "Drying rack for clothing",
+              "room_facility_type_id": 140
+            },
+            {
+              "name": "Toilet paper",
+              "room_facility_type_id": 141
+            },
+            {
+              "name": "Children's cots/cribs",
+              "room_facility_type_id": 175
+            },
+            {
+              "room_facility_type_id": 180,
+              "name": "Shower cap"
+            },
+            {
+              "room_facility_type_id": 184,
+              "name": "Socket near the bed"
+            },
+            {
+              "room_facility_type_id": 205,
+              "name": "Reading light"
+            },
+            {
+              "room_facility_type_id": 207,
+              "name": "Privacy curtain"
+            }
+          ],
+          "room_photos": null,
+          "room_id": 419509601,
+          "room_name": "Double Room with Balcony",
+          "room_description": "This double room has a balcony, tea/coffee maker and kitchenware.",
+          "room_info": {
+            "bookable": false,
+            "min_price": 50.0,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "configuration_id": 1,
+                    "description": "181-210 cm wide",
+                    "count": "1",
+                    "description_imperial": "71-82 inches wide",
+                    "name": "Extra-large double bed(s) (Super-king size)"
+                  }
+                ]
+              }
+            ],
+            "ranking": 0,
+            "bedroom_count": 0.0,
+            "max_persons": 2,
+            "room_type": "Double",
+            "bathroom_count": 0,
+            "room_size": {
+              "metre_square": 36.0
+            },
+            "max_price": 50.0,
+            "room_type_id": 9
+          }
+        }
+      ],
+      "hotel_data": {
+        "name": "Hotel Aglaia",
+        "zip": "70200",
+        "hotel_policies": [
+          {
+            "type": "POLICY_HOTEL_INTERNET",
+            "content": "WiFi is available in all areas and is free of charge.\n",
+            "name": "Internet"
+          },
+          {
+            "type": "POLICY_HOTEL_PARKING",
+            "content": "Free private parking is possible on site (reservation is not needed).\n",
+            "name": "Parking"
+          },
+          {
+            "content": "Pets are allowed. No extra charges.\n",
+            "type": "POLICY_HOTEL_PETS",
+            "name": "Pets"
+          },
+          {
+            "name": "Children and Extra Bed Policy",
+            "type": "POLICY_CHILDREN",
+            "content": "All children are welcome.\nAll children under 2 years stay free of charge for children's cots/cribs.\nAll children under 12 years stay free of charge for extra beds.\nAll further older children or adults stay free of charge for extra beds.\nThe maximum number of extra beds in a room is 1.\n"
+          }
+        ],
+        "hotel_type_id": 203,
+        "hotel_photos": [
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217565.jpg?k=c284457d761d7629fd9acafde21c3ab35250ae52712051222be0fd30790b3fe1&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217565.jpg?k=c284457d761d7629fd9acafde21c3ab35250ae52712051222be0fd30790b3fe1&o=",
+            "main_photo": true,
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217565.jpg?k=c284457d761d7629fd9acafde21c3ab35250ae52712051222be0fd30790b3fe1&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217584.jpg?k=e37d2e84c6ead322aebbb3442769c7a6a2cf8555228bb0263efce6f6617c2dd0&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217584.jpg?k=e37d2e84c6ead322aebbb3442769c7a6a2cf8555228bb0263efce6f6617c2dd0&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217584.jpg?k=e37d2e84c6ead322aebbb3442769c7a6a2cf8555228bb0263efce6f6617c2dd0&o="
+          },
+          {
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217586.jpg?k=2d7e9cb9c9e82ad935df1dba68a5c7a94b264c3cc906f9eed5408241dc231048&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217586.jpg?k=2d7e9cb9c9e82ad935df1dba68a5c7a94b264c3cc906f9eed5408241dc231048&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217586.jpg?k=2d7e9cb9c9e82ad935df1dba68a5c7a94b264c3cc906f9eed5408241dc231048&o="
+          },
+          {
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217588.jpg?k=fff8b89416bfd98197dc11e15638b3fcfb6a9d1d81271403e1f13c9028d6de6d&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217588.jpg?k=fff8b89416bfd98197dc11e15638b3fcfb6a9d1d81271403e1f13c9028d6de6d&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217588.jpg?k=fff8b89416bfd98197dc11e15638b3fcfb6a9d1d81271403e1f13c9028d6de6d&o="
+          },
+          {
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217589.jpg?k=b0b5da8a721714932286aec5e512ea4ba3cbda86e08b658c89f18a555d9efbc3&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217589.jpg?k=b0b5da8a721714932286aec5e512ea4ba3cbda86e08b658c89f18a555d9efbc3&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217589.jpg?k=b0b5da8a721714932286aec5e512ea4ba3cbda86e08b658c89f18a555d9efbc3&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217590.jpg?k=d893c9a83f7e23696c1bdb487318bdd124852b209b3721399f9be6ad3367befa&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217590.jpg?k=d893c9a83f7e23696c1bdb487318bdd124852b209b3721399f9be6ad3367befa&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217590.jpg?k=d893c9a83f7e23696c1bdb487318bdd124852b209b3721399f9be6ad3367befa&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217592.jpg?k=ccebd68f1506c3fabf4ba1f8d1e2ec626469cf36402381dbbcc25fa06be1a78b&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217592.jpg?k=ccebd68f1506c3fabf4ba1f8d1e2ec626469cf36402381dbbcc25fa06be1a78b&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217592.jpg?k=ccebd68f1506c3fabf4ba1f8d1e2ec626469cf36402381dbbcc25fa06be1a78b&o="
+          },
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217593.jpg?k=b974855f36275d3f169e24e9e823860f9d1c4d635f55f2592eb761b00542d283&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217593.jpg?k=b974855f36275d3f169e24e9e823860f9d1c4d635f55f2592eb761b00542d283&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217593.jpg?k=b974855f36275d3f169e24e9e823860f9d1c4d635f55f2592eb761b00542d283&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217594.jpg?k=17f490fda958260341a609d88ac893dc765eb7613b3bef8f931c127ebe3b1842&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217594.jpg?k=17f490fda958260341a609d88ac893dc765eb7613b3bef8f931c127ebe3b1842&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217594.jpg?k=17f490fda958260341a609d88ac893dc765eb7613b3bef8f931c127ebe3b1842&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217596.jpg?k=1f1eb9197ab858034ee74a4c7ca70a7e858c367ff60d82af314a934990566539&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217596.jpg?k=1f1eb9197ab858034ee74a4c7ca70a7e858c367ff60d82af314a934990566539&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217596.jpg?k=1f1eb9197ab858034ee74a4c7ca70a7e858c367ff60d82af314a934990566539&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217597.jpg?k=4ea1918d59afcb60ec97ea254f49b59b984d1bf565965502f1971e1c497027ac&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217597.jpg?k=4ea1918d59afcb60ec97ea254f49b59b984d1bf565965502f1971e1c497027ac&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217597.jpg?k=4ea1918d59afcb60ec97ea254f49b59b984d1bf565965502f1971e1c497027ac&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217598.jpg?k=3176ce3d8f1ff281d0b3a07231dc3bf845464149884b807f80eea4bdcccb2eb4&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217598.jpg?k=3176ce3d8f1ff281d0b3a07231dc3bf845464149884b807f80eea4bdcccb2eb4&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217598.jpg?k=3176ce3d8f1ff281d0b3a07231dc3bf845464149884b807f80eea4bdcccb2eb4&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217600.jpg?k=3240d22e60d45c3ed78f7e96770eeceb7f2210d454f7b659b8bc64e18756b016&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217600.jpg?k=3240d22e60d45c3ed78f7e96770eeceb7f2210d454f7b659b8bc64e18756b016&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217600.jpg?k=3240d22e60d45c3ed78f7e96770eeceb7f2210d454f7b659b8bc64e18756b016&o="
+          },
+          {
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166217602.jpg?k=eab20c516e8e75f8936f54e6dab2a3ff82d6ebf9389890c22aa97a62d9ff5cb0&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166217602.jpg?k=eab20c516e8e75f8936f54e6dab2a3ff82d6ebf9389890c22aa97a62d9ff5cb0&o=",
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166217602.jpg?k=eab20c516e8e75f8936f54e6dab2a3ff82d6ebf9389890c22aa97a62d9ff5cb0&o="
+          }
+        ],
+        "ranking": null,
+        "exact_class": 0.0,
+        "creditcard_required": true,
+        "number_of_reviews": 0,
+        "hotel_facilities": [
+          {
+            "hotel_facility_type_id": 2,
+            "name": "Parking"
+          },
+          {
+            "hotel_facility_type_id": 4,
+            "name": "Pets allowed"
+          },
+          {
+            "name": "Garden",
+            "hotel_facility_type_id": 14
+          },
+          {
+            "hotel_facility_type_id": 46,
+            "name": "Free parking"
+          },
+          {
+            "hotel_facility_type_id": 47,
+            "name": "Internet services"
+          },
+          {
+            "name": "WiFi",
+            "hotel_facility_type_id": 96
+          },
+          {
+            "name": "Free WiFi",
+            "hotel_facility_type_id": 107
+          },
+          {
+            "hotel_facility_type_id": 160,
+            "name": "On-site parking"
+          },
+          {
+            "hotel_facility_type_id": 161,
+            "name": "Private parking"
+          },
+          {
+            "name": "WiFi available in all areas",
+            "hotel_facility_type_id": 163
+          }
+        ],
+        "location": {
+          "latitude": 35.02909,
+          "longitude": 24.75997
+        },
+        "address": "New Kalamaki",
+        "city": "Kalamaki",
+        "number_of_rooms": 1,
+        "url": "https://www.booking.com/hotel/gr/aglaia.html",
+        "hotel_description": "Set in Kalamaki, Hotel Aglaia has a garden. All rooms feature a kitchenette and a private bathroom. Guests can enjoy sea views. At the hostel, every room comes with a desk. All rooms at Hotel Aglaia feature air conditioning and a wardrobe. Heraklio Town is 49 km from the accommodation. Heraklion International Airport is 51 km from the property.",
+        "currency": "EUR",
+        "review_score": null,
+        "payment_details": [
+          {
+            "payment_id": 10,
+            "cvc_required": false,
+            "bookable": false,
+            "payable": true
+          },
+          {
+            "cvc_required": false,
+            "bookable": true,
+            "payable": true,
+            "payment_id": 2
+          },
+          {
+            "payment_id": 3,
+            "cvc_required": false,
+            "payable": true,
+            "bookable": true
+          },
+          {
+            "payment_id": 1,
+            "cvc_required": false,
+            "bookable": true,
+            "payable": true
+          }
+        ],
+        "is_closed": false,
+        "license_number": "",
+        "district_id": null,
+        "deep_link_url": "booking://hotel/4195096?affiliate_id=1613783",
+        "checkin_checkout_times": {
+          "checkin_from": "12:00",
+          "checkin_to": "12:00",
+          "checkout_to": "12:00",
+          "checkout_from": "12:00"
+        },
+        "country": "gr",
+        "city_id": 900039540,
+        "preferred": false,
+        "class": 0,
+        "class_is_estimated": false,
+        "spoken_languages": [
+          "el",
+          "de"
+        ],
+        "theme_ids": null,
+        "max_persons_in_reservation": 0,
+        "book_domestic_without_cc_details": false,
+        "max_rooms_in_reservation": 0,
+        "default_language": "de",
+        "hotel_important_information": "",
+        "key_collection_info": null
+      },
+      "hotel_id": 4195096
     }
   ]
 }

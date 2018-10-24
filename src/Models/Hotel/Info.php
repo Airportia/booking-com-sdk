@@ -142,7 +142,7 @@ class Info extends AbstractModel
     private $city;
 
     /**
-     * @var int
+     * @var int|null
      */
     private $ranking;
 
@@ -183,7 +183,7 @@ class Info extends AbstractModel
         string $name,
         string $country,
         string $city,
-        int $ranking,
+        ?int $ranking,
         ?int $districtId,
         string $address
     ) {
@@ -464,9 +464,9 @@ class Info extends AbstractModel
     }
 
     /**
-     * @return int
+     * @return int|null
      */
-    public function getRanking(): int
+    public function getRanking():? int
     {
         return $this->ranking;
     }
