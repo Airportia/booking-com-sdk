@@ -28,9 +28,9 @@ class CityTest extends TestCase
     {
         $basicArray = [
             'nr_hotels' => 1,
-            'city_id'   => -3875419,
-            'name'      => 'Pedro Gonzalez',
-            'country'   => 've',
+            'city_id' => -3875419,
+            'name' => 'Pedro Gonzalez',
+            'country' => 've',
         ];
 
         $array = array_merge($basicArray, $additionalArray);
@@ -42,7 +42,7 @@ class CityTest extends TestCase
     {
         $city = $this->createCityDefaultArray([
             'location' => [
-                'latitude'  => '11.116700172424316',
+                'latitude' => '11.116700172424316',
                 'longitude' => '-63.91669845581055',
             ],
         ]);
@@ -55,11 +55,33 @@ class CityTest extends TestCase
         $city = $this->createCityDefaultArray([
             'timezone' => [
                 'offset' => 2,
-                'name'   => 'Europe/Amsterdam',
+                'name' => 'Europe/Amsterdam',
             ],
         ]);
 
         $this->assertInstanceOf(Timezone::class, $city->getTimezone());
+    }
+
+    public function testTranslations(): void
+    {
+        $city = $this->createCityDefaultArray([
+            'translations' => [
+                [
+                    'name' => 'Zakynthos Town',
+                    'language' => 'en',
+                ],
+                [
+                    'name' => 'Zákynthos Stadt',
+                    'language' => 'de',
+                ],
+            ],
+        ]);
+
+        $this->assertContainsOnlyInstancesOf(City\Translation::class, $city->getAllTranslations());
+
+        $this->assertEquals('Zakynthos Town', $city->getTranslation('en')->getName());
+
+        $this->assertNull($city->getTranslation('notExistedLanguage'));
     }
 
     /**
@@ -76,4 +98,5 @@ class CityTest extends TestCase
     {
         return ArraysProvider::getItems(ArraysProvider::CITIES);
     }
+
 }

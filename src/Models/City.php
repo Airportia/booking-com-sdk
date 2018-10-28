@@ -3,6 +3,7 @@
 namespace BookingCom\Models;
 
 use BookingCom\Models\City\Timezone;
+use BookingCom\Models\City\Translation;
 
 class City extends AbstractModel
 {
@@ -23,6 +24,10 @@ class City extends AbstractModel
 
     /** @var Timezone|null */
     private $timezone;
+    /**
+     * @var Translation[]
+     */
+    private $translations;
 
     /**
      * City constructor.
@@ -33,15 +38,24 @@ class City extends AbstractModel
      * @param string                           $country
      * @param \BookingCom\Models\Location|null $location
      * @param Timezone|null                    $timezone
+     * @param array                            $translations
      */
-    public function __construct(int $id, string $name, int $numberOfHotels, string $country, ?Location $location, ?Timezone $timezone)
-    {
-        $this->id             = $id;
-        $this->name           = $name;
+    public function __construct(
+        int $id,
+        string $name,
+        int $numberOfHotels,
+        string $country,
+        ?Location $location,
+        ?Timezone $timezone,
+        array $translations
+    ) {
+        $this->id = $id;
+        $this->name = $name;
         $this->numberOfHotels = $numberOfHotels;
-        $this->country        = $country;
-        $this->location       = $location;
-        $this->timezone       = $timezone;
+        $this->country = $country;
+        $this->location = $location;
+        $this->timezone = $timezone;
+        $this->translations = $translations;
     }
 
     /**
@@ -52,8 +66,10 @@ class City extends AbstractModel
     {
         $location = self::makeChildFromArray($array, Location::class, 'location');
         $timezone = self::makeChildFromArray($array, Timezone::class, 'timezone');
+        $translations = self::makeChildrenFromArray($array, Translation::class, 'translations');
 
-        return new self($array['city_id'], $array['name'], $array['nr_hotels'], $array['country'], $location, $timezone);
+        return new self($array['city_id'], $array['name'], $array['nr_hotels'], $array['country'], $location,
+            $timezone, $translations);
     }
 
     /**
@@ -102,5 +118,21 @@ class City extends AbstractModel
     public function getTimezone(): ?Timezone
     {
         return $this->timezone;
+    }
+
+    public function getAllTranslations(): array
+    {
+        return $this->translations;
+    }
+
+    public function getTranslation(string $language): ?Translation
+    {
+        foreach ($this->translations as $translation) {
+            if ($translation->getLanguage() === $language) {
+                return $translation;
+            }
+        }
+
+        return null;
     }
 }
