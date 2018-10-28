@@ -20,16 +20,18 @@ class DistrictsQueryTest extends TestCase
             ->whereDistrictTypesIn(['free'])
             ->setRows(5)
             ->setOffset(5)
+            ->withLanguages(['en', 'de'])
             ->withLocation();
 
         $this->assertEquals([
-            'city_ids'       => '1,3,5',
-            'countries'      => 'us,ru',
-            'district_ids'   => '1,3,5',
+            'city_ids' => '1,3,5',
+            'countries' => 'us,ru',
+            'district_ids' => '1,3,5',
             'district_types' => 'free',
-            'offset'         => 5,
-            'rows'           => 5,
-            'extras'         => 'location',
+            'offset' => 5,
+            'rows' => 5,
+            'extras' => 'location',
+            'languages' => 'en,de',
         ], $query->toArray());
     }
 }

@@ -4,6 +4,7 @@ namespace BookingCom\Queries;
 
 use BookingCom\Queries\QueryFields\SetQueryField;
 use BookingCom\Queries\QueryFields\WhereInQueryField;
+use BookingCom\Queries\QueryFields\WithArrayQueryField;
 use BookingCom\Queries\QueryFields\WithQueryField;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
@@ -17,6 +18,7 @@ use BookingCom\Queries\Validators\OneOfValidator;
  * @method $this setOffset(int $value)
  * @method $this setRows(int $value)
  * @method $this withLocation()
+ * @method $this withLanguages(array $values)
  */
 class DistrictsQuery extends AbstractQuery
 {
@@ -54,6 +56,10 @@ class DistrictsQuery extends AbstractQuery
             ],
             'extras'         => [
                 'operation' => [WithQueryField::class, ['values' => ['location']]],
+            ],
+            'languages' => [
+                'operation' => [WithArrayQueryField::class],
+                'validator' => [CountryValidator::class],
             ],
         ];
     }
