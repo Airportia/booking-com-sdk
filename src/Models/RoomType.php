@@ -2,8 +2,12 @@
 
 namespace BookingCom\Models;
 
+use BookingCom\Traits\TranslationsTrait;
+
 class RoomType extends AbstractModel
 {
+    use TranslationsTrait;
+
     /** @var  integer */
     private $id;
 
@@ -15,16 +19,19 @@ class RoomType extends AbstractModel
      *
      * @param int    $id
      * @param string $name
+     * @param array  $translations
      */
-    public function __construct(int $id, string $name)
+    public function __construct(int $id, string $name, array $translations)
     {
-        $this->id   = $id;
+        $this->id = $id;
         $this->name = $name;
+        $this->translations = $translations;
     }
 
     public static function fromArray(array $array): RoomType
     {
-        return new self($array['room_type_id'], $array['name']);
+        $translations = self::makeChildrenFromArray($array, Translation::class, 'translations');
+        return new self($array['room_type_id'], $array['name'], $translations);
     }
 
     /**
