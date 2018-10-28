@@ -2,8 +2,12 @@
 
 namespace BookingCom\Models;
 
+use BookingCom\Traits\TranslationsTrait;
+
 class District extends AbstractModel
 {
+    use TranslationsTrait;
+
     /** @var  string */
     private $name;
 
@@ -31,6 +35,7 @@ class District extends AbstractModel
      * @param int                              $cityId
      * @param int                              $id
      * @param int                              $numberOfHotels
+     * @param array                            $translations
      */
     public function __construct(
         string $name,
@@ -38,7 +43,8 @@ class District extends AbstractModel
         ?Location $location,
         int $cityId,
         int $id,
-        int $numberOfHotels
+        int $numberOfHotels,
+        array $translations
     ) {
         $this->name = $name;
         $this->country = $country;
@@ -46,6 +52,7 @@ class District extends AbstractModel
         $this->cityId = $cityId;
         $this->id = $id;
         $this->numberOfHotels = $numberOfHotels;
+        $this->translations = $translations;
     }
 
     /**
@@ -55,14 +62,15 @@ class District extends AbstractModel
     public static function fromArray(array $array): District
     {
         $location = self::makeChildFromArray($array, Location::class, 'location');
-
+        $translations = self::makeChildrenFromArray($array, Translation::class, 'translations');
         return new self(
             $array['name'],
             $array['country'],
             $location,
             $array['city_id'],
             $array['district_id'],
-            $array['nr_hotels']
+            $array['nr_hotels'],
+            $translations
         );
     }
 

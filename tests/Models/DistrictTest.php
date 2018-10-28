@@ -4,6 +4,7 @@ namespace BookingCom\Tests\Models\District;
 
 use BookingCom\Models\District;
 use BookingCom\Models\Location;
+use BookingCom\Models\Translation;
 use BookingCom\Tests\__support\ArraysProvider;
 use PHPUnit\Framework\TestCase;
 
@@ -55,6 +56,28 @@ class DistrictTest extends TestCase
         ]);
 
         $this->assertInstanceOf(Location::class, $district->getLocation());
+    }
+
+    public function testTranslations(): void
+    {
+        $district = $this->createDistrictDefaultArray([
+            'translations' => [
+                [
+                    'name' => 'Zakynthos Town',
+                    'language' => 'en',
+                ],
+                [
+                    'name' => 'Zákynthos Stadt',
+                    'language' => 'de',
+                ],
+            ],
+        ]);
+
+        $this->assertContainsOnlyInstancesOf(Translation::class, $district->getAllTranslations());
+
+        $this->assertEquals('Zakynthos Town', $district->getTranslation('en')->getName());
+
+        $this->assertNull($district->getTranslation('notExistedLanguage'));
     }
 
     /**
