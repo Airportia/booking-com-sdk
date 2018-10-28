@@ -3,7 +3,6 @@
 namespace BookingCom\Models;
 
 use BookingCom\Models\City\Timezone;
-use BookingCom\Models\City\Translation;
 
 class City extends AbstractModel
 {

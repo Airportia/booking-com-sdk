@@ -5,6 +5,7 @@ namespace BookingCom\Tests\Models;
 use BookingCom\Models\City;
 use BookingCom\Models\City\Timezone;
 use BookingCom\Models\Location;
+use BookingCom\Models\Translation;
 use BookingCom\Tests\__support\ArraysProvider;
 use PHPUnit\Framework\TestCase;
 
@@ -77,7 +78,7 @@ class CityTest extends TestCase
             ],
         ]);
 
-        $this->assertContainsOnlyInstancesOf(City\Translation::class, $city->getAllTranslations());
+        $this->assertContainsOnlyInstancesOf(Translation::class, $city->getAllTranslations());
 
         $this->assertEquals('Zakynthos Town', $city->getTranslation('en')->getName());
 

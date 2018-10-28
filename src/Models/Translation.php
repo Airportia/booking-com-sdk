@@ -4,10 +4,7 @@
  * Date: 28.10.18
  */
 
-namespace BookingCom\Models\City;
-
-
-use BookingCom\Models\AbstractModel;
+namespace BookingCom\Models;
 
 class Translation extends AbstractModel
 {
@@ -38,7 +35,7 @@ class Translation extends AbstractModel
      */
     public static function fromArray(array $array)
     {
-        return new self($array['language'], $array['name']);
+        return new static($array['language'], $array['name']);
     }
 
     /**

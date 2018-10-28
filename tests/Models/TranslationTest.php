@@ -4,7 +4,7 @@
  * Date: 28.10.18
  */
 
-namespace BookingCom\Tests\Models\City;
+namespace BookingCom\Tests\Models;
 
 
 use PHPUnit\Framework\TestCase;
@@ -13,7 +13,7 @@ class TranslationTest extends TestCase
 {
     public function testFromArray(): void
     {
-        $translation = \BookingCom\Models\City\Translation::fromArray([
+        $translation = \BookingCom\Models\Translation::fromArray([
             'name' => 'Zakynthos Town',
             'language' => 'en',
         ]);
