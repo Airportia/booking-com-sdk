@@ -16,10 +16,11 @@ class FacilityTypesQueryTest extends TestCase
 
         $this->assertEquals([], $query->toArray());
 
-        $query->whereFacilityTypeIdsIn([1, 3, 5]);
+        $query->whereFacilityTypeIdsIn([1, 3, 5])->withLanguages(['en', 'de']);
 
         $this->assertEquals([
             'facility_type_ids' => '1,3,5',
+            'languages' => 'en,de',
         ], $query->toArray());
     }
 }
