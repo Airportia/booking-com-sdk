@@ -51,6 +51,6 @@ class WhereInQueryField extends AbstractQueryField
 
     public static function make(array $params): AbstractQueryField
     {
-        return new self($params['fieldName'], $params['validator'] ?? null);
+        return new static($params['fieldName'], $params['validator'] ?? null);
     }
 }

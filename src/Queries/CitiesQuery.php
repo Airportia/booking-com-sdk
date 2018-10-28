@@ -4,6 +4,7 @@ namespace BookingCom\Queries;
 
 use BookingCom\Queries\QueryFields\SetQueryField;
 use BookingCom\Queries\QueryFields\WhereInQueryField;
+use BookingCom\Queries\QueryFields\WithArrayQueryField;
 use BookingCom\Queries\QueryFields\WithQueryField;
 use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
@@ -11,6 +12,7 @@ use BookingCom\Queries\Validators\IntegerValidator;
 /**
  * @method $this whereCityIdsIn(array $values)
  * @method $this whereCountriesIn(array $values)
+ * @method $this withLanguages(array $values)
  * @method $this setOffset(int $value)
  * @method $this setRows(int $value)
  * @method $this withLocation()
@@ -24,7 +26,7 @@ class CitiesQuery extends AbstractQuery
     protected function fields(): array
     {
         return [
-            'city_ids'  => [
+            'city_ids' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
@@ -32,15 +34,19 @@ class CitiesQuery extends AbstractQuery
                 'operation' => [WhereInQueryField::class],
                 'validator' => [CountryValidator::class],
             ],
+            'languages' => [
+                'operation' => [WithArrayQueryField::class],
+                'validator' => [CountryValidator::class],
+            ],
             'offset' => [
                 'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'rows'   => [
+            'rows' => [
                 'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'extras'    => [
+            'extras' => [
                 'operation' => [WithQueryField::class, ['values' => ['location', 'timezone']]],
             ],
         ];

@@ -14,6 +14,7 @@ class CitiesQueryTest extends TestCase
 
         $query->whereCityIdsIn([1, 2, 3])
             ->whereCountriesIn(['us', 'ru'])
+            ->withLanguages(['en', 'de'])
             ->setOffset(5)
             ->setRows(25)
             ->withLocation()
@@ -25,6 +26,7 @@ class CitiesQueryTest extends TestCase
             'offset' => 5,
             'rows' => 25,
             'extras' => 'location,timezone',
+            'languages' => 'en,de',
         ], $query->toArray());
     }
 }
