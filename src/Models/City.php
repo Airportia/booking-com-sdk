@@ -3,9 +3,12 @@
 namespace BookingCom\Models;
 
 use BookingCom\Models\City\Timezone;
+use BookingCom\Traits\TranslationsTrait;
 
 class City extends AbstractModel
 {
+    use TranslationsTrait;
+
     /** @var int */
     private $id;
 
@@ -23,10 +26,6 @@ class City extends AbstractModel
 
     /** @var Timezone|null */
     private $timezone;
-    /**
-     * @var Translation[]
-     */
-    private $translations;
 
     /**
      * City constructor.
@@ -117,21 +116,5 @@ class City extends AbstractModel
     public function getTimezone(): ?Timezone
     {
         return $this->timezone;
-    }
-
-    public function getAllTranslations(): array
-    {
-        return $this->translations;
-    }
-
-    public function getTranslation(string $language): ?Translation
-    {
-        foreach ($this->translations as $translation) {
-            if ($translation->getLanguage() === $language) {
-                return $translation;
-            }
-        }
-
-        return null;
     }
 }

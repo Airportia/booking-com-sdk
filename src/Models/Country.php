@@ -2,8 +2,17 @@
 
 namespace BookingCom\Models;
 
+use BookingCom\Traits\TranslationsTrait;
+
+/**
+ * Class Country
+ * @package BookingCom\Models
+ * @method Country\Translation getTranslation($language)
+ */
 class Country extends AbstractModel
 {
+    use TranslationsTrait;
+
     /** @var  string */
     private $name;
 
@@ -12,10 +21,6 @@ class Country extends AbstractModel
 
     /** @var  string */
     private $area;
-    /**
-     * @var Country\Translation[]
-     */
-    private $translations;
 
     public function __construct(string $name, string $country, string $area, array $translations)
     {
@@ -53,21 +58,5 @@ class Country extends AbstractModel
     public function getArea(): string
     {
         return $this->area;
-    }
-
-    public function getAllTranslations(): array
-    {
-        return $this->translations;
-    }
-
-    public function getTranslation(string $language): ?Country\Translation
-    {
-        foreach ($this->translations as $translation) {
-            if ($translation->getLanguage() === $language) {
-                return $translation;
-            }
-        }
-
-        return null;
     }
 }
