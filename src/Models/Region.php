@@ -2,8 +2,12 @@
 
 namespace BookingCom\Models;
 
+use BookingCom\Traits\TranslationsTrait;
+
 class Region extends AbstractModel
 {
+    use TranslationsTrait;
+
     public const TYPE_ISLAND = 'island';
     public const TYPE_PROVINCE = 'province';
     public const TYPE_FREE_REGION = 'free_region';
@@ -28,13 +32,15 @@ class Region extends AbstractModel
      * @param string $name
      * @param string $regionType
      * @param string $country
+     * @param array  $translations
      */
-    public function __construct(int $id, string $name, string $regionType, ?string $country)
+    public function __construct(int $id, string $name, string $regionType, ?string $country, array $translations)
     {
-        $this->name       = $name;
-        $this->id         = $id;
+        $this->name = $name;
+        $this->id = $id;
         $this->regionType = $regionType;
-        $this->country    = $country;
+        $this->country = $country;
+        $this->translations = $translations;
     }
 
     /**
@@ -43,7 +49,8 @@ class Region extends AbstractModel
      */
     public static function fromArray(array $array): Region
     {
-        return new self($array['region_id'], $array['name'], $array['region_type'], $array['country']);
+        $translations = self::makeChildrenFromArray($array, Translation::class, 'translations');
+        return new self($array['region_id'], $array['name'], $array['region_type'], $array['country'], $translations);
     }
 
     /**
