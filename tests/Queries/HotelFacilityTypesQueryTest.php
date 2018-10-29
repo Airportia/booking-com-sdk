@@ -17,13 +17,15 @@ class HotelFacilityTypesQueryTest extends TestCase
         $this->assertEquals([], $query->toArray());
 
         $query->whereFacilityTypeIdsIn([1, 4, 5])
+            ->withLanguages(['en', 'de'])
             ->whereHotelFacilityTypeIdsIn([1, 3, 5])
             ->whereTypesIn(['string', 'integer']);
 
         $this->assertEquals([
-            'facility_type_ids'       => '1,4,5',
+            'facility_type_ids' => '1,4,5',
             'hotel_facility_type_ids' => '1,3,5',
-            'types'                   => 'string,integer',
+            'types' => 'string,integer',
+            'languages' => 'en,de',
         ], $query->toArray());
     }
 }
