@@ -9,7 +9,7 @@ namespace BookingCom\Tests\Models\Hotel;
 use BookingCom\Models\Hotel\Room;
 use BookingCom\Models\Hotel\Room\Facility;
 use BookingCom\Models\Hotel\Room\Info;
-use BookingCom\Models\Hotel\Room\Photo;
+use BookingCom\Models\Photo;
 use PHPUnit\Framework\TestCase;
 
 class RoomTest extends TestCase

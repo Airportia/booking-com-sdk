@@ -1,9 +1,6 @@
 <?php
 
-namespace BookingCom\Models\Hotel\Room;
-
-use BookingCom\Models\AbstractModel;
-use BookingCom\Models\AutoTag;
+namespace BookingCom\Models;
 
 class Photo extends AbstractModel
 {
@@ -45,7 +42,7 @@ class Photo extends AbstractModel
         $this->autoTags = $autoTags;
     }
 
-    public static function fromArray(array $array): self
+    public static function fromArray(array $array)
     {
         $urls = [self::SIZE_ORIGINAL => $array['url_original']];
 

@@ -9,7 +9,7 @@ namespace BookingCom\Models\Hotel;
 use BookingCom\Models\AbstractModel;
 use BookingCom\Models\Hotel\Room\Facility;
 use BookingCom\Models\Hotel\Room\Info;
-use BookingCom\Models\Hotel\Room\Photo;
+use BookingCom\Models\Photo;
 
 class Room extends AbstractModel
 {
@@ -23,7 +23,7 @@ class Room extends AbstractModel
      */
     private $info;
 
-    /** @var Photo[] */
+    /** @var \BookingCom\Models\Photo[] */
     private $photos;
 
     /**

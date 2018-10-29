@@ -6,7 +6,7 @@
 
 namespace BookingCom\Tests\Models\Hotel\Room;
 
-use BookingCom\Models\Hotel\Room\Photo;
+use BookingCom\Models\Photo;
 use PHPUnit\Framework\TestCase;
 
 class PhotoTest extends TestCase
@@ -35,7 +35,7 @@ class PhotoTest extends TestCase
         );
         $this->assertEquals(
             'https://q-xx.bstatic.com/xdata/images/hotel/max300/20934654.jpg',
-            $photo->getUrl(Photo::SIZE_MAX_300)
+            $photo->getUrl(\BookingCom\Models\Photo::SIZE_MAX_300)
         );
         $this->assertEquals(
             'https://q-xx.bstatic.com/xdata/images/hotel/square60/20934654.jpg',
@@ -49,13 +49,13 @@ class PhotoTest extends TestCase
 
     public function testMainPhoto(): void
     {
-        $photo = Photo::fromArray([
+        $photo = \BookingCom\Models\Photo::fromArray([
             'url_original' => 'https://q-xx.bstatic.com/xdata/images/hotel/max500/20934654.jpg',
         ]);
 
         $this->assertEquals(false, $photo->isMain());
 
-        $photo = Photo::fromArray([
+        $photo = \BookingCom\Models\Photo::fromArray([
             'url_original' => 'https://q-xx.bstatic.com/xdata/images/hotel/max500/20934654.jpg',
             'main_photo' => false,
         ]);
