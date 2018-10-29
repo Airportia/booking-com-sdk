@@ -18,6 +18,7 @@ use BookingCom\Queries\Validators\IntegerValidator;
  * @method $this whereHotelFacilityTypeIdsIn(array $values)
  * @method $this setOffset(int $value)
  * @method $this setRows(int $value)
+ * @method $this setLanguage(string $value)
  * @method $this withHotelPolicies()
  * @method $this withRoomInfo()
  * @method $this withKeyCollectionInfo()
@@ -38,19 +39,19 @@ class HotelsQuery extends AbstractQuery
     protected function fields(): array
     {
         return [
-            'chain_ids'               => [
+            'chain_ids' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'city_ids'                => [
+            'city_ids' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'country_ids'             => [
+            'country_ids' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [CountryValidator::class],
             ],
-            'district_ids'            => [
+            'district_ids' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
@@ -58,23 +59,27 @@ class HotelsQuery extends AbstractQuery
                 'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'hotel_ids'               => [
+            'hotel_ids' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'region_ids'              => [
+            'region_ids' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'offset'                  => [
+            'offset' => [
                 'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'rows'                    => [
+            'rows' => [
                 'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'extras'                  => [
+            'language' => [
+                'operation' => [SetQueryField::class],
+                'validator' => [CountryValidator::class],
+            ],
+            'extras' => [
                 'operation' => [
                     WithQueryField::class,
                     [

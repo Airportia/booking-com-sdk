@@ -11,7 +11,11 @@ class CountryValidator extends AbstractValidator
      */
     public function assertValues($values): void
     {
-        Assert::allLength($values, 2);
+        if (\is_array($values)) {
+            Assert::allLength($values, 2);
+        } else {
+            Assert::length($values, 2);
+        }
     }
 
     public static function make(array $params): AbstractValidator

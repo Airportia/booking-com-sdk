@@ -23,6 +23,7 @@ class HotelsQueryTest extends TestCase
             ->whereHotelFacilityTypeIdsIn([1, 5, 7])
             ->setRows(5)
             ->setOffset(5)
+            ->setLanguage('en')
             ->whereHotelIdsIn([5, 6])
             ->whereRegionIdsIn([3, 4])
             ->withHotelPolicies()
@@ -38,16 +39,17 @@ class HotelsQueryTest extends TestCase
             ->withHotelFacilities();
 
         $this->assertEquals([
-            'chain_ids'               => '1,2,3,4',
-            'city_ids'                => '1,2,3,4,5',
-            'country_ids'             => 'us,ua',
-            'district_ids'            => '1,2,3',
+            'language' => 'en',
+            'chain_ids' => '1,2,3,4',
+            'city_ids' => '1,2,3,4,5',
+            'country_ids' => 'us,ua',
+            'district_ids' => '1,2,3',
             'hotel_facility_type_ids' => '1,5,7',
-            'hotel_ids'               => '5,6',
-            'region_ids'              => '3,4',
-            'offset'                  => 5,
-            'rows'                    => 5,
-            'extras'                  => 'hotel_policies,key_collection_info,room_description,hotel_photos,room_photos,hotel_info,hotel_description,room_info,payment_details,room_facilities,hotel_facilities',
+            'hotel_ids' => '5,6',
+            'region_ids' => '3,4',
+            'offset' => 5,
+            'rows' => 5,
+            'extras' => 'hotel_policies,key_collection_info,room_description,hotel_photos,room_photos,hotel_info,hotel_description,room_info,payment_details,room_facilities,hotel_facilities',
         ], $query->toArray());
     }
 }

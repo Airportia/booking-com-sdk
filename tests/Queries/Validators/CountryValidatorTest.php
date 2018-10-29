@@ -7,9 +7,6 @@ use PHPUnit\Framework\TestCase;
 
 class CountryValidatorTest extends TestCase
 {
-    /**
-     * @return void
-     */
     public function testValidator(): void
     {
         $validator = new CountryValidator();
@@ -17,5 +14,14 @@ class CountryValidatorTest extends TestCase
 
         $this->expectException(\InvalidArgumentException::class);
         $validator->assertValues(['us1', 'ru', 'ua']);
+    }
+
+    public function testValidateSingleValue(): void
+    {
+        $validator = new CountryValidator();
+        $validator->assertValues('us');
+
+        $this->expectException(\InvalidArgumentException::class);
+        $validator->assertValues('us1');
     }
 }
