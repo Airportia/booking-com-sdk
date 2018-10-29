@@ -45,8 +45,13 @@ class HotelFacilityType extends AbstractModel
     public static function fromArray(array $array): HotelFacilityType
     {
         $translations = self::makeChildrenFromArray($array, Translation::class, 'translations');
-        return new self($array['hotel_facility_type_id'], $array['type'], $array['facility_type_id'], $array['name'],
-            $translations);
+        return new self(
+            $array['hotel_facility_type_id'],
+            $array['type'],
+            $array['facility_type_id'],
+            $array['name'],
+            $translations
+        );
     }
 
     /**

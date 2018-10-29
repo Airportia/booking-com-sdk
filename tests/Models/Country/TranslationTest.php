@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Models\Country;
 
-
 use PHPUnit\Framework\TestCase;
 
 class TranslationTest extends TestCase

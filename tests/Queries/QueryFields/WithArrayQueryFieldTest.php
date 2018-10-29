@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Queries\QueryFields;
 
-
 use BookingCom\Queries\QueryFields\WithArrayQueryField;
 use BookingCom\Queries\Validators\CountryValidator;
 use PHPUnit\Framework\TestCase;

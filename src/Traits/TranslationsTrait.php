@@ -6,7 +6,6 @@
 
 namespace BookingCom\Traits;
 
-
 use BookingCom\Models\Translation;
 
 trait TranslationsTrait

@@ -66,8 +66,15 @@ class City extends AbstractModel
         $timezone = self::makeChildFromArray($array, Timezone::class, 'timezone');
         $translations = self::makeChildrenFromArray($array, Translation::class, 'translations');
 
-        return new self($array['city_id'], $array['name'], $array['nr_hotels'], $array['country'], $location,
-            $timezone, $translations);
+        return new self(
+            $array['city_id'],
+            $array['name'],
+            $array['nr_hotels'],
+            $array['country'],
+            $location,
+            $timezone,
+            $translations
+        );
     }
 
     /**

@@ -6,7 +6,6 @@
 
 namespace BookingCom\Queries\QueryFields;
 
-
 class WithArrayQueryField extends WhereInQueryField
 {
     /**

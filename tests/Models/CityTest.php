@@ -99,5 +99,4 @@ class CityTest extends TestCase
     {
         return ArraysProvider::getItems(ArraysProvider::CITIES);
     }
-
 }

@@ -6,7 +6,6 @@
 
 namespace BookingCom\Models\Country;
 
-
 class Translation extends \BookingCom\Models\Translation
 {
     /**
@@ -30,5 +29,4 @@ class Translation extends \BookingCom\Models\Translation
     {
         return $this->area;
     }
-
 }

@@ -53,5 +53,4 @@ class Translation extends AbstractModel
     {
         return $this->name;
     }
-
 }

@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Models;
 
-
 use PHPUnit\Framework\TestCase;
 
 class TranslationTest extends TestCase
@@ -21,5 +20,4 @@ class TranslationTest extends TestCase
         $this->assertEquals('Zakynthos Town', $translation->getName());
         $this->assertEquals('en', $translation->getLanguage());
     }
-
 }
