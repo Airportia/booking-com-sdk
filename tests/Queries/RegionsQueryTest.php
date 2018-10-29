@@ -2,8 +2,8 @@
 
 namespace BookingCom\Tests\Queries;
 
-use PHPUnit\Framework\TestCase;
 use BookingCom\Queries\RegionsQuery;
+use PHPUnit\Framework\TestCase;
 
 class RegionsQueryTest extends TestCase
 {
@@ -19,15 +19,17 @@ class RegionsQueryTest extends TestCase
         $query->whereRegionIdsIn([1, 2, 3, 4])
             ->whereCountriesIn(['us', 'ru', 'uk'])
             ->whereRegionTypesIn(['island', 'province'])
+            ->withLanguages(['en', 'de'])
             ->setRows(5)
             ->setOffset(5);
 
         $this->assertEquals([
-            'region_ids'   => '1,2,3,4',
-            'countries'    => 'us,ru,uk',
+            'region_ids' => '1,2,3,4',
+            'countries' => 'us,ru,uk',
             'region_types' => 'island,province',
-            'offset'         => 5,
-            'rows'           => 5,
+            'offset' => 5,
+            'rows' => 5,
+            'languages' => 'en,de',
         ], $query->toArray());
     }
 }
