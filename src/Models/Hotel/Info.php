@@ -47,7 +47,7 @@ class Info extends AbstractModel
     private $isCreditCardRequired;
 
     /**
-     * @var int
+     * @var int|null
      */
     private $numberOfRooms;
 
@@ -164,7 +164,7 @@ class Info extends AbstractModel
         string $zip,
         Times $times,
         bool $isCreditCardRequired,
-        int $numberOfRooms,
+        ?int $numberOfRooms,
         Location $location,
         int $numberOfReviews,
         string $deepLinkUrl,
@@ -186,44 +186,44 @@ class Info extends AbstractModel
         ?int $ranking,
         ?int $districtId,
         string $address
-    ) {
-        $this->currency = $currency;
-        $this->cityId = $cityId;
-        $this->class = $class;
-        $this->url = $url;
-        $this->zip = $zip;
-        $this->times = $times;
-        $this->isCreditCardRequired = $isCreditCardRequired;
-        $this->numberOfRooms = $numberOfRooms;
-        $this->location = $location;
-        $this->numberOfReviews = $numberOfReviews;
-        $this->deepLinkUrl = $deepLinkUrl;
-        $this->exactClass = $exactClass;
-        $this->hotelTypeId = $hotelTypeId;
+    )
+    {
+        $this->currency                       = $currency;
+        $this->cityId                         = $cityId;
+        $this->class                          = $class;
+        $this->url                            = $url;
+        $this->zip                            = $zip;
+        $this->times                          = $times;
+        $this->isCreditCardRequired           = $isCreditCardRequired;
+        $this->numberOfRooms                  = $numberOfRooms;
+        $this->location                       = $location;
+        $this->numberOfReviews                = $numberOfReviews;
+        $this->deepLinkUrl                    = $deepLinkUrl;
+        $this->exactClass                     = $exactClass;
+        $this->hotelTypeId                    = $hotelTypeId;
         $this->isBookDomesticWithoutCcDetails = $isBookDomesticWithoutCcDetails;
-        $this->isClosed = $isClosed;
-        $this->defaultLanguage = $defaultLanguage;
-        $this->isPreferred = $isPreferred;
-        $this->maxRoomsInReservation = $maxRoomsInReservation;
-        $this->isClassIsEstimated = $isClassIsEstimated;
-        $this->spokenLanguages = $spokenLanguages;
-        $this->themeIds = $themeIds;
-        $this->reviewScore = $reviewScore;
-        $this->maxPersonsInReservation = $maxPersonsInReservation;
-        $this->name = $name;
-        $this->country = $country;
-        $this->city = $city;
-        $this->ranking = $ranking;
-        $this->districtId = $districtId;
-        $this->address = $address;
+        $this->isClosed                       = $isClosed;
+        $this->defaultLanguage                = $defaultLanguage;
+        $this->isPreferred                    = $isPreferred;
+        $this->maxRoomsInReservation          = $maxRoomsInReservation;
+        $this->isClassIsEstimated             = $isClassIsEstimated;
+        $this->spokenLanguages                = $spokenLanguages;
+        $this->themeIds                       = $themeIds;
+        $this->reviewScore                    = $reviewScore;
+        $this->maxPersonsInReservation        = $maxPersonsInReservation;
+        $this->name                           = $name;
+        $this->country                        = $country;
+        $this->city                           = $city;
+        $this->ranking                        = $ranking;
+        $this->districtId                     = $districtId;
+        $this->address                        = $address;
     }
 
     public static function fromArray(array $array)
     {
         $theme_ids = $array['theme_ids'] ?? [];
 
-        return new self(
-            $array['currency'],
+        return new self($array['currency'],
             $array['city_id'],
             $array['class'],
             $array['url'],
@@ -251,8 +251,7 @@ class Info extends AbstractModel
             $array['city'],
             $array['ranking'],
             $array['district_id'],
-            $array['address']
-        );
+            $array['address']);
     }
 
     /**
@@ -312,9 +311,9 @@ class Info extends AbstractModel
     }
 
     /**
-     * @return int
+     * @return int|null
      */
-    public function getNumberOfRooms(): int
+    public function getNumberOfRooms():? int
     {
         return $this->numberOfRooms;
     }
