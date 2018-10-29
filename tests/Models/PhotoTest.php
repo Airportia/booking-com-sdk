@@ -4,7 +4,7 @@
  * Date: 06.10.18
  */
 
-namespace BookingCom\Tests\Models\Hotel\Room;
+namespace BookingCom\Tests\Models;
 
 use BookingCom\Models\Photo;
 use PHPUnit\Framework\TestCase;
