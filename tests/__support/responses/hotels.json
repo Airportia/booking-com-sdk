@@ -43219,6 +43219,194 @@
         "key_collection_info": null
       },
       "hotel_id": 4195096
+    },
+    {
+      "hotel_data": {
+        "hotel_type_id": 201,
+        "spoken_languages": [],
+        "review_score": null,
+        "hotel_important_information": "",
+        "book_domestic_without_cc_details": false,
+        "is_closed": false,
+        "default_language": "el",
+        "license_number": "",
+        "hotel_facilities": [
+          {
+            "name": "Pets allowed",
+            "hotel_facility_type_id": 4
+          },
+          {
+            "hotel_facility_type_id": 15,
+            "name": "Terrace"
+          },
+          {
+            "name": "Heating",
+            "hotel_facility_type_id": 80
+          },
+          {
+            "name": "Air conditioning",
+            "hotel_facility_type_id": 109
+          }
+        ],
+        "checkin_checkout_times": {
+          "checkout_to": "",
+          "checkin_from": "",
+          "checkout_from": "",
+          "checkin_to": ""
+        },
+        "hotel_policies": [
+          {
+            "type": "POLICY_HOTEL_INTERNET",
+            "name": "Internet",
+            "content": "No internet access available.\n"
+          },
+          {
+            "content": "No parking available.\n",
+            "name": "Parking",
+            "type": "POLICY_HOTEL_PARKING"
+          },
+          {
+            "content": "Pets are allowed. Charges may be applicable.\n",
+            "name": "Pets",
+            "type": "POLICY_HOTEL_PETS"
+          },
+          {
+            "content": "All children are welcome.\nThere is no capacity for extra beds in the room.\n",
+            "name": "Children and Extra Bed Policy",
+            "type": "POLICY_CHILDREN"
+          }
+        ],
+        "max_rooms_in_reservation": 0,
+        "key_collection_info": null,
+        "city_id": -818342,
+        "address": "Επαρχιακή Οδός Αύρας 17 8η παροδος",
+        "country": "gr",
+        "preferred": false,
+        "payment_details": [
+          {
+            "payable": true,
+            "cvc_required": true,
+            "bookable": false,
+            "payment_id": 18
+          },
+          {
+            "payment_id": 3,
+            "bookable": true,
+            "cvc_required": true,
+            "payable": false
+          },
+          {
+            "bookable": true,
+            "cvc_required": false,
+            "payment_id": 1,
+            "payable": false
+          },
+          {
+            "bookable": true,
+            "cvc_required": true,
+            "payment_id": 2,
+            "payable": false
+          }
+        ],
+        "number_of_rooms": null,
+        "url": "https://www.booking.com/hotel/gr/diamerisma-4-domatia.html",
+        "deep_link_url": "booking://hotel/4205190?affiliate_id=1613783",
+        "number_of_reviews": 0,
+        "city": "Kalamata",
+        "currency": "EUR",
+        "creditcard_required": true,
+        "theme_ids": null,
+        "class": 0,
+        "ranking": 1774204,
+        "zip": "24100",
+        "hotel_description": "Set 2.1 km from Municipal Railway Park of Kalamata, Διαμέρισμα 4 δωμάτια provides accommodation in Kalamata. Complimentary WiFi is available. Military Museum of Kalamata is 2.2 km from the apartment. The nearest airport is Kalamata Captain Vassilis Constantakopoulos Airport, 10 km from the property.",
+        "location": {
+          "latitude": 37.02926,
+          "longitude": 22.13329
+        },
+        "hotel_photos": [
+          {
+            "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166617174.jpg?k=e2dad9437d021133c5f1c2220bfa6c94a8a35e92e8697069d41c6458d1ac9db6&o=",
+            "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166617174.jpg?k=e2dad9437d021133c5f1c2220bfa6c94a8a35e92e8697069d41c6458d1ac9db6&o=",
+            "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166617174.jpg?k=e2dad9437d021133c5f1c2220bfa6c94a8a35e92e8697069d41c6458d1ac9db6&o=",
+            "main_photo": true
+          }
+        ],
+        "district_id": null,
+        "exact_class": 0.0,
+        "class_is_estimated": false,
+        "max_persons_in_reservation": 0,
+        "name": "Διαμέρισμα 4 δωμάτια"
+      },
+      "room_data": [
+        {
+          "room_description": "",
+          "room_info": {
+            "max_persons": 7,
+            "bedrooms": [
+              {
+                "description": "1 double bed",
+                "name": "Bedroom 1"
+              },
+              {
+                "description": "2 single beds",
+                "name": "Bedroom 2"
+              },
+              {
+                "name": "Bedroom 3",
+                "description": "2 single beds"
+              },
+              {
+                "name": "Bedroom 4",
+                "description": "1 single bed"
+              }
+            ],
+            "room_size": {
+              "metre_square": 0.0
+            },
+            "ranking": 0,
+            "max_price": 100.0,
+            "bookable": true,
+            "bathroom_count": 2,
+            "bed_configurations": [
+              {
+                "bed_types": [
+                  {
+                    "description": "90-130 cm wide",
+                    "description_imperial": "35-51 inches wide",
+                    "name": "Single bed(s)",
+                    "count": "5",
+                    "configuration_id": 1
+                  },
+                  {
+                    "configuration_id": 1,
+                    "count": "1",
+                    "description_imperial": "52-59 inches wide",
+                    "name": "Double bed(s)",
+                    "description": "131-150 cm wide"
+                  }
+                ]
+              }
+            ],
+            "room_type_id": 1,
+            "min_price": 100.0,
+            "bedroom_count": 4.0,
+            "room_type": "Apartment"
+          },
+          "room_id": 420519001,
+          "room_facilities": [],
+          "room_photos": [
+            {
+              "url_original": "https://q-xx.bstatic.com/xdata/images/hotel/max500/166617174.jpg?k=e2dad9437d021133c5f1c2220bfa6c94a8a35e92e8697069d41c6458d1ac9db6&o=",
+              "url_square60": "https://q-xx.bstatic.com/xdata/images/hotel/square60/166617174.jpg?k=e2dad9437d021133c5f1c2220bfa6c94a8a35e92e8697069d41c6458d1ac9db6&o=",
+              "url_max300": "https://q-xx.bstatic.com/xdata/images/hotel/max300/166617174.jpg?k=e2dad9437d021133c5f1c2220bfa6c94a8a35e92e8697069d41c6458d1ac9db6&o=",
+              "main_photo": true
+            }
+          ],
+          "room_name": "Apartment"
+        }
+      ],
+      "hotel_id": 4205190
     }
   ]
 }
