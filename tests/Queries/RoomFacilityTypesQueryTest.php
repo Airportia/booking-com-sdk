@@ -18,12 +18,14 @@ class RoomFacilityTypesQueryTest extends TestCase
 
         $query->whereRoomFacilityTypeIdsIn([1, 3, 5])
             ->whereFacilityTypeIdsIn([1, 2])
-            ->whereTypesIn(['boolean']);
+            ->whereTypesIn(['boolean'])
+            ->withLanguages(['en', 'de']);
 
         $this->assertEquals([
             'facility_type_ids' => '1,2',
             'room_facility_type_ids' => '1,3,5',
-            'types' => 'boolean'
+            'types' => 'boolean',
+            'languages' => 'en,de',
         ], $query->toArray());
     }
 }
