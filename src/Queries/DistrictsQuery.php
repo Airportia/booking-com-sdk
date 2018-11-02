@@ -6,9 +6,9 @@ use BookingCom\Queries\QueryFields\SetQueryField;
 use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\QueryFields\WithArrayQueryField;
 use BookingCom\Queries\QueryFields\WithQueryField;
-use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\Queries\Validators\OneOfValidator;
+use BookingCom\Queries\Validators\StringValidator;
 
 /**
  * @method $this whereDistrictIdsIn(array $values)
@@ -30,36 +30,36 @@ class DistrictsQuery extends AbstractQuery
     protected function fields(): array
     {
         return [
-            'district_ids'   => [
+            'district_ids' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'city_ids'       => [
+            'city_ids' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'countries'      => [
+            'countries' => [
                 'operation' => [WhereInQueryField::class],
-                'validator' => [CountryValidator::class],
+                'validator' => [StringValidator::class, ['length' => 2]],
             ],
             'district_types' => [
                 'operation' => [WhereInQueryField::class],
                 'validator' => [OneOfValidator::class, ['values' => self::DISTRICT_TYPES]],
             ],
-            'offset'         => [
+            'offset' => [
                 'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'rows'           => [
+            'rows' => [
                 'operation' => [SetQueryField::class],
                 'validator' => [IntegerValidator::class],
             ],
-            'extras'         => [
+            'extras' => [
                 'operation' => [WithQueryField::class, ['values' => ['location']]],
             ],
             'languages' => [
                 'operation' => [WithArrayQueryField::class],
-                'validator' => [CountryValidator::class],
+                'validator' => [StringValidator::class, ['length' => 2]],
             ],
         ];
     }

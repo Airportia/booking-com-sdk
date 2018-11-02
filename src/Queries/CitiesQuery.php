@@ -6,8 +6,8 @@ use BookingCom\Queries\QueryFields\SetQueryField;
 use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\QueryFields\WithArrayQueryField;
 use BookingCom\Queries\QueryFields\WithQueryField;
-use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
+use BookingCom\Queries\Validators\StringValidator;
 
 /**
  * @method $this whereCityIdsIn(array $values)
@@ -32,11 +32,11 @@ class CitiesQuery extends AbstractQuery
             ],
             'countries' => [
                 'operation' => [WhereInQueryField::class],
-                'validator' => [CountryValidator::class],
+                'validator' => [StringValidator::class, ['length' => 2]],
             ],
             'languages' => [
                 'operation' => [WithArrayQueryField::class],
-                'validator' => [CountryValidator::class],
+                'validator' => [StringValidator::class, ['length' => 2]],
             ],
             'offset' => [
                 'operation' => [SetQueryField::class],

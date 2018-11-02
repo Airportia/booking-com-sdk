@@ -7,7 +7,7 @@
 namespace BookingCom\Tests\Queries\QueryFields;
 
 use BookingCom\Queries\QueryFields\WithArrayQueryField;
-use BookingCom\Queries\Validators\CountryValidator;
+use BookingCom\Queries\Validators\StringValidator;
 use PHPUnit\Framework\TestCase;
 
 class WithArrayQueryFieldTest extends TestCase
@@ -28,7 +28,7 @@ class WithArrayQueryFieldTest extends TestCase
 
     public function testValidator(): void
     {
-        $rule = new WithArrayQueryField('languages', new CountryValidator());
+        $rule = new WithArrayQueryField('languages', new StringValidator(2));
         $this->expectException(\InvalidArgumentException::class);
         $rule->setValue('withLanguages', ['aa', 'aaa']);
     }

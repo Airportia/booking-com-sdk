@@ -5,8 +5,8 @@ namespace BookingCom\Queries;
 use BookingCom\Queries\QueryFields\SetQueryField;
 use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\QueryFields\WithQueryField;
-use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
+use BookingCom\Queries\Validators\StringValidator;
 
 /**
  * @method $this whereHotelIdsIn(array $values)
@@ -49,7 +49,7 @@ class HotelsQuery extends AbstractQuery
             ],
             'country_ids' => [
                 'operation' => [WhereInQueryField::class],
-                'validator' => [CountryValidator::class],
+                'validator' => [StringValidator::class, ['length' => 2]],
             ],
             'district_ids' => [
                 'operation' => [WhereInQueryField::class],
@@ -77,7 +77,7 @@ class HotelsQuery extends AbstractQuery
             ],
             'language' => [
                 'operation' => [SetQueryField::class],
-                'validator' => [CountryValidator::class],
+                'validator' => [StringValidator::class, ['length' => 2]],
             ],
             'extras' => [
                 'operation' => [

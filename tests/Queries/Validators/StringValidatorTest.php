@@ -18,4 +18,13 @@ class StringValidatorTest extends TestCase
         $this->expectException(\InvalidArgumentException::class);
         $validator->assertValue(111);
     }
+
+    public function testLength(): void
+    {
+        $validator = StringValidator::make(['length' => 2]);
+        $validator->assertValue('ab');
+
+        $this->expectException(\InvalidArgumentException::class);
+        $validator->assertValue('test');
+    }
 }

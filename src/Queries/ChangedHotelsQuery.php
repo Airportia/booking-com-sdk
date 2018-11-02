@@ -3,8 +3,8 @@
 namespace BookingCom\Queries;
 
 use BookingCom\Queries\QueryFields\WhereInQueryField;
-use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
+use BookingCom\Queries\Validators\StringValidator;
 
 /**
  * @method $this whereCityIdsIn(array $values)
@@ -41,7 +41,7 @@ class ChangedHotelsQuery extends AbstractQuery
             ],
             'countries' => [
                 'operation' => [WhereInQueryField::class],
-                'validator' => [CountryValidator::class],
+                'validator' => [StringValidator::class, ['length' => 2]],
             ],
             'region_ids' => [
                 'operation' => [WhereInQueryField::class],

@@ -4,9 +4,9 @@ namespace BookingCom\Queries;
 
 use BookingCom\Queries\QueryFields\WhereInQueryField;
 use BookingCom\Queries\QueryFields\WithArrayQueryField;
-use BookingCom\Queries\Validators\CountryValidator;
 use BookingCom\Queries\Validators\IntegerValidator;
 use BookingCom\Queries\Validators\OneOfValidator;
+use BookingCom\Queries\Validators\StringValidator;
 
 /**
  * @method $this whereRoomFacilityTypeIdsIn(array $values)
@@ -38,7 +38,7 @@ class RoomFacilityTypesQuery extends AbstractQuery
             ],
             'languages' => [
                 'operation' => [WithArrayQueryField::class],
-                'validator' => [CountryValidator::class],
+                'validator' => [StringValidator::class, ['length' => 2]],
             ],
         ];
     }
