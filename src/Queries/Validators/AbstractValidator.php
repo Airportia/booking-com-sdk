@@ -5,9 +5,9 @@ namespace BookingCom\Queries\Validators;
 abstract class AbstractValidator
 {
     /**
-     * @param $values
+     * @param mixed $value
      */
-    abstract public function assertValues($values): void;
+    abstract public function assertValue($value): void;
 
     abstract public static function make(array $params): self;
 }

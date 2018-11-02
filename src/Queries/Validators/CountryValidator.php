@@ -7,15 +7,11 @@ use Webmozart\Assert\Assert;
 class CountryValidator extends AbstractValidator
 {
     /**
-     * @param $values
+     * @param $value
      */
-    public function assertValues($values): void
+    public function assertValue($value): void
     {
-        if (\is_array($values)) {
-            Assert::allLength($values, 2);
-        } else {
-            Assert::length($values, 2);
-        }
+        Assert::length($value, 2);
     }
 
     public static function make(array $params): AbstractValidator

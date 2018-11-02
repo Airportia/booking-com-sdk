@@ -13,18 +13,9 @@ class IntegerValidatorTest extends TestCase
     public function testValidator(): void
     {
         $validator = new IntegerValidator();
-        $validator->assertValues([1, 3, 5]);
+        $validator->assertValue(1);
 
         $this->expectException(\InvalidArgumentException::class);
-        $validator->assertValues([1, 3, '1']);
-    }
-
-    public function testValidateSingleValue(): void
-    {
-        $validator = new IntegerValidator();
-        $validator->assertValues(1);
-
-        $this->expectException(\InvalidArgumentException::class);
-        $validator->assertValues('1');
+        $validator->assertValue('1');
     }
 }

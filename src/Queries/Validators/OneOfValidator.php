@@ -20,15 +20,12 @@ class OneOfValidator extends AbstractValidator
     }
 
     /**
-     * @param $values
+     * @param $value
      */
-    public function assertValues($values): void
+    public function assertValue($value): void
     {
         $allowedValues = $this->getAllowedValues();
-
-        foreach ($values as $value) {
-            Assert::oneOf($value, $allowedValues);
-        }
+        Assert::oneOf($value, $allowedValues);
     }
 
     /**

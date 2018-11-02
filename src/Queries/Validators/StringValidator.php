@@ -6,9 +6,9 @@ use Webmozart\Assert\Assert;
 
 class StringValidator extends AbstractValidator
 {
-    public function assertValues($values): void
+    public function assertValue($value): void
     {
-        Assert::allString($values);
+        Assert::string($value);
     }
 
     public static function make(array $params): AbstractValidator

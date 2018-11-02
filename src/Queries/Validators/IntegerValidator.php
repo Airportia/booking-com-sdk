@@ -7,15 +7,11 @@ use Webmozart\Assert\Assert;
 class IntegerValidator extends AbstractValidator
 {
     /**
-     * @param $values
+     * @param $value
      */
-    public function assertValues($values): void
+    public function assertValue($value): void
     {
-        if (\is_array($values)) {
-            Assert::allInteger($values);
-        } else {
-            Assert::integer($values);
-        }
+        Assert::integer($value);
     }
 
     public static function make(array $params): AbstractValidator

@@ -36,7 +36,7 @@ class SetQueryField extends AbstractQueryField
     public function setValue(string $methodName, $value = null): void
     {
         if ($this->validator !== null) {
-            $this->validator->assertValues($value);
+            $this->validator->assertValue($value);
         }
         $this->value = $value;
     }

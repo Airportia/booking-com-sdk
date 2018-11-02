@@ -13,9 +13,9 @@ class OneOfValidatorTest extends TestCase
     public function testValidator(): void
     {
         $validator = new OneOfValidator(['free']);
-        $validator->assertValues(['free']);
+        $validator->assertValue('free');
 
         $this->expectException(\InvalidArgumentException::class);
-        $validator->assertValues(['free111']);
+        $validator->assertValue('free111');
     }
 }

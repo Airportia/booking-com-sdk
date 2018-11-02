@@ -10,18 +10,9 @@ class CountryValidatorTest extends TestCase
     public function testValidator(): void
     {
         $validator = new CountryValidator();
-        $validator->assertValues(['us', 'ru', 'ua']);
+        $validator->assertValue('us');
 
         $this->expectException(\InvalidArgumentException::class);
-        $validator->assertValues(['us1', 'ru', 'ua']);
-    }
-
-    public function testValidateSingleValue(): void
-    {
-        $validator = new CountryValidator();
-        $validator->assertValues('us');
-
-        $this->expectException(\InvalidArgumentException::class);
-        $validator->assertValues('us1');
+        $validator->assertValue('us1');
     }
 }
