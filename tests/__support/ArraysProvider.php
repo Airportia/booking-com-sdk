@@ -18,10 +18,11 @@ class ArraysProvider
     public const PAYMENT_TYPES = 'paymentTypes';
     public const ROOM_FACILITY_TYPES = 'roomFacilityTypes';
     public const ROOM_TYPES = 'roomTypes';
+    public const AUTOCOMPLETE = 'autocomplete';
 
     public static function getItems(string $type): array
     {
-        $data = json_decode(file_get_contents(__DIR__."/responses/$type.json"), true);
+        $data = json_decode(file_get_contents(__DIR__ . "/responses/$type.json"), true);
         if ($type === self::CHANGED_HOTELS) {
             return [$data['result']];
         }
