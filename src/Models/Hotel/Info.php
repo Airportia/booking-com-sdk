@@ -186,8 +186,7 @@ class Info extends AbstractModel
         ?int $ranking,
         ?int $districtId,
         string $address
-    )
-    {
+    ) {
         $this->currency                       = $currency;
         $this->cityId                         = $cityId;
         $this->class                          = $class;
@@ -223,7 +222,8 @@ class Info extends AbstractModel
     {
         $theme_ids = $array['theme_ids'] ?? [];
 
-        return new self($array['currency'],
+        return new self(
+            $array['currency'],
             $array['city_id'],
             $array['class'],
             $array['url'],
@@ -251,7 +251,8 @@ class Info extends AbstractModel
             $array['city'],
             $array['ranking'],
             $array['district_id'],
-            $array['address']);
+            $array['address']
+        );
     }
 
     /**

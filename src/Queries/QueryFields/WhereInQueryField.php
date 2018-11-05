@@ -44,8 +44,8 @@ class WhereInQueryField extends AbstractQueryField
     public function setValue(string $methodName, $value = null): void
     {
         if ($this->validator !== null) {
-            array_walk($value, function ($val){
-               $this->validator->assertValue($val);
+            array_walk($value, function ($val) {
+                $this->validator->assertValue($val);
             });
         }
         $this->value = $value;

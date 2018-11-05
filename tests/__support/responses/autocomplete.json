@@ -1,0 +1,758 @@
+{
+  "result": [
+    {
+      "forecast": {
+        "min_temp_f": 36,
+        "max_temp_c": 11,
+        "icon": "partlycloud",
+        "min_temp_c": 2,
+        "max_temp_f": 52
+      },
+      "type": "city",
+      "city_name": "Amsterdam",
+      "country_name": "Netherlands",
+      "language": "en",
+      "endorsements": [
+        {
+          "name": "Museums",
+          "count": 110593,
+          "id": 43
+        },
+        {
+          "count": 99095,
+          "id": 301,
+          "name": "City Walks"
+        },
+        {
+          "name": "Sightseeing",
+          "count": 87763,
+          "id": 200
+        },
+        {
+          "name": "Walking",
+          "count": 80461,
+          "id": 285
+        },
+        {
+          "count": 78745,
+          "id": 317,
+          "name": "Architecture"
+        },
+        {
+          "name": "Culture",
+          "count": 76455,
+          "id": 222
+        },
+        {
+          "count": 70638,
+          "id": 44,
+          "name": "Nightlife"
+        },
+        {
+          "name": "Atmosphere",
+          "id": 260,
+          "count": 69643
+        },
+        {
+          "name": "City Trip",
+          "count": 64699,
+          "id": 63
+        },
+        {
+          "name": "Ambiance",
+          "id": 124,
+          "count": 59157
+        }
+      ],
+      "label": "Amsterdam, Noord-Holland, Netherlands",
+      "right-to-left": 0,
+      "latitude": "52.3728981018066",
+      "name": "Amsterdam",
+      "timezone": "Europe/Amsterdam",
+      "nr_hotels": 2137,
+      "longitude": "4.89300012588501",
+      "id": "-2140479",
+      "country": "nl",
+      "region": "Noord-Holland",
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=-2140479&dest_type=city&aid=1613783",
+      "city_ufi": null
+    },
+    {
+      "right-to-left": 0,
+      "label": "Schiphol Airport, Amsterdam, Noord-Holland, Netherlands",
+      "name": "Schiphol Airport",
+      "latitude": "52.3085",
+      "city_name": "Amsterdam",
+      "type": "airport",
+      "country_name": "Netherlands",
+      "language": "en",
+      "region": "Noord-Holland",
+      "city_ufi": "-2140479",
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=9&dest_type=airport&aid=1613783",
+      "timezone": "Europe/Amsterdam",
+      "longitude": "4.76249",
+      "nr_hotels": 45,
+      "country": "nl",
+      "id": "9"
+    },
+    {
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=145&dest_type=district&aid=1613783",
+      "city_ufi": "-2140479",
+      "region": "Noord-Holland",
+      "id": "145",
+      "country": "nl",
+      "timezone": "Europe/Amsterdam",
+      "nr_hotels": 825,
+      "longitude": "4.8935167835773",
+      "name": "Amsterdam City Centre",
+      "latitude": "52.3702375881454",
+      "label": "Amsterdam City Centre, Amsterdam, Noord-Holland, Netherlands",
+      "right-to-left": 0,
+      "country_name": "Netherlands",
+      "language": "en",
+      "type": "district",
+      "city_name": "Amsterdam"
+    },
+    {
+      "name": "Zell am See",
+      "latitude": "47.3234519958496",
+      "right-to-left": 0,
+      "label": "Zell am See, Salzburg, Austria",
+      "endorsements": [
+        {
+          "name": "Scenery",
+          "id": 118,
+          "count": 6593
+        },
+        {
+          "name": "Mountains",
+          "count": 6427,
+          "id": 73
+        },
+        {
+          "count": 6223,
+          "id": 1,
+          "name": "Nature"
+        },
+        {
+          "name": "Lakes",
+          "count": 6045,
+          "id": 144
+        },
+        {
+          "name": "Downhill Skiing",
+          "id": 58,
+          "count": 5448
+        },
+        {
+          "name": "Relaxation",
+          "id": 220,
+          "count": 5417
+        },
+        {
+          "name": "Nature Walks",
+          "count": 4324,
+          "id": 306
+        },
+        {
+          "id": 285,
+          "count": 4146,
+          "name": "Walking"
+        },
+        {
+          "name": "Mountain Walks",
+          "id": 305,
+          "count": 4055
+        },
+        {
+          "name": "Hiking",
+          "count": 3671,
+          "id": 15
+        }
+      ],
+      "language": "en",
+      "country_name": "Austria",
+      "city_name": "Zell am See",
+      "type": "city",
+      "city_ufi": null,
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=-1996247&dest_type=city&aid=1613783",
+      "region": "Salzburg",
+      "country": "at",
+      "id": "-1996247",
+      "longitude": "12.7983856201172",
+      "nr_hotels": 413,
+      "timezone": "Europe/Vienna"
+    },
+    {
+      "country_name": "Netherlands",
+      "language": "en",
+      "city_name": "Amsterdam",
+      "type": "landmark",
+      "latitude": "52.378281",
+      "name": "Amsterdam Central Station",
+      "right-to-left": 0,
+      "label": "Amsterdam Central Station, Amsterdam, Noord-Holland, Netherlands",
+      "country": "nl",
+      "id": "1",
+      "timezone": "Europe/Amsterdam",
+      "nr_hotels": 86,
+      "longitude": "4.90007",
+      "city_ufi": "-2140479",
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=1&dest_type=landmark&aid=1613783",
+      "region": "Noord-Holland"
+    },
+    {
+      "latitude": "37.975659",
+      "country_name": "Greece",
+      "city_ufi": null,
+      "right-to-left": 0,
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=-814876&dest_type=city&aid=1613783",
+      "forecast": {
+        "min_temp_c": 13,
+        "min_temp_f": 55,
+        "icon": "lightcloud",
+        "max_temp_c": 20,
+        "max_temp_f": 68
+      },
+      "label": "Athens, Attica, Greece",
+      "language": "en",
+      "timezone": "Europe/Athens",
+      "city_name": "Athens",
+      "longitude": "23.734866",
+      "name": "Athens",
+      "type": "city",
+      "id": "-814876",
+      "country": "gr",
+      "region": "Attica",
+      "endorsements": [
+        {
+          "name": "History",
+          "id": 221,
+          "count": 42596
+        },
+        {
+          "name": "Ancient Landmarks",
+          "id": 93,
+          "count": 39466
+        },
+        {
+          "name": "Museums",
+          "count": 36527,
+          "id": 43
+        },
+        {
+          "name": "Culture",
+          "count": 34966,
+          "id": 222
+        },
+        {
+          "name": "Sightseeing",
+          "id": 200,
+          "count": 34753
+        },
+        {
+          "count": 33216,
+          "id": 42,
+          "name": "Monuments"
+        },
+        {
+          "name": "Food",
+          "count": 31306,
+          "id": 286
+        },
+        {
+          "id": 38,
+          "count": 27035,
+          "name": "Archaeology"
+        },
+        {
+          "id": 301,
+          "count": 23077,
+          "name": "City Walks"
+        },
+        {
+          "name": "Old Town",
+          "count": 23064,
+          "id": 37
+        }
+      ],
+      "nr_hotels": 4215
+    },
+    {
+      "nr_hotels": 1727,
+      "country": "gr",
+      "region": "Attica",
+      "id": "8518",
+      "type": "district",
+      "name": "Athens City Centre",
+      "longitude": "23.7300981816032",
+      "timezone": "Europe/Athens",
+      "language": "en",
+      "city_name": "Athens",
+      "label": "Athens City Centre, Athens, Attica, Greece",
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=8518&dest_type=district&aid=1613783",
+      "right-to-left": 0,
+      "city_ufi": "-814876",
+      "latitude": "37.9766154607881",
+      "country_name": "Greece"
+    },
+    {
+      "longitude": "23.9472",
+      "timezone": "Europe/Athens",
+      "language": "en",
+      "city_name": "Athens",
+      "label": "Elefthérios Venizélos Airport, Athens, Attica, Greece",
+      "right-to-left": 0,
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=841&dest_type=airport&aid=1613783",
+      "city_ufi": "-814876",
+      "country_name": "Greece",
+      "latitude": "37.9363",
+      "nr_hotels": 589,
+      "id": "841",
+      "country": "gr",
+      "region": "Attica",
+      "name": "Elefthérios Venizélos Airport",
+      "type": "airport"
+    },
+    {
+      "country_name": "Ireland",
+      "latitude": "53.42465",
+      "city_ufi": null,
+      "right-to-left": 0,
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=403942&dest_type=city&aid=1613783",
+      "label": "Athlone, Westmeath, Ireland",
+      "timezone": "Europe/Dublin",
+      "language": "en",
+      "city_name": "Athlone",
+      "longitude": "-7.94055",
+      "name": "Athlone",
+      "type": "city",
+      "id": "403942",
+      "country": "ie",
+      "region": "Westmeath",
+      "endorsements": [
+        {
+          "id": 25,
+          "count": 2410,
+          "name": "Shopping"
+        },
+        {
+          "count": 2053,
+          "id": 84,
+          "name": "Pubs"
+        },
+        {
+          "name": "Relaxation",
+          "id": 220,
+          "count": 1962
+        },
+        {
+          "name": "Food",
+          "count": 1811,
+          "id": 286
+        },
+        {
+          "name": "Friendly People",
+          "id": 123,
+          "count": 1748
+        },
+        {
+          "id": 225,
+          "count": 1563,
+          "name": "Restaurants"
+        },
+        {
+          "id": 200,
+          "count": 1223,
+          "name": "Sightseeing"
+        },
+        {
+          "name": "Scenery",
+          "id": 118,
+          "count": 1171
+        },
+        {
+          "name": "Bars",
+          "id": 85,
+          "count": 1104
+        },
+        {
+          "count": 1038,
+          "id": 44,
+          "name": "Nightlife"
+        }
+      ],
+      "nr_hotels": 28
+    },
+    {
+      "endorsements": [
+        {
+          "name": "Restaurants",
+          "id": 225,
+          "count": 870
+        },
+        {
+          "count": 695,
+          "id": 286,
+          "name": "Food"
+        },
+        {
+          "name": "Friendly People",
+          "id": 123,
+          "count": 678
+        },
+        {
+          "id": 85,
+          "count": 633,
+          "name": "Bars"
+        },
+        {
+          "name": "Live Music",
+          "id": 49,
+          "count": 536
+        },
+        {
+          "name": "Sport",
+          "id": 322,
+          "count": 161
+        },
+        {
+          "name": "Nightlife",
+          "count": 158,
+          "id": 44
+        },
+        {
+          "count": 119,
+          "id": 232,
+          "name": "Entertainment"
+        },
+        {
+          "id": 25,
+          "count": 107,
+          "name": "Shopping"
+        },
+        {
+          "name": "History",
+          "count": 99,
+          "id": 221
+        }
+      ],
+      "region": "Georgia",
+      "country": "us",
+      "id": "20024807",
+      "nr_hotels": 37,
+      "type": "city",
+      "name": "Athens",
+      "timezone": "America/New_York",
+      "language": "en",
+      "city_name": "Athens",
+      "longitude": "-83.3780975341797",
+      "city_ufi": null,
+      "latitude": "33.9608001708984",
+      "country_name": "USA",
+      "label": "Athens, Georgia, USA",
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=20024807&dest_type=city&aid=1613783",
+      "right-to-left": 0
+    },
+    {
+      "region": "Ile de France",
+      "id": "-1456928",
+      "endorsements": [
+        {
+          "count": 149796,
+          "id": 43,
+          "name": "Museums"
+        },
+        {
+          "count": 132518,
+          "name": "Sightseeing",
+          "id": 200
+        },
+        {
+          "name": "Culture",
+          "id": 222,
+          "count": 123500
+        },
+        {
+          "name": "Architecture",
+          "id": 317,
+          "count": 120269
+        },
+        {
+          "id": 42,
+          "name": "Monuments",
+          "count": 119594
+        },
+        {
+          "count": 107992,
+          "id": 221,
+          "name": "History"
+        },
+        {
+          "count": 100448,
+          "id": 223,
+          "name": "Art"
+        },
+        {
+          "count": 95854,
+          "name": "City Walks",
+          "id": 301
+        },
+        {
+          "name": "Shopping",
+          "id": 25,
+          "count": 91161
+        },
+        {
+          "id": 64,
+          "name": "Romantic",
+          "count": 91123
+        }
+      ],
+      "label": "Paris, Ile de France, France",
+      "city_name": "Paris",
+      "city_ufi": null,
+      "latitude": "48.8566821749061",
+      "timezone": "Europe/Paris",
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=-1456928&dest_type=city&aid=1613783",
+      "nr_hotels": 4600,
+      "country_name": "France",
+      "language": "en",
+      "right-to-left": 0,
+      "forecast": {
+        "max_temp_f": 55,
+        "min_temp_c": 2,
+        "max_temp_c": 13,
+        "icon": "partlycloud",
+        "min_temp_f": 36
+      },
+      "longitude": "2.35147638246417",
+      "type": "city",
+      "name": "Paris",
+      "country": "fr"
+    },
+    {
+      "city_ufi": "-1456928",
+      "latitude": "48.8600897534249",
+      "timezone": "Europe/Paris",
+      "id": "2281",
+      "city_name": "Paris",
+      "label": "Paris City Centre, Paris, Ile de France, France",
+      "region": "Ile de France",
+      "right-to-left": 0,
+      "language": "en",
+      "country_name": "France",
+      "nr_hotels": 1686,
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=2281&dest_type=district&aid=1613783",
+      "longitude": "2.33718630515762",
+      "country": "fr",
+      "name": "Paris City Centre",
+      "type": "district"
+    },
+    {
+      "timezone": "America/Sao_Paulo",
+      "latitude": "-23.217943512996",
+      "city_ufi": null,
+      "region": "Rio de Janeiro State",
+      "label": "Paraty, Rio de Janeiro State, Brazil",
+      "city_name": "Paraty",
+      "endorsements": [
+        {
+          "id": 37,
+          "name": "Old Town",
+          "count": 18613
+        },
+        {
+          "id": 2,
+          "name": "Beach",
+          "count": 14481
+        },
+        {
+          "count": 14387,
+          "id": 1,
+          "name": "Nature"
+        },
+        {
+          "count": 9496,
+          "name": "Waterfalls",
+          "id": 321
+        },
+        {
+          "id": 286,
+          "name": "Food",
+          "count": 9440
+        },
+        {
+          "count": 8555,
+          "id": 121,
+          "name": "Boating"
+        },
+        {
+          "count": 7952,
+          "name": "Scenery",
+          "id": 118
+        },
+        {
+          "name": "Sightseeing",
+          "id": 200,
+          "count": 7826
+        },
+        {
+          "count": 7510,
+          "id": 221,
+          "name": "History"
+        },
+        {
+          "id": 224,
+          "name": "Tranquility",
+          "count": 7338
+        }
+      ],
+      "id": "-659504",
+      "language": "en",
+      "forecast": {
+        "icon": "rain",
+        "min_temp_f": 68,
+        "max_temp_f": 73,
+        "min_temp_c": 20,
+        "max_temp_c": 23
+      },
+      "right-to-left": 0,
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=-659504&dest_type=city&aid=1613783",
+      "nr_hotels": 937,
+      "country_name": "Brazil",
+      "longitude": "-44.7129174388283",
+      "country": "br",
+      "type": "city",
+      "name": "Paraty"
+    },
+    {
+      "name": "Disneyland Paris",
+      "country_name": "France",
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=1569&dest_type=region&aid=1613783",
+      "type": "region",
+      "nr_hotels": 470,
+      "right-to-left": 0,
+      "country": "fr",
+      "language": "en",
+      "label": "Disneyland Paris, France",
+      "city_name": "",
+      "id": "1569",
+      "longitude": "2.75757",
+      "region": "Disneyland Paris",
+      "latitude": "48.858422",
+      "city_ufi": null
+    },
+    {
+      "nr_hotels": 19,
+      "url": "https://www.booking.com/searchresults.en-gb.html?dest_id=8&dest_type=airport&aid=1613783",
+      "country_name": "France",
+      "language": "en",
+      "right-to-left": 0,
+      "region": "Ile de France",
+      "label": "Paris - Charles de Gaulle Airport, Paris, Ile de France, France",
+      "city_name": "Paris",
+      "id": "8",
+      "timezone": "Europe/Paris",
+      "latitude": "49.0071",
+      "city_ufi": "-1456928",
+      "type": "airport",
+      "name": "Paris - Charles de Gaulle Airport",
+      "country": "fr",
+      "longitude": "2.56844"
+    },
+    {
+      "right-to-left": null,
+      "country": null,
+      "language": null,
+      "nr_dest": 4989,
+      "country_name": null,
+      "type": "theme",
+      "top_destinations": [
+        -639568,
+        20023488,
+        -2601889
+      ],
+      "label": "Parks",
+      "id": "136"
+    },
+    {
+      "country": null,
+      "language": null,
+      "right-to-left": null,
+      "type": "theme",
+      "nr_dest": 1558,
+      "country_name": null,
+      "label": "Theme parks",
+      "top_destinations": [
+        20023488,
+        -1575736,
+        -1854104
+      ],
+      "id": "45"
+    },
+    {
+      "type": "theme",
+      "country_name": null,
+      "nr_dest": 612,
+      "country": null,
+      "language": null,
+      "right-to-left": null,
+      "top_destinations": [
+        900039659,
+        -749044,
+        -2552548
+      ],
+      "label": "Paragliding",
+      "id": "277"
+    },
+    {
+      "label": "Water parks",
+      "top_destinations": [
+        -782831,
+        20023181,
+        -400284
+      ],
+      "id": "360",
+      "type": "theme",
+      "country_name": null,
+      "nr_dest": 422,
+      "language": null,
+      "country": null,
+      "right-to-left": null
+    },
+    {
+      "id": "297",
+      "label": "New Year partying",
+      "top_destinations": [
+        -1603135,
+        -666610,
+        20079110
+      ],
+      "type": "theme",
+      "country_name": null,
+      "nr_dest": 785,
+      "language": null,
+      "country": null,
+      "right-to-left": null
+    },
+    {
+      "right-to-left": null,
+      "country": null,
+      "language": null,
+      "nr_dest": 5103,
+      "country_name": null,
+      "type": "theme",
+      "label": "Nightlife",
+      "top_destinations": [
+        -2601422,
+        -2602512,
+        -1502554
+      ],
+      "id": "44"
+    }
+  ],
+  "meta": {
+    "ruid": "UmFuZG9tSVYkc2RlIyh9YaD6DnieGjFxQG/E7mecxfqs30hJPd2DfGHBRvpA1lIyi4snMAjY4WBerrqmlVl+6Q+3hE+kBopMUiOJ2bnFt/c="
+  }
+}
