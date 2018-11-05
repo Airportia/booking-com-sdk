@@ -22,7 +22,7 @@ class Region extends AbstractModel
     /** @var string */
     private $regionType;
 
-    /** @var string */
+    /** @var string|null */
     private $country;
 
     /**
@@ -31,7 +31,7 @@ class Region extends AbstractModel
      * @param int    $id
      * @param string $name
      * @param string $regionType
-     * @param string $country
+     * @param string|null $country
      * @param array  $translations
      */
     public function __construct(int $id, string $name, string $regionType, ?string $country, array $translations)
@@ -78,9 +78,9 @@ class Region extends AbstractModel
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getCountry(): string
+    public function getCountry():? string
     {
         return $this->country;
     }
