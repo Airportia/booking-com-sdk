@@ -176,7 +176,7 @@ class Client
      * @param RoomTypesQuery $query
      * @return \BookingCom\Models\RoomType[]
      */
-    public function getRoomTypes(RoomTypesQuery $query): array
+    public function getRoomTypes(RoomTypesQuery $query = null): array
     {
         return $this->runQuery('roomTypes', RoomType::class, $query);
     }
