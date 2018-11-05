@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Models;
 
-
 use BookingCom\Models\Autocomplete\Endorsement;
 use BookingCom\Models\AutocompleteItem;
 use BookingCom\Tests\__support\ArraysProvider;
@@ -20,8 +19,10 @@ class AutocompleteItemTest extends TestCase
 
         $this->assertEquals(-2140479, $item->getId());
         $this->assertEquals('city', $item->getType());
-        $this->assertEquals('https://www.booking.com/searchresults.en-gb.html?dest_id=-2140479&dest_type=city&aid=1613783',
-            $item->getUrl());
+        $this->assertEquals(
+            'https://www.booking.com/searchresults.en-gb.html?dest_id=-2140479&dest_type=city&aid=1613783',
+            $item->getUrl()
+        );
         $this->assertEquals('Amsterdam', $item->getName());
         $this->assertEquals(null, $item->getCityUfi());
         $this->assertEquals('Noord-Holland', $item->getRegion());
@@ -89,7 +90,6 @@ class AutocompleteItemTest extends TestCase
         ]);
 
         $this->assertNotNull($item->getForecast());
-
     }
 
     public function createAutocomplete(array $additionalArray = []): AutocompleteItem

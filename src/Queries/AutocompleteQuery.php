@@ -6,7 +6,6 @@
 
 namespace BookingCom\Queries;
 
-
 use BookingCom\Queries\QueryFields\SetQueryField;
 use BookingCom\Queries\QueryFields\WithQueryField;
 use BookingCom\Queries\Validators\IntegerValidator;

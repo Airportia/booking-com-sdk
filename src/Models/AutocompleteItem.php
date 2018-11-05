@@ -6,7 +6,6 @@
 
 namespace BookingCom\Models;
 
-
 use BookingCom\Models\Autocomplete\Endorsement;
 use BookingCom\Models\Autocomplete\Forecast;
 
@@ -305,6 +304,4 @@ class AutocompleteItem extends AbstractModel
     {
         return $this->forecast;
     }
-
-
 }

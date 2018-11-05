@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Models\Autocomplete;
 
-
 use BookingCom\Models\Autocomplete\Forecast;
 use PHPUnit\Framework\TestCase;
 
@@ -28,5 +27,4 @@ class ForecastTest extends TestCase
         $this->assertEquals(4, $model->getMinTemp(Forecast::UNIT_C));
         $this->assertEquals(39, $model->getMinTemp(Forecast::UNIT_F));
     }
-
 }

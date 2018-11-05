@@ -239,7 +239,6 @@ class ClientTest extends TestCase
 
         $this->assertNotEmpty($models);
         $this->assertContainsOnlyInstancesOf(AutocompleteItem::class, $models);
-
     }
 
 

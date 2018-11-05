@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Queries;
 
-
 use PHPUnit\Framework\TestCase;
 
 class AutocompleteQueryTest extends TestCase

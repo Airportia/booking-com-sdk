@@ -6,7 +6,6 @@
 
 namespace BookingCom\Tests\Models\Autocomplete;
 
-
 use PHPUnit\Framework\TestCase;
 
 class EndorsementTest extends TestCase
@@ -23,5 +22,4 @@ class EndorsementTest extends TestCase
         $this->assertEquals('City Walks', $model->getName());
         $this->assertEquals(99095, $model->getCount());
     }
-
 }

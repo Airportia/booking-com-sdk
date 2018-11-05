@@ -6,7 +6,6 @@
 
 namespace BookingCom\Models\Autocomplete;
 
-
 use BookingCom\Models\AbstractModel;
 
 class Forecast extends AbstractModel

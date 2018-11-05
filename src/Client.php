@@ -206,6 +206,4 @@ class Client
             return \call_user_func([$targetClass, 'fromArray'], $modelArray);
         }, $this->connection->execute($uri, $params));
     }
-
-
 }
