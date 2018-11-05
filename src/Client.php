@@ -2,6 +2,7 @@
 
 namespace BookingCom;
 
+use BookingCom\Models\AutocompleteItem;
 use BookingCom\Models\ChainType;
 use BookingCom\Models\ChangedHotels;
 use BookingCom\Models\City;
@@ -17,6 +18,7 @@ use BookingCom\Models\Region;
 use BookingCom\Models\RoomFacilityType;
 use BookingCom\Models\RoomType;
 use BookingCom\Queries\AbstractQuery;
+use BookingCom\Queries\AutocompleteQuery;
 use BookingCom\Queries\ChainTypesQuery;
 use BookingCom\Queries\CitiesQuery;
 use BookingCom\Queries\CountriesQuery;
@@ -180,6 +182,15 @@ class Client
     }
 
     /**
+     * @param AutocompleteQuery $query
+     * @return \BookingCom\Models\AutocompleteItem[]
+     */
+    public function autocomplete(AutocompleteQuery $query): array
+    {
+        return $this->runQuery('autocomplete', AutocompleteItem::class, $query);
+    }
+
+    /**
      * @param AbstractQuery $query
      * @return array
      */
@@ -195,4 +206,6 @@ class Client
             return \call_user_func([$targetClass, 'fromArray'], $modelArray);
         }, $this->connection->execute($uri, $params));
     }
+
+
 }

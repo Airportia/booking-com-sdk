@@ -4,6 +4,7 @@ namespace BookingCom\Tests;
 
 use BookingCom\Client;
 use BookingCom\Connection;
+use BookingCom\Models\AutocompleteItem;
 use BookingCom\Models\ChainType;
 use BookingCom\Models\City;
 use BookingCom\Models\Country;
@@ -17,6 +18,7 @@ use BookingCom\Models\PaymentType;
 use BookingCom\Models\Region;
 use BookingCom\Models\RoomFacilityType;
 use BookingCom\Models\RoomType;
+use BookingCom\Queries\AutocompleteQuery;
 use BookingCom\Queries\ChainTypesQuery;
 use BookingCom\Queries\ChangedHotelsQuery;
 use BookingCom\Queries\CitiesQuery;
@@ -223,6 +225,21 @@ class ClientTest extends TestCase
 
         $this->assertNotEmpty($models);
         $this->assertContainsOnlyInstancesOf(RoomType::class, $models);
+    }
+
+    public function testAutocomplete(): void
+    {
+        $client = $this->createClient(
+            'autocomplete',
+            ['text' => 'test', 'language' => 'en'],
+            '[{"right-to-left":0,"url":"https://www.booking.com/searchresults.en-gb.html?dest_id=-2140479&dest_type=city&aid=1613783","label":"Amsterdam, Noord-Holland, Netherlands","city_name":"Amsterdam","id":"-2140479","country":"nl","name":"Amsterdam","latitude":"52.3728981018066","language":"en","nr_hotels":2137,"country_name":"Netherlands","longitude":"4.89300012588501","city_ufi":null,"region":"Noord-Holland","type":"city"}]'
+        );
+
+        $models = $client->autocomplete(new AutocompleteQuery('test'));
+
+        $this->assertNotEmpty($models);
+        $this->assertContainsOnlyInstancesOf(AutocompleteItem::class, $models);
+
     }
 
 
