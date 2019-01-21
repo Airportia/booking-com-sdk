@@ -15,11 +15,11 @@ class Connection
 
     /**
      * Connection constructor.
-     * @param string             $login
-     * @param string             $password
+     * @param string $login
+     * @param string $password
      * @param \GuzzleHttp\Client $client
      */
-    private const API_URL = 'https://distribution-xml.booking.com/2.2/';
+    private const API_URL = 'https://distribution-xml.booking.com';
     /**
      * @var array
      */
@@ -85,9 +85,13 @@ class Connection
 
     private function setDefaults(array $config): array
     {
+        $version = $config['v'] ?? '2.2';
+        $baseUri = $this->buildApiUri($version);
+
         return array_merge([
-            'base_uri' => self::API_URL,
+            'base_uri' => $baseUri,
             'timeout' => 5,
+            'v' => '2.2'
         ], $config);
     }
 
@@ -96,5 +100,10 @@ class Connection
         if (!isset($config['login'], $config['password'])) {
             throw new ConnectionException('Login and password are required');
         }
+    }
+
+    private function buildApiUri(string $version): string
+    {
+        return self::API_URL . "/$version/";
     }
 }
