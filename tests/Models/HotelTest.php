@@ -141,6 +141,20 @@ class HotelTest extends TestCase
         $this->assertInstanceOf(Hotel\Description::class, $hotel->getDescription());
     }
 
+    public function testDescriptionWithoutHotlierWelcomeMessage(): void
+    {
+        $hotel = Hotel::fromArray([
+            'hotel_id' => 10004,
+            'hotel_data' => [
+                'hotel_important_information' => 'Hotel Important Information',
+                'hotel_description' => 'Hotel Description',
+                'license_number' => '',
+            ],
+        ]);
+
+        $this->assertInstanceOf(Hotel\Description::class, $hotel->getDescription());
+    }
+
     public function testPolicies(): void
     {
         $hotel = Hotel::fromArray([

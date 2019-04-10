@@ -28,7 +28,7 @@ class Description extends AbstractModel
     private $licenseNumber;
 
     public function __construct(
-        string $welcomeMessage,
+        ?string $welcomeMessage,
         string $importantInformation,
         string $description,
         string $licenseNumber
@@ -42,7 +42,7 @@ class Description extends AbstractModel
     public static function fromArray(array $array): self
     {
         return new self(
-            $array['hotelier_welcome_message'],
+            $array['hotelier_welcome_message'] ?? null,
             $array['hotel_important_information'],
             $array['hotel_description'],
             $array['license_number']
@@ -52,7 +52,7 @@ class Description extends AbstractModel
     /**
      * @return string
      */
-    public function getWelcomeMessage(): string
+    public function getWelcomeMessage(): ?string
     {
         return $this->welcomeMessage;
     }

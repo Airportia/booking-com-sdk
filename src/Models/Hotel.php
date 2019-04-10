@@ -86,7 +86,7 @@ class Hotel extends AbstractModel
     {
         $hotelData      = $array['hotel_data'] ?? [];
         $info           = isset($hotelData['name']) ? Info::fromArray($hotelData) : null;
-        $description    = isset($hotelData['hotelier_welcome_message']) ? Description::fromArray($hotelData) : null;
+        $description    = isset($hotelData['hotel_description']) ? Description::fromArray($hotelData) : null;
         $rooms          = self::makeChildrenFromArray($array, Room::class, 'room_data');
         $photos         = self::makeChildrenFromArray($hotelData, Photo::class, 'hotel_photos');
         $paymentDetails = self::makeChildrenFromArray($hotelData, PaymentDetail::class, 'payment_details');

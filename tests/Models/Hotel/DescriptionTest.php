@@ -24,4 +24,18 @@ class DescriptionTest extends TestCase
         $this->assertEquals('Hotel Description', $description->getDescription());
         $this->assertEquals('license number', $description->getLicenseNumber());
     }
+
+    public function testWithoutHotelierWelcomeMessage()
+    {
+        $description = \BookingCom\Models\Hotel\Description::fromArray([
+            'hotel_important_information' => 'Hotel Important Information',
+            'hotel_description' => 'Hotel Description',
+            'license_number' => 'license number',
+        ]);
+
+        $this->assertNull($description->getWelcomeMessage());
+        $this->assertEquals('Hotel Important Information', $description->getImportantInformation());
+        $this->assertEquals('Hotel Description', $description->getDescription());
+        $this->assertEquals('license number', $description->getLicenseNumber());
+    }
 }
