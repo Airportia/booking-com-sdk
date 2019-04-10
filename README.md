@@ -13,8 +13,6 @@ This library is just simple wrapper around booking com API (https://developers.b
 
 ## Installation
 
-Download to your project directory, add `README.md`, and commit:
-
 ```sh
 composer require digitalbrands/booking-com-sdk
 ```
